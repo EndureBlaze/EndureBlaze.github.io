@@ -3659,8 +3659,8 @@ figure.gallery-group .gallery-group-name:after {
 #article-container h6:before {
   position: absolute;
   top: calc(50% - 0.35rem);
-  color: #80aee5;
-  content: '\f0c1';
+  color: #ffb821;
+  content: '\f0e7';
   font-style: normal;
   font-variant: normal;
   line-height: 1;
