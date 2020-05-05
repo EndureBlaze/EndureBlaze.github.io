@@ -37,8 +37,8 @@
       <tags>
         <tag>踩坑</tag>
         <tag>Android</tag>
-        <tag>Fragment</tag>
         <tag>ViewPager</tag>
+        <tag>Fragment</tag>
         <tag>Kotlin</tag>
       </tags>
   </entry>
@@ -51,7 +51,8 @@
 <p>“开往”取自“开放的网络”。 将一群志同道合的人连接在一起，我们共享彼此的流量，帮助陌生人发现新大陆。</p>
 </blockquote>
 <p>开往-友链助力是传统友链的增强，我们不必互相知道了解彼此，标准的审查让友好的朋友加入我们，只需要一个徽标，占用一块位置，我们所有人都联系在了一起，简单而又强大。大大小小的孤岛散落在浩瀚烟海，开往就像是一颗颗星球之间的快速列车，随机的跳向下一站。</p>
-<h1 id="怎么加入开往"><a href="#怎么加入开往" class="headerlink" title="怎么加入开往"></a>怎么加入开往</h1><p><a href="https://github.com/volfclub/travellings" target="_blank" rel="noopener">开往-友链接力</a></p>
+<h1 id="怎么加入开往"><a href="#怎么加入开往" class="headerlink" title="怎么加入开往"></a>怎么加入开往</h1><a class="btn" href="https://github.com/volfclub/travellings"  title="开往-友链接力" target="_blank">开往-友链接力</a>
+
 <p>这是项目的 Github 地址，在 issue 中提交申请，几日内就会受理。但是申请的网站必须满足几点要求：</p>
 <ol>
 <li>愿为开放的网络做出贡献（如分享知识经验设计等）；</li>
@@ -371,8 +372,8 @@
       <tags>
         <tag>踩坑</tag>
         <tag>Android</tag>
-        <tag>Fragment</tag>
         <tag>ViewPager</tag>
+        <tag>Fragment</tag>
       </tags>
   </entry>
   <entry>
