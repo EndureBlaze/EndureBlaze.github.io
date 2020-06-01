@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.endureblaze.cn/"/>
-  <updated>2020-05-09T15:35:21.454Z</updated>
+  <updated>2020-06-01T15:56:49.791Z</updated>
   <id>https://blog.endureblaze.cn/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在 Windows 系统上给 ssh 设置代理</title>
+    <link href="https://blog.endureblaze.cn/posts/4d70a82d/"/>
+    <id>https://blog.endureblaze.cn/posts/4d70a82d/</id>
+    <published>2020-06-01T15:28:25.000Z</published>
+    <updated>2020-06-01T15:56:49.791Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note info">            <p>看清，使用的系统是 Windows 不是 Linux 或者 MacOS</p>          </div><p>百度搜到的很多给 git 设置代理的办法，都是给 http 设置代理，而不是给 SSH 设置代理。那个 <code>git config --global http.proxy http://127.0.0.1:1080</code> 设置起来，只针对 http 的 git 有效果。<br>然后就是 <code>ProxyCommand nc -v -x 127.0.0.1:1080 %h %p</code>，那个分明是给 Linux 才能用的， Windows 上哪里来的 nc 程序？</p><p>以下操作是给 Windows 用的，我的操作：</p><p>在自己的用户文件夹找到 .ssh 文件夹，比如我的是 <code>C:\Users\nihao\.ssh</code> ，在里面新建一个空白文件，取名 config，如果已经有了就不用创建了。</p><p>注意不是 config.txt ！</p><p>我强烈建议把 Windows 的后缀显示给打开，不然你根本不知道自己到底在编辑什么文件。</p><p>都用 Git 了不至于还害怕自己把文件后缀名给改错了吧？</p><p>在 config 文件里写上一行就行：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ProxyCommand <span class="string">"C:\Program Files\Git\mingw64\bin\connect.exe"</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %h %p</span><br></pre></td></tr></table></figure><p>这里 git 的安装路径和后面的代理自己看着填，不要试着用相对路径，保证要吃亏。因为 <code>Program Files</code> 文件夹中间带一个空格，所以这里需要把整个路径给引号引起来。 后面的代理的话，<code>-S</code> 指是 socks 代理，默认是 socks5，<code>127.0.0.1:1080</code> 就是你本地的代理地址，后面的 <code>%h %p</code> 意思是 Host 和 Port，必须得写上，我也不知道为什么要这么设计。 如果要使用 HTTP 代理，就写 <code>-H</code>，更多代理类型（比如 socks4）请参 <a href="https://bitbucket.org/gotoh/connect/wiki/Home#!more-detail" target="_blank" rel="noopener">这个</a>。</p><p>上这个写法是针对全局的，如果想只针对某个网站的话，就这么写：</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">  ProxyCommand <span class="string">"C:\Program Files\Git\mingw64\bin\connect.exe"</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %h %p</span><br></pre></td></tr></table></figure><p>现在就可以愉快的使用代理了，不过要记住一定使用 ssh 协议。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;div class=&quot;note info&quot;&gt;
+            &lt;p&gt;看清，使用的系统是 Windows 不是 Linux 或者 MacOS&lt;/p&gt;
+          &lt;/div&gt;
+
+&lt;p&gt;百度搜到的很多给 git 设置代理的办法，都是给 http 设置代理，而不是给 
+      
+    
+    </summary>
+    
+    
+      <category term="技术记录" scheme="https://blog.endureblaze.cn/categories/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="Windows" scheme="https://blog.endureblaze.cn/tags/Windows/"/>
+    
+      <category term="ssh" scheme="https://blog.endureblaze.cn/tags/ssh/"/>
+    
+      <category term="代理" scheme="https://blog.endureblaze.cn/tags/%E4%BB%A3%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>updateConfiguration 弃用之后更换语言应该何去何从</title>
@@ -571,35 +605,6 @@
     
     
       <category term="WordPress" scheme="https://blog.endureblaze.cn/tags/WordPress/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Windows 软件推荐</title>
-    <link href="https://blog.endureblaze.cn/posts/cd1c3d2a/"/>
-    <id>https://blog.endureblaze.cn/posts/cd1c3d2a/</id>
-    <published>2019-08-01T12:02:17.000Z</published>
-    <updated>2020-02-13T13:59:31.413Z</updated>
-    
-    <content type="html"><![CDATA[<p>这些软件都是我自己用过的，可以通过左边页面快速定位</p><h1 id="Visual-Studio-Code"><a href="#Visual-Studio-Code" class="headerlink" title="Visual Studio Code"></a>Visual Studio Code</h1><p>这个简直首推，编辑利器，人生苦短，我用 VS Code 完成关于文本编辑工作的一切。它天生支持几乎所有编程语言，还可以通过扩展个性化相应的语法高亮等。<br>如果你想忙里偷闲，VS Code 强大的扩展能力还能让你用它刷 LeetCode 或 V2EX，可谓带薪划水必备。<br><img src="/uploads/loading.svg" class="lazyload" data-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(1).png"  alt="enter description here"><br>你可以在<a href="https://code.visualstudio.com/" target="_blank" rel="noopener">官网</a>免费获取 Visual Studio Code。</p><h1 id="福昕-PDF-阅读器"><a href="#福昕-PDF-阅读器" class="headerlink" title="福昕 PDF 阅读器"></a>福昕 PDF 阅读器</h1><p>国产，中文界面，流畅好用，界面美观<br><a href="https://www.foxitsoftware.cn/" target="_blank" rel="noopener">点这里</a></p><h1 id="福昕-PDF-编辑器"><a href="#福昕-PDF-编辑器" class="headerlink" title="福昕 PDF 编辑器"></a>福昕 PDF 编辑器</h1><p>福昕（Foxit）可能是我国最受欢迎的 PDF 阅读器，由其出品的 <a href="https://www.foxitsoftware.cn/pdf-editor/" target="_blank" rel="noopener">PDF 编辑器</a> 也是 Adobe Acrobat 的有力竞争对手。它提供了各种 PDF 批注工具；支持编辑 PDF 中的文本、段落、图片；设计并填写表单；OCR 识别图片中的文字；管理 PDF 页面；转换为其它文件格式等，界面也比较友好。</p><h1 id="火绒安全软件"><a href="#火绒安全软件" class="headerlink" title="火绒安全软件"></a>火绒安全软件</h1><p>如果你觉得 Windows Defender 还是有些简陋，火绒安全软件是个不错的选择。它提供了病毒联网查杀、垃圾清理、下载保护、浏览器保护等国产卫士标配功能，但不会拖家带口向你问好，还你一片清净。<br><img src="/uploads/loading.svg" class="lazyload" data-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(2).png"  alt="enter description here"><br>除了系统防护外，火绒安全软件还提供了数种实用工具，如弹窗拦截、右键菜单管理、启动项管理、文件粉碎机等。如果你是进阶用户，还可以试试火绒剑这一强大的专业安全分析工具。<br><img src="/uploads/loading.svg" class="lazyload" data-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(3).png"  alt="enter description here"><br>你可以在 <a href="https://www.huorong.cn/" target="_blank" rel="noopener">官网</a> 免费获取火绒安全软件。</p><h1 id="Quicklook，仿MAC快速预览"><a href="#Quicklook，仿MAC快速预览" class="headerlink" title="Quicklook，仿MAC快速预览"></a>Quicklook，仿MAC快速预览</h1><p>MAC 的快速预览很多人都见过，回望Win10的“预览”，依旧被抠抠唆唆地安排在窗口右侧，一点也不大气！QuickLook 是一款仿 MAC 快速预览的小工具，装好之后，只要选中文件，按下键盘上的空格键，即可预览文件内容。</p><p>QuickLook 支持文本、视频、音频、图片、压缩包、Office文档……，换句话说，你电脑上任何一款文件几乎都可以用它预览。同时你也可以点击预览窗右上角的按钮直接启动对应程序，非常方便。<br><img src="/uploads/loading.svg" class="lazyload" data-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(4).png"  alt="enter description here"><br><a href="http://dl.pconline.com.cn/download/1115319.html" target="_blank" rel="noopener">QuickLook：点此下载</a></p><h1 id="升级Win10日历！优效日历"><a href="#升级Win10日历！优效日历" class="headerlink" title="升级Win10日历！优效日历"></a>升级Win10日历！优效日历</h1><p>Win10 为右下角托盘设计了一个新日历，但依旧被吐槽功能太弱，优效日历是 Win10 原生日历的最佳替代者。它有着和 Win10 原生日历一致的外观界面，支持农历、节日、调休显示，支持日程提醒、万年历、自定义时钟。同时它还集成了定时关机、屏幕截图两大功能，没用过的一定得试一试！<br><img src="/uploads/loading.svg" class="lazyload" data-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(5).png"  alt="enter description here"><br><a href="http://www.youxiao.cn/" target="_blank" rel="noopener">点击下载</a></p><h1 id="Chocolatey"><a href="#Chocolatey" class="headerlink" title="Chocolatey"></a>Chocolatey</h1><p>Chocolatey是Windows下的包管理器，访问<a href="https://chocolatey.org/" target="_blank" rel="noopener">官网</a>来查看使用方法</p><h1 id="uTools"><a href="#uTools" class="headerlink" title="uTools"></a>uTools</h1><p>uTools是一个极简的桌面管理软件，但它的功能更全面。包含：快速启动、自动识别、数据同步等功能。</p><p>比如快速启动，这个功能和Listary、Everything等都非常相似。但uTools对中文的支持非常有好，还可以首字母检索。<br><img src="/uploads/loading.svg" class="lazyload" data-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(6).png"  alt="enter description here"><br>除此外还有插件中心，里面还有各种比如：网页快开、在线翻译、计算器、压缩图片、图片转文字等功能。这也是其它快速启动软件所不具备的。<br><img src="/uploads/loading.svg" class="lazyload" data-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(7).png"  alt="enter description here"><br><a href="https://u.tools/" target="_blank" rel="noopener">点击下载</a></p><h1 id="万彩办公大师"><a href="#万彩办公大师" class="headerlink" title="万彩办公大师"></a>万彩办公大师</h1><p>万彩办公大师可以说是一个办公必备的工具，包含了各种功能：PDF 编辑、格式转换、图片编辑等，功能多达60+。</p><p>最让人惊喜的是，万彩办公大师使用完全免费，所有的工具无需安装，直接加载就可以启动了。<br><img src="/uploads/loading.svg" class="lazyload" data-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(8).png"  alt="enter description here"><br><a href="wofficebox.com/">下载地址</a></p><h1 id="TreeSize"><a href="#TreeSize" class="headerlink" title="TreeSize"></a>TreeSize</h1><p>TreeSize 是一个扫描磁盘可视化排列大小的应用，有免费版和专业版可以选<br><img src="/uploads/loading.svg" class="lazyload" data-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(9).png"  alt="enter description here"><br><a href="https://www.jam-software.com/treesize_free/" target="_blank" rel="noopener">点击这里</a>获取免费版</p><h1 id="CCleaner"><a href="#CCleaner" class="headerlink" title="CCleaner"></a>CCleaner</h1><p>CCleaner，不仅是常用的垃圾和缓存清理，我也用它在电脑刚到手时卸载掉 Win10 自带的各种无用软件（有些 Windows 不让卸载的自带 UWP，在 CCleaner 里可以卸载掉），甚至我嫌 OneDrive 麻烦，也用它卸载过。界面很友好。批量卸载比手动卸载方便不少。软件是有中文的，但默认是英文，自己手动在 <code>options-setting-language</code> 选择 <code>Chinese simplified</code> 即可<br><img src="/uploads/loading.svg" class="lazyload" data-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(10).png"  alt="enter description here"><br><a href="https://www.ccleaner.com/ccleaner/download" target="_blank" rel="noopener">点击下载</a></p><h1 id="BandiZip"><a href="#BandiZip" class="headerlink" title="BandiZip"></a>BandiZip</h1><p>BandiZip，界面美观，功能强大，而且免费无广告，另外 <a href="https://www.7-zip.org/" target="_blank" rel="noopener">7-Zip</a>，界面丑了一些，功能还是很强的。也有不少人推荐修改版的 rar烈火或者好压，其实都不错。<br><img src="/uploads/loading.svg" class="lazyload" data-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(11).png"  alt="enter description here"><br><a href="http://www.bandisoft.com/bandizip/cn/" target="_blank" rel="noopener">下载地址</a></p><h1 id="Obs-Open-Broadcaster-Software"><a href="#Obs-Open-Broadcaster-Software" class="headerlink" title="Obs-Open Broadcaster Software"></a>Obs-Open Broadcaster Software</h1><p>OBS，不用多说了，剪视频、录游戏好帮手。<br><a href="https://obsproject.com/" target="_blank" rel="noopener">下载地址</a></p><h1 id="VLC-media-player"><a href="#VLC-media-player" class="headerlink" title="VLC media player"></a>VLC media player</h1><p>跨平台的播放器，Linux 的时候一直用的，Windows 也就接着用了，有浏览器插件，可以直接把浏览器的视频推过来播放<br><img src="/uploads/loading.svg" class="lazyload" data-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(12).png"  alt="enter description here"><br><a href="https://www.videolan.org/" target="_blank" rel="noopener">点这里下载</a></p><h1 id="Geek-Uninstaller"><a href="#Geek-Uninstaller" class="headerlink" title="Geek Uninstaller"></a>Geek Uninstaller</h1><p>Geek Uninstaller 是一个专业卸载软件，采取深而快的扫描方式，删除所有无用的文件，注册表，卸载无残留！<br>这款软件也是一款单文件软件，下载后，不用安装，双击直接使用，卸载软件、强制彻底清除软件残留垃圾文件或是查看某软件的注册表项目等等。<br><img src="/uploads/loading.svg" class="lazyload" data-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(13).png"  alt="enter description here"><br>你可以在他的<a href="https://geekuninstaller.com/" target="_blank" rel="noopener">官网</a>获取到</p><h1 id="未完"><a href="#未完" class="headerlink" title="未完"></a>未完</h1><p>后面想到了再补充</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;这些软件都是我自己用过的，可以通过左边页面快速定位&lt;/p&gt;
-&lt;h1 id=&quot;Visual-Studio-Code&quot;&gt;&lt;a href=&quot;#Visual-Studio-Code&quot; class=&quot;headerlink&quot; title=&quot;Visual Studio Code&quot;&gt;&lt;/a
-      
-    
-    </summary>
-    
-    
-      <category term="资源" scheme="https://blog.endureblaze.cn/categories/%E8%B5%84%E6%BA%90/"/>
-    
-    
-      <category term="Windows" scheme="https://blog.endureblaze.cn/tags/Windows/"/>
-    
-      <category term="软件推荐" scheme="https://blog.endureblaze.cn/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
     
   </entry>
   
