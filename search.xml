@@ -103,9 +103,9 @@
       <tags>
         <tag>踩坑</tag>
         <tag>Android</tag>
-        <tag>ViewPager</tag>
-        <tag>Fragment</tag>
         <tag>Kotlin</tag>
+        <tag>Fragment</tag>
+        <tag>ViewPager</tag>
       </tags>
   </entry>
   <entry>
@@ -438,8 +438,8 @@
       <tags>
         <tag>踩坑</tag>
         <tag>Android</tag>
-        <tag>ViewPager</tag>
         <tag>Fragment</tag>
+        <tag>ViewPager</tag>
       </tags>
   </entry>
   <entry>
@@ -631,8 +631,9 @@
   <entry>
     <title>偶然间在B站看到的鬼畜</title>
     <url>/posts/d46d4e39/</url>
-    <content><![CDATA[<p>刚才逛B站的时候在首页偶然看到这个，播放量还挺高的，就点进去看看了。神级填词，现在的老哥们简直神了，真的容易引起共鸣，然后又想起了以前的一些事，诶。</p>
-<a id="more"></a> 
+    <content><![CDATA[<p>刚才逛 B 站的时候在首页偶然看到这个，播放量还挺高的，就点进去看看了。神级填词，现在的老哥们简直神了，真的容易引起共鸣，然后又想起了以前的一些事，诶。</p>
+<a id="more"></a>
+
 <p>不多说啥了，做好现在的自己，不偏离本心！</p>
 <p>视频地址：<a href="https://www.bilibili.com/video/av60731116/" target="_blank" rel="noopener">https://www.bilibili.com/video/av60731116/</a></p>
 <iframe src="//player.bilibili.com/player.html?aid=60731116&cid=106015992&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"> </iframe>
