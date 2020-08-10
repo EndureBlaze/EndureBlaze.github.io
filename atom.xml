@@ -6,7 +6,7 @@
   <link href="https://blog.endureblaze.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.endureblaze.cn/"/>
-  <updated>2020-07-03T03:58:16.286Z</updated>
+  <updated>2020-08-10T10:21:11.573Z</updated>
   <id>https://blog.endureblaze.cn/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vpn</title>
+    <link href="https://blog.endureblaze.cn/posts/2a08f859/"/>
+    <id>https://blog.endureblaze.cn/posts/2a08f859/</id>
+    <published>2020-08-10T09:59:16.000Z</published>
+    <updated>2020-08-10T10:21:11.573Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>更新于 2020年8月10日</code></p><blockquote><p>在线订阅转换 <a href="https://acl4ssr-sub.github.io/">https://acl4ssr-sub.github.io</a><br>机场自己写的如何使用客户端 <a href="https://docs.synr.asia/docs/mimemi">https://docs.synr.asia/docs/mimemi</a><br>订阅地址旁边有标志请自己复制</p></blockquote><p>Windows 使用 <a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">Clash For Windows</a> 进行订阅，订阅地址是</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://suburl.mimemi.net/link/9IxW5NzV3JzHtd6g?dns=1&amp;clash=1</span><br></pre></td></tr></table></figure><p>macOS 使用 <a href="https://github.com/yichengchen/clashX/releases">ClashX</a> 进行订阅，订阅地址是</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://suburl.mimemi.net/link/9IxW5NzV3JzHtd6g?dns=1&amp;clash=1</span><br></pre></td></tr></table></figure><p>Android 使用 <a href="https://github.com/Kr328/ClashForAndroid/releases">Clash For Android</a> 进行订阅，订阅地址是</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://suburl.mimemi.net/link/9IxW5NzV3JzHtd6g?dns=1&amp;clash=1</span><br></pre></td></tr></table></figure><p>iOS 使用 <a href="https://github.com/Kr328/ClashForAndroid/releases">Shadowrocket</a> 进行订阅，直接点击下面按钮进行导入</p><a class="btn-beautify button--animated " href="shadowrocket://add/sub://aHR0cHM6Ly9zdWJ1cmwubWltZW1pLm5ldC9saW5rL0ExTEkzOHFNZ05WQXYwb1U_bXU9NA?remarks=MIMEMI%20Cloud SS"   title="点我"><span>点我</span></a><p>Linux 使用……<br>用 Linux 你还用在这里问？用 Clash 内核 + Web 前端吧</p><p>如果你使用的是其他的客户端可以使用最上面的订阅转换，如果网络问题下载不到最新的客户端请在群文件进行查找</p><p>更多问题在群里问或私聊我</p><p><strong>禁止外传</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;code&gt;更新于 2020年8月10日&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在线订阅转换 &lt;a href=&quot;https://acl4ssr-sub.github.io/&quot;&gt;https://acl4ssr-sub.github.io&lt;/a&gt;&lt;br&gt;机场自己</summary>
+      
+    
+    
+    
+    <category term="随手记" scheme="https://blog.endureblaze.cn/categories/%E9%9A%8F%E6%89%8B%E8%AE%B0/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>怎么呼吸</title>
@@ -545,27 +569,6 @@
     <category term="为什么" scheme="https://blog.endureblaze.cn/tags/%E4%B8%BA%E4%BB%80%E4%B9%88/"/>
     
     <category term="看法" scheme="https://blog.endureblaze.cn/tags/%E7%9C%8B%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>偶然间在B站看到的鬼畜</title>
-    <link href="https://blog.endureblaze.cn/posts/d46d4e39/"/>
-    <id>https://blog.endureblaze.cn/posts/d46d4e39/</id>
-    <published>2019-08-01T16:29:52.000Z</published>
-    <updated>2020-06-13T06:28:56.660Z</updated>
-    
-    <content type="html"><![CDATA[<p>刚才逛 B 站的时候在首页偶然看到这个，播放量还挺高的，就点进去看看了。神级填词，现在的老哥们简直神了，真的容易引起共鸣，然后又想起了以前的一些事，诶。</p><a id="more"></a><p>不多说啥了，做好现在的自己，不偏离本心！</p><p>视频地址：<a href="https://www.bilibili.com/video/av60731116/">https://www.bilibili.com/video/av60731116/</a></p><iframe src="//player.bilibili.com/player.html?aid=60731116&cid=106015992&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"> </iframe><blockquote><p><strong>贴一个里面的评论</strong><br>曾经看到大学宿舍里的沙雕图片，一个光膀大汉法相庄严，后面的人伸出手摆成千手佛陀，下面有句热评：</p><p>“珍惜现在的时光吧，能陪你一起沙雕的朋友已经越来越少了。”</p><p>欢乐是如何消失的呢，海绵宝宝？</p><p>当你变成正常人、长大的时候，它就和你告了别。</p><p>我喜欢什么都不做，喜欢追求最天真的快乐。<br>闭眼数数和我一般如星星闪耀的天才，可是只有我一个派大星。<br>知道我找到了另一颗星星，你，海绵宝宝。愿意和我一起享受快乐。<br>我不知道为什么他们说我是废物。<br>我不知道为什么太阳西边是落处。<br>我不知道为什么章鱼哥追求艺术。<br>我不知道为什么蟹老板攒钱如土。<br>即便抽不中想要的角色，我们却有辆小汽车。<br>即便驾照总是触不可及，我们也能玩摇摇乐。<br>即便去抓水母邻居遭殃，我们还在享受快乐。<br>当人们追求自己喜欢的东西的时候，为什么你渐行渐远了呢。<br>即便你有喜爱的工作、支持你的朋友、爱你的家人、听话的小窝和大把的青春值得去奋斗，我却发现你不再快乐，生病了。<br>你说想要变回常人。<br>你说羡慕章鱼哥受人景仰。<br>你说羡慕蟹老板家财万贯。<br>你说抓水母让章鱼哥愤怒。<br>你说想要的角色难以抽到。<br>你说不考驾照快乐受了限。<br>我最好的朋友，你这样我也很难受。<br>当我看到那电章鱼哥的水母，我一定要抓到。<br>当我再去商场终于抽到角色，你一直想要的。<br>当我考来驾照坐上那小汽车，想和你去冒险。<br>于是我带着这些再次找到你。<br>直到见到你漂亮的房子。<br>见到你成团的宾客。<br>见到你光鲜的衣服。<br>见到你贵气的打扮。<br>听到你说我嫉妒新生活的话语。<br>感受到被丢出去的失落。</p><p>欢乐是如何消失的呢，海绵宝宝？</p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;刚才逛 B 站的时候在首页偶然看到这个，播放量还挺高的，就点进去看看了。神级填词，现在的老哥们简直神了，真的容易引起共鸣，然后又想起了以前的一些事，诶。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="碎碎念" scheme="https://blog.endureblaze.cn/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    
-    
-    <category term="视频" scheme="https://blog.endureblaze.cn/tags/%E8%A7%86%E9%A2%91/"/>
     
   </entry>
   
