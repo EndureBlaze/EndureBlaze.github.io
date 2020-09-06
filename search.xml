@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Kirby Assistant 1.x.x更新日志</title>
+    <url>/posts/12e7f5da/</url>
+    <content><![CDATA[<h1 id="v1-4-5-48"><a href="#v1-4-5-48" class="headerlink" title="v1.4.5(48)"></a>v1.4.5(48)</h1><p>1.修复登录时用户名不变的 Bug<br>2.旧版本已经不能下载模拟器 请更新<br>3.修复闲聊发送失败的问题</p>
+<h1 id="v1-4-4-47"><a href="#v1-4-4-47" class="headerlink" title="v1.4.4(47)"></a>v1.4.4(47)</h1><p>1.根据 Material Design 2 重新调整的界面<br>2.重新调整的配色<br>3.贡献者名单更新</p>
+<h1 id="v1-4-3-46"><a href="#v1-4-3-46" class="headerlink" title="v1.4.3(46)"></a>v1.4.3(46)</h1><p>1.优化apk体积<br>2.优化图片显示<br>3.bug修复</p>
+<h1 id="v1-4-2-45"><a href="#v1-4-2-45" class="headerlink" title="v1.4.2(45)"></a>v1.4.2(45)</h1><p>1.修改游戏详情界面<br>2.修正动画逻辑<br>3.模拟器下载等等，最近没钱</p>
+<h1 id="v1-4-1-44"><a href="#v1-4-1-44" class="headerlink" title="v1.4.1(44)"></a>v1.4.1(44)</h1><p>1.迁移 AndroidX 构建<br>2.恢复除用户头像和模拟器下载的所有功能<br>3.史诗级压缩<br>4.修复切换视图时闪退的 Bug<br>5.修复图标问题<br>6.调整了图片显示大小</p>
+<h1 id="v1-4-0-43"><a href="#v1-4-0-43" class="headerlink" title="v1.4.0(43)"></a>v1.4.0(43)</h1><p>1.重回2017</p>
+<h1 id="v1-3-9-42"><a href="#v1-3-9-42" class="headerlink" title="v1.3.9(42)"></a>v1.3.9(42)</h1><p>1.替换下拉刷新为 Material Design 样式<br>2.调整部分UI<br>3.也许修复了bug</p>
+<h1 id="v1-3-8-41"><a href="#v1-3-8-41" class="headerlink" title="v1.3.8(41)"></a>v1.3.8(41)</h1><p>1.现在登录登出不会再重启 app 了<br>2.现在修改头像也不会重启 app 了<br>3.修改了底栏的效果</p>
+<h1 id="v1-3-7-40"><a href="#v1-3-7-40" class="headerlink" title="v1.3.7(40)"></a>v1.3.7(40)</h1><p>1.新增 Telegarm 频道联系方式<br>2.使用 Shortcut 特性<br>3.统一了应用内部分图片风格<br>4.移除无用资源<br>5.修复了一个资源问题<br>6.1儿童节快乐</p>
+<h1 id="v1-3-6-39"><a href="#v1-3-6-39" class="headerlink" title="v1.3.6(39)"></a>v1.3.6(39)</h1><p>1.修复自适应图标<br>2.修复闲聊保存机制<br>3.使用新方法优化了所有数据结构<br>4.闲聊部分界面重构<br>5.优化列表动画<br>6.优化进入游戏详情动画</p>
+<h1 id="v1-3-5-38"><a href="#v1-3-5-38" class="headerlink" title="v1.3.5(38)"></a>v1.3.5(38)</h1><p>1.修复编辑闲聊时退出会进行保存的 Bug<br>2.新增花里胡哨的列表，大部分图片模糊后作为背景<br>3.重写游戏下载页面<br>4.新的图标感谢@hk流星<br>5.新的宣传图感谢@梁月信乃<br>6.新的模糊逻辑，从在线模糊改为离线模糊(可能加大缓存大小但是减少流量损耗)<br>7.修改部分动画效果<br>8.大幅提升启动速度，至少缩减 1500 ms(1.5 s)<br>9.bang 15 便士<br>10.修复可能存在的 Bug</p>
+<h1 id="v1-3-4-37"><a href="#v1-3-4-37" class="headerlink" title="v1.3.4(37)"></a>v1.3.4(37)</h1><p>1.调整闲聊列表配色<br>2.修复编辑当前闲聊时不会自动填充的问题<br>3.调整登录界面布局<br>4.移除闲聊发送显示随机 ID</p>
+<h1 id="v1-3-3-36"><a href="#v1-3-3-36" class="headerlink" title="v1.3.3(36)"></a>v1.3.3(36)</h1><p>1.更改选择头像图片的逻辑<br>2.修改部分界面配色<br>3.FAQ部分修复</p>
+<h1 id="v1-3-2-35"><a href="#v1-3-2-35" class="headerlink" title="v1.3.2(35)"></a>v1.3.2(35)</h1><p>1.修复白屏bug(测试性，不保证)<br>2.迁移部分资源服务器<br>3.修正支付宝捐赠逻辑</p>
+<h1 id="v1-3-1-34"><a href="#v1-3-1-34" class="headerlink" title="v1.3.1(34)"></a>v1.3.1(34)</h1><p>1.修复无法更换头像的问题<br>2.修复更新时标题栏有误的问题</p>
+<h1 id="v1-3-0-33"><a href="#v1-3-0-33" class="headerlink" title="v1.3.0(33)"></a>v1.3.0(33)</h1><p>1.新增版权信息确认<br>2.更正贡献者列表 保证每个贡献者都可以有一个页面访问<br>3.修复部分资源无法访问的问题</p>
+<h1 id="v1-2-9-32"><a href="#v1-2-9-32" class="headerlink" title="v1.2.9(32)"></a>v1.2.9(32)</h1><p>1.修改了包名重新上架<br>2.修正了捐赠页面<br>3.官网域名更新 请查看简介<br>4.修复bug</p>
+<h1 id="v1-2-8-31"><a href="#v1-2-8-31" class="headerlink" title="v1.2.8(31)"></a>v1.2.8(31)</h1><p>1.更新贡献者列表<br>2.修正了图标<br>3.修复上下文获取异常问题<br>4.修复无法检测更新问题</p>
+<h1 id="v1-2-7-30"><a href="#v1-2-7-30" class="headerlink" title="v1.2.7(30)"></a>v1.2.7(30)</h1><p>1.[非]全新图标<br>2.移除了双图标模式<br>3.修订了部分翻译<br>4.新增[极简模式]隐藏你不需要的<br>5.修复部分资源无法访问的问题</p>
+<h1 id="v1-2-6-29"><a href="#v1-2-6-29" class="headerlink" title="v1.2.6(29)"></a>v1.2.6(29)</h1><p>1.新增更新检测，有新版时会提醒更新<br>2.FAQ 修正，翻译版本尚在修复中<br>3.英文翻译修正<br>4.翻译中文翻译修正<br>5.贡献者名单修正<br>6.修复 wii 模拟器版本问题</p>
+<h1 id="v1-2-5-28"><a href="#v1-2-5-28" class="headerlink" title="v1.2.5(28)"></a>v1.2.5(28)</h1><p>1.繁体中文翻译修正<br>2.解决闲聊发送异常问题<br>3.添加 Android 绿色应用公约标识</p>
+<h1 id="v1-2-4-27"><a href="#v1-2-4-27" class="headerlink" title="v1.2.4(27)"></a>v1.2.4(27)</h1><p>1.史诗级压缩有木有<br>2.移除了存储访问权限<br>3.修复无法进入更换头像的 Bug<br>4.重写头像剪裁<br>5.繁体中文翻译修订<br>6.更换关于为设置<br>7.将切换图标移动到设置界面<br>8.修订设置界面内容<br>9.Kirby Assistant 正在申请 Android 绿色应用公约<br>10.使用了绿色公约的相关 SDK</p>
+<h1 id="v1-2-3-26"><a href="#v1-2-3-26" class="headerlink" title="v1.2.3(26)"></a>v1.2.3(26)</h1><p>1.修复了金手指界面无法进入的问题<br>2.修改了下拉刷新动画<br>3.修复屏幕旋转后数据丢失问题</p>
+<h1 id="v1-2-2-25"><a href="#v1-2-2-25" class="headerlink" title="v1.2.2(25)"></a>v1.2.2(25)</h1><p>1.修复部分手机无法启动的问题<br>2.移除启动界面动画</p>
+<h1 id="v1-2-1-24"><a href="#v1-2-1-24" class="headerlink" title="v1.2.1(24)"></a>v1.2.1(24)</h1><p>本周，kirby Assistant 迎来了重大版本更新，请务必更新，否则在旧版本中无法正常使用一些功能，快来看看吧:<br>1.重写闲聊<br>2.迁移服务器，旧版本将无法访问<br>3.重写底层，优化性能，解决历史遗留问题<br>4.抱歉各位丢失了闲聊数据<br>5.字符串修订<br>6.使用 PBF<br>7.主界面切换动画修改</p>
+<h1 id="v1-2-23"><a href="#v1-2-23" class="headerlink" title="v1.2(23)"></a>v1.2(23)</h1><p>本周，Kirby Assistant 迎来了重大版本更新，快来看看吧:<br>1.优化了启动动画，现在更顺畅了<br>2.更换了头像占位图<br>3.更换了发送闲聊等界面的点击效果<br>4.移除了双图标在启动界面显示<br>5.更换了权限申请逻辑<br>6.重写了统计逻辑<br>7.修订了大部分翻译<br>8.修复需要为非简体中文，繁体中文，英文时的应用名错乱问题<br>9.修复了需要切换无效的问题<br>10.圣诞快乐</p>
+<h1 id="v1-1-22"><a href="#v1-1-22" class="headerlink" title="v1.1(22)"></a>v1.1(22)</h1><p>本周，Kirby Assistant 迎来了小版本迭代更新，快来看看吧:<br>1.优化所有主题配色<br>2.移除引起 Bug 的暗色<br>3.新增配色  灵感来源自虚无<br>4.闲聊提醒优化<br>5.资源界面重写<br>6.翻译修订</p>
+<h1 id="v1-0-21"><a href="#v1-0-21" class="headerlink" title="v1.0(21)"></a>v1.0(21)</h1><p>未来·炫动  重大版本更新<br>1.全新启动界面动画<br>2.全新列表加载动画<br>3.全新刷新动画<br>4.全新律动动画<br>5.全新切换动画<br>6.微调下载游戏 UI<br>7.全新模糊图算法<br>8.新增统计 SDK(不会收集您的隐私数据)<br>9.更换图标切换逻辑<br>10.Pie 适配性<br>11.捐赠逻辑修改<br>12.底栏切换界面逻辑修改 防止在同一个界面重载<br>13.所有动画全部精心设计 保证赏心悦目<br>14.资源名称修订<br>15.翻译修订<br>16.资源链接修复<br>17.模拟器下载修复<br>18.金手指个别代码修复<br>19.视频修订<br>20.Slogan 修订</p>
+]]></content>
+      <categories>
+        <category>我的 Android 应用</category>
+      </categories>
+      <tags>
+        <tag>Kirby Assistant</tag>
+        <tag>更新日志</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Kirby Assistant 2.x.x更新日志</title>
     <url>/posts/417dae5e/</url>
     <content><![CDATA[<p>目前最新版本 v2.0.6 (56)</p>
@@ -114,43 +154,55 @@
       </categories>
   </entry>
   <entry>
-    <title>Kirby Assistant 1.x.x更新日志</title>
-    <url>/posts/12e7f5da/</url>
-    <content><![CDATA[<h1 id="v1-4-5-48"><a href="#v1-4-5-48" class="headerlink" title="v1.4.5(48)"></a>v1.4.5(48)</h1><p>1.修复登录时用户名不变的 Bug<br>2.旧版本已经不能下载模拟器 请更新<br>3.修复闲聊发送失败的问题</p>
-<h1 id="v1-4-4-47"><a href="#v1-4-4-47" class="headerlink" title="v1.4.4(47)"></a>v1.4.4(47)</h1><p>1.根据 Material Design 2 重新调整的界面<br>2.重新调整的配色<br>3.贡献者名单更新</p>
-<h1 id="v1-4-3-46"><a href="#v1-4-3-46" class="headerlink" title="v1.4.3(46)"></a>v1.4.3(46)</h1><p>1.优化apk体积<br>2.优化图片显示<br>3.bug修复</p>
-<h1 id="v1-4-2-45"><a href="#v1-4-2-45" class="headerlink" title="v1.4.2(45)"></a>v1.4.2(45)</h1><p>1.修改游戏详情界面<br>2.修正动画逻辑<br>3.模拟器下载等等，最近没钱</p>
-<h1 id="v1-4-1-44"><a href="#v1-4-1-44" class="headerlink" title="v1.4.1(44)"></a>v1.4.1(44)</h1><p>1.迁移 AndroidX 构建<br>2.恢复除用户头像和模拟器下载的所有功能<br>3.史诗级压缩<br>4.修复切换视图时闪退的 Bug<br>5.修复图标问题<br>6.调整了图片显示大小</p>
-<h1 id="v1-4-0-43"><a href="#v1-4-0-43" class="headerlink" title="v1.4.0(43)"></a>v1.4.0(43)</h1><p>1.重回2017</p>
-<h1 id="v1-3-9-42"><a href="#v1-3-9-42" class="headerlink" title="v1.3.9(42)"></a>v1.3.9(42)</h1><p>1.替换下拉刷新为 Material Design 样式<br>2.调整部分UI<br>3.也许修复了bug</p>
-<h1 id="v1-3-8-41"><a href="#v1-3-8-41" class="headerlink" title="v1.3.8(41)"></a>v1.3.8(41)</h1><p>1.现在登录登出不会再重启 app 了<br>2.现在修改头像也不会重启 app 了<br>3.修改了底栏的效果</p>
-<h1 id="v1-3-7-40"><a href="#v1-3-7-40" class="headerlink" title="v1.3.7(40)"></a>v1.3.7(40)</h1><p>1.新增 Telegarm 频道联系方式<br>2.使用 Shortcut 特性<br>3.统一了应用内部分图片风格<br>4.移除无用资源<br>5.修复了一个资源问题<br>6.1儿童节快乐</p>
-<h1 id="v1-3-6-39"><a href="#v1-3-6-39" class="headerlink" title="v1.3.6(39)"></a>v1.3.6(39)</h1><p>1.修复自适应图标<br>2.修复闲聊保存机制<br>3.使用新方法优化了所有数据结构<br>4.闲聊部分界面重构<br>5.优化列表动画<br>6.优化进入游戏详情动画</p>
-<h1 id="v1-3-5-38"><a href="#v1-3-5-38" class="headerlink" title="v1.3.5(38)"></a>v1.3.5(38)</h1><p>1.修复编辑闲聊时退出会进行保存的 Bug<br>2.新增花里胡哨的列表，大部分图片模糊后作为背景<br>3.重写游戏下载页面<br>4.新的图标感谢@hk流星<br>5.新的宣传图感谢@梁月信乃<br>6.新的模糊逻辑，从在线模糊改为离线模糊(可能加大缓存大小但是减少流量损耗)<br>7.修改部分动画效果<br>8.大幅提升启动速度，至少缩减 1500 ms(1.5 s)<br>9.bang 15 便士<br>10.修复可能存在的 Bug</p>
-<h1 id="v1-3-4-37"><a href="#v1-3-4-37" class="headerlink" title="v1.3.4(37)"></a>v1.3.4(37)</h1><p>1.调整闲聊列表配色<br>2.修复编辑当前闲聊时不会自动填充的问题<br>3.调整登录界面布局<br>4.移除闲聊发送显示随机 ID</p>
-<h1 id="v1-3-3-36"><a href="#v1-3-3-36" class="headerlink" title="v1.3.3(36)"></a>v1.3.3(36)</h1><p>1.更改选择头像图片的逻辑<br>2.修改部分界面配色<br>3.FAQ部分修复</p>
-<h1 id="v1-3-2-35"><a href="#v1-3-2-35" class="headerlink" title="v1.3.2(35)"></a>v1.3.2(35)</h1><p>1.修复白屏bug(测试性，不保证)<br>2.迁移部分资源服务器<br>3.修正支付宝捐赠逻辑</p>
-<h1 id="v1-3-1-34"><a href="#v1-3-1-34" class="headerlink" title="v1.3.1(34)"></a>v1.3.1(34)</h1><p>1.修复无法更换头像的问题<br>2.修复更新时标题栏有误的问题</p>
-<h1 id="v1-3-0-33"><a href="#v1-3-0-33" class="headerlink" title="v1.3.0(33)"></a>v1.3.0(33)</h1><p>1.新增版权信息确认<br>2.更正贡献者列表 保证每个贡献者都可以有一个页面访问<br>3.修复部分资源无法访问的问题</p>
-<h1 id="v1-2-9-32"><a href="#v1-2-9-32" class="headerlink" title="v1.2.9(32)"></a>v1.2.9(32)</h1><p>1.修改了包名重新上架<br>2.修正了捐赠页面<br>3.官网域名更新 请查看简介<br>4.修复bug</p>
-<h1 id="v1-2-8-31"><a href="#v1-2-8-31" class="headerlink" title="v1.2.8(31)"></a>v1.2.8(31)</h1><p>1.更新贡献者列表<br>2.修正了图标<br>3.修复上下文获取异常问题<br>4.修复无法检测更新问题</p>
-<h1 id="v1-2-7-30"><a href="#v1-2-7-30" class="headerlink" title="v1.2.7(30)"></a>v1.2.7(30)</h1><p>1.[非]全新图标<br>2.移除了双图标模式<br>3.修订了部分翻译<br>4.新增[极简模式]隐藏你不需要的<br>5.修复部分资源无法访问的问题</p>
-<h1 id="v1-2-6-29"><a href="#v1-2-6-29" class="headerlink" title="v1.2.6(29)"></a>v1.2.6(29)</h1><p>1.新增更新检测，有新版时会提醒更新<br>2.FAQ 修正，翻译版本尚在修复中<br>3.英文翻译修正<br>4.翻译中文翻译修正<br>5.贡献者名单修正<br>6.修复 wii 模拟器版本问题</p>
-<h1 id="v1-2-5-28"><a href="#v1-2-5-28" class="headerlink" title="v1.2.5(28)"></a>v1.2.5(28)</h1><p>1.繁体中文翻译修正<br>2.解决闲聊发送异常问题<br>3.添加 Android 绿色应用公约标识</p>
-<h1 id="v1-2-4-27"><a href="#v1-2-4-27" class="headerlink" title="v1.2.4(27)"></a>v1.2.4(27)</h1><p>1.史诗级压缩有木有<br>2.移除了存储访问权限<br>3.修复无法进入更换头像的 Bug<br>4.重写头像剪裁<br>5.繁体中文翻译修订<br>6.更换关于为设置<br>7.将切换图标移动到设置界面<br>8.修订设置界面内容<br>9.Kirby Assistant 正在申请 Android 绿色应用公约<br>10.使用了绿色公约的相关 SDK</p>
-<h1 id="v1-2-3-26"><a href="#v1-2-3-26" class="headerlink" title="v1.2.3(26)"></a>v1.2.3(26)</h1><p>1.修复了金手指界面无法进入的问题<br>2.修改了下拉刷新动画<br>3.修复屏幕旋转后数据丢失问题</p>
-<h1 id="v1-2-2-25"><a href="#v1-2-2-25" class="headerlink" title="v1.2.2(25)"></a>v1.2.2(25)</h1><p>1.修复部分手机无法启动的问题<br>2.移除启动界面动画</p>
-<h1 id="v1-2-1-24"><a href="#v1-2-1-24" class="headerlink" title="v1.2.1(24)"></a>v1.2.1(24)</h1><p>本周，kirby Assistant 迎来了重大版本更新，请务必更新，否则在旧版本中无法正常使用一些功能，快来看看吧:<br>1.重写闲聊<br>2.迁移服务器，旧版本将无法访问<br>3.重写底层，优化性能，解决历史遗留问题<br>4.抱歉各位丢失了闲聊数据<br>5.字符串修订<br>6.使用 PBF<br>7.主界面切换动画修改</p>
-<h1 id="v1-2-23"><a href="#v1-2-23" class="headerlink" title="v1.2(23)"></a>v1.2(23)</h1><p>本周，Kirby Assistant 迎来了重大版本更新，快来看看吧:<br>1.优化了启动动画，现在更顺畅了<br>2.更换了头像占位图<br>3.更换了发送闲聊等界面的点击效果<br>4.移除了双图标在启动界面显示<br>5.更换了权限申请逻辑<br>6.重写了统计逻辑<br>7.修订了大部分翻译<br>8.修复需要为非简体中文，繁体中文，英文时的应用名错乱问题<br>9.修复了需要切换无效的问题<br>10.圣诞快乐</p>
-<h1 id="v1-1-22"><a href="#v1-1-22" class="headerlink" title="v1.1(22)"></a>v1.1(22)</h1><p>本周，Kirby Assistant 迎来了小版本迭代更新，快来看看吧:<br>1.优化所有主题配色<br>2.移除引起 Bug 的暗色<br>3.新增配色  灵感来源自虚无<br>4.闲聊提醒优化<br>5.资源界面重写<br>6.翻译修订</p>
-<h1 id="v1-0-21"><a href="#v1-0-21" class="headerlink" title="v1.0(21)"></a>v1.0(21)</h1><p>未来·炫动  重大版本更新<br>1.全新启动界面动画<br>2.全新列表加载动画<br>3.全新刷新动画<br>4.全新律动动画<br>5.全新切换动画<br>6.微调下载游戏 UI<br>7.全新模糊图算法<br>8.新增统计 SDK(不会收集您的隐私数据)<br>9.更换图标切换逻辑<br>10.Pie 适配性<br>11.捐赠逻辑修改<br>12.底栏切换界面逻辑修改 防止在同一个界面重载<br>13.所有动画全部精心设计 保证赏心悦目<br>14.资源名称修订<br>15.翻译修订<br>16.资源链接修复<br>17.模拟器下载修复<br>18.金手指个别代码修复<br>19.视频修订<br>20.Slogan 修订</p>
+    <title>如何使用 Dolphin Emulator 玩《星之卡比：Wii》</title>
+    <url>/posts/2fbba4ed/</url>
+    <content><![CDATA[<blockquote>
+<p>开头附上星之卡比系列的 <a href="https://eyun.baidu.com/s/3i51Jf17">下载地址</a> 还有 Wii 模拟器的 <a href="https://cn.dolphin-emu.org/">下载地址</a></p>
+</blockquote>
+<h1 id="白屏"><a href="#白屏" class="headerlink" title="白屏"></a>白屏</h1><p>有些小伙伴在下好游戏并且在模拟器打开之后会遇到一直卡在白屏的情况，如图</p>
+<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E5%8D%A1%E5%9C%A8%E7%99%BD%E5%B1%8F.png" alt="卡在白屏"></p>
+<p>那么这个时候就要注意是不是模拟器语言设置的问题，我们可以在这里看到游戏的语言</p>
+<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E6%9F%A5%E7%9C%8B%E8%AF%AD%E8%A8%80.png" alt="查看语言"></p>
+<p>那么可以看到这个语言是 <code>日语</code>，那我们就要把模拟器改成对应的，看图操作，找到 <code>设置 -&gt; Wii -&gt; 系统语言</code>，然后在下拉菜单里找到 <code>对应语言</code>，然后点击关闭即可</p>
+<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E4%BF%AE%E6%94%B9%E8%AF%AD%E8%A8%80.png" alt="修改语言"></p>
+<p>现在开始游戏就可以正常运行了</p>
+<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C.png" alt="正常运行"></p>
+<h1 id="无法进入"><a href="#无法进入" class="headerlink" title="无法进入"></a>无法进入</h1><p>那有时候还会出现无法进入游戏界面的情况，会有类似下面这样的提示</p>
+<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5.png" alt="无法进入"></p>
+<p>那这个情况只需要去 <code>控制器 -&gt; Wii 遥控器</code> 然后点击你要是用的模拟手柄的设置，将 <code>扩展</code> 这一项改成无就可以，看图操作</p>
+<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E4%BF%AE%E6%94%B9%E6%89%A9%E5%B1%951.png" alt="修改扩展1"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E4%BF%AE%E6%94%B9%E6%89%A9%E5%B1%952.png" alt="修改扩展2"></p>
+<p>现在再试试进入游戏就正常了</p>
+<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C.png" alt="正常运行"></p>
 ]]></content>
       <categories>
-        <category>我的 Android 应用</category>
+        <category>星之卡比系列教程</category>
       </categories>
       <tags>
-        <tag>Kirby Assistant</tag>
-        <tag>更新日志</tag>
+        <tag>星之卡比</tag>
+        <tag>星之卡比 Wii</tag>
+        <tag>Wii 模拟器</tag>
+        <tag>Dolphin Emulator</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git 无法 Pull 仓库 显示 refusing to merge unrelated histories （拒绝合并不相关仓库）</title>
+    <url>/posts/e5477819/</url>
+    <content><![CDATA[<p>如果在合并 pull 仓库的时候，出现的问题如何去解决（这个方法适用于合并本地很久没有提交的仓库，或者是同一个仓库 commit 信息不同的合并）</p>
+<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/Git%E6%97%A0%E6%B3%95pull/fail.png" alt="示意图"></p>
+<p>如果合并了两个不同的开始提交的仓库，在新的 <code>git</code> 会发现这两个仓库可能不是同一个，为了防止开发者上传错误，于是就给下面的提示</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">fatal: refusing to merge unrelated histories</span><br></pre></td></tr></table></figure>
+
+<p>如我在 GitHub 新建一个仓库，写了 License，然后把本地一个写了很久仓库上传。这时会发现 GitHub 的仓库和本地的没有一个共同的 <code>commit</code> 所以 <code>git</code> 不让提交，认为是写错了 <code>origin</code> ，如果开发者确定是这个 <code>origin</code> 就可以使用  <code>--allow-unrelated-histories</code>  告诉 <code>git</code> 自己确定</p>
+<p>遇到无法提交的问题，一般先 Pull 也就是使用  <code>git pull origin master</code>  这里的 <code>origin</code> 就是仓库，而 <code>master</code> 就是需要上传的分支，因为两个仓库不同，发现 <code>git</code> 输出  <code>refusing to merge unrelated histories</code>  无法 <code>pull</code> 内容</p>
+<p>因为他们是两个不同的项目，要把两个不同的项目合并，Git需要添加一句代码，在 <code>git pull</code> 之后，这句代码是在 <code>Git 2.9.2</code> 版本发生的，最新的版本需要添加 <code>--allow-unrelated-histories</code> 告诉 <code>git</code> 允许不相关历史合并</p>
+<p>假如我们的源是 <code>origin</code>，分支是 <code>master</code>，那么我们需要这样写 <code>git pull origin master --allow-unrelated-histories</code>  如果有设置了默认上传分支就可以用下面代码 </p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git pull --allow-unrelated-histories</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
       </tags>
   </entry>
   <entry>
@@ -218,26 +270,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Git 无法 Pull 仓库 显示 refusing to merge unrelated histories （拒绝合并不相关仓库）</title>
-    <url>/posts/e5477819/</url>
-    <content><![CDATA[<p>如果在合并 pull 仓库的时候，出现的问题如何去解决（这个方法适用于合并本地很久没有提交的仓库，或者是同一个仓库 commit 信息不同的合并）</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/Git%E6%97%A0%E6%B3%95pull/fail.png" alt="示意图"></p>
-<p>如果合并了两个不同的开始提交的仓库，在新的 <code>git</code> 会发现这两个仓库可能不是同一个，为了防止开发者上传错误，于是就给下面的提示</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">fatal: refusing to merge unrelated histories</span><br></pre></td></tr></table></figure>
-
-<p>如我在 GitHub 新建一个仓库，写了 License，然后把本地一个写了很久仓库上传。这时会发现 GitHub 的仓库和本地的没有一个共同的 <code>commit</code> 所以 <code>git</code> 不让提交，认为是写错了 <code>origin</code> ，如果开发者确定是这个 <code>origin</code> 就可以使用  <code>--allow-unrelated-histories</code>  告诉 <code>git</code> 自己确定</p>
-<p>遇到无法提交的问题，一般先 Pull 也就是使用  <code>git pull origin master</code>  这里的 <code>origin</code> 就是仓库，而 <code>master</code> 就是需要上传的分支，因为两个仓库不同，发现 <code>git</code> 输出  <code>refusing to merge unrelated histories</code>  无法 <code>pull</code> 内容</p>
-<p>因为他们是两个不同的项目，要把两个不同的项目合并，Git需要添加一句代码，在 <code>git pull</code> 之后，这句代码是在 <code>Git 2.9.2</code> 版本发生的，最新的版本需要添加 <code>--allow-unrelated-histories</code> 告诉 <code>git</code> 允许不相关历史合并</p>
-<p>假如我们的源是 <code>origin</code>，分支是 <code>master</code>，那么我们需要这样写 <code>git pull origin master --allow-unrelated-histories</code>  如果有设置了默认上传分支就可以用下面代码 </p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git pull --allow-unrelated-histories</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>技术记录</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>在 Linux 服务器上使用 酷Q</title>
     <url>/posts/2bdd4eaf/</url>
     <content><![CDATA[<p>众所周知 酷Q 是 Windows 平台下的， Linux 下要使用还是有难度的，好在官方做出了了 docker 镜像，这样就可以在 docker 直接运行了</p>
@@ -283,6 +315,36 @@
       <tags>
         <tag>酷Q</tag>
         <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在 Windows 系统上给 ssh 设置代理</title>
+    <url>/posts/4d70a82d/</url>
+    <content><![CDATA[<div class="note info"><p>看清，使用的系统是 Windows 不是 Linux 或者 MacOS</p>
+</div>
+
+<p>百度搜到的很多给 git 设置代理的办法，都是给 http 设置代理，而不是给 SSH 设置代理。那个 <code>git config --global http.proxy http://127.0.0.1:1080</code> 设置起来，只针对 http 的 git 有效果。<br>然后就是 <code>ProxyCommand nc -v -x 127.0.0.1:1080 %h %p</code>，那个分明是给 Linux 才能用的， Windows 上哪里来的 nc 程序？</p>
+<p>以下操作是给 Windows 用的，我的操作：</p>
+<p>在自己的用户文件夹找到 .ssh 文件夹，比如我的是 <code>C:\Users\nihao\.ssh</code> ，在里面新建一个空白文件，取名 config，如果已经有了就不用创建了。</p>
+<p>注意不是 config.txt ！</p>
+<p>我强烈建议把 Windows 的后缀显示给打开，不然你根本不知道自己到底在编辑什么文件。</p>
+<p>都用 Git 了不至于还害怕自己把文件后缀名给改错了吧？</p>
+<p>在 config 文件里写上一行就行：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ProxyCommand <span class="string">&quot;C:\Program Files\Git\mingw64\bin\connect.exe&quot;</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %<span class="built_in">h</span> %p</span><br></pre></td></tr></table></figure>
+
+<p>这里 git 的安装路径和后面的代理自己看着填，不要试着用相对路径，保证要吃亏。因为 <code>Program Files</code> 文件夹中间带一个空格，所以这里需要把整个路径给引号引起来。 后面的代理的话，<code>-S</code> 指是 socks 代理，默认是 socks5，<code>127.0.0.1:1080</code> 就是你本地的代理地址，后面的 <code>%h %p</code> 意思是 Host 和 Port，必须得写上，我也不知道为什么要这么设计。 如果要使用 HTTP 代理，就写 <code>-H</code>，更多代理类型（比如 socks4）请参 <a href="https://bitbucket.org/gotoh/connect/wiki/Home#!more-detail">这个</a>。</p>
+<p>上这个写法是针对全局的，如果想只针对某个网站的话，就这么写：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">  ProxyCommand <span class="string">&quot;C:\Program Files\Git\mingw64\bin\connect.exe&quot;</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %<span class="built_in">h</span> %p</span><br></pre></td></tr></table></figure>
+
+<p>现在就可以愉快的使用代理了，不过要记住一定使用 ssh 协议。</p>
+]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+      <tags>
+        <tag>ssh</tag>
+        <tag>Windows</tag>
+        <tag>代理</tag>
       </tags>
   </entry>
   <entry>
@@ -405,66 +467,33 @@
       </tags>
   </entry>
   <entry>
-    <title>如何使用 Dolphin Emulator 玩《星之卡比：Wii》</title>
-    <url>/posts/2fbba4ed/</url>
-    <content><![CDATA[<blockquote>
-<p>开头附上星之卡比系列的 <a href="https://eyun.baidu.com/s/3i51Jf17">下载地址</a> 还有 Wii 模拟器的 <a href="https://cn.dolphin-emu.org/">下载地址</a></p>
+    <title>开往 - Travellings</title>
+    <url>/posts/58ae8d54/</url>
+    <content><![CDATA[<h1 id="什么是开往"><a href="#什么是开往" class="headerlink" title="什么是开往"></a>什么是开往</h1><p>这是一个来自于国外的想法，在网站显眼的位置，加入一个认证的徽标，代表网站已经加入了友链助力，如果访客点击徽标，将随机前往另一个计划内的网站。</p>
+<h1 id="为什么要开往"><a href="#为什么要开往" class="headerlink" title="为什么要开往"></a>为什么要开往</h1><p>互联网将人与人之间的距离大大减小，却还是形成了大大小小的孤岛。只有熟人间才知道彼此，而陌生人永远只能是陌生人。</p>
+<blockquote>
+<p>“开往”取自“开放的网络”。 将一群志同道合的人连接在一起，我们共享彼此的流量，帮助陌生人发现新大陆。</p>
 </blockquote>
-<h1 id="白屏"><a href="#白屏" class="headerlink" title="白屏"></a>白屏</h1><p>有些小伙伴在下好游戏并且在模拟器打开之后会遇到一直卡在白屏的情况，如图</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E5%8D%A1%E5%9C%A8%E7%99%BD%E5%B1%8F.png" alt="卡在白屏"></p>
-<p>那么这个时候就要注意是不是模拟器语言设置的问题，我们可以在这里看到游戏的语言</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E6%9F%A5%E7%9C%8B%E8%AF%AD%E8%A8%80.png" alt="查看语言"></p>
-<p>那么可以看到这个语言是 <code>日语</code>，那我们就要把模拟器改成对应的，看图操作，找到 <code>设置 -&gt; Wii -&gt; 系统语言</code>，然后在下拉菜单里找到 <code>对应语言</code>，然后点击关闭即可</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E4%BF%AE%E6%94%B9%E8%AF%AD%E8%A8%80.png" alt="修改语言"></p>
-<p>现在开始游戏就可以正常运行了</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C.png" alt="正常运行"></p>
-<h1 id="无法进入"><a href="#无法进入" class="headerlink" title="无法进入"></a>无法进入</h1><p>那有时候还会出现无法进入游戏界面的情况，会有类似下面这样的提示</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5.png" alt="无法进入"></p>
-<p>那这个情况只需要去 <code>控制器 -&gt; Wii 遥控器</code> 然后点击你要是用的模拟手柄的设置，将 <code>扩展</code> 这一项改成无就可以，看图操作</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E4%BF%AE%E6%94%B9%E6%89%A9%E5%B1%951.png" alt="修改扩展1"></p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E4%BF%AE%E6%94%B9%E6%89%A9%E5%B1%952.png" alt="修改扩展2"></p>
-<p>现在再试试进入游戏就正常了</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C.png" alt="正常运行"></p>
+<p>开往-友链助力是传统友链的增强，我们不必互相知道了解彼此，标准的审查让友好的朋友加入我们，只需要一个徽标，占用一块位置，我们所有人都联系在了一起，简单而又强大。大大小小的孤岛散落在浩瀚烟海，开往就像是一颗颗星球之间的快速列车，随机的跳向下一站。</p>
+<h1 id="怎么加入开往"><a href="#怎么加入开往" class="headerlink" title="怎么加入开往"></a>怎么加入开往</h1><a class="btn-beautify button--animated " href="https://github.com/volfclub/travellings" 
+  title="开往-友链接力"><i class="block center larger fa-fw"></i><span>开往-友链接力</span></a>
+
+<p>这是项目的 Github 地址，在 issue 中提交申请，几日内就会受理。但是申请的网站必须满足几点要求：</p>
+<ol>
+<li>愿为开放的网络做出贡献（如分享知识经验设计等）；</li>
+<li>没有违法以及影响体验的内容（如侵入式广告等）；</li>
+<li>正常更新维护中（国内无法正常访问会被移除）；</li>
+<li>强制启用 https 。</li>
+</ol>
+<p>满足以上要求，并将徽标插入您网页<strong>明显的地方</strong>（让友链传递下去）。</p>
+<p><strong>下面就是通向异域的按钮。</strong></p>
+<p><a href="https://travellings.now.sh/" target="blank"><img src= "/img/loading.gif" data-lazy-src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a></p>
 ]]></content>
       <categories>
-        <category>星之卡比系列教程</category>
+        <category>正经文字</category>
       </categories>
       <tags>
-        <tag>星之卡比</tag>
-        <tag>星之卡比 Wii</tag>
-        <tag>Wii 模拟器</tag>
-        <tag>Dolphin Emulator</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在 Windows 系统上给 ssh 设置代理</title>
-    <url>/posts/4d70a82d/</url>
-    <content><![CDATA[<div class="note info">
-            <p>看清，使用的系统是 Windows 不是 Linux 或者 MacOS</p>
-          </div>
-
-<p>百度搜到的很多给 git 设置代理的办法，都是给 http 设置代理，而不是给 SSH 设置代理。那个 <code>git config --global http.proxy http://127.0.0.1:1080</code> 设置起来，只针对 http 的 git 有效果。<br>然后就是 <code>ProxyCommand nc -v -x 127.0.0.1:1080 %h %p</code>，那个分明是给 Linux 才能用的， Windows 上哪里来的 nc 程序？</p>
-<p>以下操作是给 Windows 用的，我的操作：</p>
-<p>在自己的用户文件夹找到 .ssh 文件夹，比如我的是 <code>C:\Users\nihao\.ssh</code> ，在里面新建一个空白文件，取名 config，如果已经有了就不用创建了。</p>
-<p>注意不是 config.txt ！</p>
-<p>我强烈建议把 Windows 的后缀显示给打开，不然你根本不知道自己到底在编辑什么文件。</p>
-<p>都用 Git 了不至于还害怕自己把文件后缀名给改错了吧？</p>
-<p>在 config 文件里写上一行就行：</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ProxyCommand <span class="string">&quot;C:\Program Files\Git\mingw64\bin\connect.exe&quot;</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %<span class="built_in">h</span> %p</span><br></pre></td></tr></table></figure>
-
-<p>这里 git 的安装路径和后面的代理自己看着填，不要试着用相对路径，保证要吃亏。因为 <code>Program Files</code> 文件夹中间带一个空格，所以这里需要把整个路径给引号引起来。 后面的代理的话，<code>-S</code> 指是 socks 代理，默认是 socks5，<code>127.0.0.1:1080</code> 就是你本地的代理地址，后面的 <code>%h %p</code> 意思是 Host 和 Port，必须得写上，我也不知道为什么要这么设计。 如果要使用 HTTP 代理，就写 <code>-H</code>，更多代理类型（比如 socks4）请参 <a href="https://bitbucket.org/gotoh/connect/wiki/Home#!more-detail">这个</a>。</p>
-<p>上这个写法是针对全局的，如果想只针对某个网站的话，就这么写：</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">  ProxyCommand <span class="string">&quot;C:\Program Files\Git\mingw64\bin\connect.exe&quot;</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %<span class="built_in">h</span> %p</span><br></pre></td></tr></table></figure>
-
-<p>现在就可以愉快的使用代理了，不过要记住一定使用 ssh 协议。</p>
-]]></content>
-      <categories>
-        <category>技术记录</category>
-      </categories>
-      <tags>
-        <tag>ssh</tag>
-        <tag>Windows</tag>
-        <tag>代理</tag>
+        <tag>开往</tag>
       </tags>
   </entry>
   <entry>
@@ -514,36 +543,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开往 - Travellings</title>
-    <url>/posts/58ae8d54/</url>
-    <content><![CDATA[<h1 id="什么是开往"><a href="#什么是开往" class="headerlink" title="什么是开往"></a>什么是开往</h1><p>这是一个来自于国外的想法，在网站显眼的位置，加入一个认证的徽标，代表网站已经加入了友链助力，如果访客点击徽标，将随机前往另一个计划内的网站。</p>
-<h1 id="为什么要开往"><a href="#为什么要开往" class="headerlink" title="为什么要开往"></a>为什么要开往</h1><p>互联网将人与人之间的距离大大减小，却还是形成了大大小小的孤岛。只有熟人间才知道彼此，而陌生人永远只能是陌生人。</p>
-<blockquote>
-<p>“开往”取自“开放的网络”。 将一群志同道合的人连接在一起，我们共享彼此的流量，帮助陌生人发现新大陆。</p>
-</blockquote>
-<p>开往-友链助力是传统友链的增强，我们不必互相知道了解彼此，标准的审查让友好的朋友加入我们，只需要一个徽标，占用一块位置，我们所有人都联系在了一起，简单而又强大。大大小小的孤岛散落在浩瀚烟海，开往就像是一颗颗星球之间的快速列车，随机的跳向下一站。</p>
-<h1 id="怎么加入开往"><a href="#怎么加入开往" class="headerlink" title="怎么加入开往"></a>怎么加入开往</h1><a class="btn-beautify button--animated " href="https://github.com/volfclub/travellings" 
-  title="开往-友链接力"><i class="block center larger fa-fw"></i><span>开往-友链接力</span></a>
-
-<p>这是项目的 Github 地址，在 issue 中提交申请，几日内就会受理。但是申请的网站必须满足几点要求：</p>
-<ol>
-<li>愿为开放的网络做出贡献（如分享知识经验设计等）；</li>
-<li>没有违法以及影响体验的内容（如侵入式广告等）；</li>
-<li>正常更新维护中（国内无法正常访问会被移除）；</li>
-<li>强制启用 https 。</li>
-</ol>
-<p>满足以上要求，并将徽标插入您网页<strong>明显的地方</strong>（让友链传递下去）。</p>
-<p><strong>下面就是通向异域的按钮。</strong></p>
-<p><a href="https://travellings.now.sh/" target="blank"><img src= "/img/loading.gif" data-lazy-src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a></p>
-]]></content>
-      <categories>
-        <category>正经文字</category>
-      </categories>
-      <tags>
-        <tag>开往</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>我为什么要搭建博客</title>
     <url>/posts/a6366ad5/</url>
     <content><![CDATA[<blockquote>
@@ -579,37 +578,10 @@
       </tags>
   </entry>
   <entry>
-    <title>偶然间在B站看到的鬼畜</title>
-    <url>/posts/d46d4e39/</url>
-    <content><![CDATA[<p>刚才逛 B 站的时候在首页偶然看到这个，播放量还挺高的，就点进去看看了。神级填词，现在的老哥们简直神了，真的容易引起共鸣，然后又想起了以前的一些事，诶。</p>
-<a id="more"></a>
-
-<p>不多说啥了，做好现在的自己，不偏离本心！</p>
-<p>视频地址：<a href="https://www.bilibili.com/video/av60731116/">https://www.bilibili.com/video/av60731116/</a></p>
-<iframe src="//player.bilibili.com/player.html?aid=60731116&cid=106015992&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"> </iframe>
-
-<blockquote>
-<p><strong>贴一个里面的评论</strong><br>曾经看到大学宿舍里的沙雕图片，一个光膀大汉法相庄严，后面的人伸出手摆成千手佛陀，下面有句热评：</p>
-<p>“珍惜现在的时光吧，能陪你一起沙雕的朋友已经越来越少了。”</p>
-<p>欢乐是如何消失的呢，海绵宝宝？</p>
-<p>当你变成正常人、长大的时候，它就和你告了别。</p>
-<p>我喜欢什么都不做，喜欢追求最天真的快乐。<br>闭眼数数和我一般如星星闪耀的天才，可是只有我一个派大星。<br>知道我找到了另一颗星星，你，海绵宝宝。愿意和我一起享受快乐。<br>我不知道为什么他们说我是废物。<br>我不知道为什么太阳西边是落处。<br>我不知道为什么章鱼哥追求艺术。<br>我不知道为什么蟹老板攒钱如土。<br>即便抽不中想要的角色，我们却有辆小汽车。<br>即便驾照总是触不可及，我们也能玩摇摇乐。<br>即便去抓水母邻居遭殃，我们还在享受快乐。<br>当人们追求自己喜欢的东西的时候，为什么你渐行渐远了呢。<br>即便你有喜爱的工作、支持你的朋友、爱你的家人、听话的小窝和大把的青春值得去奋斗，我却发现你不再快乐，生病了。<br>你说想要变回常人。<br>你说羡慕章鱼哥受人景仰。<br>你说羡慕蟹老板家财万贯。<br>你说抓水母让章鱼哥愤怒。<br>你说想要的角色难以抽到。<br>你说不考驾照快乐受了限。<br>我最好的朋友，你这样我也很难受。<br>当我看到那电章鱼哥的水母，我一定要抓到。<br>当我再去商场终于抽到角色，你一直想要的。<br>当我考来驾照坐上那小汽车，想和你去冒险。<br>于是我带着这些再次找到你。<br>直到见到你漂亮的房子。<br>见到你成团的宾客。<br>见到你光鲜的衣服。<br>见到你贵气的打扮。<br>听到你说我嫉妒新生活的话语。<br>感受到被丢出去的失落。</p>
-<p>欢乐是如何消失的呢，海绵宝宝？</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>碎碎念</category>
-      </categories>
-      <tags>
-        <tag>视频</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>updateConfiguration 弃用之后更换语言应该何去何从</title>
     <url>/posts/9e078f24/</url>
-    <content><![CDATA[<div class="note info">
-            <p>注意本文使用的语言的是 Kotlin，如需 Java 请自行转换或在网络自行搜索，本文的 minSDK 为 21</p>
-          </div>
+    <content><![CDATA[<div class="note info"><p>注意本文使用的语言的是 Kotlin，如需 Java 请自行转换或在网络自行搜索，本文的 minSDK 为 21</p>
+</div>
 
 <h1 id="弃用"><a href="#弃用" class="headerlink" title="弃用"></a>弃用</h1><p>通常提起 Android 程序更换语言可能会想到 <code>Context</code> 的 <code>getResources().updateConfiguration(configuration, displayMetrics)</code>,传入设置好 <code>Locale</code> 的 <code>configuration</code> 以及 <code>Context</code> 的 <code>getResources().getDisplayMetrics()</code>。</p>
 <p>然而这个方法在现在已经被标记为 deprecated，这意味着以后的版本可能用不了这个了。</p>
@@ -637,6 +609,68 @@
         <tag>Android</tag>
         <tag>Kotlin</tag>
         <tag>弃用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>偶然间在B站看到的鬼畜</title>
+    <url>/posts/d46d4e39/</url>
+    <content><![CDATA[<p>刚才逛 B 站的时候在首页偶然看到这个，播放量还挺高的，就点进去看看了。神级填词，现在的老哥们简直神了，真的容易引起共鸣，然后又想起了以前的一些事，诶。</p>
+<a id="more"></a>
+
+<p>不多说啥了，做好现在的自己，不偏离本心！</p>
+<p>视频地址：<a href="https://www.bilibili.com/video/av60731116/">https://www.bilibili.com/video/av60731116/</a></p>
+<iframe src="//player.bilibili.com/player.html?aid=60731116&cid=106015992&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"> </iframe>
+
+<blockquote>
+<p><strong>贴一个里面的评论</strong><br>曾经看到大学宿舍里的沙雕图片，一个光膀大汉法相庄严，后面的人伸出手摆成千手佛陀，下面有句热评：</p>
+<p>“珍惜现在的时光吧，能陪你一起沙雕的朋友已经越来越少了。”</p>
+<p>欢乐是如何消失的呢，海绵宝宝？</p>
+<p>当你变成正常人、长大的时候，它就和你告了别。</p>
+<p>我喜欢什么都不做，喜欢追求最天真的快乐。<br>闭眼数数和我一般如星星闪耀的天才，可是只有我一个派大星。<br>知道我找到了另一颗星星，你，海绵宝宝。愿意和我一起享受快乐。<br>我不知道为什么他们说我是废物。<br>我不知道为什么太阳西边是落处。<br>我不知道为什么章鱼哥追求艺术。<br>我不知道为什么蟹老板攒钱如土。<br>即便抽不中想要的角色，我们却有辆小汽车。<br>即便驾照总是触不可及，我们也能玩摇摇乐。<br>即便去抓水母邻居遭殃，我们还在享受快乐。<br>当人们追求自己喜欢的东西的时候，为什么你渐行渐远了呢。<br>即便你有喜爱的工作、支持你的朋友、爱你的家人、听话的小窝和大把的青春值得去奋斗，我却发现你不再快乐，生病了。<br>你说想要变回常人。<br>你说羡慕章鱼哥受人景仰。<br>你说羡慕蟹老板家财万贯。<br>你说抓水母让章鱼哥愤怒。<br>你说想要的角色难以抽到。<br>你说不考驾照快乐受了限。<br>我最好的朋友，你这样我也很难受。<br>当我看到那电章鱼哥的水母，我一定要抓到。<br>当我再去商场终于抽到角色，你一直想要的。<br>当我考来驾照坐上那小汽车，想和你去冒险。<br>于是我带着这些再次找到你。<br>直到见到你漂亮的房子。<br>见到你成团的宾客。<br>见到你光鲜的衣服。<br>见到你贵气的打扮。<br>听到你说我嫉妒新生活的话语。<br>感受到被丢出去的失落。</p>
+<p>欢乐是如何消失的呢，海绵宝宝？</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>碎碎念</category>
+      </categories>
+      <tags>
+        <tag>视频</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何优雅的使用 Material Design 2</title>
+    <url>/posts/9cb48aa5/</url>
+    <content><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>Material Design 2 （下面简称 MD2）已经发布了一段时间了，可是还有一些小伙伴不知道怎么迁移到 MD2 来，我也是查了不少资料才摸索出来的        </p>
+<h1 id="AndroidX"><a href="#AndroidX" class="headerlink" title="AndroidX"></a>AndroidX</h1><p>首先，需要迁移到 AndroidX 来，这个网上有很多教程了，AndroidStudio 和 IDEA 也有相关的功能，这里就不赘述了        </p>
+<h1 id="修改主题"><a href="#修改主题" class="headerlink" title="修改主题"></a>修改主题</h1><p>然后，需要修改 <code>styles.xml</code> 中的内容了，修改你之前的主题为</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&lt;style name=<span class="string">&quot;AppTheme&quot;</span> parent=<span class="string">&quot;Theme.MaterialComponents.Light.NoActionBar&quot;</span>&gt;<span class="string">&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>当然还有其他可选的</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Theme.MaterialComponents</span><br><span class="line">Theme.MaterialComponents.Light</span><br><span class="line">Theme.MaterialComponents.NoActionBar</span><br><span class="line">Theme.MaterialComponents.Light.NoActionBar</span><br><span class="line">Theme.MaterialComponents.Light.DarkActionBar</span><br></pre></td></tr></table></figure>
+
+<p>如果只想对 Material 组件生效那就用</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Theme.MaterialComponents.Bridge</span><br><span class="line">Theme.MaterialComponents.Light.Bridge</span><br><span class="line">Theme.MaterialComponents.NoActionBar.Bridge</span><br><span class="line">Theme.MaterialComponents.Light.NoActionBar.Bridge</span><br><span class="line">Theme.MaterialComponents.Light.DarkActionBar.Bridge</span><br></pre></td></tr></table></figure>
+
+<p>仅仅是这一个操作就完成了大部分任务了，现在编译就可以看到一些新特性了<br>不过肯定没有这么简单，所以这里来讲解一些坑</p>
+<h1 id="开始踩坑"><a href="#开始踩坑" class="headerlink" title="开始踩坑"></a>开始踩坑</h1><h2 id="FloatingActionButton-颜色问题"><a href="#FloatingActionButton-颜色问题" class="headerlink" title="FloatingActionButton 颜色问题"></a>FloatingActionButton 颜色问题</h2><p>对，你没看错，MD2 默认的 FAB 颜色有一点问题<br>默认情况下背景色不是主题的强调色，图标的颜色也是黑的，很丑，那么怎么解决呢？<br>很简单，添加</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">app:backgroundTint=<span class="string">&quot;?attr/colorAccent&quot;</span></span><br><span class="line">app:tint=<span class="string">&quot;@android:color/white&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>这两行到 FAB 的属性，即</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&lt;com.google.android.material.floatingactionbutton.FloatingActionButton</span><br><span class="line">		android:layout_width=<span class="string">&quot;wrap_content&quot;</span></span><br><span class="line">		android:layout_height=<span class="string">&quot;wrap_content&quot;</span></span><br><span class="line">		android:id=<span class="string">&quot;@+id/fab_chat_edit&quot;</span></span><br><span class="line">        app:backgroundTint=<span class="string">&quot;?attr/colorAccent&quot;</span></span><br><span class="line">        app:tint=<span class="string">&quot;@android:color/white&quot;</span>/&gt;</span><br></pre></td></tr></table></figure>
+
+<p>这样就完成啦，背景色是主题的强调色，图标是白色，就和以前的一样了，当然也可以修改为其他的颜色</p>
+<h2 id="布局的-Design-界面不能预览"><a href="#布局的-Design-界面不能预览" class="headerlink" title="布局的 Design 界面不能预览"></a>布局的 Design 界面不能预览</h2><p>这个就比较麻烦了，好像只有第一次启动 IDE 的时候能正常看到布局，过一会就无法预览了，提示异常，感觉是个 Bug，临时的解决办法就是修改主题，xml布局界面上边修改主题为旧版本的即可，这样改以后布局可以看，只是 material 的效果都没了，很难受</p>
+<p>还有一种办法，参考 <a href="https://stackoverflow.com/questions/55791884/cannot-render-materialbutton-with-android-material1-1-x">stackoverflow</a> 比较简单的办法,添加一个预览的style</p>
+<p>最后还有一种说是 Android Studio 3.5 修复了，不过我是 IDEA 就不太清楚了</p>
+<h1 id="待续"><a href="#待续" class="headerlink" title="待续"></a>待续</h1><p>暂时遇到这些，后面还有的话也记录上来</p>
+]]></content>
+      <categories>
+        <category>编程</category>
+      </categories>
+      <tags>
+        <tag>踩坑</tag>
+        <tag>Android</tag>
+        <tag>Material Design 2</tag>
       </tags>
   </entry>
   <entry>
@@ -692,7 +726,7 @@
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ViewPagerAdapter</span> <span class="keyword">extends</span> <span class="title">FragmentPagerAdapter</span> </span>&#123;</span><br><span class="line"><span class="comment">//其他东西</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h1 id="重写-ViewPagerAdapter"><a href="#重写-ViewPagerAdapter" class="headerlink" title="重写 ViewPagerAdapter"></a>重写 ViewPagerAdapter</h1><p>具体看代码的注释，有注释的都是需要注意的</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ViewPagerAdapter</span> <span class="keyword">extends</span> <span class="title">FragmentPagerAdapter</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> FragmentManager fm;</span><br><span class="line">    <span class="keyword">private</span> List&lt;Fragment&gt; fragments;</span><br><span class="line">    <span class="keyword">private</span> List&lt;String&gt; page_title;<span class="comment">//这个是对应碎片的标题，可以不需要</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ViewPagerAdapter</span><span class="params">(FragmentManager fm, List&lt;Fragment&gt; fragments,List&lt;String&gt; page_title)</span></span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(fm);</span><br><span class="line">        <span class="keyword">this</span>.fm=fm;</span><br><span class="line">        <span class="keyword">this</span>.fragments=fragments;</span><br><span class="line">        <span class="keyword">this</span>.page_title=page_title;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">//注意这个方法，这个是配置你在哪个碎片上进行替换</span></span><br><span class="line">    <span class="meta">@NonNull</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Object <span class="title">instantiateItem</span><span class="params">(<span class="meta">@NonNull</span> ViewGroup container, <span class="keyword">int</span> position)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//这里的判断说明的是在三个和第四个碎片上替换</span></span><br><span class="line">        <span class="keyword">if</span> (position == <span class="number">2</span>||position == <span class="number">3</span>)</span><br><span class="line">            removeFragment(container,position);</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">super</span>.instantiateItem(container, position);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//这个方法就是通过 Tag 来判断碎片是不是原来的，如果不是就进行替换</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">removeFragment</span><span class="params">(ViewGroup container,<span class="keyword">int</span> index)</span> </span>&#123;</span><br><span class="line">        String tag = getFragmentTag(container.getId(), index);</span><br><span class="line">        Fragment fragment = fm.findFragmentByTag(tag);</span><br><span class="line">        <span class="keyword">if</span> (fragment == <span class="keyword">null</span>)</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        FragmentTransaction ft = fm.beginTransaction();</span><br><span class="line">        ft.remove(fragment);</span><br><span class="line">        ft.commit();</span><br><span class="line">        ft = <span class="keyword">null</span>;</span><br><span class="line">        fm.executePendingTransactions();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@NonNull</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Fragment <span class="title">getItem</span><span class="params">(<span class="keyword">int</span> position)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> fragments.get(position);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getCount</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> fragments.size();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//注意写成这样才可以进行刷新</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getItemPosition</span><span class="params">(<span class="meta">@NonNull</span> Object object)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> PagerAdapter.POSITION_NONE;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> CharSequence <span class="title">getPageTitle</span><span class="params">(<span class="keyword">int</span> position)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> page_title.get(position);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//禁止销毁view达到复用</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">destroyItem</span><span class="params">(<span class="meta">@NonNull</span> ViewGroup container, <span class="keyword">int</span> position, <span class="meta">@NonNull</span> Object object)</span> </span>&#123;&#125;</span><br><span class="line">    <span class="comment">//获取碎片的tag</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> String <span class="title">getFragmentTag</span><span class="params">(<span class="keyword">int</span> viewId, <span class="keyword">int</span> index)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            Class&lt;FragmentPagerAdapter&gt; cls = FragmentPagerAdapter.class;</span><br><span class="line">            Class&lt;?&gt;[] parameterTypes = &#123; <span class="keyword">int</span>.class, <span class="keyword">long</span>.class &#125;;</span><br><span class="line">            Method method = cls.getDeclaredMethod(<span class="string">&quot;makeFragmentName&quot;</span>,</span><br><span class="line">                    parameterTypes);</span><br><span class="line">            method.setAccessible(<span class="keyword">true</span>);</span><br><span class="line">            String tag = (String) method.invoke(<span class="keyword">this</span>, viewId, index);</span><br><span class="line">            <span class="keyword">return</span> tag;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ViewPagerAdapter</span> <span class="keyword">extends</span> <span class="title">FragmentPagerAdapter</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> FragmentManager fm;</span><br><span class="line">    <span class="keyword">private</span> List&lt;Fragment&gt; fragments;</span><br><span class="line">    <span class="keyword">private</span> List&lt;String&gt; page_title;<span class="comment">//这个是对应碎片的标题，可以不需要</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ViewPagerAdapter</span><span class="params">(FragmentManager fm, List&lt;Fragment&gt; fragments,List&lt;String&gt; page_title)</span></span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(fm);</span><br><span class="line">        <span class="keyword">this</span>.fm=fm;</span><br><span class="line">        <span class="keyword">this</span>.fragments=fragments;</span><br><span class="line">        <span class="keyword">this</span>.page_title=page_title;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">	<span class="comment">//注意这个方法，这个是配置你在哪个碎片上进行替换</span></span><br><span class="line">    <span class="meta">@NonNull</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Object <span class="title">instantiateItem</span><span class="params">(<span class="meta">@NonNull</span> ViewGroup container, <span class="keyword">int</span> position)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//这里的判断说明的是在三个和第四个碎片上替换</span></span><br><span class="line">		<span class="keyword">if</span> (position == <span class="number">2</span>||position == <span class="number">3</span>)</span><br><span class="line">            removeFragment(container,position);</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">super</span>.instantiateItem(container, position);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//这个方法就是通过 Tag 来判断碎片是不是原来的，如果不是就进行替换</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">removeFragment</span><span class="params">(ViewGroup container,<span class="keyword">int</span> index)</span> </span>&#123;</span><br><span class="line">        String tag = getFragmentTag(container.getId(), index);</span><br><span class="line">        Fragment fragment = fm.findFragmentByTag(tag);</span><br><span class="line">        <span class="keyword">if</span> (fragment == <span class="keyword">null</span>)</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        FragmentTransaction ft = fm.beginTransaction();</span><br><span class="line">        ft.remove(fragment);</span><br><span class="line">        ft.commit();</span><br><span class="line">        ft = <span class="keyword">null</span>;</span><br><span class="line">        fm.executePendingTransactions();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@NonNull</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Fragment <span class="title">getItem</span><span class="params">(<span class="keyword">int</span> position)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> fragments.get(position);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getCount</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> fragments.size();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//注意写成这样才可以进行刷新</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getItemPosition</span><span class="params">(<span class="meta">@NonNull</span> Object object)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> PagerAdapter.POSITION_NONE;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> CharSequence <span class="title">getPageTitle</span><span class="params">(<span class="keyword">int</span> position)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> page_title.get(position);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//禁止销毁view达到复用</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">destroyItem</span><span class="params">(<span class="meta">@NonNull</span> ViewGroup container, <span class="keyword">int</span> position, <span class="meta">@NonNull</span> Object object)</span> </span>&#123;&#125;</span><br><span class="line">    <span class="comment">//获取碎片的tag</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> String <span class="title">getFragmentTag</span><span class="params">(<span class="keyword">int</span> viewId, <span class="keyword">int</span> index)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            Class&lt;FragmentPagerAdapter&gt; cls = FragmentPagerAdapter.class;</span><br><span class="line">            Class&lt;?&gt;[] parameterTypes = &#123; <span class="keyword">int</span>.class, <span class="keyword">long</span>.class &#125;;</span><br><span class="line">            Method method = cls.getDeclaredMethod(<span class="string">&quot;makeFragmentName&quot;</span>,</span><br><span class="line">                    parameterTypes);</span><br><span class="line">            method.setAccessible(<span class="keyword">true</span>);</span><br><span class="line">            String tag = (String) method.invoke(<span class="keyword">this</span>, viewId, index);</span><br><span class="line">            <span class="keyword">return</span> tag;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h1 id="注意问题"><a href="#注意问题" class="headerlink" title="注意问题"></a>注意问题</h1><p>如果出现替换后出现某个碎片的布局空白了，那就设置一个 ViewPager 的缓存属性</p>
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line">main_fragment_viewpager.setOffscreenPageLimit(<span class="number">4</span>);<span class="comment">//4代表缓存4页，根据实际情况调整</span></span><br></pre></td></tr></table></figure>
@@ -710,42 +744,6 @@
       </tags>
   </entry>
   <entry>
-    <title>如何优雅的使用 Material Design 2</title>
-    <url>/posts/9cb48aa5/</url>
-    <content><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>Material Design 2 （下面简称 MD2）已经发布了一段时间了，可是还有一些小伙伴不知道怎么迁移到 MD2 来，我也是查了不少资料才摸索出来的        </p>
-<h1 id="AndroidX"><a href="#AndroidX" class="headerlink" title="AndroidX"></a>AndroidX</h1><p>首先，需要迁移到 AndroidX 来，这个网上有很多教程了，AndroidStudio 和 IDEA 也有相关的功能，这里就不赘述了        </p>
-<h1 id="修改主题"><a href="#修改主题" class="headerlink" title="修改主题"></a>修改主题</h1><p>然后，需要修改 <code>styles.xml</code> 中的内容了，修改你之前的主题为</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&lt;style name=<span class="string">&quot;AppTheme&quot;</span> parent=<span class="string">&quot;Theme.MaterialComponents.Light.NoActionBar&quot;</span>&gt;<span class="string">&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>当然还有其他可选的</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Theme.MaterialComponents</span><br><span class="line">Theme.MaterialComponents.Light</span><br><span class="line">Theme.MaterialComponents.NoActionBar</span><br><span class="line">Theme.MaterialComponents.Light.NoActionBar</span><br><span class="line">Theme.MaterialComponents.Light.DarkActionBar</span><br></pre></td></tr></table></figure>
-
-<p>如果只想对 Material 组件生效那就用</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Theme.MaterialComponents.Bridge</span><br><span class="line">Theme.MaterialComponents.Light.Bridge</span><br><span class="line">Theme.MaterialComponents.NoActionBar.Bridge</span><br><span class="line">Theme.MaterialComponents.Light.NoActionBar.Bridge</span><br><span class="line">Theme.MaterialComponents.Light.DarkActionBar.Bridge</span><br></pre></td></tr></table></figure>
-
-<p>仅仅是这一个操作就完成了大部分任务了，现在编译就可以看到一些新特性了<br>不过肯定没有这么简单，所以这里来讲解一些坑</p>
-<h1 id="开始踩坑"><a href="#开始踩坑" class="headerlink" title="开始踩坑"></a>开始踩坑</h1><h2 id="FloatingActionButton-颜色问题"><a href="#FloatingActionButton-颜色问题" class="headerlink" title="FloatingActionButton 颜色问题"></a>FloatingActionButton 颜色问题</h2><p>对，你没看错，MD2 默认的 FAB 颜色有一点问题<br>默认情况下背景色不是主题的强调色，图标的颜色也是黑的，很丑，那么怎么解决呢？<br>很简单，添加</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">app:backgroundTint=<span class="string">&quot;?attr/colorAccent&quot;</span></span><br><span class="line">app:tint=<span class="string">&quot;@android:color/white&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>这两行到 FAB 的属性，即</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&lt;com.google.android.material.floatingactionbutton.FloatingActionButton</span><br><span class="line">        android:layout_width=<span class="string">&quot;wrap_content&quot;</span></span><br><span class="line">        android:layout_height=<span class="string">&quot;wrap_content&quot;</span></span><br><span class="line">        android:id=<span class="string">&quot;@+id/fab_chat_edit&quot;</span></span><br><span class="line">        app:backgroundTint=<span class="string">&quot;?attr/colorAccent&quot;</span></span><br><span class="line">        app:tint=<span class="string">&quot;@android:color/white&quot;</span>/&gt;</span><br></pre></td></tr></table></figure>
-
-<p>这样就完成啦，背景色是主题的强调色，图标是白色，就和以前的一样了，当然也可以修改为其他的颜色</p>
-<h2 id="布局的-Design-界面不能预览"><a href="#布局的-Design-界面不能预览" class="headerlink" title="布局的 Design 界面不能预览"></a>布局的 Design 界面不能预览</h2><p>这个就比较麻烦了，好像只有第一次启动 IDE 的时候能正常看到布局，过一会就无法预览了，提示异常，感觉是个 Bug，临时的解决办法就是修改主题，xml布局界面上边修改主题为旧版本的即可，这样改以后布局可以看，只是 material 的效果都没了，很难受</p>
-<p>还有一种办法，参考 <a href="https://stackoverflow.com/questions/55791884/cannot-render-materialbutton-with-android-material1-1-x">stackoverflow</a> 比较简单的办法,添加一个预览的style</p>
-<p>最后还有一种说是 Android Studio 3.5 修复了，不过我是 IDEA 就不太清楚了</p>
-<h1 id="待续"><a href="#待续" class="headerlink" title="待续"></a>待续</h1><p>暂时遇到这些，后面还有的话也记录上来</p>
-]]></content>
-      <categories>
-        <category>编程</category>
-      </categories>
-      <tags>
-        <tag>踩坑</tag>
-        <tag>Android</tag>
-        <tag>Material Design 2</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>实现滑动隐藏 ToolBar 与 BottomNavigation</title>
     <url>/posts/919199f6/</url>
     <content><![CDATA[<p>最近在重写 Kirby Assistant 的时候需要实现像图中的效果，那这样的效果具体应该怎么实现呢，快点进来看看吧。(图在里面)</p>
@@ -758,7 +756,7 @@
 
 <p>到此，准备过程就完成了</p>
 <h1 id="实现隐藏-Toolbar"><a href="#实现隐藏-Toolbar" class="headerlink" title="实现隐藏 Toolbar"></a>实现隐藏 Toolbar</h1><p>首先在上面的基础上需要添加 Toolbar 组件，如</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">androidx.coordinatorlayout.widget.CoordinatorLayout</span></span></span><br><span class="line"><span class="tag">        <span class="attr">xmlns:android</span>=<span class="string">&quot;http://schemas.android.com/apk/res/android&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">xmlns:app</span>=<span class="string">&quot;http://schemas.android.com/apk/res-auto&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_height</span>=<span class="string">&quot;match_parent&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">com.google.android.material.appbar.AppBarLayout</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_height</span>=<span class="string">&quot;wrap_content&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:id</span>=<span class="string">&quot;@+id/mainAppBarLayout&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="name">androidx.appcompat.widget.Toolbar</span></span></span><br><span class="line"><span class="tag">                <span class="attr">android:id</span>=<span class="string">&quot;@+id/toolbar&quot;</span></span></span><br><span class="line"><span class="tag">                <span class="attr">android:layout_height</span>=<span class="string">&quot;?attr/actionBarSize&quot;</span></span></span><br><span class="line"><span class="tag">                <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">                <span class="attr">android:background</span>=<span class="string">&quot;?attr/colorPrimary&quot;</span></span></span><br><span class="line"><span class="tag">                <span class="attr">android:theme</span>=<span class="string">&quot;@style/ThemeOverlay.AppCompat.Dark.ActionBar&quot;</span> </span></span><br><span class="line"><span class="tag">                <span class="attr">android:elevation</span>=<span class="string">&quot;4dp&quot;</span></span></span><br><span class="line"><span class="tag">                <span class="attr">app:popupTheme</span>=<span class="string">&quot;@style/ThemeOverlay.AppCompat.Light&quot;</span></span></span><br><span class="line"><span class="tag">                <span class="attr">app:layout_scrollFlags</span>=<span class="string">&quot;scroll|enterAlways|snap&quot;</span>&gt;</span></span><br><span class="line">                <span class="comment">&lt;!--上面这行重点--&gt;</span></span><br><span class="line">                       </span><br><span class="line">        <span class="tag">&lt;/<span class="name">androidx.appcompat.widget.Toolbar</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="name">com.google.android.material.appbar.AppBarLayout</span>&gt;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">&lt;!--可能会有其他的组件--&gt;</span></span><br><span class="line">    </span><br><span class="line"><span class="tag">&lt;/<span class="name">androidx.coordinatorlayout.widget.CoordinatorLayout</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">androidx.coordinatorlayout.widget.CoordinatorLayout</span></span></span><br><span class="line"><span class="tag">        <span class="attr">xmlns:android</span>=<span class="string">&quot;http://schemas.android.com/apk/res/android&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">xmlns:app</span>=<span class="string">&quot;http://schemas.android.com/apk/res-auto&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_height</span>=<span class="string">&quot;match_parent&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">com.google.android.material.appbar.AppBarLayout</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_height</span>=<span class="string">&quot;wrap_content&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:id</span>=<span class="string">&quot;@+id/mainAppBarLayout&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="name">androidx.appcompat.widget.Toolbar</span></span></span><br><span class="line"><span class="tag">                <span class="attr">android:id</span>=<span class="string">&quot;@+id/toolbar&quot;</span></span></span><br><span class="line"><span class="tag">                <span class="attr">android:layout_height</span>=<span class="string">&quot;?attr/actionBarSize&quot;</span></span></span><br><span class="line"><span class="tag">                <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">                <span class="attr">android:background</span>=<span class="string">&quot;?attr/colorPrimary&quot;</span></span></span><br><span class="line"><span class="tag">                <span class="attr">android:theme</span>=<span class="string">&quot;@style/ThemeOverlay.AppCompat.Dark.ActionBar&quot;</span> </span></span><br><span class="line"><span class="tag">				<span class="attr">android:elevation</span>=<span class="string">&quot;4dp&quot;</span></span></span><br><span class="line"><span class="tag">                <span class="attr">app:popupTheme</span>=<span class="string">&quot;@style/ThemeOverlay.AppCompat.Light&quot;</span></span></span><br><span class="line"><span class="tag">                <span class="attr">app:layout_scrollFlags</span>=<span class="string">&quot;scroll|enterAlways|snap&quot;</span>&gt;</span></span><br><span class="line">                <span class="comment">&lt;!--上面这行重点--&gt;</span></span><br><span class="line">					   </span><br><span class="line">        <span class="tag">&lt;/<span class="name">androidx.appcompat.widget.Toolbar</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="name">com.google.android.material.appbar.AppBarLayout</span>&gt;</span></span><br><span class="line">	</span><br><span class="line">	<span class="comment">&lt;!--可能会有其他的组件--&gt;</span></span><br><span class="line">	</span><br><span class="line"><span class="tag">&lt;/<span class="name">androidx.coordinatorlayout.widget.CoordinatorLayout</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
 <p>那么这里需要说明一下 <code>app:layout_scrollFlags=&quot;scroll|enterAlways|snap&quot;</code> 是什么意思，这个实际上是用来控制 AppBarLayout 内部组件的行为。        </p>
 <p>其中,<code>scroll</code> 表示当界面向上滚动的时候, Toolbar会<br>跟着一起向上滚动并实现隐藏。</p>
@@ -766,11 +764,11 @@
 <p><code>snap</code> 表示当 Toolbar还没有完全隐藏或显示的时候,会根据当前滚动的距离,自动选择是隐藏还是显示。</p>
 <p>当然还有其他参数，但是比较少用</p>
 <p>接着添加另外一个组件，例如 RecyclerView</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">androidx.coordinatorlayout.widget.CoordinatorLayout</span></span></span><br><span class="line"><span class="tag">        <span class="attr">xmlns:android</span>=<span class="string">&quot;http://schemas.android.com/apk/res/android&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">xmlns:app</span>=<span class="string">&quot;http://schemas.android.com/apk/res-auto&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_height</span>=<span class="string">&quot;match_parent&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!--AppBarLayout相关组件--&gt;</span></span><br><span class="line">    </span><br><span class="line">    <span class="tag">&lt;<span class="name">androidx.recyclerview.widget.RecyclerView</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:id</span>=<span class="string">&quot;@+id/main_rlv&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_height</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:layout_behavior</span>=<span class="string">&quot;@string/appbar_scrolling_view_behavior&quot;</span>/&gt;</span></span><br><span class="line">            <span class="comment">&lt;!--重点--&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!--可能会有其他的组件--&gt;</span></span><br><span class="line">    </span><br><span class="line"><span class="tag">&lt;/<span class="name">androidx.coordinatorlayout.widget.CoordinatorLayout</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">androidx.coordinatorlayout.widget.CoordinatorLayout</span></span></span><br><span class="line"><span class="tag">        <span class="attr">xmlns:android</span>=<span class="string">&quot;http://schemas.android.com/apk/res/android&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">xmlns:app</span>=<span class="string">&quot;http://schemas.android.com/apk/res-auto&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_height</span>=<span class="string">&quot;match_parent&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!--AppBarLayout相关组件--&gt;</span></span><br><span class="line">	</span><br><span class="line">	<span class="tag">&lt;<span class="name">androidx.recyclerview.widget.RecyclerView</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:id</span>=<span class="string">&quot;@+id/main_rlv&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_height</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:layout_behavior</span>=<span class="string">&quot;@string/appbar_scrolling_view_behavior&quot;</span>/&gt;</span></span><br><span class="line">			<span class="comment">&lt;!--重点--&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="comment">&lt;!--可能会有其他的组件--&gt;</span></span><br><span class="line">	</span><br><span class="line"><span class="tag">&lt;/<span class="name">androidx.coordinatorlayout.widget.CoordinatorLayout</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
 <p>可以看到这里指定了一个<code> app:layout_behavior=&quot;@string/appbar_scrolling_view_behavior&quot;</code>那么这个属性实际上是谷歌封装好的一个 Behavior，已经完成了 Toolbar 隐藏所有动画效果。</p>
 <h1 id="实现隐藏-BottomNavigation"><a href="#实现隐藏-BottomNavigation" class="headerlink" title="实现隐藏 BottomNavigation"></a>实现隐藏 BottomNavigation</h1><p>BottomNavigation 的话，谷歌没有进行封装，需要我们自己实现，那么先在布局添加 BottomNavigation 组件</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">androidx.coordinatorlayout.widget.CoordinatorLayout</span></span></span><br><span class="line"><span class="tag">        <span class="attr">xmlns:android</span>=<span class="string">&quot;http://schemas.android.com/apk/res/android&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">xmlns:app</span>=<span class="string">&quot;http://schemas.android.com/apk/res-auto&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_height</span>=<span class="string">&quot;match_parent&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!--AppBarLayout相关组件--&gt;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">&lt;!--RecyclerView组件--&gt;</span></span><br><span class="line">    </span><br><span class="line">    <span class="tag">&lt;<span class="name">com.google.android.material.bottomnavigation.BottomNavigationView</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:id</span>=<span class="string">&quot;@+id/main_bottom_navigation_bar&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_height</span>=<span class="string">&quot;?attr/actionBarSize&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_gravity</span>=<span class="string">&quot;bottom&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:background</span>=<span class="string">&quot;?android:attr/windowBackground&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:elevation</span>=<span class="string">&quot;8dp&quot;</span>                            <span class="attr">app:layout_behavior</span>=<span class="string">&quot;cn.endureblaze.kirby.main.BottomNavigationBehavior&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:menu</span>=<span class="string">&quot;@menu/main_bottom_navigation_menu&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:labelVisibilityMode</span>=<span class="string">&quot;labeled&quot;</span>/&gt;</span></span><br><span class="line">    </span><br><span class="line"><span class="tag">&lt;/<span class="name">androidx.coordinatorlayout.widget.CoordinatorLayout</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">androidx.coordinatorlayout.widget.CoordinatorLayout</span></span></span><br><span class="line"><span class="tag">        <span class="attr">xmlns:android</span>=<span class="string">&quot;http://schemas.android.com/apk/res/android&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">xmlns:app</span>=<span class="string">&quot;http://schemas.android.com/apk/res-auto&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_height</span>=<span class="string">&quot;match_parent&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!--AppBarLayout相关组件--&gt;</span></span><br><span class="line">	</span><br><span class="line">	<span class="comment">&lt;!--RecyclerView组件--&gt;</span></span><br><span class="line">	</span><br><span class="line">	<span class="tag">&lt;<span class="name">com.google.android.material.bottomnavigation.BottomNavigationView</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:id</span>=<span class="string">&quot;@+id/main_bottom_navigation_bar&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_height</span>=<span class="string">&quot;?attr/actionBarSize&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_gravity</span>=<span class="string">&quot;bottom&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:background</span>=<span class="string">&quot;?android:attr/windowBackground&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:elevation</span>=<span class="string">&quot;8dp&quot;</span>                            <span class="attr">app:layout_behavior</span>=<span class="string">&quot;cn.endureblaze.kirby.main.BottomNavigationBehavior&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:menu</span>=<span class="string">&quot;@menu/main_bottom_navigation_menu&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:labelVisibilityMode</span>=<span class="string">&quot;labeled&quot;</span>/&gt;</span></span><br><span class="line">	</span><br><span class="line"><span class="tag">&lt;/<span class="name">androidx.coordinatorlayout.widget.CoordinatorLayout</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
 <p>那么可以看到这里指定了一个 <code>app:layout_behavior=&quot;cn.endureblaze.kirby.main.BottomNavigationBehavior&quot;</code><br>这实际上是指定了一个自定义 behavior，数值需要填上绝对路径</p>
 <p>那么来看看 BottomNavigationBehavior 是怎么写的吧</p>
@@ -780,7 +778,7 @@
 <p>snap 效果可以通过<code>private boolean isSnappingEnabled = true//false是关闭;</code>来控制</p>
 <h1 id="FloatingActionButton-呢？"><a href="#FloatingActionButton-呢？" class="headerlink" title="FloatingActionButton 呢？"></a>FloatingActionButton 呢？</h1><p>上面的这些都是忽略了 FAB 的情况下，那么 FAB 应该如何实现呢？当然也是靠自定义 behavior 不过稍稍有点不同，一起来看看吧</p>
 <p>首先添加布局</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">androidx.coordinatorlayout.widget.CoordinatorLayout</span></span></span><br><span class="line"><span class="tag">        <span class="attr">xmlns:android</span>=<span class="string">&quot;http://schemas.android.com/apk/res/android&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">xmlns:app</span>=<span class="string">&quot;http://schemas.android.com/apk/res-auto&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_height</span>=<span class="string">&quot;match_parent&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!--AppBarLayout相关组件--&gt;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">&lt;!--RecyclerView组件--&gt;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment">&lt;!--BottomNavigationView组件--&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">com.google.android.material.floatingactionbutton.FloatingActionButton</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:id</span>=<span class="string">&quot;@+id/fab_main&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_width</span>=<span class="string">&quot;wrap_content&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_height</span>=<span class="string">&quot;wrap_content&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_gravity</span>=<span class="string">&quot;top&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:layout_anchor</span>=<span class="string">&quot;@id/main_bottom_navigation_bar&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:layout_anchorGravity</span>=<span class="string">&quot;top|end&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:useCompatPadding</span>=<span class="string">&quot;true&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:layout_behavior</span>=<span class="string">&quot;cn.endureblaze.kirby.main.BottomNavigationFABBehavior&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:fabSize</span>=<span class="string">&quot;normal&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:layout_scrollFlags</span>=<span class="string">&quot;scroll|enterAlways&quot;</span>/&gt;</span></span><br><span class="line">        </span><br><span class="line"><span class="tag">&lt;/<span class="name">androidx.coordinatorlayout.widget.CoordinatorLayout</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">androidx.coordinatorlayout.widget.CoordinatorLayout</span></span></span><br><span class="line"><span class="tag">        <span class="attr">xmlns:android</span>=<span class="string">&quot;http://schemas.android.com/apk/res/android&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">xmlns:app</span>=<span class="string">&quot;http://schemas.android.com/apk/res-auto&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_height</span>=<span class="string">&quot;match_parent&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!--AppBarLayout相关组件--&gt;</span></span><br><span class="line">	</span><br><span class="line">	<span class="comment">&lt;!--RecyclerView组件--&gt;</span></span><br><span class="line">	</span><br><span class="line">	<span class="comment">&lt;!--BottomNavigationView组件--&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">com.google.android.material.floatingactionbutton.FloatingActionButton</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:id</span>=<span class="string">&quot;@+id/fab_main&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_width</span>=<span class="string">&quot;wrap_content&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_height</span>=<span class="string">&quot;wrap_content&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:layout_gravity</span>=<span class="string">&quot;top&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:layout_anchor</span>=<span class="string">&quot;@id/main_bottom_navigation_bar&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:layout_anchorGravity</span>=<span class="string">&quot;top|end&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:useCompatPadding</span>=<span class="string">&quot;true&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:layout_behavior</span>=<span class="string">&quot;cn.endureblaze.kirby.main.BottomNavigationFABBehavior&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:fabSize</span>=<span class="string">&quot;normal&quot;</span></span></span><br><span class="line"><span class="tag">            <span class="attr">app:layout_scrollFlags</span>=<span class="string">&quot;scroll|enterAlways&quot;</span>/&gt;</span></span><br><span class="line">		</span><br><span class="line"><span class="tag">&lt;/<span class="name">androidx.coordinatorlayout.widget.CoordinatorLayout</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
 <p>这里有几个属性需要注意一下</p>
 <figure class="highlight xml"><table><tr><td class="code"><pre><span class="line">app:layout_anchor=&quot;@id/main_bottom_navigation_bar&quot;</span><br><span class="line">app:layout_anchorGravity=&quot;top|end&quot;</span><br><span class="line">app:layout_behavior=&quot;cn.endureblaze.kirby.main.BottomNavigationFABBehavior&quot;</span><br></pre></td></tr></table></figure>
@@ -798,6 +796,26 @@
         <tag>踩坑</tag>
         <tag>Android</tag>
         <tag>Material Design 2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在线游玩 FC（小霸王、红白机）、街机游戏</title>
+    <url>/posts/743f9c80/</url>
+    <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%9C%A8%E7%BA%BF%E6%B8%B8%E7%8E%A9FC%EF%BC%88%E5%B0%8F%E9%9C%B8%E7%8E%8B%E3%80%81%E7%BA%A2%E7%99%BD%E6%9C%BA%EF%BC%89%E3%80%81%E8%A1%97%E6%9C%BA%E6%B8%B8%E6%88%8F/%E7%BD%91%E7%AB%99%E6%A0%87%E9%A2%98%E7%95%8C%E9%9D%A2.png" alt="网站标题界面"></p>
+<p><a href="https://www.yikm.net/">点击这里访问 yikm 在线玩游戏</a></p>
+<p>FC 游戏，或者说是国人更熟悉的“小霸王”，可以说承载了 80 后、90 后乃至 00 后共同的童年回忆 。</p>
+<p>随着 PC 机的普及，国内的主机游戏渐渐成了小众爱好，而小霸王成为了这几代许多人对于“手柄游戏”的唯一认知。</p>
+<p>在“小霸王”逐渐在家庭的客厅、玩家的桌面消失以后，很多人都在 PC 机上体验过各种各样的“FC 游戏模拟器”，但是繁杂的参数，无中文的交互界面成为了一种不大不小的阻碍。</p>
+<p>而这次推荐的网站 <code>yikm</code> 就成了这些问题的终极解决方案，你只需要一个浏览器（无论是 PC 还是手机端），访问这个网站，就能在线玩到这些经典的像素风游戏。<br>贴心的在线联机功能</p>
+<p>当那些曾在记忆里响起无数次的 8-bit 音乐响起，不知道你有没有想起儿时的那些玩伴，如今即使你们在物理距离上相隔很远，也可以通过网络很方便地一起怀念童年——只需要通过 yikm 提供的“联机大厅”功能。</p>
+<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%9C%A8%E7%BA%BF%E6%B8%B8%E7%8E%A9FC%EF%BC%88%E5%B0%8F%E9%9C%B8%E7%8E%8B%E3%80%81%E7%BA%A2%E7%99%BD%E6%9C%BA%EF%BC%89%E3%80%81%E8%A1%97%E6%9C%BA%E6%B8%B8%E6%88%8F/%E8%81%94%E6%9C%BA.png" alt="联机"></p>
+]]></content>
+      <categories>
+        <category>随手记</category>
+      </categories>
+      <tags>
+        <tag>游戏推荐</tag>
+        <tag>FC</tag>
       </tags>
   </entry>
   <entry>
@@ -846,26 +864,6 @@
       </categories>
       <tags>
         <tag>WordPress</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在线游玩 FC（小霸王、红白机）、街机游戏</title>
-    <url>/posts/743f9c80/</url>
-    <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%9C%A8%E7%BA%BF%E6%B8%B8%E7%8E%A9FC%EF%BC%88%E5%B0%8F%E9%9C%B8%E7%8E%8B%E3%80%81%E7%BA%A2%E7%99%BD%E6%9C%BA%EF%BC%89%E3%80%81%E8%A1%97%E6%9C%BA%E6%B8%B8%E6%88%8F/%E7%BD%91%E7%AB%99%E6%A0%87%E9%A2%98%E7%95%8C%E9%9D%A2.png" alt="网站标题界面"></p>
-<p><a href="https://www.yikm.net/">点击这里访问 yikm 在线玩游戏</a></p>
-<p>FC 游戏，或者说是国人更熟悉的“小霸王”，可以说承载了 80 后、90 后乃至 00 后共同的童年回忆 。</p>
-<p>随着 PC 机的普及，国内的主机游戏渐渐成了小众爱好，而小霸王成为了这几代许多人对于“手柄游戏”的唯一认知。</p>
-<p>在“小霸王”逐渐在家庭的客厅、玩家的桌面消失以后，很多人都在 PC 机上体验过各种各样的“FC 游戏模拟器”，但是繁杂的参数，无中文的交互界面成为了一种不大不小的阻碍。</p>
-<p>而这次推荐的网站 <code>yikm</code> 就成了这些问题的终极解决方案，你只需要一个浏览器（无论是 PC 还是手机端），访问这个网站，就能在线玩到这些经典的像素风游戏。<br>贴心的在线联机功能</p>
-<p>当那些曾在记忆里响起无数次的 8-bit 音乐响起，不知道你有没有想起儿时的那些玩伴，如今即使你们在物理距离上相隔很远，也可以通过网络很方便地一起怀念童年——只需要通过 yikm 提供的“联机大厅”功能。</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%9C%A8%E7%BA%BF%E6%B8%B8%E7%8E%A9FC%EF%BC%88%E5%B0%8F%E9%9C%B8%E7%8E%8B%E3%80%81%E7%BA%A2%E7%99%BD%E6%9C%BA%EF%BC%89%E3%80%81%E8%A1%97%E6%9C%BA%E6%B8%B8%E6%88%8F/%E8%81%94%E6%9C%BA.png" alt="联机"></p>
-]]></content>
-      <categories>
-        <category>随手记</category>
-      </categories>
-      <tags>
-        <tag>游戏推荐</tag>
-        <tag>FC</tag>
       </tags>
   </entry>
 </search>
