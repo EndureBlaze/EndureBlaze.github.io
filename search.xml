@@ -66,12 +66,12 @@
     <content><![CDATA[<blockquote>
 <p>写在前面：<br>由于很多东西已经无法考证<del>其实就是懒，当初没记下来</del>，所以早期的版本可能会有记不清版本号的情况，不过大概还是能对的上时间的。</p>
 </blockquote>
-<h1 id="开局一段话，内容全靠编"><a href="#开局一段话，内容全靠编" class="headerlink" title="开局一段话，内容全靠编"></a>开局一段话，内容全靠编</h1><p>大家好，众所<del>不那么</del>周知 Kirby Assistant 是一款可以下载星之卡比系列游戏的软件，第一个有意义的版本诞生于 2017年1月15日 <del>我钦定的</del>。那这过去的时间里究竟发过什么有趣的事？或者说是怎么发展的？那接着往下看吧！<strong>电脑用户可以用过左边的栏目快速定位，手机用户，对不住啦</strong></p>
-<h1 id="源自想法"><a href="#源自想法" class="headerlink" title="源自想法"></a>源自想法</h1><p>任何应用的诞生都应当有一些这样那样的理由，Kirby Assistant 也不例外。老用户可能知道这款程序最早的名字是 Kirby Download 的，那他又是怎么诞生的呢？这还要从 <a href="https://github.com/wwylele">wwylele</a> 说起。当时他在 星之卡比吧 里编写一款可以编辑 星之卡比:梦之泉物语 DX 的地图编辑器，其中一楼发的图中背景是 IDE，里面的是编辑器源码，前景是编辑器本体，然后楼中楼里有人说“看源码”之类的话。当时我内心就：EXM？还有这种操作吗？太炫酷了，这就算是我想学习编程的起源了。</p>
-<p>再后来就是接手吧盘的事了，具体时间已经无从考证，因为wwylele已经删除了原贴，但是根据 <a href="https://tieba.baidu.com/p/4878419837">为啥置顶的资源被删了</a> 这帖的发布时间 <code>2016-11-27</code> ，以及我发的 <a href="https://tieba.baidu.com/p/4850329936">发布，肯德基豪华午餐（雾 kirby download发布</a> <code>2016-11-05</code> 以及 <a href="https://tieba.baidu.com/p/4881013343">我个人看法！？以及水一帖！？</a> <code>2016-11-29</code> 这两贴的时间来看，最早在 2016-11-05 时我已经接手了贴吧并且有了 Kirby Download 初代版本，所以姑且推算在 <code>2016-11</code> 前我接手了吧盘吧。</p>
+<h1 id="开局一段话，内容全靠编"><a href="#开局一段话，内容全靠编" class="headerlink" title="开局一段话，内容全靠编"></a>开局一段话，内容全靠编</h1><p>大家好，众所<del>不那么</del>周知 Kirby Assistant 是一款可以下载星之卡比系列游戏的软件，第一个有意义的版本诞生于 2017 年 1 月 15 日 <del>我钦定的</del>。那这过去的时间里究竟发过什么有趣的事？或者说是怎么发展的？那接着往下看吧！<strong>电脑用户可以用过左边的栏目快速定位，手机用户，对不住啦</strong></p>
+<h1 id="源自想法"><a href="#源自想法" class="headerlink" title="源自想法"></a>源自想法</h1><p>任何应用的诞生都应当有一些这样那样的理由，Kirby Assistant 也不例外。老用户可能知道这款程序最早的名字是 Kirby Download 的，那他又是怎么诞生的呢？这还要从 <a href="https://github.com/wwylele">wwylele</a> 说起。当时他在 星之卡比吧 里编写一款可以编辑 星之卡比:梦之泉物语 DX 的地图编辑器，其中一楼发的图中背景是 IDE，里面的是编辑器源码，前景是编辑器本体，然后楼中楼里有人说「看源码」之类的话。当时我内心就：EXM？还有这种操作吗？太炫酷了，这就算是我想学习编程的起源了。</p>
+<p>再后来就是接手吧盘的事了，具体时间已经无从考证，因为 wwylele 已经删除了原贴，但是根据 <a href="https://tieba.baidu.com/p/4878419837">为啥置顶的资源被删了</a> 这帖的发布时间 <code>2016-11-27</code> ，以及我发的 <a href="https://tieba.baidu.com/p/4850329936">发布，肯德基豪华午餐（雾 kirby download 发布</a> <code>2016-11-05</code> 以及 <a href="https://tieba.baidu.com/p/4881013343">我个人看法！？以及水一帖！？</a> <code>2016-11-29</code> 这两贴的时间来看，最早在 2016-11-05 时我已经接手了贴吧并且有了 Kirby Download 初代版本，所以姑且推算在 <code>2016-11</code> 前我接手了吧盘吧。</p>
 <p>那接手了，可不能只是简单的吧资源放在我名下就完事了。如果有的人嫌访问吧盘麻烦怎么办？如果有的人不能迅速找不到想要的资源怎么办？如果有的人记不住地址怎么办？<del>亡命三连</del> 那可不得了，这得赶紧搞个东西出来方便一下。脑子里突然闪过当年种下的草，正好最近有看到 iApp，这个可以快速编写程序，那就搞呗？</p>
 <h1 id="未发布的初代-绝唱-iApp"><a href="#未发布的初代-绝唱-iApp" class="headerlink" title="未发布的初代,绝唱 iApp"></a>未发布的初代,绝唱 iApp</h1><h2 id="从零开坑"><a href="#从零开坑" class="headerlink" title="从零开坑"></a>从零开坑</h2><p>搞！说的轻巧，那得有好的构思啊。那怎么做？怎么设计？卡片？不行，效率太低，那就列表？诶，这个绝妙，可以快速定位。用之前下载的 iApp 教程就这样动手起来，十分简单，甚至不用动手编写，只需要拖动就可以了。这可让我第一次尝试就尝到了甜头，顺顺利利的就做了几个列表出来。</p>
-<h2 id="无力吐槽的图标"><a href="#无力吐槽的图标" class="headerlink" title="无力吐槽的图标"></a>无力吐槽的图标</h2><p>列表是有了，那图标？既然这是关于 <code>星之卡比</code> 的程序，那就用一张官方的图，后面再用 PS Touch 做一个背景上去，就是下面这个<br>![初代-未使用](/blog_image/Kirby Assistant编年史/初代-未使用.png)</p>
+<h2 id="无力吐槽的图标"><a href="#无力吐槽的图标" class="headerlink" title="无力吐槽的图标"></a>无力吐槽的图标</h2><p>列表是有了，那图标？既然这是关于 <code>星之卡比</code> 的程序，那就用一张官方的图，后面再用 PS Touch 做一个背景上去，就是下面这个<br>![初代-未使用](/blog_image/Kirby Assistant 编年史/初代-未使用.png)</p>
 <p>什么?这也太丑了吧？你看这色彩，这布局，这裁剪，丑到家了。不过当时可没有人来帮我做设计，就现先这样用吧。</p>
 <p>图标有了，凑合能用的程序也有了，那叫什么名字呢？这是关于 星之卡比 的程序，可以用来下资源，你可能认为理所当然的叫 卡比下载器？不不不，根据 <a href="https://www.zhihu.com/question/308116322">母语羞涩原理</a> 当然是叫 Kirby Download 啦！</p>
 <h2 id="这就算开始了吧"><a href="#这就算开始了吧" class="headerlink" title="这就算开始了吧"></a>这就算开始了吧</h2><p>然后我就带着这个样子的程序去贴吧发帖了<del>当然因为傻逼百度这贴已经找不到了</del><br><del>对了，图标我换了，长这样</del><br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/%E5%88%9D%E4%BB%A3-%E4%BD%BF%E7%94%A8%E4%B8%94%E5%87%BA%E7%8E%B0%E8%A7%86%E9%A2%91.png" alt="初代-使用且出现视频"><br>而且当时还做了个 <a href="https://www.bilibili.com/video/av7053495">视频</a> <del>辣眼睛注意</del></p>
@@ -81,12 +81,12 @@
 <h2 id="崭新的-Kirby-Download"><a href="#崭新的-Kirby-Download" class="headerlink" title="崭新的 Kirby Download"></a>崭新的 Kirby Download</h2><p>那用了新的语言，怎么能不重新设计界面呢，首先就是界面大改<del>当然这是测试版界面</del><br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-%E6%B5%8B%E8%AF%95%E7%89%88%E7%95%8C%E9%9D%A2.png" alt="ka-测试版界面"></p>
 <p>新的图标，一定要极简，本文设计，质感设计都要有，于是就有了下面这样<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/kd-%E5%88%9D%E4%BB%A3%E5%90%8E%E5%88%B00.8%E7%89%88%E6%9C%AC%E5%89%8D.png" alt="kd-初代后到0.8版本前"></p>
 <p>这样，Kirby Download<del>钦定的</del>诞生日就有了 2019-1-15</p>
-<h2 id="完整的资源"><a href="#完整的资源" class="headerlink" title="完整的资源"></a>完整的资源</h2><p>因为还有学业，所以不能做到日更，所以在周更和双周更的情况下终于在 2017-03-25 收录了绝大部分资源，此时应用界面已经比较现代了<del>并且傻逼一样的给应用名末尾加了个β</del><br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/kd-%E8%B5%84%E6%BA%90%E6%9C%80%E7%BB%88%E7%89%88.jpg" alt="kd-资源最终版"></p>
+<h2 id="完整的资源"><a href="#完整的资源" class="headerlink" title="完整的资源"></a>完整的资源</h2><p>因为还有学业，所以不能做到日更，所以在周更和双周更的情况下终于在 2017-03-25 收录了绝大部分资源，此时应用界面已经比较现代了<del>并且傻逼一样的给应用名末尾加了个 β</del><br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/kd-%E8%B5%84%E6%BA%90%E6%9C%80%E7%BB%88%E7%89%88.jpg" alt="kd-资源最终版"></p>
 <p>可以说，这个主页列表界面基本上维持到 Lua 版本结束</p>
-<p>并且在此之前使用了fir托管软件，地址：<a href="https://fir.im/kirby">https://fir.im/kirby</a></p>
-<h2 id="跨越-版本-1-0"><a href="#跨越-版本-1-0" class="headerlink" title="跨越 版本 1.0"></a>跨越 版本 1.0</h2><p>1.0算是已经接近 Lua版本的尾声了，此时发布了一个对今后影响十分巨大的主页界面<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-1.0.jpg" alt="ka-1.0"></p>
+<p>并且在此之前使用了 fir 托管软件，地址：<a href="https://fir.im/kirby">https://fir.im/kirby</a></p>
+<h2 id="跨越-版本-1-0"><a href="#跨越-版本-1-0" class="headerlink" title="跨越 版本 1.0"></a>跨越 版本 1.0</h2><p>1.0 算是已经接近 Lua 版本的尾声了，此时发布了一个对今后影响十分巨大的主页界面<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-1.0.jpg" alt="ka-1.0"></p>
 <p>而且在此之前更换了新的图标，不过这个图标没有持续很久使用<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/kd-0.8%E5%88%B01.0%E7%89%88%E6%9C%AC%E5%89%8D.png" alt="kd-0.8到1.0版本前"></p>
-<p>但是这个版本bug居多，很多人反映无法使用，所以我很快迭代了</p>
+<p>但是这个版本 bug 居多，很多人反映无法使用，所以我很快迭代了</p>
 <h2 id="震惊-KD-惨遭被盗"><a href="#震惊-KD-惨遭被盗" class="headerlink" title="震惊 KD 惨遭被盗"></a>震惊 KD 惨遭被盗</h2><p>哈哈哈这个应该是个人开发者必经的，总是会被二次打包的，不过我倒是没有特别在意，只是在贴吧发了 <a href="https://tieba.baidu.com/p/5094724024">这个帖子</a> 而已</p>
 <h2 id="虚假的官网"><a href="#虚假的官网" class="headerlink" title="虚假的官网"></a>虚假的官网</h2><p>在上面那些事情的某个期间，我去一个模板网站制作了一个 <a href="http://kirbydownload.mystrikingly.com/">官网</a> <del>其实就是改改图片，改改文本而已</del></p>
 <h2 id="停止支持"><a href="#停止支持" class="headerlink" title="停止支持"></a>停止支持</h2><p>不是停止 KD，而是停止版本支持，就在 2017-05-05 这一天发的 <a href="https://tieba.baidu.com/p/5102809713">kirby download Δ</a> 中</p>
@@ -97,35 +97,35 @@
 <p>是的 AndrodLua 的扩展性十分糟糕，以至于很多新的特性无法使用，在这种情况下我毅然选择了 Java。</p>
 <h2 id="停更-但不是永远"><a href="#停更-但不是永远" class="headerlink" title="停更,但不是永远"></a>停更,但不是永远</h2><p>在使用 Java 编写的时候我不得不停止更新 Lua 版本的 KD，不过没有持续很久。不得不说 Java 是安卓开发的主流，我遇到的很多问题都可以得到有效解决，这种前所未有的有效，让我在不到两个月的时间里就搞定了 Java 版本的开发。</p>
 <h2 id="手滑的重要性（雾"><a href="#手滑的重要性（雾" class="headerlink" title="手滑的重要性（雾"></a>手滑的重要性（雾</h2><p>在 <code>2017-06-20</code> 这天发售了手滑<del>铁卢</del>事件，不过吧，这个时候我已经准备 Java 版本的开发了，所以丢失的 Lua 版本源码也无伤大碍<del>个屁</del><br>参阅<a href="https://tieba.baidu.com/p/5174062697">咳咳，我告诉你们啊。。。</a></p>
-<h2 id="来了来了-他来了"><a href="#来了来了-他来了" class="headerlink" title="来了来了,他来了"></a>来了来了,他来了</h2><p><code>2017-08-14</code> 这天算是正式发布了 KD 的 Java 版吧，于是乎就有了<a href="https://tieba.baidu.com/p/5272051400">我又来炒冷饭了，虫♤人一口 虫♤人一口</a> <del>标题暴力，暗示那位大人偷走了我停更的时间咳咳咳</del>界面如下<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/kd-java.jpg" alt="kd-Java"></p>
+<h2 id="来了来了-他来了"><a href="#来了来了-他来了" class="headerlink" title="来了来了,他来了"></a>来了来了,他来了</h2><p><code>2017-08-14</code> 这天算是正式发布了 KD 的 Java 版吧，于是乎就有了<a href="https://tieba.baidu.com/p/5272051400">我又来炒冷饭了，虫 ♤ 人一口 虫 ♤ 人一口</a> <del>标题暴力，暗示那位大人偷走了我停更的时间咳咳咳</del>界面如下<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/kd-java.jpg" alt="kd-Java"></p>
 <p>同时这个图标也是从 Lua 版一直用到 Java 版<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/kd1.0%E5%88%B02.2.3.png" alt="kd1.0到2.2.3"></p>
-<h2 id="V2？集合体？Slogan？2018？"><a href="#V2？集合体？Slogan？2018？" class="headerlink" title="V2？集合体？Slogan？2018？"></a>V2？集合体？Slogan？2018？</h2><h3 id="永不弃坑-就是我除非我亏的没钱了"><a href="#永不弃坑-就是我除非我亏的没钱了" class="headerlink" title="永不弃坑 就是我除非我亏的没钱了"></a>永不弃坑 就是我<del>除非我亏的没钱了</del></h3><p><a href="https://tieba.baidu.com/p/5351905548">【绝不弃坑】【游戏资源看这里】kirby download</a> 这个就是集合了一些链接，当时百度<del>傻逼的</del>审核机制还没有那么严格，这种帖子放现在肯定gg</p>
+<h2 id="V2？集合体？Slogan？2018？"><a href="#V2？集合体？Slogan？2018？" class="headerlink" title="V2？集合体？Slogan？2018？"></a>V2？集合体？Slogan？2018？</h2><h3 id="永不弃坑-就是我除非我亏的没钱了"><a href="#永不弃坑-就是我除非我亏的没钱了" class="headerlink" title="永不弃坑 就是我除非我亏的没钱了"></a>永不弃坑 就是我<del>除非我亏的没钱了</del></h3><p><a href="https://tieba.baidu.com/p/5351905548">【绝不弃坑】【游戏资源看这里】kirby download</a> 这个就是集合了一些链接，当时百度<del>傻逼的</del>审核机制还没有那么严格，这种帖子放现在肯定 gg</p>
 <h3 id="不仅有游戏"><a href="#不仅有游戏" class="headerlink" title="不仅有游戏"></a>不仅有游戏</h3><p>是的，这是从那时确定下来的 slogan 现在看来确实如此</p>
 <h2 id="什么什么？用户系统？闲聊？模拟器直接下？"><a href="#什么什么？用户系统？闲聊？模拟器直接下？" class="headerlink" title="什么什么？用户系统？闲聊？模拟器直接下？"></a>什么什么？用户系统？闲聊？模拟器直接下？</h2><p><code>2017-8-23</code> 也就是 Java 版本发布后，更新了一个让我亏钱至今，甚至濒临几次倒闭的东西，用户系统与文件服务。<br>确实很好用，比看评论区方便多了。就是……不能回复，至今也不行<del>好尴尬啊</del></p>
-<h2 id="3-0预告"><a href="#3-0预告" class="headerlink" title="3.0预告"></a>3.0预告</h2><h3 id="真实手绘"><a href="#真实手绘" class="headerlink" title="真实手绘"></a>真实手绘</h3><p>手绘预告，见过没？<a href="https://tieba.baidu.com/p/5519636217">【技术】kirby download3.0预告</a>就是这么秀，纯手绘，画出3.0的大部分想法<del>原稿已丢失</del></p>
+<h2 id="3-0-预告"><a href="#3-0-预告" class="headerlink" title="3.0 预告"></a>3.0 预告</h2><h3 id="真实手绘"><a href="#真实手绘" class="headerlink" title="真实手绘"></a>真实手绘</h3><p>手绘预告，见过没？<a href="https://tieba.baidu.com/p/5519636217">【技术】kirby download3.0 预告</a>就是这么秀，纯手绘，画出 3.0 的大部分想法<del>原稿已丢失</del></p>
 <h3 id="除夕夜发布"><a href="#除夕夜发布" class="headerlink" title="除夕夜发布"></a>除夕夜发布</h3><p>此时 KD 界面已经是很接近现在的了，具体如图<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-3.0.jpg" alt="ka-3.0"></p>
 <p>以及，真就除夕夜发布<del>正好一周年，蛮有意义的</del><br><a href="https://tieba.baidu.com/p/5551002824">【预热】kirby download3.0，除夕夜发布！！</a><br><a href="https://tieba.baidu.com/p/5552664544">【深夜更新】kirby download3.0</a></p>
 <blockquote>
-<p>啊，大家好啊<br>这里炎忍，经过两个月的开发，迎来了3.0版本，接下来是更新日志:<br>duang~<br>深夜更新<br>1.新的图标，新的宣传图<br>2.新的菜单<br>3.攻略视频添加<br>4.稳定服务器<br>5.闲聊优化<br>6.全局滑动返回<br>7.优化捐赠<br>8.优化翻译，修复错误翻译<br>9.修改整体算法<br>10.重新设计启动界面<br>11.针对于安卓7.1.2进行优化<br>12.针对于虚拟按键进行优化<br>13.针对于安卓4.4.4进行优化<br>14.压缩体积，提升性能<br>15.进一步优化用户算法<br>…….<br>更多优化，更新，请进入app感受吧！！</p>
+<p>啊，大家好啊<br>这里炎忍，经过两个月的开发，迎来了 3.0 版本，接下来是更新日志:<br>duang~<br>深夜更新 1.新的图标，新的宣传图 2.新的菜单 3.攻略视频添加 4.稳定服务器 5.闲聊优化 6.全局滑动返回 7.优化捐赠 8.优化翻译，修复错误翻译 9.修改整体算法 10.重新设计启动界面 11.针对于安卓 7.1.2 进行优化 12.针对于虚拟按键进行优化 13.针对于安卓 4.4.4 进行优化 14.压缩体积，提升性能 15.进一步优化用户算法<br>…….<br>更多优化，更新，请进入 app 感受吧！！</p>
 </blockquote>
 <p>以上的当时的更新日志，也是发帖内容。</p>
-<h1 id="再见-Kirby-Download"><a href="#再见-Kirby-Download" class="headerlink" title="再见 Kirby Download"></a>再见 Kirby Download</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>3.0更新两天后，由于一些现在不方便描述的的原因<del>因为是QQ上发生的事</del>，所以不多做描述。大概就是我被喷了，还是圈内人，然后我又玩玻璃心<del>说实话真的受不住</del>，就这么僵持了几天，我下架了 Kirby Assistant。<br><code>2019-2-25</code> 我进行了 <a href="https://github.com/EndureBlaze/kirbydownload/">Kirby Assistant仓库</a> 的最后一次提交，Commit 信息是 「再见Kirby download」，这个仓库的 commits 也定格在 53，不再更新</p>
-<h2 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h2><p>这个事情过后我也反思自己，也确实做的不够好，如果做的很好，就不会引来别人的这种说法，这么想着，我在QQ空间发了如下说说<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/%E7%A9%BA%E9%97%B4%E6%88%AA%E5%9B%BE.jpg" alt="空间截图"><br>也算是预告吧</p>
+<h1 id="再见-Kirby-Download"><a href="#再见-Kirby-Download" class="headerlink" title="再见 Kirby Download"></a>再见 Kirby Download</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>3.0 更新两天后，由于一些现在不方便描述的的原因<del>因为是 QQ 上发生的事</del>，所以不多做描述。大概就是我被喷了，还是圈内人，然后我又玩玻璃心<del>说实话真的受不住</del>，就这么僵持了几天，我下架了 Kirby Assistant。<br><code>2019-2-25</code> 我进行了 <a href="https://github.com/EndureBlaze/kirbydownload/">Kirby Assistant 仓库</a> 的最后一次提交，Commit 信息是 「再见 Kirby download」，这个仓库的 commits 也定格在 53，不再更新</p>
+<h2 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h2><p>这个事情过后我也反思自己，也确实做的不够好，如果做的很好，就不会引来别人的这种说法，这么想着，我在 QQ 空间发了如下说说<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/%E7%A9%BA%E9%97%B4%E6%88%AA%E5%9B%BE.jpg" alt="空间截图"><br>也算是预告吧</p>
 <h1 id="崭新的-你好-Kirby-Assistant"><a href="#崭新的-你好-Kirby-Assistant" class="headerlink" title="崭新的 你好 Kirby Assistant"></a>崭新的 你好 Kirby Assistant</h1><h2 id="从头来过"><a href="#从头来过" class="headerlink" title="从头来过"></a>从头来过</h2><p><code>2019-2-27</code> 我在贴吧发帖<a href="https://tieba.baidu.com/p/5568861528">【资源】Kirby Assistant</a>,这个界面基本定格至今了<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-%E5%88%9D%E7%89%88.jpg" alt="ka-初版"></p>
 <h2 id="新的特性"><a href="#新的特性" class="headerlink" title="新的特性"></a>新的特性</h2><p>感谢 AIDE 的更新，让我可以用到诸如自适应图标的新特性，并且在 0.4-beta-1 成功完美适配 AndroidP 这也是截止发文为止最新的 Android 正式版</p>
 <h2 id="撇弃旧框架"><a href="#撇弃旧框架" class="headerlink" title="撇弃旧框架"></a>撇弃旧框架</h2><p>分别在 0.4-beta-3 、0.4-beta-6 和 0.4 版中撇弃了旧版本的条条框框，这也是成长最快的时期</p>
 <h2 id="新的图标"><a href="#新的图标" class="headerlink" title="新的图标"></a>新的图标</h2><p>这是分别在 0.4-beta1<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-0.4b1%E4%B9%8B%E5%90%8E-%E5%8F%8C%E5%9B%BE%E6%A0%87-%E4%B8%BB%E5%9B%BE%E6%A0%87-hk%E6%B5%81%E6%98%9F.png" alt="ka-0.4b1 之后-双图标-主图标-hk流星"><br>和 0.4-beta2<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-0.4b2%E5%90%8E-%E5%8F%8C%E5%9B%BE%E6%A0%87-%E5%89%AF%E5%9B%BE%E6%A0%87-Markuss.png" alt="ka-0.4b2 后-双图标-副图标-Markuss"><br>的图标，直到目前我也是最喜欢的两个，后面做成了双图标模式</p>
-<h1 id="未来·炫动"><a href="#未来·炫动" class="headerlink" title="未来·炫动"></a>未来·炫动</h1><p>现在，撇弃百度贴吧与QQ，舞台交给 GitHub</p>
+<h1 id="未来·炫动"><a href="#未来·炫动" class="headerlink" title="未来·炫动"></a>未来·炫动</h1><p>现在，撇弃百度贴吧与 QQ，舞台交给 GitHub</p>
 <h2 id="全新的-KA"><a href="#全新的-KA" class="headerlink" title="全新的 KA"></a>全新的 KA</h2><p>2018-12-9 我推出了全新版本的 KA ——未来·炫动，这个版本拥有诸多特性，完整的 AndroidP API，完整的自适应图标，双镜像仓库，以及最重要的新服务器结构<del>虽然后面还让我丢数据了</del><br>如果说 0.4 大版本是 KA 发展最快的时期，那未来·炫动一定是我最推荐的版本</p>
 <h2 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h2><p>1.2.6（Build 29）引入的更新一定是最刚需的，往往程序更新了却不知道，这次，他来了，引入 Build 比较概念，让你随时都能用上新版本</p>
 <h2 id="全新架构-PBL"><a href="#全新架构-PBL" class="headerlink" title="全新架构 PBL"></a>全新架构 PBL</h2><p>如果说更新是刚需，让你享受新特性，那么 1.2.1（Build 24） 引入的全新服务器架构和 PBL 一定是更稳定的前提。前者拥有更快的响应速度，后者不会对用户有任何影响，但是会让我维护更方便<del>这不是你丢失服务器数据的理由</del></p>
 <h2 id="无延迟启动"><a href="#无延迟启动" class="headerlink" title="无延迟启动"></a>无延迟启动</h2><p>1.2（Build 23）引入的全新启动模式，根据 AndoidP API 编写，适配新特性，毫秒级启动速度</p>
 <h2 id="全新网站"><a href="#全新网站" class="headerlink" title="全新网站"></a>全新网站</h2><p>这不是程序更新的范畴，但是息息相关<br><code>2019-2-15</code> 这天我买了域名<a href="https://endureblaze.cn/">https://endureblaze.cn</a>并且把 Kirby Assistant 的官网定为<a href="https://ka.endureblaze.cn/">https://ka.endureblaze.cn</a></p>
-<h2 id="更全新的图标"><a href="#更全新的图标" class="headerlink" title="更全新的图标"></a>更全新的图标</h2><p>在 1.2.7 版本我合并了两个图标并且 hk流星 进行了微调<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-1.2.7%E5%90%8E-%E7%8E%B0%E7%94%A8-hk%E6%B5%81%E6%98%9F%E9%87%8D%E7%BB%98.png" alt="ka-1.2.7后-现用-hk流星重绘"><br>这也是到目前为止一直使用的图标</p>
+<h2 id="更全新的图标"><a href="#更全新的图标" class="headerlink" title="更全新的图标"></a>更全新的图标</h2><p>在 1.2.7 版本我合并了两个图标并且 hk 流星 进行了微调<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-1.2.7%E5%90%8E-%E7%8E%B0%E7%94%A8-hk%E6%B5%81%E6%98%9F%E9%87%8D%E7%BB%98.png" alt="ka-1.2.7后-现用-hk流星重绘"><br>这也是到目前为止一直使用的图标</p>
 <h2 id="AndroidX，MD2，以及更小的体积"><a href="#AndroidX，MD2，以及更小的体积" class="headerlink" title="AndroidX，MD2，以及更小的体积"></a>AndroidX，MD2，以及更小的体积</h2><p>我购买了电脑，这让我可以跟方便的编写程序，更是把 Kirby Assistant 的体积压缩到更小</p>
 <h1 id="炫动了，未来呢？"><a href="#炫动了，未来呢？" class="headerlink" title="炫动了，未来呢？"></a>炫动了，未来呢？</h1><p>我想，我会一直保持不定期更新，这个程序我暂时不可能放弃的，即使再亏钱</p>
 <h1 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h1><p>革命尚未完成，同志仍需努力</p>
-<h2 id="我还想说"><a href="#我还想说" class="headerlink" title="我还想说"></a>我还想说</h2><p>Kirby Assistant 发展两年多来，实数不易，这让我也了解到生活的不易。是啊，谁都不好过，所以，希望以后还能多多下载，推荐给你身边玩星之卡比的人，或者，带Ta入坑</p>
+<h2 id="我还想说"><a href="#我还想说" class="headerlink" title="我还想说"></a>我还想说</h2><p>Kirby Assistant 发展两年多来，实数不易，这让我也了解到生活的不易。是啊，谁都不好过，所以，希望以后还能多多下载，推荐给你身边玩星之卡比的人，或者，带 Ta 入坑</p>
 <h1 id="感谢名单"><a href="#感谢名单" class="headerlink" title="感谢名单"></a>感谢名单</h1><blockquote>
 <p>这是在 Kirby Assistant 发展道路上帮助过我的人，如果有疏漏，请联系我补充</p>
 </blockquote>
@@ -134,18 +134,18 @@
 <li><strong>感谢在这个过程中所有给予我鼓励的人</strong></li>
 <li><strong>感谢每一个捐赠者</strong></li>
 <li>感谢<a href="https://github.com/longxk2017"><strong>longxk2017</strong></a>(GithHub)进行<strong>繁体中文翻译</strong></li>
-<li>感谢<a href="https://www.coolapk.com/u/555883"><strong>hk流星</strong></a>(酷安)进行<strong>图标绘制</strong></li>
+<li>感谢<a href="https://www.coolapk.com/u/555883"><strong>hk 流星</strong></a>(酷安)进行<strong>图标绘制</strong></li>
 <li>感谢<a href="https://www.coolapk.com/u/529718"><strong>Markuss</strong></a>(酷安)进行<strong>图标绘制</strong></li>
 <li>感谢<a href="http://tieba.baidu.com/home/main?un=%E5%85%89%E4%B9%8B%E8%80%80%E8%A5%BF"><strong>光之耀西</strong></a>(百度贴吧)进行<strong>英文翻译</strong></li>
-<li>感谢<a href="http://tieba.baidu.com/home/main?un=%E9%9A%BE%E9%9A%BE%E9%9A%BE550"><strong>难难难550</strong></a>(百度贴吧)进行<strong>英文翻译</strong></li>
+<li>感谢<a href="http://tieba.baidu.com/home/main?un=%E9%9A%BE%E9%9A%BE%E9%9A%BE550"><strong>难难难 550</strong></a>(百度贴吧)进行<strong>英文翻译</strong></li>
 <li>感谢<a href="http://tieba.baidu.com/home/main?un=%E8%9D%99%E8%9D%A0%E4%BE%A0%E9%AA%91%E6%91%A9%E6%89%98"><strong>蝙蝠侠骑摩托车</strong></a>(百度贴吧)的<strong>资源投放</strong></li>
-<li>感谢<a href="http://tieba.baidu.com/home/main?un=%E2%98%85%E2%98%86%E5%B0%8F%E4%BC%8A%E5%B8%83%E2%98%86%E2%98%85"><strong>★☆小伊布☆★</strong></a>(百度贴吧)进行<strong>图标绘制</strong></li>
+<li>感谢<a href="http://tieba.baidu.com/home/main?un=%E2%98%85%E2%98%86%E5%B0%8F%E4%BC%8A%E5%B8%83%E2%98%86%E2%98%85"><strong>★☆ 小伊布 ☆★</strong></a>(百度贴吧)进行<strong>图标绘制</strong></li>
 <li>感谢<a href="http://www.shaoxudong.com/"><strong>邵旭东</strong></a>(个人主页)提供的<strong>备案域名</strong></li>
 <li>感谢<a href="https://github.com/lxfly2000"><strong>lxfly2000</strong></a>(GitHub)进行的<strong>程序协助</strong></li>
 <li>感谢<a href="https://www.coolapk.com/u/1157774"><strong>塔林狐</strong></a>(酷安)进行<strong>编写 FAQ</strong></li>
-<li>感谢<a href="https://space.bilibili.com.13001252/"><strong>虚影无华</strong></a>(哔哩哔哩动画)制作的 <strong>星之卡比100%计划</strong> 系列视频</li>
+<li>感谢<a href="https://space.bilibili.com.13001252/"><strong>虚影无华</strong></a>(哔哩哔哩动画)制作的 <strong>星之卡比 100%计划</strong> 系列视频</li>
 <li>感谢<a href="http://tieba.baidu.com/home/main?un=%E6%A2%A6%E6%83%B3%E5%8D%A1%E6%AF%94"><strong>梦想卡比</strong></a>(百度贴吧)进行<strong>早期版本测试</strong></li>
-<li>感谢<a href="http://tieba.baidu.com/home/main?un=osxm9"><strong>oxsm9</strong></a>(百度贴吧)的 <strong>红米2A</strong></li>
+<li>感谢<a href="http://tieba.baidu.com/home/main?un=osxm9"><strong>oxsm9</strong></a>(百度贴吧)的 <strong>红米 2A</strong></li>
 <li>感谢更多我应该感谢但记不住名字及人以及<strong>感谢我的父母</strong></li>
 </ul>
 ]]></content>
@@ -508,7 +508,7 @@
 <h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>纪录片《不一样又怎样》中的台湾少年叶永志被称为玫瑰少年。因为经常被说行为举止不男不女，被老师要求去看医生，还长期遭到同学们的霸凌。终于在一次群体性的霸凌事件中，叶永志再也没睁开眼。</p>
 <p>叶永志去世后，叶妈妈决心要找出杀人凶手，却被谙熟校园霸凌事件的检察官告知，这样的案件，最后的被告均为无罪。后来叶妈妈就成了那些与众不同孩子们的倾诉对象，她收到了很多书信，字字血泪，每一封都透露出「我被人说是怪胎」，「我想我自杀」。</p>
 <p>杨永信的电击网戒中心承接各种不听话的孩子，早恋的、网瘾的、逃课的、打麻将；少年、少女、成年人、老年人被家长朋友亲戚夫妻争先恐后的送上电击床。</p>
-<p>那些人不能接受的，真的只是娘娘腔的吗？不是。他们只是不能接受别人的不一样，今天能把一个所谓“娘娘腔”的男孩子霸凌致死，明天就可能高喊着女生不能涂太鲜艳的口红，而把更多人拽入深渊。</p>
+<p>那些人不能接受的，真的只是娘娘腔的吗？不是。他们只是不能接受别人的不一样，今天能把一个所谓「娘娘腔」的男孩子霸凌致死，明天就可能高喊着女生不能涂太鲜艳的口红，而把更多人拽入深渊。</p>
 <p>叶妈妈在宣讲会上说，我们没有错，我们不要哭，我们要向李阳光争取我们自己的权利，我们所有生而为人的权利全部都败在了一个个杨永信的手中。</p>
 <p>为什么要那么惧怕那么憎恶多元的人呢？正因为多元世界才精彩不是吗？那些爱化妆的男孩子，那些剪短头发的女孩子，那些高中是传情书的学生们，都不是社会的毒瘤，而是那些想要用尽一切手段去定义别人一生的人。</p>
 <blockquote>
@@ -525,7 +525,7 @@
   <entry>
     <title>为什么说宣扬读书无用论的人要么蠢要么坏？</title>
     <url>/posts/e9558acf/</url>
-    <content><![CDATA[<p>告诉别人“读书无用”的人，也许他们真的没读过什么书，因为一些机缘巧合，或者家庭资源帮扶，让他们得到了一些成就。</p>
+    <content><![CDATA[<p>告诉别人「读书无用」的人，也许他们真的没读过什么书，因为一些机缘巧合，或者家庭资源帮扶，让他们得到了一些成就。</p>
 <p>但你没办法像他们那么幸运。</p>
 <p>读书面对强者，应该是锦上添花；对弱者，应当是雪中送炭。</p>
 <p>读书不单是指文化课，我们需要的是一直保持持续学习的习惯。</p>
@@ -552,7 +552,7 @@
 <p>但如果仅仅把它形容为「进入现在行业的敲门砖与踏脚石」，这个说法也是不够算是完整的。社交网站、写作平台都是别人的，你拥有的是写的权利跟一个 Profile 页面，写出来的文档都不属于你，而是平台的，这太讽刺了。你获得多少关注不一定直接跟你的写作内容有关，吸引的读者更多是跟平台有关而不是个人有关。</p>
 <p>每次打开博客会有种莫名有种归属感。城市太闹，微博太糟，幸好还有一个没人知晓的博客，在不愿让人知道的那天，任由自己的情绪倾倒。我想这就是博客存在的意义吧。</p>
 <p>博客是你的，哪怕它再破落，访问量再低，狗不嫌家穷。只要你不放弃，到你八十三岁的时候，他仍然会在那里。从这个角度，它承载了记录的功能，它是你人生经历在时间上的痕迹，你可能说 印象笔记 也可以，但凭心而论「我宁愿相信 Hexo 活得会比前者（印象笔记）更久」，因为一切重平台的产品都会因为各种复杂的原因消失殆尽。即便 Hexo 停止更新，我也仍然可以搭一个环境让它跑起来，文章都在你身边存放着，它只是一个开源程序，让大家有写作的乐趣。</p>
-<p>除了记录，独立博客就是“你”，你选择什么域名，使用什么主题，多大的字号，全文输出还是截断输出，使用哪家 Feed 托管，你也许会在 Feed 尾部用插件加上一朵小菊花，你甚至可以推荐一款你喜欢的同性恋应用给大家而不用担心被删除。</p>
+<p>除了记录，独立博客就是「你」，你选择什么域名，使用什么主题，多大的字号，全文输出还是截断输出，使用哪家 Feed 托管，你也许会在 Feed 尾部用插件加上一朵小菊花，你甚至可以推荐一款你喜欢的同性恋应用给大家而不用担心被删除。</p>
 <p>这就是我想要表达的，「这一切都是因为你，同时也呈现你」，它是一个专属于你自己的写作、记录、呈现的地方。它叫博客，但又不只是博客，以前在其他平台写博客是为了很多东西，现在自己搭建写博客只是为了一种生活习惯，少论道，多说常识跟生活。</p>
 <p>这大概就是我对于个人搭建博客的看法了，也是为什么我要去搭建博客。</p>
 ]]></content>
@@ -567,7 +567,7 @@
   <entry>
     <title>怎么呼吸</title>
     <url>/posts/b0821049/</url>
-    <content><![CDATA[<p>不能呼吸的时候<br>是不是很难受？<br>这只海龟也是这么觉得的<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%91%BC%E5%90%B8/%E6%B5%B7%E9%BE%9F.jpg"><br><strong>怎么救它？</strong><br>尽量不去用一次性的塑料产品<br>比如 不买一次性塑料袋<br>喝饮料的时候不要用吸管<br>放一双公筷<br>点外卖的时候选择“不要餐具“<br>随身带一个保温杯<br>不强求一步到位<br>也不去强迫别人<br>改变<br>从自身的一点点<br>到地球的”亿“点点</p>
+    <content><![CDATA[<p>不能呼吸的时候<br>是不是很难受？<br>这只海龟也是这么觉得的<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%91%BC%E5%90%B8/%E6%B5%B7%E9%BE%9F.jpg"><br><strong>怎么救它？</strong><br>尽量不去用一次性的塑料产品<br>比如 不买一次性塑料袋<br>喝饮料的时候不要用吸管<br>放一双公筷<br>点外卖的时候选择「不要餐具」<br>随身带一个保温杯<br>不强求一步到位<br>也不去强迫别人<br>改变<br>从自身的一点点<br>到地球的「亿」点点</p>
 ]]></content>
       <categories>
         <category>正经文字</category>
@@ -695,7 +695,7 @@
 <figure class="highlight kotlin"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TestFragment</span> : <span class="type">BaseFragment</span>&lt;<span class="type">FragmentTestBinding</span>&gt;</span>(R.layout.fragment_test) &#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">initBinding</span><span class="params">(view: <span class="type">View</span>)</span></span>: FragmentTestBinding &#123;</span><br><span class="line">        <span class="keyword">return</span> FragmentTestBinding.bind(view)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">initView</span><span class="params">()</span></span> &#123;</span><br><span class="line">        <span class="comment">// 这里是初始化 View 的方法</span></span><br><span class="line">        binding.tvMain.text = <span class="string">&quot;HI&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">loadDate</span><span class="params">()</span></span> &#123;</span><br><span class="line">        <span class="comment">// 这里的初始化了数据的方法</span></span><br><span class="line">        Toast.makeText(activity,<span class="string">&quot;我初始化了数据&quot;</span>,Toast.LENGTH_SHORT).show()</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>跟简单吧，做到了 View 与数据的分离</p>
-<h1 id="ViewAdapter-的处理"><a href="#ViewAdapter-的处理" class="headerlink" title="ViewAdapter 的处理"></a>ViewAdapter 的处理</h1><p>那说了这么多，“那个参数” 到底在哪里呢？来了来了，不过我们要先写一个 adapter 才可以</p>
+<h1 id="ViewAdapter-的处理"><a href="#ViewAdapter-的处理" class="headerlink" title="ViewAdapter 的处理"></a>ViewAdapter 的处理</h1><p>那说了这么多，「那个参数」 到底在哪里呢？来了来了，不过我们要先写一个 adapter 才可以</p>
 <figure class="highlight kotlin"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ViewPagerAdapter</span> <span class="keyword">constructor</span> </span>(</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">val</span> fragmentManager: FragmentManager,</span><br><span class="line">    <span class="comment">// 注意看这个参数</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">val</span> behavior: <span class="built_in">Int</span>,</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">val</span> fragmentList: List&lt;BaseFragment&lt;*&gt;&gt;</span><br><span class="line">) :</span><br><span class="line">    FragmentPagerAdapter(fragmentManager, behavior) &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">getItem</span><span class="params">(position: <span class="type">Int</span>)</span></span>: Fragment = fragmentList[position]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">getCount</span><span class="params">()</span></span>: <span class="built_in">Int</span> = fragmentList.size</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>代码很简单，只是重写了几个方法而已，不过接下来才是重点,在调用传入的时候我们需要转入重要的参数</p>
@@ -803,11 +803,11 @@
     <url>/posts/743f9c80/</url>
     <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%9C%A8%E7%BA%BF%E6%B8%B8%E7%8E%A9FC%EF%BC%88%E5%B0%8F%E9%9C%B8%E7%8E%8B%E3%80%81%E7%BA%A2%E7%99%BD%E6%9C%BA%EF%BC%89%E3%80%81%E8%A1%97%E6%9C%BA%E6%B8%B8%E6%88%8F/%E7%BD%91%E7%AB%99%E6%A0%87%E9%A2%98%E7%95%8C%E9%9D%A2.png" alt="网站标题界面"></p>
 <p><a href="https://www.yikm.net/">点击这里访问 yikm 在线玩游戏</a></p>
-<p>FC 游戏，或者说是国人更熟悉的“小霸王”，可以说承载了 80 后、90 后乃至 00 后共同的童年回忆 。</p>
-<p>随着 PC 机的普及，国内的主机游戏渐渐成了小众爱好，而小霸王成为了这几代许多人对于“手柄游戏”的唯一认知。</p>
-<p>在“小霸王”逐渐在家庭的客厅、玩家的桌面消失以后，很多人都在 PC 机上体验过各种各样的“FC 游戏模拟器”，但是繁杂的参数，无中文的交互界面成为了一种不大不小的阻碍。</p>
+<p>FC 游戏，或者说是国人更熟悉的「小霸王」，可以说承载了 80 后、90 后乃至 00 后共同的童年回忆 。</p>
+<p>随着 PC 机的普及，国内的主机游戏渐渐成了小众爱好，而小霸王成为了这几代许多人对于「手柄游戏」的唯一认知。</p>
+<p>在「小霸王」逐渐在家庭的客厅、玩家的桌面消失以后，很多人都在 PC 机上体验过各种各样的「FC 游戏模拟器」，但是繁杂的参数，无中文的交互界面成为了一种不大不小的阻碍。</p>
 <p>而这次推荐的网站 <code>yikm</code> 就成了这些问题的终极解决方案，你只需要一个浏览器（无论是 PC 还是手机端），访问这个网站，就能在线玩到这些经典的像素风游戏。<br>贴心的在线联机功能</p>
-<p>当那些曾在记忆里响起无数次的 8-bit 音乐响起，不知道你有没有想起儿时的那些玩伴，如今即使你们在物理距离上相隔很远，也可以通过网络很方便地一起怀念童年——只需要通过 yikm 提供的“联机大厅”功能。</p>
+<p>当那些曾在记忆里响起无数次的 8-bit 音乐响起，不知道你有没有想起儿时的那些玩伴，如今即使你们在物理距离上相隔很远，也可以通过网络很方便地一起怀念童年——只需要通过 yikm 提供的「联机大厅」功能。</p>
 <p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%9C%A8%E7%BA%BF%E6%B8%B8%E7%8E%A9FC%EF%BC%88%E5%B0%8F%E9%9C%B8%E7%8E%8B%E3%80%81%E7%BA%A2%E7%99%BD%E6%9C%BA%EF%BC%89%E3%80%81%E8%A1%97%E6%9C%BA%E6%B8%B8%E6%88%8F/%E8%81%94%E6%9C%BA.png" alt="联机"></p>
 ]]></content>
       <categories>
@@ -826,17 +826,17 @@
 <h1 id="福昕-PDF-阅读器"><a href="#福昕-PDF-阅读器" class="headerlink" title="福昕 PDF 阅读器"></a>福昕 PDF 阅读器</h1><p>国产，中文界面，流畅好用，界面美观<br><a href="https://www.foxitsoftware.cn/">点这里</a></p>
 <h1 id="福昕-PDF-编辑器"><a href="#福昕-PDF-编辑器" class="headerlink" title="福昕 PDF 编辑器"></a>福昕 PDF 编辑器</h1><p>福昕（Foxit）可能是我国最受欢迎的 PDF 阅读器，由其出品的 <a href="https://www.foxitsoftware.cn/pdf-editor/">PDF 编辑器</a> 也是 Adobe Acrobat 的有力竞争对手。它提供了各种 PDF 批注工具；支持编辑 PDF 中的文本、段落、图片；设计并填写表单；OCR 识别图片中的文字；管理 PDF 页面；转换为其它文件格式等，界面也比较友好。</p>
 <h1 id="火绒安全软件"><a href="#火绒安全软件" class="headerlink" title="火绒安全软件"></a>火绒安全软件</h1><p>如果你觉得 Windows Defender 还是有些简陋，火绒安全软件是个不错的选择。它提供了病毒联网查杀、垃圾清理、下载保护、浏览器保护等国产卫士标配功能，但不会拖家带口向你问好，还你一片清净。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(2).png" alt="enter description here"><br>除了系统防护外，火绒安全软件还提供了数种实用工具，如弹窗拦截、右键菜单管理、启动项管理、文件粉碎机等。如果你是进阶用户，还可以试试火绒剑这一强大的专业安全分析工具。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(3).png" alt="enter description here"><br>你可以在 <a href="https://www.huorong.cn/">官网</a> 免费获取火绒安全软件。</p>
-<h1 id="Quicklook，仿MAC快速预览"><a href="#Quicklook，仿MAC快速预览" class="headerlink" title="Quicklook，仿MAC快速预览"></a>Quicklook，仿MAC快速预览</h1><p>MAC 的快速预览很多人都见过，回望Win10的“预览”，依旧被抠抠唆唆地安排在窗口右侧，一点也不大气！QuickLook 是一款仿 MAC 快速预览的小工具，装好之后，只要选中文件，按下键盘上的空格键，即可预览文件内容。</p>
-<p>QuickLook 支持文本、视频、音频、图片、压缩包、Office文档……，换句话说，你电脑上任何一款文件几乎都可以用它预览。同时你也可以点击预览窗右上角的按钮直接启动对应程序，非常方便。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(4).png" alt="enter description here"><br><a href="http://dl.pconline.com.cn/download/1115319.html">QuickLook：点此下载</a></p>
-<h1 id="升级Win10日历！优效日历"><a href="#升级Win10日历！优效日历" class="headerlink" title="升级Win10日历！优效日历"></a>升级Win10日历！优效日历</h1><p>Win10 为右下角托盘设计了一个新日历，但依旧被吐槽功能太弱，优效日历是 Win10 原生日历的最佳替代者。它有着和 Win10 原生日历一致的外观界面，支持农历、节日、调休显示，支持日程提醒、万年历、自定义时钟。同时它还集成了定时关机、屏幕截图两大功能，没用过的一定得试一试！<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(5).png" alt="enter description here"><br><a href="http://www.youxiao.cn/">点击下载</a></p>
-<h1 id="Chocolatey"><a href="#Chocolatey" class="headerlink" title="Chocolatey"></a>Chocolatey</h1><p>Chocolatey是Windows下的包管理器，访问<a href="https://chocolatey.org/">官网</a>来查看使用方法</p>
-<h1 id="uTools"><a href="#uTools" class="headerlink" title="uTools"></a>uTools</h1><p>uTools是一个极简的桌面管理软件，但它的功能更全面。包含：快速启动、自动识别、数据同步等功能。</p>
-<p>比如快速启动，这个功能和Listary、Everything等都非常相似。但uTools对中文的支持非常有好，还可以首字母检索。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(6).png" alt="enter description here"><br>除此外还有插件中心，里面还有各种比如：网页快开、在线翻译、计算器、压缩图片、图片转文字等功能。这也是其它快速启动软件所不具备的。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(7).png" alt="enter description here"><br><a href="https://u.tools/">点击下载</a></p>
-<h1 id="万彩办公大师"><a href="#万彩办公大师" class="headerlink" title="万彩办公大师"></a>万彩办公大师</h1><p>万彩办公大师可以说是一个办公必备的工具，包含了各种功能：PDF 编辑、格式转换、图片编辑等，功能多达60+。</p>
+<h1 id="Quicklook，仿-MAC-快速预览"><a href="#Quicklook，仿-MAC-快速预览" class="headerlink" title="Quicklook，仿 MAC 快速预览"></a>Quicklook，仿 MAC 快速预览</h1><p>MAC 的快速预览很多人都见过，回望 Win10 的「预览」，依旧被抠抠唆唆地安排在窗口右侧，一点也不大气！QuickLook 是一款仿 MAC 快速预览的小工具，装好之后，只要选中文件，按下键盘上的空格键，即可预览文件内容。</p>
+<p>QuickLook 支持文本、视频、音频、图片、压缩包、Office 文档……，换句话说，你电脑上任何一款文件几乎都可以用它预览。同时你也可以点击预览窗右上角的按钮直接启动对应程序，非常方便。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(4).png" alt="enter description here"><br><a href="http://dl.pconline.com.cn/download/1115319.html">QuickLook：点此下载</a></p>
+<h1 id="升级-Win10-日历！优效日历"><a href="#升级-Win10-日历！优效日历" class="headerlink" title="升级 Win10 日历！优效日历"></a>升级 Win10 日历！优效日历</h1><p>Win10 为右下角托盘设计了一个新日历，但依旧被吐槽功能太弱，优效日历是 Win10 原生日历的最佳替代者。它有着和 Win10 原生日历一致的外观界面，支持农历、节日、调休显示，支持日程提醒、万年历、自定义时钟。同时它还集成了定时关机、屏幕截图两大功能，没用过的一定得试一试！<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(5).png" alt="enter description here"><br><a href="http://www.youxiao.cn/">点击下载</a></p>
+<h1 id="Chocolatey"><a href="#Chocolatey" class="headerlink" title="Chocolatey"></a>Chocolatey</h1><p>Chocolatey 是 Windows 下的包管理器，访问<a href="https://chocolatey.org/">官网</a>来查看使用方法</p>
+<h1 id="uTools"><a href="#uTools" class="headerlink" title="uTools"></a>uTools</h1><p>uTools 是一个极简的桌面管理软件，但它的功能更全面。包含：快速启动、自动识别、数据同步等功能。</p>
+<p>比如快速启动，这个功能和 Listary、Everything 等都非常相似。但 uTools 对中文的支持非常有好，还可以首字母检索。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(6).png" alt="enter description here"><br>除此外还有插件中心，里面还有各种比如：网页快开、在线翻译、计算器、压缩图片、图片转文字等功能。这也是其它快速启动软件所不具备的。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(7).png" alt="enter description here"><br><a href="https://u.tools/">点击下载</a></p>
+<h1 id="万彩办公大师"><a href="#万彩办公大师" class="headerlink" title="万彩办公大师"></a>万彩办公大师</h1><p>万彩办公大师可以说是一个办公必备的工具，包含了各种功能：PDF 编辑、格式转换、图片编辑等，功能多达 60+。</p>
 <p>最让人惊喜的是，万彩办公大师使用完全免费，所有的工具无需安装，直接加载就可以启动了。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(8).png" alt="enter description here"><br><a href="wofficebox.com/">下载地址</a></p>
 <h1 id="TreeSize"><a href="#TreeSize" class="headerlink" title="TreeSize"></a>TreeSize</h1><p>TreeSize 是一个扫描磁盘可视化排列大小的应用，有免费版和专业版可以选<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(9).png" alt="enter description here"><br><a href="https://www.jam-software.com/treesize_free/">点击这里</a>获取免费版</p>
 <h1 id="CCleaner"><a href="#CCleaner" class="headerlink" title="CCleaner"></a>CCleaner</h1><p>CCleaner，不仅是常用的垃圾和缓存清理，我也用它在电脑刚到手时卸载掉 Win10 自带的各种无用软件（有些 Windows 不让卸载的自带 UWP，在 CCleaner 里可以卸载掉），甚至我嫌 OneDrive 麻烦，也用它卸载过。界面很友好。批量卸载比手动卸载方便不少。软件是有中文的，但默认是英文，自己手动在 <code>options-setting-language</code> 选择 <code>Chinese simplified</code> 即可<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(10).png" alt="enter description here"><br><a href="https://www.ccleaner.com/ccleaner/download">点击下载</a></p>
-<h1 id="BandiZip"><a href="#BandiZip" class="headerlink" title="BandiZip"></a>BandiZip</h1><p>BandiZip，界面美观，功能强大，而且免费无广告，另外 <a href="https://www.7-zip.org/">7-Zip</a>，界面丑了一些，功能还是很强的。也有不少人推荐修改版的 rar烈火或者好压，其实都不错。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(11).png" alt="enter description here"><br><a href="http://www.bandisoft.com/bandizip/cn/">下载地址</a></p>
+<h1 id="BandiZip"><a href="#BandiZip" class="headerlink" title="BandiZip"></a>BandiZip</h1><p>BandiZip，界面美观，功能强大，而且免费无广告，另外 <a href="https://www.7-zip.org/">7-Zip</a>，界面丑了一些，功能还是很强的。也有不少人推荐修改版的 rar 烈火或者好压，其实都不错。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(11).png" alt="enter description here"><br><a href="http://www.bandisoft.com/bandizip/cn/">下载地址</a></p>
 <h1 id="Obs-Open-Broadcaster-Software"><a href="#Obs-Open-Broadcaster-Software" class="headerlink" title="Obs-Open Broadcaster Software"></a>Obs-Open Broadcaster Software</h1><p>OBS，不用多说了，剪视频、录游戏好帮手。<br><a href="https://obsproject.com/">下载地址</a></p>
 <h1 id="VLC-media-player"><a href="#VLC-media-player" class="headerlink" title="VLC media player"></a>VLC media player</h1><p>跨平台的播放器，Linux 的时候一直用的，Windows 也就接着用了，有浏览器插件，可以直接把浏览器的视频推过来播放<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(12).png" alt="enter description here"><br><a href="https://www.videolan.org/">点这里下载</a></p>
 <h1 id="Geek-Uninstaller"><a href="#Geek-Uninstaller" class="headerlink" title="Geek Uninstaller"></a>Geek Uninstaller</h1><p>Geek Uninstaller 是一个专业卸载软件，采取深而快的扫描方式，删除所有无用的文件，注册表，卸载无残留！<br>这款软件也是一款单文件软件，下载后，不用安装，双击直接使用，卸载软件、强制彻底清除软件残留垃圾文件或是查看某软件的注册表项目等等。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(13).png" alt="enter description here"><br>你可以在他的<a href="https://geekuninstaller.com/">官网</a>获取到</p>
