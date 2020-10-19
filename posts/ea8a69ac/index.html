@@ -149,11 +149,11 @@ var saveToLocal = {
 <figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;terminal.integrated.shellArgs.windows&quot;</span>: [</span><br><span class="line">        <span class="string">&quot;-NoExit&quot;</span>,</span><br><span class="line">        <span class="string">&quot;/c&quot;</span>,</span><br><span class="line">        <span class="string">&quot;chcp 65001&quot;</span>,</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>然后保存即可，现在编译就不会出现中文乱码的问题了，这里贴一下图</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E8%A7%A3%E5%86%B3VSCode%E7%BC%96%E8%AF%91CC++%E6%98%AF%E8%BE%93%E5%87%BA%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/%E4%BF%AE%E6%94%B9%E5%89%8D.png" alt="修改前"></p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E8%A7%A3%E5%86%B3VSCode%E7%BC%96%E8%AF%91CC++%E6%98%AF%E8%BE%93%E5%87%BA%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/%E4%BF%AE%E6%94%B9%E5%90%8E.png" alt="修改后"></p>
+<p><img src="/blog_image/%E8%A7%A3%E5%86%B3VSCode%E7%BC%96%E8%AF%91CC++%E6%98%AF%E8%BE%93%E5%87%BA%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/%E4%BF%AE%E6%94%B9%E5%89%8D.png" alt="修改前"></p>
+<p><img src="/blog_image/%E8%A7%A3%E5%86%B3VSCode%E7%BC%96%E8%AF%91CC++%E6%98%AF%E8%BE%93%E5%87%BA%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/%E4%BF%AE%E6%94%B9%E5%90%8E.png" alt="修改后"></p>
 <h2 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h2><p>当然缺点也是有的，就是每次编译的时候会在顶部显示一个 <code>Active code page: 65001</code>，不过我觉得无伤大雅，毕竟没换编译器就可以实现差不多的效果还想怎么样。<del>主要还是懒</del></p>
 <h1 id="简便的方式"><a href="#简便的方式" class="headerlink" title="简便的方式"></a>简便的方式</h1><p><del>其实也可以通过这个按钮解决，不过这个是改变文件的编码，如果把这个文件放到其他设备上可能会有问题</del></p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E8%A7%A3%E5%86%B3VSCode%E7%BC%96%E8%AF%91CC++%E6%98%AF%E8%BE%93%E5%87%BA%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/%E6%8C%89%E9%92%AE.png" alt="按钮"></p>
+<p><img src="/blog_image/%E8%A7%A3%E5%86%B3VSCode%E7%BC%96%E8%AF%91CC++%E6%98%AF%E8%BE%93%E5%87%BA%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/%E6%8C%89%E9%92%AE.png" alt="按钮"></p>
 <h1 id="工作区"><a href="#工作区" class="headerlink" title="工作区"></a>工作区</h1><p>如果你只需要在这个工作区生效的话只需要这个目录下的 <code>.vscode</code> 文件夹里的 <code>setting.json</code> 添加这个配置就好了，这样只会对这个工作区生效。</p>
 <h1 id="更多"><a href="#更多" class="headerlink" title="更多"></a>更多</h1><p>有关 <code>chcp</code> 的更多描述</p>
 <blockquote>

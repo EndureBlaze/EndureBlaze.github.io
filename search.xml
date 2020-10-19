@@ -74,18 +74,18 @@
 <h2 id="无力吐槽的图标"><a href="#无力吐槽的图标" class="headerlink" title="无力吐槽的图标"></a>无力吐槽的图标</h2><p>列表是有了，那图标？既然这是关于 <code>星之卡比</code> 的程序，那就用一张官方的图，后面再用 PS Touch 做一个背景上去，就是下面这个<br>![初代-未使用](/blog_image/Kirby Assistant 编年史/初代-未使用.png)</p>
 <p>什么?这也太丑了吧？你看这色彩，这布局，这裁剪，丑到家了。不过当时可没有人来帮我做设计，就现先这样用吧。</p>
 <p>图标有了，凑合能用的程序也有了，那叫什么名字呢？这是关于 星之卡比 的程序，可以用来下资源，你可能认为理所当然的叫 卡比下载器？不不不，根据 <a href="https://www.zhihu.com/question/308116322">母语羞涩原理</a> 当然是叫 Kirby Download 啦！</p>
-<h2 id="这就算开始了吧"><a href="#这就算开始了吧" class="headerlink" title="这就算开始了吧"></a>这就算开始了吧</h2><p>然后我就带着这个样子的程序去贴吧发帖了<del>当然因为傻逼百度这贴已经找不到了</del><br><del>对了，图标我换了，长这样</del><br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/%E5%88%9D%E4%BB%A3-%E4%BD%BF%E7%94%A8%E4%B8%94%E5%87%BA%E7%8E%B0%E8%A7%86%E9%A2%91.png" alt="初代-使用且出现视频"><br>而且当时还做了个 <a href="https://www.bilibili.com/video/av7053495">视频</a> <del>辣眼睛注意</del></p>
+<h2 id="这就算开始了吧"><a href="#这就算开始了吧" class="headerlink" title="这就算开始了吧"></a>这就算开始了吧</h2><p>然后我就带着这个样子的程序去贴吧发帖了<del>当然因为傻逼百度这贴已经找不到了</del><br><del>对了，图标我换了，长这样</del><br><img src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/%E5%88%9D%E4%BB%A3-%E4%BD%BF%E7%94%A8%E4%B8%94%E5%87%BA%E7%8E%B0%E8%A7%86%E9%A2%91.png" alt="初代-使用且出现视频"><br>而且当时还做了个 <a href="https://www.bilibili.com/video/av7053495">视频</a> <del>辣眼睛注意</del></p>
 <iframe src="//player.bilibili.com/player.html?aid=7053495&cid=11499734&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"> </iframe>
 
 <h1 id="虽然不好用-但-你好-AndroLua-你好-Kirby-Download"><a href="#虽然不好用-但-你好-AndroLua-你好-Kirby-Download" class="headerlink" title="虽然不好用 但 你好 AndroLua 你好 Kirby Download"></a>虽然不好用 但 你好 AndroLua 你好 Kirby Download</h1><h2 id="初识-AndroLua"><a href="#初识-AndroLua" class="headerlink" title="初识 AndroLua"></a>初识 AndroLua</h2><p>时间一天天过着，初代版本也在不断更新<del>虽然没更新多久</del>。可是 iApp 只能拖动的布局已经不能满足我了，我需要更好用的语言，更好用的 ide。迫于当时觉得 Java 入门门槛过于高，正好 AndroLua 又在盛行，我也就选择使用这个来接着编写了。这是一个由 nirenr 一个人改编的，基于 Lua 语言，但是有一些 Java 语法成分的 <a href="https://baike.baidu.com/item/%E8%A7%A3%E9%87%8A%E5%9E%8B%E8%AF%AD%E8%A8%80/8888952?fr=aladdin">解释型语言</a>。<del>我估计就是因为太好用，太方便才会有人用的。不过成也方便，败也方便。（指弱类型）</del></p>
-<h2 id="崭新的-Kirby-Download"><a href="#崭新的-Kirby-Download" class="headerlink" title="崭新的 Kirby Download"></a>崭新的 Kirby Download</h2><p>那用了新的语言，怎么能不重新设计界面呢，首先就是界面大改<del>当然这是测试版界面</del><br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-%E6%B5%8B%E8%AF%95%E7%89%88%E7%95%8C%E9%9D%A2.png" alt="ka-测试版界面"></p>
-<p>新的图标，一定要极简，本文设计，质感设计都要有，于是就有了下面这样<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/kd-%E5%88%9D%E4%BB%A3%E5%90%8E%E5%88%B00.8%E7%89%88%E6%9C%AC%E5%89%8D.png" alt="kd-初代后到0.8版本前"></p>
+<h2 id="崭新的-Kirby-Download"><a href="#崭新的-Kirby-Download" class="headerlink" title="崭新的 Kirby Download"></a>崭新的 Kirby Download</h2><p>那用了新的语言，怎么能不重新设计界面呢，首先就是界面大改<del>当然这是测试版界面</del><br><img src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-%E6%B5%8B%E8%AF%95%E7%89%88%E7%95%8C%E9%9D%A2.png" alt="ka-测试版界面"></p>
+<p>新的图标，一定要极简，本文设计，质感设计都要有，于是就有了下面这样<br><img src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/kd-%E5%88%9D%E4%BB%A3%E5%90%8E%E5%88%B00.8%E7%89%88%E6%9C%AC%E5%89%8D.png" alt="kd-初代后到0.8版本前"></p>
 <p>这样，Kirby Download<del>钦定的</del>诞生日就有了 2019-1-15</p>
-<h2 id="完整的资源"><a href="#完整的资源" class="headerlink" title="完整的资源"></a>完整的资源</h2><p>因为还有学业，所以不能做到日更，所以在周更和双周更的情况下终于在 2017-03-25 收录了绝大部分资源，此时应用界面已经比较现代了<del>并且傻逼一样的给应用名末尾加了个 β</del><br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/kd-%E8%B5%84%E6%BA%90%E6%9C%80%E7%BB%88%E7%89%88.jpg" alt="kd-资源最终版"></p>
+<h2 id="完整的资源"><a href="#完整的资源" class="headerlink" title="完整的资源"></a>完整的资源</h2><p>因为还有学业，所以不能做到日更，所以在周更和双周更的情况下终于在 2017-03-25 收录了绝大部分资源，此时应用界面已经比较现代了<del>并且傻逼一样的给应用名末尾加了个 β</del><br><img src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/kd-%E8%B5%84%E6%BA%90%E6%9C%80%E7%BB%88%E7%89%88.jpg" alt="kd-资源最终版"></p>
 <p>可以说，这个主页列表界面基本上维持到 Lua 版本结束</p>
 <p>并且在此之前使用了 fir 托管软件，地址：<a href="https://fir.im/kirby">https://fir.im/kirby</a></p>
-<h2 id="跨越-版本-1-0"><a href="#跨越-版本-1-0" class="headerlink" title="跨越 版本 1.0"></a>跨越 版本 1.0</h2><p>1.0 算是已经接近 Lua 版本的尾声了，此时发布了一个对今后影响十分巨大的主页界面<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-1.0.jpg" alt="ka-1.0"></p>
-<p>而且在此之前更换了新的图标，不过这个图标没有持续很久使用<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/kd-0.8%E5%88%B01.0%E7%89%88%E6%9C%AC%E5%89%8D.png" alt="kd-0.8到1.0版本前"></p>
+<h2 id="跨越-版本-1-0"><a href="#跨越-版本-1-0" class="headerlink" title="跨越 版本 1.0"></a>跨越 版本 1.0</h2><p>1.0 算是已经接近 Lua 版本的尾声了，此时发布了一个对今后影响十分巨大的主页界面<br><img src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-1.0.jpg" alt="ka-1.0"></p>
+<p>而且在此之前更换了新的图标，不过这个图标没有持续很久使用<br><img src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/kd-0.8%E5%88%B01.0%E7%89%88%E6%9C%AC%E5%89%8D.png" alt="kd-0.8到1.0版本前"></p>
 <p>但是这个版本 bug 居多，很多人反映无法使用，所以我很快迭代了</p>
 <h2 id="震惊-KD-惨遭被盗"><a href="#震惊-KD-惨遭被盗" class="headerlink" title="震惊 KD 惨遭被盗"></a>震惊 KD 惨遭被盗</h2><p>哈哈哈这个应该是个人开发者必经的，总是会被二次打包的，不过我倒是没有特别在意，只是在贴吧发了 <a href="https://tieba.baidu.com/p/5094724024">这个帖子</a> 而已</p>
 <h2 id="虚假的官网"><a href="#虚假的官网" class="headerlink" title="虚假的官网"></a>虚假的官网</h2><p>在上面那些事情的某个期间，我去一个模板网站制作了一个 <a href="http://kirbydownload.mystrikingly.com/">官网</a> <del>其实就是改改图片，改改文本而已</del></p>
@@ -97,31 +97,31 @@
 <p>是的 AndrodLua 的扩展性十分糟糕，以至于很多新的特性无法使用，在这种情况下我毅然选择了 Java。</p>
 <h2 id="停更-但不是永远"><a href="#停更-但不是永远" class="headerlink" title="停更,但不是永远"></a>停更,但不是永远</h2><p>在使用 Java 编写的时候我不得不停止更新 Lua 版本的 KD，不过没有持续很久。不得不说 Java 是安卓开发的主流，我遇到的很多问题都可以得到有效解决，这种前所未有的有效，让我在不到两个月的时间里就搞定了 Java 版本的开发。</p>
 <h2 id="手滑的重要性（雾"><a href="#手滑的重要性（雾" class="headerlink" title="手滑的重要性（雾"></a>手滑的重要性（雾</h2><p>在 <code>2017-06-20</code> 这天发售了手滑<del>铁卢</del>事件，不过吧，这个时候我已经准备 Java 版本的开发了，所以丢失的 Lua 版本源码也无伤大碍<del>个屁</del><br>参阅<a href="https://tieba.baidu.com/p/5174062697">咳咳，我告诉你们啊。。。</a></p>
-<h2 id="来了来了-他来了"><a href="#来了来了-他来了" class="headerlink" title="来了来了,他来了"></a>来了来了,他来了</h2><p><code>2017-08-14</code> 这天算是正式发布了 KD 的 Java 版吧，于是乎就有了<a href="https://tieba.baidu.com/p/5272051400">我又来炒冷饭了，虫 ♤ 人一口 虫 ♤ 人一口</a> <del>标题暴力，暗示那位大人偷走了我停更的时间咳咳咳</del>界面如下<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/kd-java.jpg" alt="kd-Java"></p>
-<p>同时这个图标也是从 Lua 版一直用到 Java 版<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/kd1.0%E5%88%B02.2.3.png" alt="kd1.0到2.2.3"></p>
+<h2 id="来了来了-他来了"><a href="#来了来了-他来了" class="headerlink" title="来了来了,他来了"></a>来了来了,他来了</h2><p><code>2017-08-14</code> 这天算是正式发布了 KD 的 Java 版吧，于是乎就有了<a href="https://tieba.baidu.com/p/5272051400">我又来炒冷饭了，虫 ♤ 人一口 虫 ♤ 人一口</a> <del>标题暴力，暗示那位大人偷走了我停更的时间咳咳咳</del>界面如下<br><img src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/kd-java.jpg" alt="kd-Java"></p>
+<p>同时这个图标也是从 Lua 版一直用到 Java 版<br><img src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/kd1.0%E5%88%B02.2.3.png" alt="kd1.0到2.2.3"></p>
 <h2 id="V2？集合体？Slogan？2018？"><a href="#V2？集合体？Slogan？2018？" class="headerlink" title="V2？集合体？Slogan？2018？"></a>V2？集合体？Slogan？2018？</h2><h3 id="永不弃坑-就是我除非我亏的没钱了"><a href="#永不弃坑-就是我除非我亏的没钱了" class="headerlink" title="永不弃坑 就是我除非我亏的没钱了"></a>永不弃坑 就是我<del>除非我亏的没钱了</del></h3><p><a href="https://tieba.baidu.com/p/5351905548">【绝不弃坑】【游戏资源看这里】kirby download</a> 这个就是集合了一些链接，当时百度<del>傻逼的</del>审核机制还没有那么严格，这种帖子放现在肯定 gg</p>
 <h3 id="不仅有游戏"><a href="#不仅有游戏" class="headerlink" title="不仅有游戏"></a>不仅有游戏</h3><p>是的，这是从那时确定下来的 slogan 现在看来确实如此</p>
 <h2 id="什么什么？用户系统？闲聊？模拟器直接下？"><a href="#什么什么？用户系统？闲聊？模拟器直接下？" class="headerlink" title="什么什么？用户系统？闲聊？模拟器直接下？"></a>什么什么？用户系统？闲聊？模拟器直接下？</h2><p><code>2017-8-23</code> 也就是 Java 版本发布后，更新了一个让我亏钱至今，甚至濒临几次倒闭的东西，用户系统与文件服务。<br>确实很好用，比看评论区方便多了。就是……不能回复，至今也不行<del>好尴尬啊</del></p>
 <h2 id="3-0-预告"><a href="#3-0-预告" class="headerlink" title="3.0 预告"></a>3.0 预告</h2><h3 id="真实手绘"><a href="#真实手绘" class="headerlink" title="真实手绘"></a>真实手绘</h3><p>手绘预告，见过没？<a href="https://tieba.baidu.com/p/5519636217">【技术】kirby download3.0 预告</a>就是这么秀，纯手绘，画出 3.0 的大部分想法<del>原稿已丢失</del></p>
-<h3 id="除夕夜发布"><a href="#除夕夜发布" class="headerlink" title="除夕夜发布"></a>除夕夜发布</h3><p>此时 KD 界面已经是很接近现在的了，具体如图<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-3.0.jpg" alt="ka-3.0"></p>
+<h3 id="除夕夜发布"><a href="#除夕夜发布" class="headerlink" title="除夕夜发布"></a>除夕夜发布</h3><p>此时 KD 界面已经是很接近现在的了，具体如图<br><img src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-3.0.jpg" alt="ka-3.0"></p>
 <p>以及，真就除夕夜发布<del>正好一周年，蛮有意义的</del><br><a href="https://tieba.baidu.com/p/5551002824">【预热】kirby download3.0，除夕夜发布！！</a><br><a href="https://tieba.baidu.com/p/5552664544">【深夜更新】kirby download3.0</a></p>
 <blockquote>
 <p>啊，大家好啊<br>这里炎忍，经过两个月的开发，迎来了 3.0 版本，接下来是更新日志:<br>duang~<br>深夜更新 1.新的图标，新的宣传图 2.新的菜单 3.攻略视频添加 4.稳定服务器 5.闲聊优化 6.全局滑动返回 7.优化捐赠 8.优化翻译，修复错误翻译 9.修改整体算法 10.重新设计启动界面 11.针对于安卓 7.1.2 进行优化 12.针对于虚拟按键进行优化 13.针对于安卓 4.4.4 进行优化 14.压缩体积，提升性能 15.进一步优化用户算法<br>…….<br>更多优化，更新，请进入 app 感受吧！！</p>
 </blockquote>
 <p>以上的当时的更新日志，也是发帖内容。</p>
 <h1 id="再见-Kirby-Download"><a href="#再见-Kirby-Download" class="headerlink" title="再见 Kirby Download"></a>再见 Kirby Download</h1><h2 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h2><p>3.0 更新两天后，由于一些现在不方便描述的的原因<del>因为是 QQ 上发生的事</del>，所以不多做描述。大概就是我被喷了，还是圈内人，然后我又玩玻璃心<del>说实话真的受不住</del>，就这么僵持了几天，我下架了 Kirby Assistant。<br><code>2019-2-25</code> 我进行了 <a href="https://github.com/EndureBlaze/kirbydownload/">Kirby Assistant 仓库</a> 的最后一次提交，Commit 信息是 「再见 Kirby download」，这个仓库的 commits 也定格在 53，不再更新</p>
-<h2 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h2><p>这个事情过后我也反思自己，也确实做的不够好，如果做的很好，就不会引来别人的这种说法，这么想着，我在 QQ 空间发了如下说说<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/%E7%A9%BA%E9%97%B4%E6%88%AA%E5%9B%BE.jpg" alt="空间截图"><br>也算是预告吧</p>
-<h1 id="崭新的-你好-Kirby-Assistant"><a href="#崭新的-你好-Kirby-Assistant" class="headerlink" title="崭新的 你好 Kirby Assistant"></a>崭新的 你好 Kirby Assistant</h1><h2 id="从头来过"><a href="#从头来过" class="headerlink" title="从头来过"></a>从头来过</h2><p><code>2019-2-27</code> 我在贴吧发帖<a href="https://tieba.baidu.com/p/5568861528">【资源】Kirby Assistant</a>,这个界面基本定格至今了<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-%E5%88%9D%E7%89%88.jpg" alt="ka-初版"></p>
+<h2 id="反思"><a href="#反思" class="headerlink" title="反思"></a>反思</h2><p>这个事情过后我也反思自己，也确实做的不够好，如果做的很好，就不会引来别人的这种说法，这么想着，我在 QQ 空间发了如下说说<br><img src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/%E7%A9%BA%E9%97%B4%E6%88%AA%E5%9B%BE.jpg" alt="空间截图"><br>也算是预告吧</p>
+<h1 id="崭新的-你好-Kirby-Assistant"><a href="#崭新的-你好-Kirby-Assistant" class="headerlink" title="崭新的 你好 Kirby Assistant"></a>崭新的 你好 Kirby Assistant</h1><h2 id="从头来过"><a href="#从头来过" class="headerlink" title="从头来过"></a>从头来过</h2><p><code>2019-2-27</code> 我在贴吧发帖<a href="https://tieba.baidu.com/p/5568861528">【资源】Kirby Assistant</a>,这个界面基本定格至今了<br><img src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-%E5%88%9D%E7%89%88.jpg" alt="ka-初版"></p>
 <h2 id="新的特性"><a href="#新的特性" class="headerlink" title="新的特性"></a>新的特性</h2><p>感谢 AIDE 的更新，让我可以用到诸如自适应图标的新特性，并且在 0.4-beta-1 成功完美适配 AndroidP 这也是截止发文为止最新的 Android 正式版</p>
 <h2 id="撇弃旧框架"><a href="#撇弃旧框架" class="headerlink" title="撇弃旧框架"></a>撇弃旧框架</h2><p>分别在 0.4-beta-3 、0.4-beta-6 和 0.4 版中撇弃了旧版本的条条框框，这也是成长最快的时期</p>
-<h2 id="新的图标"><a href="#新的图标" class="headerlink" title="新的图标"></a>新的图标</h2><p>这是分别在 0.4-beta1<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-0.4b1%E4%B9%8B%E5%90%8E-%E5%8F%8C%E5%9B%BE%E6%A0%87-%E4%B8%BB%E5%9B%BE%E6%A0%87-hk%E6%B5%81%E6%98%9F.png" alt="ka-0.4b1 之后-双图标-主图标-hk流星"><br>和 0.4-beta2<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-0.4b2%E5%90%8E-%E5%8F%8C%E5%9B%BE%E6%A0%87-%E5%89%AF%E5%9B%BE%E6%A0%87-Markuss.png" alt="ka-0.4b2 后-双图标-副图标-Markuss"><br>的图标，直到目前我也是最喜欢的两个，后面做成了双图标模式</p>
+<h2 id="新的图标"><a href="#新的图标" class="headerlink" title="新的图标"></a>新的图标</h2><p>这是分别在 0.4-beta1<br><img src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-0.4b1%E4%B9%8B%E5%90%8E-%E5%8F%8C%E5%9B%BE%E6%A0%87-%E4%B8%BB%E5%9B%BE%E6%A0%87-hk%E6%B5%81%E6%98%9F.png" alt="ka-0.4b1 之后-双图标-主图标-hk流星"><br>和 0.4-beta2<br><img src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-0.4b2%E5%90%8E-%E5%8F%8C%E5%9B%BE%E6%A0%87-%E5%89%AF%E5%9B%BE%E6%A0%87-Markuss.png" alt="ka-0.4b2 后-双图标-副图标-Markuss"><br>的图标，直到目前我也是最喜欢的两个，后面做成了双图标模式</p>
 <h1 id="未来·炫动"><a href="#未来·炫动" class="headerlink" title="未来·炫动"></a>未来·炫动</h1><p>现在，撇弃百度贴吧与 QQ，舞台交给 GitHub</p>
 <h2 id="全新的-KA"><a href="#全新的-KA" class="headerlink" title="全新的 KA"></a>全新的 KA</h2><p>2018-12-9 我推出了全新版本的 KA ——未来·炫动，这个版本拥有诸多特性，完整的 AndroidP API，完整的自适应图标，双镜像仓库，以及最重要的新服务器结构<del>虽然后面还让我丢数据了</del><br>如果说 0.4 大版本是 KA 发展最快的时期，那未来·炫动一定是我最推荐的版本</p>
 <h2 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h2><p>1.2.6（Build 29）引入的更新一定是最刚需的，往往程序更新了却不知道，这次，他来了，引入 Build 比较概念，让你随时都能用上新版本</p>
 <h2 id="全新架构-PBL"><a href="#全新架构-PBL" class="headerlink" title="全新架构 PBL"></a>全新架构 PBL</h2><p>如果说更新是刚需，让你享受新特性，那么 1.2.1（Build 24） 引入的全新服务器架构和 PBL 一定是更稳定的前提。前者拥有更快的响应速度，后者不会对用户有任何影响，但是会让我维护更方便<del>这不是你丢失服务器数据的理由</del></p>
 <h2 id="无延迟启动"><a href="#无延迟启动" class="headerlink" title="无延迟启动"></a>无延迟启动</h2><p>1.2（Build 23）引入的全新启动模式，根据 AndoidP API 编写，适配新特性，毫秒级启动速度</p>
 <h2 id="全新网站"><a href="#全新网站" class="headerlink" title="全新网站"></a>全新网站</h2><p>这不是程序更新的范畴，但是息息相关<br><code>2019-2-15</code> 这天我买了域名<a href="https://endureblaze.cn/">https://endureblaze.cn</a>并且把 Kirby Assistant 的官网定为<a href="https://ka.endureblaze.cn/">https://ka.endureblaze.cn</a></p>
-<h2 id="更全新的图标"><a href="#更全新的图标" class="headerlink" title="更全新的图标"></a>更全新的图标</h2><p>在 1.2.7 版本我合并了两个图标并且 hk 流星 进行了微调<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-1.2.7%E5%90%8E-%E7%8E%B0%E7%94%A8-hk%E6%B5%81%E6%98%9F%E9%87%8D%E7%BB%98.png" alt="ka-1.2.7后-现用-hk流星重绘"><br>这也是到目前为止一直使用的图标</p>
+<h2 id="更全新的图标"><a href="#更全新的图标" class="headerlink" title="更全新的图标"></a>更全新的图标</h2><p>在 1.2.7 版本我合并了两个图标并且 hk 流星 进行了微调<br><img src="/blog_image/Kirby_Assistant_%E7%BC%96%E5%B9%B4%E5%8F%B2/ka-1.2.7%E5%90%8E-%E7%8E%B0%E7%94%A8-hk%E6%B5%81%E6%98%9F%E9%87%8D%E7%BB%98.png" alt="ka-1.2.7后-现用-hk流星重绘"><br>这也是到目前为止一直使用的图标</p>
 <h2 id="AndroidX，MD2，以及更小的体积"><a href="#AndroidX，MD2，以及更小的体积" class="headerlink" title="AndroidX，MD2，以及更小的体积"></a>AndroidX，MD2，以及更小的体积</h2><p>我购买了电脑，这让我可以跟方便的编写程序，更是把 Kirby Assistant 的体积压缩到更小</p>
 <h1 id="炫动了，未来呢？"><a href="#炫动了，未来呢？" class="headerlink" title="炫动了，未来呢？"></a>炫动了，未来呢？</h1><p>我想，我会一直保持不定期更新，这个程序我暂时不可能放弃的，即使再亏钱</p>
 <h1 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h1><p>革命尚未完成，同志仍需努力</p>
@@ -154,42 +154,10 @@
       </categories>
   </entry>
   <entry>
-    <title>如何使用 Dolphin Emulator 玩《星之卡比：Wii》</title>
-    <url>/posts/2fbba4ed/</url>
-    <content><![CDATA[<blockquote>
-<p>开头附上星之卡比系列的 <a href="https://eyun.baidu.com/s/3i51Jf17">下载地址</a> 还有 Wii 模拟器的 <a href="https://cn.dolphin-emu.org/">下载地址</a></p>
-</blockquote>
-<h1 id="白屏"><a href="#白屏" class="headerlink" title="白屏"></a>白屏</h1><p>有些小伙伴在下好游戏并且在模拟器打开之后会遇到一直卡在白屏的情况，如图</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E5%8D%A1%E5%9C%A8%E7%99%BD%E5%B1%8F.png" alt="卡在白屏"></p>
-<p>那么这个时候就要注意是不是模拟器语言设置的问题，我们可以在这里看到游戏的语言</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E6%9F%A5%E7%9C%8B%E8%AF%AD%E8%A8%80.png" alt="查看语言"></p>
-<p>那么可以看到这个语言是 <code>日语</code>，那我们就要把模拟器改成对应的，看图操作，找到 <code>设置 -&gt; Wii -&gt; 系统语言</code>，然后在下拉菜单里找到 <code>对应语言</code>，然后点击关闭即可</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E4%BF%AE%E6%94%B9%E8%AF%AD%E8%A8%80.png" alt="修改语言"></p>
-<p>现在开始游戏就可以正常运行了</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C.png" alt="正常运行"></p>
-<h1 id="无法进入"><a href="#无法进入" class="headerlink" title="无法进入"></a>无法进入</h1><p>那有时候还会出现无法进入游戏界面的情况，会有类似下面这样的提示</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5.png" alt="无法进入"></p>
-<p>那这个情况只需要去 <code>控制器 -&gt; Wii 遥控器</code> 然后点击你要是用的模拟手柄的设置，将 <code>扩展</code> 这一项改成无就可以，看图操作</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E4%BF%AE%E6%94%B9%E6%89%A9%E5%B1%951.png" alt="修改扩展1"></p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E4%BF%AE%E6%94%B9%E6%89%A9%E5%B1%952.png" alt="修改扩展2"></p>
-<p>现在再试试进入游戏就正常了</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C.png" alt="正常运行"></p>
-]]></content>
-      <categories>
-        <category>星之卡比系列教程</category>
-      </categories>
-      <tags>
-        <tag>星之卡比</tag>
-        <tag>星之卡比 Wii</tag>
-        <tag>Wii 模拟器</tag>
-        <tag>Dolphin Emulator</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Git 无法 Pull 仓库 显示 refusing to merge unrelated histories （拒绝合并不相关仓库）</title>
     <url>/posts/e5477819/</url>
     <content><![CDATA[<p>如果在合并 pull 仓库的时候，出现的问题如何去解决（这个方法适用于合并本地很久没有提交的仓库，或者是同一个仓库 commit 信息不同的合并）</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/Git%E6%97%A0%E6%B3%95pull/fail.png" alt="示意图"></p>
+<p><img src="/blog_image/Git%E6%97%A0%E6%B3%95pull/fail.png" alt="示意图"></p>
 <p>如果合并了两个不同的开始提交的仓库，在新的 <code>git</code> 会发现这两个仓库可能不是同一个，为了防止开发者上传错误，于是就给下面的提示</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">fatal: refusing to merge unrelated histories</span><br></pre></td></tr></table></figure>
 
@@ -270,6 +238,42 @@
       </tags>
   </entry>
   <entry>
+    <title>修改 Windows 10 的用户名以及用户文件夹</title>
+    <url>/posts/8e165a5c/</url>
+    <content><![CDATA[<div class="note warning flat"><p>修改注册表有风险，操作需谨慎，注意备份重要文件</p>
+</div>
+
+<p>由于 Windows 10 的奇葩机制本地账户名是在线账户邮箱的前五位，导致我登录在线账户之后在本地显示的名称以及文件夹从我名字全拼的 <code>nihaocun</code> 变成了 <code>nihao</code>，虽然能忍，但是越看越不顺眼，就开始在网上找修改的方法。然而搜到的结果也大多不完整，好在还是能拼起来的，现在终于是改成功了。</p>
+<div class="note info flat"><p>以下操作在 你的个人账户 完成</p>
+</div>
+
+<h1 id="开启-Administrator-账户"><a href="#开启-Administrator-账户" class="headerlink" title="开启 Administrator 账户"></a>开启 Administrator 账户</h1><p>我们需要开启这个账户去修改注册表和文件夹名，家庭版用户请先升级到专业版，专业版用户打开<br><code>控制面板</code> -&gt; <code>系统和安全</code> -&gt; <code>管理工具</code> -&gt; <code>计算机管理</code>，然后按图所示依次打开<br><code>本地用户和组</code> -&gt; <code>用户</code> -&gt; <code>Administrator</code>，然后去掉 <code>账户已禁用</code> 前面的复选框即可。<br><img src="/blog_image/%E4%BF%AE%E6%94%B9Windows10%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E4%BB%A5%E5%8F%8A%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AE%A1%E7%90%86.png" alt="开启 Administrator 账户"></p>
+<h1 id="修改用户名"><a href="#修改用户名" class="headerlink" title="修改用户名"></a>修改用户名</h1><p>接着不关闭计算机管理，找到你需要修改的用户名，然后右键重命名即可，注意这里不能和计算机名重复（大小写不敏感）</p>
+<div class="note info flat"><p>以下操作在 Administrator 完成</p>
+</div>
+
+<h1 id="修改注册表"><a href="#修改注册表" class="headerlink" title="修改注册表"></a>修改注册表</h1><p>注销当前账户切换到 Administrator，按下 <code>Win + R</code> 打开命令窗口，输入 <code>regedit</code> 回车运行打开注册表编辑器。使用 <code>Ctrl + F</code> 搜索 <code>ProfileList</code> 或者手动定位到 <code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\ProfileList</code> 这一项。在这里有很多 <code>S-1-5</code> 开头的项，依次检查会有一个 <code>ProfileListPath</code> 为 <code>C:\User\&lt;你的用户名&gt;</code> 这一项，双击修改即可。<br><img src="/blog_image/%E4%BF%AE%E6%94%B9Windows10%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E4%BB%A5%E5%8F%8A%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9/%E4%BF%AE%E6%94%B9%E6%B3%A8%E5%86%8C%E8%A1%A8.png" alt="修改注册表"></p>
+<h1 id="修改文件夹名"><a href="#修改文件夹名" class="headerlink" title="修改文件夹名"></a>修改文件夹名</h1><p>在文件管理器找到 <code>C:\User\&lt;你的用户名&gt;</code> 然后直接修改即可。</p>
+<div class="note info flat"><p>以下操作在 你的个人账户 完成</p>
+</div>
+
+<h1 id="创建联接"><a href="#创建联接" class="headerlink" title="创建联接"></a>创建联接</h1><p>现在回到原来的账户发现名字已经改了，而且原来的数据还在，不过部分环境变量以及应用配置可能会出问题，这里提供两个方法：</p>
+<ul>
+<li>一个一个修改路径保证不出错</li>
+<li>创建一个联接<blockquote>
+<p>用管理员权限运行一个 CMD 窗口，然后输入 <code>MKLINK /J C:\Users\&lt;旧用户名&gt; C:\Users\&lt;新用户名&gt;</code>，这样不论访问 <code>C:\Users\&lt;旧用户名&gt;</code> 还是 <code>C:\Users\&lt;新用户名&gt;</code> 都会定位到 <code>C:\Users\&lt;新用户名&gt;</code>。出现下图这样就是成功了。<br><img src="/blog_image/%E4%BF%AE%E6%94%B9Windows10%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E4%BB%A5%E5%8F%8A%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9/%E9%93%BE%E6%8E%A5.png" alt="创建联接"></p>
+</blockquote>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>在 Linux 服务器上使用 酷Q</title>
     <url>/posts/2bdd4eaf/</url>
     <content><![CDATA[<p>众所周知 酷Q 是 Windows 平台下的， Linux 下要使用还是有难度的，好在官方做出了了 docker 镜像，这样就可以在 docker 直接运行了</p>
@@ -320,7 +324,7 @@
   <entry>
     <title>在 Windows 系统上给 ssh 设置代理</title>
     <url>/posts/4d70a82d/</url>
-    <content><![CDATA[<div class="note info"><p>看清，使用的系统是 Windows 不是 Linux 或者 MacOS</p>
+    <content><![CDATA[<div class="note info flat"><p>看清，使用的系统是 Windows 不是 Linux 或者 MacOS</p>
 </div>
 
 <p>百度搜到的很多给 git 设置代理的办法，都是给 http 设置代理，而不是给 SSH 设置代理。那个 <code>git config --global http.proxy http://127.0.0.1:1080</code> 设置起来，只针对 http 的 git 有效果。<br>然后就是 <code>ProxyCommand nc -v -x 127.0.0.1:1080 %h %p</code>，那个分明是给 Linux 才能用的， Windows 上哪里来的 nc 程序？</p>
@@ -342,8 +346,8 @@
         <category>技术记录</category>
       </categories>
       <tags>
-        <tag>ssh</tag>
         <tag>Windows</tag>
+        <tag>ssh</tag>
         <tag>代理</tag>
       </tags>
   </entry>
@@ -352,20 +356,20 @@
     <url>/posts/75f0fab2/</url>
     <content><![CDATA[<p>WordPress 可能是比较好用的博客系统了，当然改一下做个非博客应该也可以。当然是需要服务器的，想我这种用 Hexo 配合 GitHub Page 当然是用不起的了，不过前段时间帮朋友搞了一下，就在这里记录一下过程了</p>
 <h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><h2 id="选择服务器"><a href="#选择服务器" class="headerlink" title="选择服务器"></a>选择服务器</h2><p>首先服务器用的是阿里云的轻量应用服务器，因为比较便宜，<a href="https://common-buy.aliyun.com/?commodityCode=swas&regionId=cn-hongkong&userCode=3xwlzuab#/buy">点击这里</a>可以查看价格和配置。当然这里就不测试了，因为价格在这里摆着，还要什么自行车。</p>
-<h2 id="下载-WordPress-文件"><a href="#下载-WordPress-文件" class="headerlink" title="下载 WordPress 文件"></a>下载 WordPress 文件</h2><p>访问<a href="https://cn.wordpress.org/download/">https://cn.wordpress.org/download/</a><br>然后点击<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E6%90%AD%E5%BB%BA/(1).png" alt="enter description here"><br>下载到你能方便找到的地方就好了</p>
+<h2 id="下载-WordPress-文件"><a href="#下载-WordPress-文件" class="headerlink" title="下载 WordPress 文件"></a>下载 WordPress 文件</h2><p>访问<a href="https://cn.wordpress.org/download/">https://cn.wordpress.org/download/</a><br>然后点击<br><img src="/blog_image/%E6%90%AD%E5%BB%BA/(1).png" alt="enter description here"><br>下载到你能方便找到的地方就好了</p>
 <h1 id="系统和面板"><a href="#系统和面板" class="headerlink" title="系统和面板"></a>系统和面板</h1><p>然后我选择的是 CentOS 然后装的宝塔面板，<a href="https://bt.cn/">点击查看</a>宝塔的面板，免费版也够用</p>
 <h1 id="SSH到服务器"><a href="#SSH到服务器" class="headerlink" title="SSH到服务器"></a>SSH到服务器</h1><h2 id="开启端口"><a href="#开启端口" class="headerlink" title="开启端口"></a>开启端口</h2><p>看这个页面即可<a href="https://www.bt.cn/bbs/thread-19376-1-1.html">https://www.bt.cn/bbs/thread-19376-1-1.html</a></p>
 <p>推荐打开所有端口，因为宝塔面板也有防火墙</p>
-<h2 id="SSH-配置"><a href="#SSH-配置" class="headerlink" title="SSH 配置"></a>SSH 配置</h2><p>首先要到轻量应用服务器的<a href="https://swas.console.aliyun.com/">控制面板</a>然后点击你的服务器<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E6%90%AD%E5%BB%BA/(2).png" alt="enter description here"></p>
-<p>点进去后再转到远程连接<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E6%90%AD%E5%BB%BA/(3).png" alt="enter description here"></p>
-<p>选择这里任何一种都可以，没有任何影响<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E6%90%AD%E5%BB%BA/(4).png" alt="enter description here"></p>
+<h2 id="SSH-配置"><a href="#SSH-配置" class="headerlink" title="SSH 配置"></a>SSH 配置</h2><p>首先要到轻量应用服务器的<a href="https://swas.console.aliyun.com/">控制面板</a>然后点击你的服务器<br><img src="/blog_image/%E6%90%AD%E5%BB%BA/(2).png" alt="enter description here"></p>
+<p>点进去后再转到远程连接<br><img src="/blog_image/%E6%90%AD%E5%BB%BA/(3).png" alt="enter description here"></p>
+<p>选择这里任何一种都可以，没有任何影响<br><img src="/blog_image/%E6%90%AD%E5%BB%BA/(4).png" alt="enter description here"></p>
 <p>那么我这里是用的第三种，也就是用账号密码来连接。</p>
-<h2 id="SSH-客户端"><a href="#SSH-客户端" class="headerlink" title="SSH 客户端"></a>SSH 客户端</h2><p>因为用账号密码的话，是要用本地客户端连接的，那么这里推荐使用<a href="http://www.hostbuf.com/t/988.html">FinalShel</a>来连接，国人制作，有免费版本，中文界面，支持 Windows,macOS,Linux<br>点金网址后选择你系统对应的链接就可以下载了<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E6%90%AD%E5%BB%BA/(5).png" alt="enter description here"></p>
+<h2 id="SSH-客户端"><a href="#SSH-客户端" class="headerlink" title="SSH 客户端"></a>SSH 客户端</h2><p>因为用账号密码的话，是要用本地客户端连接的，那么这里推荐使用<a href="http://www.hostbuf.com/t/988.html">FinalShel</a>来连接，国人制作，有免费版本，中文界面，支持 Windows,macOS,Linux<br>点金网址后选择你系统对应的链接就可以下载了<br><img src="/blog_image/%E6%90%AD%E5%BB%BA/(5).png" alt="enter description here"></p>
 <p>下载安装后打开就可以看到界面了</p>
-<p>然后点击这个按钮<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E6%90%AD%E5%BB%BA/(6).png" alt="enter description here"></p>
-<p>然后点击<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E6%90%AD%E5%BB%BA/(7).png" alt="enter description here"></p>
+<p>然后点击这个按钮<br><img src="/blog_image/%E6%90%AD%E5%BB%BA/(6).png" alt="enter description here"></p>
+<p>然后点击<br><img src="/blog_image/%E6%90%AD%E5%BB%BA/(7).png" alt="enter description here"></p>
 <p>就可以添加一个连接了</p>
-<p>在这里输入服务器的名字，ip，用户名，密码，然后保存再双击刚才添加的就可以连接了<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E6%90%AD%E5%BB%BA/(8).png" alt="enter description here"></p>
+<p>在这里输入服务器的名字，ip，用户名，密码，然后保存再双击刚才添加的就可以连接了<br><img src="/blog_image/%E6%90%AD%E5%BB%BA/(8).png" alt="enter description here"></p>
 <h1 id="安装面板"><a href="#安装面板" class="headerlink" title="安装面板"></a>安装面板</h1><p>安装很简单，一行命令就搞定了</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; sh install.sh</span><br></pre></td></tr></table></figure>
 
@@ -391,25 +395,25 @@
 <h2 id="添加解析"><a href="#添加解析" class="headerlink" title="添加解析"></a>添加解析</h2><p>看到这里说明你的 DNS 已经没问题了，现在点击操作栏的<strong>解析</strong>，进去之后点击上面的添加记录。<strong>主机记录</strong>选择 <code>@</code> 这一项就可以了，<strong>记录类型</strong>选择 <code>A</code> ，<strong>记录值</strong>填入你的服务器 <code>IP</code></p>
 <p>最后点击保存，稍作等待，这个过程需要十分钟才能生效<del>当然如果你是氪金用户当我没说</del></p>
 <h1 id="正式开始部署-WordPress"><a href="#正式开始部署-WordPress" class="headerlink" title="正式开始部署 WordPress"></a>正式开始部署 WordPress</h1><h2 id="添加站点"><a href="#添加站点" class="headerlink" title="添加站点"></a>添加站点</h2><p>现在登录你的宝塔面板，在侧边栏找到<strong>网站</strong>，点击后选择<strong>添加站点</strong></p>
-<p>然后这样填<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E6%90%AD%E5%BB%BA/(9).png" alt="enter description here"></p>
+<p>然后这样填<br><img src="/blog_image/%E6%90%AD%E5%BB%BA/(9).png" alt="enter description here"></p>
 <p><del>再次声明，ljbaidu.com只是调侃，请填写自己的域名</del></p>
 <p>然后点击<strong>提交</strong></p>
-<h2 id="添加数据库"><a href="#添加数据库" class="headerlink" title="添加数据库"></a>添加数据库</h2><p>然后选择侧边栏的<strong>数据库</strong>，然后选择<strong>添加数据库</strong><br>填写数据库名称，用户名和密码，选择访问权限然后选择提交，如图(注意看箭头所指的选项)<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E6%90%AD%E5%BB%BA/(10).png" alt="enter description here"></p>
+<h2 id="添加数据库"><a href="#添加数据库" class="headerlink" title="添加数据库"></a>添加数据库</h2><p>然后选择侧边栏的<strong>数据库</strong>，然后选择<strong>添加数据库</strong><br>填写数据库名称，用户名和密码，选择访问权限然后选择提交，如图(注意看箭头所指的选项)<br><img src="/blog_image/%E6%90%AD%E5%BB%BA/(10).png" alt="enter description here"></p>
 <h2 id="修改-WordPress-配置"><a href="#修改-WordPress-配置" class="headerlink" title="修改 WordPress 配置"></a>修改 WordPress 配置</h2><p>解压刚开始下载的 wordpress-5.2.2.zip ，然后解压到一个文件夹中。<br>找到 wp-config-sample.php 并重命名为 wp-config.php ，然后使用文本编辑器或其他打开 wp-config.php。<br>找到</p>
 <figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">// ** MySQL settings - You can get this info from your web host ** //</span></span><br><span class="line"><span class="comment">/** The name of the database for WordPress */</span></span><br><span class="line">define( <span class="string">&#x27;DB_NAME&#x27;</span>, <span class="string">&#x27;database_name_here&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL database username */</span></span><br><span class="line">define( <span class="string">&#x27;DB_USER&#x27;</span>, <span class="string">&#x27;username_here&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL database password */</span></span><br><span class="line">define( <span class="string">&#x27;DB_PASSWORD&#x27;</span>, <span class="string">&#x27;password_here&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL hostname */</span></span><br><span class="line">define( <span class="string">&#x27;DB_HOST&#x27;</span>, <span class="string">&#x27;localhost&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** Database Charset to use in creating database tables. */</span></span><br><span class="line">define( <span class="string">&#x27;DB_CHARSET&#x27;</span>, <span class="string">&#x27;utf8&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** The Database Collate type. Don&#x27;t change this if in doubt. */</span></span><br><span class="line">define( <span class="string">&#x27;DB_COLLATE&#x27;</span>, <span class="string">&#x27;&#x27;</span> );</span><br></pre></td></tr></table></figure>
 <p>修改为</p>
 <figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">// ** MySQL settings - You can get this info from your web host ** //</span></span><br><span class="line"><span class="comment">/** The name of the database for WordPress */</span></span><br><span class="line">define( <span class="string">&#x27;DB_NAME&#x27;</span>, <span class="string">&#x27;wordpress&#x27;</span> );<span class="comment">//这里填入刚才创建数据库时数据库名称</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL database username */</span></span><br><span class="line">define( <span class="string">&#x27;DB_USER&#x27;</span>, <span class="string">&#x27;wordpress&#x27;</span> );<span class="comment">//这里填入刚才创建数据库时的用户名</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL database password */</span></span><br><span class="line">define( <span class="string">&#x27;DB_PASSWORD&#x27;</span>, <span class="string">&#x27;password&#x27;</span> );<span class="comment">//这里填入刚才创建数据库时的密码</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL hostname */</span></span><br><span class="line">define( <span class="string">&#x27;DB_HOST&#x27;</span>, <span class="string">&#x27;localhost&#x27;</span> );<span class="comment">//这个和下面三个不做修改</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/** Database Charset to use in creating database tables. */</span></span><br><span class="line">define( <span class="string">&#x27;DB_CHARSET&#x27;</span>, <span class="string">&#x27;utf8&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** The Database Collate type. Don&#x27;t change this if in doubt. */</span></span><br><span class="line">define( <span class="string">&#x27;DB_COLLATE&#x27;</span>, <span class="string">&#x27;&#x27;</span> );</span><br></pre></td></tr></table></figure>
 <p>保存文件并退出</p>
-<p>返回上一目录，压缩这个文件夹<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E6%90%AD%E5%BB%BA/(11).png" alt="enter description here"></p>
+<p>返回上一目录，压缩这个文件夹<br><img src="/blog_image/%E6%90%AD%E5%BB%BA/(11).png" alt="enter description here"></p>
 <h2 id="上传-WordPress"><a href="#上传-WordPress" class="headerlink" title="上传 WordPress"></a>上传 WordPress</h2><p>打开宝塔面板，选择网站</p>
-<p>点击根目录那一栏下面的文字，也就是<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E6%90%AD%E5%BB%BA/(12).png" alt="enter description here"></p>
-<p>然后选择<strong>上传</strong>，再点击<strong>选择文件</strong>，然后找到刚才打包的文件<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E6%90%AD%E5%BB%BA/(13).png" alt="enter description here"></p>
+<p>点击根目录那一栏下面的文字，也就是<br><img src="/blog_image/%E6%90%AD%E5%BB%BA/(12).png" alt="enter description here"></p>
+<p>然后选择<strong>上传</strong>，再点击<strong>选择文件</strong>，然后找到刚才打包的文件<br><img src="/blog_image/%E6%90%AD%E5%BB%BA/(13).png" alt="enter description here"></p>
 <p>点击<strong>开始上传</strong>，等待即可</p>
-<h2 id="解压"><a href="#解压" class="headerlink" title="解压"></a>解压</h2><p>点击这个选项，然后直接确定即可解压<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E6%90%AD%E5%BB%BA/(14).png" alt="enter description here"></p>
+<h2 id="解压"><a href="#解压" class="headerlink" title="解压"></a>解压</h2><p>点击这个选项，然后直接确定即可解压<br><img src="/blog_image/%E6%90%AD%E5%BB%BA/(14).png" alt="enter description here"></p>
 <p>现在访问 你的域名/wp-admin/install.php 就可以开始安装了，比如 <a href="http://ljbaidu.com/wp-admin/install.php">http://ljbaidu.com/wp-admin/install.php</a> <del>再次，我没有这个域名，所以下来用我的域名做演示</del></p>
-<p>访问之后可以看到这个界面<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E6%90%AD%E5%BB%BA/(15).png" alt="enter description here"></p>
+<p>访问之后可以看到这个界面<br><img src="/blog_image/%E6%90%AD%E5%BB%BA/(15).png" alt="enter description here"></p>
 <p>根据图上的注释填写，然后点击就可以安装了</p>
-<p>在这里点击Log In<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E6%90%AD%E5%BB%BA/(16).png" alt="enter description here"></p>
+<p>在这里点击Log In<br><img src="/blog_image/%E6%90%AD%E5%BB%BA/(16).png" alt="enter description here"></p>
 <p>在下一个页面登录即可</p>
 <h1 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h1><p>至此，所有安装过程已经完成，现在就可以开始使用了</p>
 <p>如果在安装过程中有什么问题可以通过博客主页的联系方式联系我，或者在下面留下你的评论</p>
@@ -432,11 +436,11 @@
 <figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;terminal.integrated.shellArgs.windows&quot;</span>: [</span><br><span class="line">        <span class="string">&quot;-NoExit&quot;</span>,</span><br><span class="line">        <span class="string">&quot;/c&quot;</span>,</span><br><span class="line">        <span class="string">&quot;chcp 65001&quot;</span>,</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>然后保存即可，现在编译就不会出现中文乱码的问题了，这里贴一下图</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E8%A7%A3%E5%86%B3VSCode%E7%BC%96%E8%AF%91CC++%E6%98%AF%E8%BE%93%E5%87%BA%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/%E4%BF%AE%E6%94%B9%E5%89%8D.png" alt="修改前"></p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E8%A7%A3%E5%86%B3VSCode%E7%BC%96%E8%AF%91CC++%E6%98%AF%E8%BE%93%E5%87%BA%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/%E4%BF%AE%E6%94%B9%E5%90%8E.png" alt="修改后"></p>
+<p><img src="/blog_image/%E8%A7%A3%E5%86%B3VSCode%E7%BC%96%E8%AF%91CC++%E6%98%AF%E8%BE%93%E5%87%BA%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/%E4%BF%AE%E6%94%B9%E5%89%8D.png" alt="修改前"></p>
+<p><img src="/blog_image/%E8%A7%A3%E5%86%B3VSCode%E7%BC%96%E8%AF%91CC++%E6%98%AF%E8%BE%93%E5%87%BA%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/%E4%BF%AE%E6%94%B9%E5%90%8E.png" alt="修改后"></p>
 <h2 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h2><p>当然缺点也是有的，就是每次编译的时候会在顶部显示一个 <code>Active code page: 65001</code>，不过我觉得无伤大雅，毕竟没换编译器就可以实现差不多的效果还想怎么样。<del>主要还是懒</del></p>
 <h1 id="简便的方式"><a href="#简便的方式" class="headerlink" title="简便的方式"></a>简便的方式</h1><p><del>其实也可以通过这个按钮解决，不过这个是改变文件的编码，如果把这个文件放到其他设备上可能会有问题</del></p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E8%A7%A3%E5%86%B3VSCode%E7%BC%96%E8%AF%91CC++%E6%98%AF%E8%BE%93%E5%87%BA%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/%E6%8C%89%E9%92%AE.png" alt="按钮"></p>
+<p><img src="/blog_image/%E8%A7%A3%E5%86%B3VSCode%E7%BC%96%E8%AF%91CC++%E6%98%AF%E8%BE%93%E5%87%BA%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/%E6%8C%89%E9%92%AE.png" alt="按钮"></p>
 <h1 id="工作区"><a href="#工作区" class="headerlink" title="工作区"></a>工作区</h1><p>如果你只需要在这个工作区生效的话只需要这个目录下的 <code>.vscode</code> 文件夹里的 <code>setting.json</code> 添加这个配置就好了，这样只会对这个工作区生效。</p>
 <h1 id="更多"><a href="#更多" class="headerlink" title="更多"></a>更多</h1><p>有关 <code>chcp</code> 的更多描述</p>
 <blockquote>
@@ -467,6 +471,38 @@
       </tags>
   </entry>
   <entry>
+    <title>如何使用 Dolphin Emulator 玩《星之卡比：Wii》</title>
+    <url>/posts/2fbba4ed/</url>
+    <content><![CDATA[<blockquote>
+<p>开头附上星之卡比系列的 <a href="https://eyun.baidu.com/s/3i51Jf17">下载地址</a> 还有 Wii 模拟器的 <a href="https://cn.dolphin-emu.org/">下载地址</a></p>
+</blockquote>
+<h1 id="白屏"><a href="#白屏" class="headerlink" title="白屏"></a>白屏</h1><p>有些小伙伴在下好游戏并且在模拟器打开之后会遇到一直卡在白屏的情况，如图</p>
+<p><img src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E5%8D%A1%E5%9C%A8%E7%99%BD%E5%B1%8F.png" alt="卡在白屏"></p>
+<p>那么这个时候就要注意是不是模拟器语言设置的问题，我们可以在这里看到游戏的语言</p>
+<p><img src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E6%9F%A5%E7%9C%8B%E8%AF%AD%E8%A8%80.png" alt="查看语言"></p>
+<p>那么可以看到这个语言是 <code>日语</code>，那我们就要把模拟器改成对应的，看图操作，找到 <code>设置 -&gt; Wii -&gt; 系统语言</code>，然后在下拉菜单里找到 <code>对应语言</code>，然后点击关闭即可</p>
+<p><img src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E4%BF%AE%E6%94%B9%E8%AF%AD%E8%A8%80.png" alt="修改语言"></p>
+<p>现在开始游戏就可以正常运行了</p>
+<p><img src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C.png" alt="正常运行"></p>
+<h1 id="无法进入"><a href="#无法进入" class="headerlink" title="无法进入"></a>无法进入</h1><p>那有时候还会出现无法进入游戏界面的情况，会有类似下面这样的提示</p>
+<p><img src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5.png" alt="无法进入"></p>
+<p>那这个情况只需要去 <code>控制器 -&gt; Wii 遥控器</code> 然后点击你要是用的模拟手柄的设置，将 <code>扩展</code> 这一项改成无就可以，看图操作</p>
+<p><img src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E4%BF%AE%E6%94%B9%E6%89%A9%E5%B1%951.png" alt="修改扩展1"></p>
+<p><img src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E4%BF%AE%E6%94%B9%E6%89%A9%E5%B1%952.png" alt="修改扩展2"></p>
+<p>现在再试试进入游戏就正常了</p>
+<p><img src="/blog_image/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8DolphinEmulator%E7%8E%A9%E3%80%8A%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%EF%BC%9AWii%E3%80%8B/%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C.png" alt="正常运行"></p>
+]]></content>
+      <categories>
+        <category>星之卡比系列教程</category>
+      </categories>
+      <tags>
+        <tag>星之卡比</tag>
+        <tag>星之卡比 Wii</tag>
+        <tag>Wii 模拟器</tag>
+        <tag>Dolphin Emulator</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开往 - Travellings</title>
     <url>/posts/58ae8d54/</url>
     <content><![CDATA[<h1 id="什么是开往"><a href="#什么是开往" class="headerlink" title="什么是开往"></a>什么是开往</h1><p>这是一个来自于国外的想法，在网站显眼的位置，加入一个认证的徽标，代表网站已经加入了友链助力，如果访客点击徽标，将随机前往另一个计划内的网站。</p>
@@ -487,7 +523,7 @@
 </ol>
 <p>满足以上要求，并将徽标插入您网页<strong>明显的地方</strong>（让友链传递下去）。</p>
 <p><strong>下面就是通向异域的按钮。</strong></p>
-<p><a href="https://travellings.now.sh/" target="blank"><img src= "/img/loading.gif" data-lazy-src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a></p>
+<p><a href="https://travellings.now.sh/" target="blank"><img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a></p>
 ]]></content>
       <categories>
         <category>正经文字</category>
@@ -543,6 +579,19 @@
       </tags>
   </entry>
   <entry>
+    <title>怎么呼吸</title>
+    <url>/posts/b0821049/</url>
+    <content><![CDATA[<p>不能呼吸的时候<br>是不是很难受？<br>这只海龟也是这么觉得的<br><img src="/blog_image/%E5%91%BC%E5%90%B8/%E6%B5%B7%E9%BE%9F.jpg"><br><strong>怎么救它？</strong><br>尽量不去用一次性的塑料产品<br>比如 不买一次性塑料袋<br>喝饮料的时候不要用吸管<br>放一双公筷<br>点外卖的时候选择「不要餐具」<br>随身带一个保温杯<br>不强求一步到位<br>也不去强迫别人<br>改变<br>从自身的一点点<br>到地球的「亿」点点</p>
+]]></content>
+      <categories>
+        <category>正经文字</category>
+      </categories>
+      <tags>
+        <tag>环保</tag>
+        <tag>塑料产品</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我为什么要搭建博客</title>
     <url>/posts/a6366ad5/</url>
     <content><![CDATA[<blockquote>
@@ -562,53 +611,6 @@
       <tags>
         <tag>为什么</tag>
         <tag>看法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>怎么呼吸</title>
-    <url>/posts/b0821049/</url>
-    <content><![CDATA[<p>不能呼吸的时候<br>是不是很难受？<br>这只海龟也是这么觉得的<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%91%BC%E5%90%B8/%E6%B5%B7%E9%BE%9F.jpg"><br><strong>怎么救它？</strong><br>尽量不去用一次性的塑料产品<br>比如 不买一次性塑料袋<br>喝饮料的时候不要用吸管<br>放一双公筷<br>点外卖的时候选择「不要餐具」<br>随身带一个保温杯<br>不强求一步到位<br>也不去强迫别人<br>改变<br>从自身的一点点<br>到地球的「亿」点点</p>
-]]></content>
-      <categories>
-        <category>正经文字</category>
-      </categories>
-      <tags>
-        <tag>环保</tag>
-        <tag>塑料产品</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>updateConfiguration 弃用之后更换语言应该何去何从</title>
-    <url>/posts/9e078f24/</url>
-    <content><![CDATA[<div class="note info"><p>注意本文使用的语言的是 Kotlin，如需 Java 请自行转换或在网络自行搜索，本文的 minSDK 为 21</p>
-</div>
-
-<h1 id="弃用"><a href="#弃用" class="headerlink" title="弃用"></a>弃用</h1><p>通常提起 Android 程序更换语言可能会想到 <code>Context</code> 的 <code>getResources().updateConfiguration(configuration, displayMetrics)</code>,传入设置好 <code>Locale</code> 的 <code>configuration</code> 以及 <code>Context</code> 的 <code>getResources().getDisplayMetrics()</code>。</p>
-<p>然而这个方法在现在已经被标记为 deprecated，这意味着以后的版本可能用不了这个了。</p>
-<blockquote>
-<p>这是官方的信息：<br>‘updateConfiguration(android.content.res.Configuration, android.util.DisplayMetrics)’ is deprecated<br>Deprecated<br>See android.content.Context.createConfigurationContext(Configuration).</p>
-</blockquote>
-<p>那简单了，我们只需要看看 <code>Context.createConfigurationContext(Configuration)</code> 怎么使用就可以了，分析一下，这个方法是返回一个 <code>Context</code>，那我们只需要重写一下 <code>ContextWrapper</code> 就好了,这样获取到的就是用一个 <code>Context</code>，保证更换语言成功。</p>
-<h1 id="重写-ContextWrapper"><a href="#重写-ContextWrapper" class="headerlink" title="重写 ContextWrapper"></a>重写 ContextWrapper</h1><p>这是我写好的 <code>ContextWrapper</code>，比较简单，需要说明的东西我都写在注释了：</p>
-<figure class="highlight kotlin"><table><tr><td class="code"><pre><span class="line"><span class="keyword">open</span> <span class="class"><span class="keyword">class</span> <span class="title">ContextWrapper</span></span>(base: Context?) : ContextWrapper(base) &#123;</span><br><span class="line">    <span class="keyword">companion</span> <span class="keyword">object</span> &#123;</span><br><span class="line">        <span class="comment">//这里使用注解保证编译通过</span></span><br><span class="line">        <span class="meta">@RequiresApi(Build.VERSION_CODES.N)</span></span><br><span class="line">        <span class="function"><span class="keyword">fun</span> <span class="title">wrap</span><span class="params">(context: <span class="type">Context</span>, newLocale: <span class="type">Locale</span>?)</span></span>: ContextWrapper &#123;</span><br><span class="line">            <span class="keyword">var</span> mContext = context</span><br><span class="line">            <span class="keyword">val</span> res: Resources = mContext.resources</span><br><span class="line">            <span class="keyword">val</span> configuration: Configuration = res.configuration</span><br><span class="line">            <span class="comment">//注意 Android 7.0 前后的不同处理方法</span></span><br><span class="line">            mContext = <span class="keyword">if</span> (Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.N) &#123;</span><br><span class="line">                configuration.setLocale(newLocale)</span><br><span class="line">                <span class="keyword">val</span> localeList = LocaleList(newLocale)</span><br><span class="line">                LocaleList.setDefault(localeList)</span><br><span class="line">                configuration.setLocales(localeList)</span><br><span class="line">                mContext.createConfigurationContext(configuration)</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                configuration.setLocale(newLocale)</span><br><span class="line">                mContext.createConfigurationContext(configuration)</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">return</span> ContextWrapper(mContext)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h1 id="准备好切换工具"><a href="#准备好切换工具" class="headerlink" title="准备好切换工具"></a>准备好切换工具</h1><p>我这里准备了一个语言的工具类可以参考一下：</p>
-<figure class="highlight kotlin"><table><tr><td class="code"><pre><span class="line"><span class="keyword">object</span> LanguageUtil &#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 设置语言的值</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> context 上下文</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> lan 需要设置的语言</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">fun</span> <span class="title">setLanguage</span><span class="params">(context: <span class="type">Context</span>, lan: <span class="type">String</span>)</span></span> &#123;</span><br><span class="line">        context.getSharedPreferences(<span class="string">&quot;settings&quot;</span>, <span class="number">0</span>).edit &#123;</span><br><span class="line">            putString(<span class="string">&quot;language&quot;</span>, lan)</span><br><span class="line">            <span class="keyword">this</span>.commit()</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取应用于选择语言对话框的 checkedItem</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">fun</span> <span class="title">getCheckedItem</span><span class="params">(context: <span class="type">Context</span>)</span></span>: <span class="built_in">Int</span> =</span><br><span class="line">        <span class="keyword">when</span> (context.getSharedPreferences(<span class="string">&quot;settings&quot;</span>, <span class="number">0</span>).getString(<span class="string">&quot;language&quot;</span>, <span class="string">&quot;cn&quot;</span>)) &#123;</span><br><span class="line">            <span class="string">&quot;auto&quot;</span> -&gt; <span class="number">0</span></span><br><span class="line">            <span class="string">&quot;zh-rCN&quot;</span> -&gt; <span class="number">1</span></span><br><span class="line">            <span class="string">&quot;zh-rTW&quot;</span> -&gt; <span class="number">2</span></span><br><span class="line">            <span class="string">&quot;en&quot;</span> -&gt; <span class="number">3</span></span><br><span class="line">            <span class="keyword">else</span> -&gt; <span class="number">0</span></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取当前设置的 Locale</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">fun</span> <span class="title">getLocale</span><span class="params">(context: <span class="type">Context</span>)</span></span>: Locale =</span><br><span class="line">        <span class="keyword">when</span> (context.getSharedPreferences(<span class="string">&quot;settings&quot;</span>, <span class="number">0</span>).getString(<span class="string">&quot;language&quot;</span>, <span class="string">&quot;cn&quot;</span>)) &#123;</span><br><span class="line">            <span class="string">&quot;auto&quot;</span> -&gt; getSysLocale()</span><br><span class="line">            <span class="string">&quot;zh-rCN&quot;</span> -&gt; Locale(<span class="string">&quot;zh&quot;</span>, <span class="string">&quot;CN&quot;</span>)</span><br><span class="line">            <span class="string">&quot;zh-rTW&quot;</span> -&gt; Locale(<span class="string">&quot;zh&quot;</span>, <span class="string">&quot;TW&quot;</span>)</span><br><span class="line">            <span class="string">&quot;en&quot;</span> -&gt; Locale(<span class="string">&quot;en&quot;</span>)</span><br><span class="line">            <span class="keyword">else</span> -&gt; getSysLocale()</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取当前系统的 Locale</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">private</span> <span class="function"><span class="keyword">fun</span> <span class="title">getSysLocale</span><span class="params">()</span></span>: Locale = <span class="keyword">if</span> (Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.N) &#123;</span><br><span class="line">        LocaleList.getDefault()[<span class="number">0</span>]</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        Locale.getDefault()</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>这里使用了 <code>object</code> 关键字让他变成一个单例类，而且我选择的是把设置的语言信息通过 <code>SharedPreferences</code> 进行存储，这里根据你的实际情况来调整就 OK。</p>
-<h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><p>在<strong>每一个</strong> <code>Activity</code> 或者你封装好的 <code>BaseActivity</code> 里重写这样的方法即可：</p>
-<figure class="highlight kotlin"><table><tr><td class="code"><pre><span class="line"><span class="meta">@RequiresApi(Build.VERSION_CODES.N)</span></span><br><span class="line"><span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">attachBaseContext</span><span class="params">(newBase: <span class="type">Context</span>?)</span></span> &#123;</span><br><span class="line">    <span class="comment">//如果不使用工具类也可以在这里处理好 Locale 传入</span></span><br><span class="line">    <span class="keyword">val</span> context = newBase?.let &#123;</span><br><span class="line">        ContextWrapper.wrap(newBase,LanguageUtil.getLocale(newBase))</span><br><span class="line">        &#125;</span><br><span class="line">    <span class="keyword">super</span>.attachBaseContext(context)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>这样就可以正常的切换语言了</p>
-]]></content>
-      <categories>
-        <category>编程</category>
-      </categories>
-      <tags>
-        <tag>踩坑</tag>
-        <tag>Android</tag>
-        <tag>Kotlin</tag>
-        <tag>弃用</tag>
       </tags>
   </entry>
   <entry>
@@ -638,31 +640,28 @@
       </tags>
   </entry>
   <entry>
-    <title>如何优雅的使用 Material Design 2</title>
-    <url>/posts/9cb48aa5/</url>
-    <content><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>Material Design 2 （下面简称 MD2）已经发布了一段时间了，可是还有一些小伙伴不知道怎么迁移到 MD2 来，我也是查了不少资料才摸索出来的        </p>
-<h1 id="AndroidX"><a href="#AndroidX" class="headerlink" title="AndroidX"></a>AndroidX</h1><p>首先，需要迁移到 AndroidX 来，这个网上有很多教程了，AndroidStudio 和 IDEA 也有相关的功能，这里就不赘述了        </p>
-<h1 id="修改主题"><a href="#修改主题" class="headerlink" title="修改主题"></a>修改主题</h1><p>然后，需要修改 <code>styles.xml</code> 中的内容了，修改你之前的主题为</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&lt;style name=<span class="string">&quot;AppTheme&quot;</span> parent=<span class="string">&quot;Theme.MaterialComponents.Light.NoActionBar&quot;</span>&gt;<span class="string">&quot;</span></span><br></pre></td></tr></table></figure>
+    <title>updateConfiguration 弃用之后更换语言应该何去何从</title>
+    <url>/posts/9e078f24/</url>
+    <content><![CDATA[<div class="note info flat"><p>注意本文使用的语言的是 Kotlin，如需 Java 请自行转换或在网络自行搜索，本文的 minSDK 为 21</p>
+</div>
 
-<p>当然还有其他可选的</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Theme.MaterialComponents</span><br><span class="line">Theme.MaterialComponents.Light</span><br><span class="line">Theme.MaterialComponents.NoActionBar</span><br><span class="line">Theme.MaterialComponents.Light.NoActionBar</span><br><span class="line">Theme.MaterialComponents.Light.DarkActionBar</span><br></pre></td></tr></table></figure>
+<h1 id="弃用"><a href="#弃用" class="headerlink" title="弃用"></a>弃用</h1><p>通常提起 Android 程序更换语言可能会想到 <code>Context</code> 的 <code>getResources().updateConfiguration(configuration, displayMetrics)</code>,传入设置好 <code>Locale</code> 的 <code>configuration</code> 以及 <code>Context</code> 的 <code>getResources().getDisplayMetrics()</code>。</p>
+<p>然而这个方法在现在已经被标记为 deprecated，这意味着以后的版本可能用不了这个了。</p>
+<blockquote>
+<p>这是官方的信息：<br>‘updateConfiguration(android.content.res.Configuration, android.util.DisplayMetrics)’ is deprecated<br>Deprecated<br>See android.content.Context.createConfigurationContext(Configuration).</p>
+</blockquote>
+<p>那简单了，我们只需要看看 <code>Context.createConfigurationContext(Configuration)</code> 怎么使用就可以了，分析一下，这个方法是返回一个 <code>Context</code>，那我们只需要重写一下 <code>ContextWrapper</code> 就好了,这样获取到的就是用一个 <code>Context</code>，保证更换语言成功。</p>
+<h1 id="重写-ContextWrapper"><a href="#重写-ContextWrapper" class="headerlink" title="重写 ContextWrapper"></a>重写 ContextWrapper</h1><p>这是我写好的 <code>ContextWrapper</code>，比较简单，需要说明的东西我都写在注释了：</p>
+<figure class="highlight kotlin"><table><tr><td class="code"><pre><span class="line"><span class="keyword">open</span> <span class="class"><span class="keyword">class</span> <span class="title">ContextWrapper</span></span>(base: Context?) : ContextWrapper(base) &#123;</span><br><span class="line">    <span class="keyword">companion</span> <span class="keyword">object</span> &#123;</span><br><span class="line">        <span class="comment">//这里使用注解保证编译通过</span></span><br><span class="line">        <span class="meta">@RequiresApi(Build.VERSION_CODES.N)</span></span><br><span class="line">        <span class="function"><span class="keyword">fun</span> <span class="title">wrap</span><span class="params">(context: <span class="type">Context</span>, newLocale: <span class="type">Locale</span>?)</span></span>: ContextWrapper &#123;</span><br><span class="line">            <span class="keyword">var</span> mContext = context</span><br><span class="line">            <span class="keyword">val</span> res: Resources = mContext.resources</span><br><span class="line">            <span class="keyword">val</span> configuration: Configuration = res.configuration</span><br><span class="line">            <span class="comment">//注意 Android 7.0 前后的不同处理方法</span></span><br><span class="line">            mContext = <span class="keyword">if</span> (Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.N) &#123;</span><br><span class="line">                configuration.setLocale(newLocale)</span><br><span class="line">                <span class="keyword">val</span> localeList = LocaleList(newLocale)</span><br><span class="line">                LocaleList.setDefault(localeList)</span><br><span class="line">                configuration.setLocales(localeList)</span><br><span class="line">                mContext.createConfigurationContext(configuration)</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                configuration.setLocale(newLocale)</span><br><span class="line">                mContext.createConfigurationContext(configuration)</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">return</span> ContextWrapper(mContext)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>如果只想对 Material 组件生效那就用</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Theme.MaterialComponents.Bridge</span><br><span class="line">Theme.MaterialComponents.Light.Bridge</span><br><span class="line">Theme.MaterialComponents.NoActionBar.Bridge</span><br><span class="line">Theme.MaterialComponents.Light.NoActionBar.Bridge</span><br><span class="line">Theme.MaterialComponents.Light.DarkActionBar.Bridge</span><br></pre></td></tr></table></figure>
+<h1 id="准备好切换工具"><a href="#准备好切换工具" class="headerlink" title="准备好切换工具"></a>准备好切换工具</h1><p>我这里准备了一个语言的工具类可以参考一下：</p>
+<figure class="highlight kotlin"><table><tr><td class="code"><pre><span class="line"><span class="keyword">object</span> LanguageUtil &#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 设置语言的值</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> context 上下文</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> lan 需要设置的语言</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">fun</span> <span class="title">setLanguage</span><span class="params">(context: <span class="type">Context</span>, lan: <span class="type">String</span>)</span></span> &#123;</span><br><span class="line">        context.getSharedPreferences(<span class="string">&quot;settings&quot;</span>, <span class="number">0</span>).edit &#123;</span><br><span class="line">            putString(<span class="string">&quot;language&quot;</span>, lan)</span><br><span class="line">            <span class="keyword">this</span>.commit()</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取应用于选择语言对话框的 checkedItem</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">fun</span> <span class="title">getCheckedItem</span><span class="params">(context: <span class="type">Context</span>)</span></span>: <span class="built_in">Int</span> =</span><br><span class="line">        <span class="keyword">when</span> (context.getSharedPreferences(<span class="string">&quot;settings&quot;</span>, <span class="number">0</span>).getString(<span class="string">&quot;language&quot;</span>, <span class="string">&quot;cn&quot;</span>)) &#123;</span><br><span class="line">            <span class="string">&quot;auto&quot;</span> -&gt; <span class="number">0</span></span><br><span class="line">            <span class="string">&quot;zh-rCN&quot;</span> -&gt; <span class="number">1</span></span><br><span class="line">            <span class="string">&quot;zh-rTW&quot;</span> -&gt; <span class="number">2</span></span><br><span class="line">            <span class="string">&quot;en&quot;</span> -&gt; <span class="number">3</span></span><br><span class="line">            <span class="keyword">else</span> -&gt; <span class="number">0</span></span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取当前设置的 Locale</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">fun</span> <span class="title">getLocale</span><span class="params">(context: <span class="type">Context</span>)</span></span>: Locale =</span><br><span class="line">        <span class="keyword">when</span> (context.getSharedPreferences(<span class="string">&quot;settings&quot;</span>, <span class="number">0</span>).getString(<span class="string">&quot;language&quot;</span>, <span class="string">&quot;cn&quot;</span>)) &#123;</span><br><span class="line">            <span class="string">&quot;auto&quot;</span> -&gt; getSysLocale()</span><br><span class="line">            <span class="string">&quot;zh-rCN&quot;</span> -&gt; Locale(<span class="string">&quot;zh&quot;</span>, <span class="string">&quot;CN&quot;</span>)</span><br><span class="line">            <span class="string">&quot;zh-rTW&quot;</span> -&gt; Locale(<span class="string">&quot;zh&quot;</span>, <span class="string">&quot;TW&quot;</span>)</span><br><span class="line">            <span class="string">&quot;en&quot;</span> -&gt; Locale(<span class="string">&quot;en&quot;</span>)</span><br><span class="line">            <span class="keyword">else</span> -&gt; getSysLocale()</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取当前系统的 Locale</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">private</span> <span class="function"><span class="keyword">fun</span> <span class="title">getSysLocale</span><span class="params">()</span></span>: Locale = <span class="keyword">if</span> (Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.N) &#123;</span><br><span class="line">        LocaleList.getDefault()[<span class="number">0</span>]</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        Locale.getDefault()</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>仅仅是这一个操作就完成了大部分任务了，现在编译就可以看到一些新特性了<br>不过肯定没有这么简单，所以这里来讲解一些坑</p>
-<h1 id="开始踩坑"><a href="#开始踩坑" class="headerlink" title="开始踩坑"></a>开始踩坑</h1><h2 id="FloatingActionButton-颜色问题"><a href="#FloatingActionButton-颜色问题" class="headerlink" title="FloatingActionButton 颜色问题"></a>FloatingActionButton 颜色问题</h2><p>对，你没看错，MD2 默认的 FAB 颜色有一点问题<br>默认情况下背景色不是主题的强调色，图标的颜色也是黑的，很丑，那么怎么解决呢？<br>很简单，添加</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">app:backgroundTint=<span class="string">&quot;?attr/colorAccent&quot;</span></span><br><span class="line">app:tint=<span class="string">&quot;@android:color/white&quot;</span></span><br></pre></td></tr></table></figure>
+<p>这里使用了 <code>object</code> 关键字让他变成一个单例类，而且我选择的是把设置的语言信息通过 <code>SharedPreferences</code> 进行存储，这里根据你的实际情况来调整就 OK。</p>
+<h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><p>在<strong>每一个</strong> <code>Activity</code> 或者你封装好的 <code>BaseActivity</code> 里重写这样的方法即可：</p>
+<figure class="highlight kotlin"><table><tr><td class="code"><pre><span class="line"><span class="meta">@RequiresApi(Build.VERSION_CODES.N)</span></span><br><span class="line"><span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">attachBaseContext</span><span class="params">(newBase: <span class="type">Context</span>?)</span></span> &#123;</span><br><span class="line">    <span class="comment">//如果不使用工具类也可以在这里处理好 Locale 传入</span></span><br><span class="line">    <span class="keyword">val</span> context = newBase?.let &#123;</span><br><span class="line">        ContextWrapper.wrap(newBase,LanguageUtil.getLocale(newBase))</span><br><span class="line">        &#125;</span><br><span class="line">    <span class="keyword">super</span>.attachBaseContext(context)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>这两行到 FAB 的属性，即</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&lt;com.google.android.material.floatingactionbutton.FloatingActionButton</span><br><span class="line">		android:layout_width=<span class="string">&quot;wrap_content&quot;</span></span><br><span class="line">		android:layout_height=<span class="string">&quot;wrap_content&quot;</span></span><br><span class="line">		android:id=<span class="string">&quot;@+id/fab_chat_edit&quot;</span></span><br><span class="line">        app:backgroundTint=<span class="string">&quot;?attr/colorAccent&quot;</span></span><br><span class="line">        app:tint=<span class="string">&quot;@android:color/white&quot;</span>/&gt;</span><br></pre></td></tr></table></figure>
-
-<p>这样就完成啦，背景色是主题的强调色，图标是白色，就和以前的一样了，当然也可以修改为其他的颜色</p>
-<h2 id="布局的-Design-界面不能预览"><a href="#布局的-Design-界面不能预览" class="headerlink" title="布局的 Design 界面不能预览"></a>布局的 Design 界面不能预览</h2><p>这个就比较麻烦了，好像只有第一次启动 IDE 的时候能正常看到布局，过一会就无法预览了，提示异常，感觉是个 Bug，临时的解决办法就是修改主题，xml布局界面上边修改主题为旧版本的即可，这样改以后布局可以看，只是 material 的效果都没了，很难受</p>
-<p>还有一种办法，参考 <a href="https://stackoverflow.com/questions/55791884/cannot-render-materialbutton-with-android-material1-1-x">stackoverflow</a> 比较简单的办法,添加一个预览的style</p>
-<p>最后还有一种说是 Android Studio 3.5 修复了，不过我是 IDEA 就不太清楚了</p>
-<h1 id="待续"><a href="#待续" class="headerlink" title="待续"></a>待续</h1><p>暂时遇到这些，后面还有的话也记录上来</p>
+<p>这样就可以正常的切换语言了</p>
 ]]></content>
       <categories>
         <category>编程</category>
@@ -670,7 +669,8 @@
       <tags>
         <tag>踩坑</tag>
         <tag>Android</tag>
-        <tag>Material Design 2</tag>
+        <tag>Kotlin</tag>
+        <tag>弃用</tag>
       </tags>
   </entry>
   <entry>
@@ -747,7 +747,7 @@
     <title>实现滑动隐藏 ToolBar 与 BottomNavigation</title>
     <url>/posts/919199f6/</url>
     <content><![CDATA[<p>最近在重写 Kirby Assistant 的时候需要实现像图中的效果，那这样的效果具体应该怎么实现呢，快点进来看看吧。(图在里面)</p>
-<p>(这里有图，GitHub 可能速度比较慢)<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%AE%9E%E7%8E%B0%E6%BB%91%E5%8A%A8%E9%9A%90%E8%97%8FToolBar%E4%B8%8EBottomNavigation/%E6%9C%80%E7%BB%88%E6%95%88%E6%9E%9C.gif" alt="最终效果"></p>
+<p>(这里有图，GitHub 可能速度比较慢)<br><img src="/blog_image/%E5%AE%9E%E7%8E%B0%E6%BB%91%E5%8A%A8%E9%9A%90%E8%97%8FToolBar%E4%B8%8EBottomNavigation/%E6%9C%80%E7%BB%88%E6%95%88%E6%9E%9C.gif" alt="最终效果"></p>
 <h1 id="准备过程"><a href="#准备过程" class="headerlink" title="准备过程"></a>准备过程</h1><p>首先这样的效果都是基 <code>CoordinatorLayout</code> 来实现的，所以先在 <code>app</code> 模块下添加如下依赖</p>
 <figure class="highlight gradle"><table><tr><td class="code"><pre><span class="line">implementation <span class="string">&#x27;androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01&#x27;</span><span class="comment">//版本可能不是最新，根据自身情况选择新版</span></span><br></pre></td></tr></table></figure>
 
@@ -799,47 +799,63 @@
       </tags>
   </entry>
   <entry>
-    <title>在线游玩 FC（小霸王、红白机）、街机游戏</title>
-    <url>/posts/743f9c80/</url>
-    <content><![CDATA[<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%9C%A8%E7%BA%BF%E6%B8%B8%E7%8E%A9FC%EF%BC%88%E5%B0%8F%E9%9C%B8%E7%8E%8B%E3%80%81%E7%BA%A2%E7%99%BD%E6%9C%BA%EF%BC%89%E3%80%81%E8%A1%97%E6%9C%BA%E6%B8%B8%E6%88%8F/%E7%BD%91%E7%AB%99%E6%A0%87%E9%A2%98%E7%95%8C%E9%9D%A2.png" alt="网站标题界面"></p>
-<p><a href="https://www.yikm.net/">点击这里访问 yikm 在线玩游戏</a></p>
-<p>FC 游戏，或者说是国人更熟悉的「小霸王」，可以说承载了 80 后、90 后乃至 00 后共同的童年回忆 。</p>
-<p>随着 PC 机的普及，国内的主机游戏渐渐成了小众爱好，而小霸王成为了这几代许多人对于「手柄游戏」的唯一认知。</p>
-<p>在「小霸王」逐渐在家庭的客厅、玩家的桌面消失以后，很多人都在 PC 机上体验过各种各样的「FC 游戏模拟器」，但是繁杂的参数，无中文的交互界面成为了一种不大不小的阻碍。</p>
-<p>而这次推荐的网站 <code>yikm</code> 就成了这些问题的终极解决方案，你只需要一个浏览器（无论是 PC 还是手机端），访问这个网站，就能在线玩到这些经典的像素风游戏。<br>贴心的在线联机功能</p>
-<p>当那些曾在记忆里响起无数次的 8-bit 音乐响起，不知道你有没有想起儿时的那些玩伴，如今即使你们在物理距离上相隔很远，也可以通过网络很方便地一起怀念童年——只需要通过 yikm 提供的「联机大厅」功能。</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E5%9C%A8%E7%BA%BF%E6%B8%B8%E7%8E%A9FC%EF%BC%88%E5%B0%8F%E9%9C%B8%E7%8E%8B%E3%80%81%E7%BA%A2%E7%99%BD%E6%9C%BA%EF%BC%89%E3%80%81%E8%A1%97%E6%9C%BA%E6%B8%B8%E6%88%8F/%E8%81%94%E6%9C%BA.png" alt="联机"></p>
+    <title>如何优雅的使用 Material Design 2</title>
+    <url>/posts/9cb48aa5/</url>
+    <content><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>Material Design 2 （下面简称 MD2）已经发布了一段时间了，可是还有一些小伙伴不知道怎么迁移到 MD2 来，我也是查了不少资料才摸索出来的        </p>
+<h1 id="AndroidX"><a href="#AndroidX" class="headerlink" title="AndroidX"></a>AndroidX</h1><p>首先，需要迁移到 AndroidX 来，这个网上有很多教程了，AndroidStudio 和 IDEA 也有相关的功能，这里就不赘述了        </p>
+<h1 id="修改主题"><a href="#修改主题" class="headerlink" title="修改主题"></a>修改主题</h1><p>然后，需要修改 <code>styles.xml</code> 中的内容了，修改你之前的主题为</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&lt;style name=<span class="string">&quot;AppTheme&quot;</span> parent=<span class="string">&quot;Theme.MaterialComponents.Light.NoActionBar&quot;</span>&gt;<span class="string">&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>当然还有其他可选的</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Theme.MaterialComponents</span><br><span class="line">Theme.MaterialComponents.Light</span><br><span class="line">Theme.MaterialComponents.NoActionBar</span><br><span class="line">Theme.MaterialComponents.Light.NoActionBar</span><br><span class="line">Theme.MaterialComponents.Light.DarkActionBar</span><br></pre></td></tr></table></figure>
+
+<p>如果只想对 Material 组件生效那就用</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Theme.MaterialComponents.Bridge</span><br><span class="line">Theme.MaterialComponents.Light.Bridge</span><br><span class="line">Theme.MaterialComponents.NoActionBar.Bridge</span><br><span class="line">Theme.MaterialComponents.Light.NoActionBar.Bridge</span><br><span class="line">Theme.MaterialComponents.Light.DarkActionBar.Bridge</span><br></pre></td></tr></table></figure>
+
+<p>仅仅是这一个操作就完成了大部分任务了，现在编译就可以看到一些新特性了<br>不过肯定没有这么简单，所以这里来讲解一些坑</p>
+<h1 id="开始踩坑"><a href="#开始踩坑" class="headerlink" title="开始踩坑"></a>开始踩坑</h1><h2 id="FloatingActionButton-颜色问题"><a href="#FloatingActionButton-颜色问题" class="headerlink" title="FloatingActionButton 颜色问题"></a>FloatingActionButton 颜色问题</h2><p>对，你没看错，MD2 默认的 FAB 颜色有一点问题<br>默认情况下背景色不是主题的强调色，图标的颜色也是黑的，很丑，那么怎么解决呢？<br>很简单，添加</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">app:backgroundTint=<span class="string">&quot;?attr/colorAccent&quot;</span></span><br><span class="line">app:tint=<span class="string">&quot;@android:color/white&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>这两行到 FAB 的属性，即</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">&lt;com.google.android.material.floatingactionbutton.FloatingActionButton</span><br><span class="line">		android:layout_width=<span class="string">&quot;wrap_content&quot;</span></span><br><span class="line">		android:layout_height=<span class="string">&quot;wrap_content&quot;</span></span><br><span class="line">		android:id=<span class="string">&quot;@+id/fab_chat_edit&quot;</span></span><br><span class="line">        app:backgroundTint=<span class="string">&quot;?attr/colorAccent&quot;</span></span><br><span class="line">        app:tint=<span class="string">&quot;@android:color/white&quot;</span>/&gt;</span><br></pre></td></tr></table></figure>
+
+<p>这样就完成啦，背景色是主题的强调色，图标是白色，就和以前的一样了，当然也可以修改为其他的颜色</p>
+<h2 id="布局的-Design-界面不能预览"><a href="#布局的-Design-界面不能预览" class="headerlink" title="布局的 Design 界面不能预览"></a>布局的 Design 界面不能预览</h2><p>这个就比较麻烦了，好像只有第一次启动 IDE 的时候能正常看到布局，过一会就无法预览了，提示异常，感觉是个 Bug，临时的解决办法就是修改主题，xml布局界面上边修改主题为旧版本的即可，这样改以后布局可以看，只是 material 的效果都没了，很难受</p>
+<p>还有一种办法，参考 <a href="https://stackoverflow.com/questions/55791884/cannot-render-materialbutton-with-android-material1-1-x">stackoverflow</a> 比较简单的办法,添加一个预览的style</p>
+<p>最后还有一种说是 Android Studio 3.5 修复了，不过我是 IDEA 就不太清楚了</p>
+<h1 id="待续"><a href="#待续" class="headerlink" title="待续"></a>待续</h1><p>暂时遇到这些，后面还有的话也记录上来</p>
 ]]></content>
       <categories>
-        <category>随手记</category>
+        <category>编程</category>
       </categories>
       <tags>
-        <tag>游戏推荐</tag>
-        <tag>FC</tag>
+        <tag>踩坑</tag>
+        <tag>Android</tag>
+        <tag>Material Design 2</tag>
       </tags>
   </entry>
   <entry>
     <title>Windows 软件推荐</title>
     <url>/posts/cd1c3d2a/</url>
     <content><![CDATA[<p>这些软件都是我自己用过的，可以通过左边页面快速定位</p>
-<h1 id="Visual-Studio-Code"><a href="#Visual-Studio-Code" class="headerlink" title="Visual Studio Code"></a>Visual Studio Code</h1><p>这个简直首推，编辑利器，人生苦短，我用 VS Code 完成关于文本编辑工作的一切。它天生支持几乎所有编程语言，还可以通过扩展个性化相应的语法高亮等。<br>如果你想忙里偷闲，VS Code 强大的扩展能力还能让你用它刷 LeetCode 或 V2EX，可谓带薪划水必备。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(1).png" alt="enter description here"><br>你可以在<a href="https://code.visualstudio.com/">官网</a>免费获取 Visual Studio Code。</p>
+<h1 id="Visual-Studio-Code"><a href="#Visual-Studio-Code" class="headerlink" title="Visual Studio Code"></a>Visual Studio Code</h1><p>这个简直首推，编辑利器，人生苦短，我用 VS Code 完成关于文本编辑工作的一切。它天生支持几乎所有编程语言，还可以通过扩展个性化相应的语法高亮等。<br>如果你想忙里偷闲，VS Code 强大的扩展能力还能让你用它刷 LeetCode 或 V2EX，可谓带薪划水必备。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(1).png" alt="enter description here"><br>你可以在<a href="https://code.visualstudio.com/">官网</a>免费获取 Visual Studio Code。</p>
 <h1 id="福昕-PDF-阅读器"><a href="#福昕-PDF-阅读器" class="headerlink" title="福昕 PDF 阅读器"></a>福昕 PDF 阅读器</h1><p>国产，中文界面，流畅好用，界面美观<br><a href="https://www.foxitsoftware.cn/">点这里</a></p>
 <h1 id="福昕-PDF-编辑器"><a href="#福昕-PDF-编辑器" class="headerlink" title="福昕 PDF 编辑器"></a>福昕 PDF 编辑器</h1><p>福昕（Foxit）可能是我国最受欢迎的 PDF 阅读器，由其出品的 <a href="https://www.foxitsoftware.cn/pdf-editor/">PDF 编辑器</a> 也是 Adobe Acrobat 的有力竞争对手。它提供了各种 PDF 批注工具；支持编辑 PDF 中的文本、段落、图片；设计并填写表单；OCR 识别图片中的文字；管理 PDF 页面；转换为其它文件格式等，界面也比较友好。</p>
-<h1 id="火绒安全软件"><a href="#火绒安全软件" class="headerlink" title="火绒安全软件"></a>火绒安全软件</h1><p>如果你觉得 Windows Defender 还是有些简陋，火绒安全软件是个不错的选择。它提供了病毒联网查杀、垃圾清理、下载保护、浏览器保护等国产卫士标配功能，但不会拖家带口向你问好，还你一片清净。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(2).png" alt="enter description here"><br>除了系统防护外，火绒安全软件还提供了数种实用工具，如弹窗拦截、右键菜单管理、启动项管理、文件粉碎机等。如果你是进阶用户，还可以试试火绒剑这一强大的专业安全分析工具。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(3).png" alt="enter description here"><br>你可以在 <a href="https://www.huorong.cn/">官网</a> 免费获取火绒安全软件。</p>
+<h1 id="火绒安全软件"><a href="#火绒安全软件" class="headerlink" title="火绒安全软件"></a>火绒安全软件</h1><p>如果你觉得 Windows Defender 还是有些简陋，火绒安全软件是个不错的选择。它提供了病毒联网查杀、垃圾清理、下载保护、浏览器保护等国产卫士标配功能，但不会拖家带口向你问好，还你一片清净。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(2).png" alt="enter description here"><br>除了系统防护外，火绒安全软件还提供了数种实用工具，如弹窗拦截、右键菜单管理、启动项管理、文件粉碎机等。如果你是进阶用户，还可以试试火绒剑这一强大的专业安全分析工具。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(3).png" alt="enter description here"><br>你可以在 <a href="https://www.huorong.cn/">官网</a> 免费获取火绒安全软件。</p>
 <h1 id="Quicklook，仿-MAC-快速预览"><a href="#Quicklook，仿-MAC-快速预览" class="headerlink" title="Quicklook，仿 MAC 快速预览"></a>Quicklook，仿 MAC 快速预览</h1><p>MAC 的快速预览很多人都见过，回望 Win10 的「预览」，依旧被抠抠唆唆地安排在窗口右侧，一点也不大气！QuickLook 是一款仿 MAC 快速预览的小工具，装好之后，只要选中文件，按下键盘上的空格键，即可预览文件内容。</p>
-<p>QuickLook 支持文本、视频、音频、图片、压缩包、Office 文档……，换句话说，你电脑上任何一款文件几乎都可以用它预览。同时你也可以点击预览窗右上角的按钮直接启动对应程序，非常方便。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(4).png" alt="enter description here"><br><a href="http://dl.pconline.com.cn/download/1115319.html">QuickLook：点此下载</a></p>
-<h1 id="升级-Win10-日历！优效日历"><a href="#升级-Win10-日历！优效日历" class="headerlink" title="升级 Win10 日历！优效日历"></a>升级 Win10 日历！优效日历</h1><p>Win10 为右下角托盘设计了一个新日历，但依旧被吐槽功能太弱，优效日历是 Win10 原生日历的最佳替代者。它有着和 Win10 原生日历一致的外观界面，支持农历、节日、调休显示，支持日程提醒、万年历、自定义时钟。同时它还集成了定时关机、屏幕截图两大功能，没用过的一定得试一试！<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(5).png" alt="enter description here"><br><a href="http://www.youxiao.cn/">点击下载</a></p>
+<p>QuickLook 支持文本、视频、音频、图片、压缩包、Office 文档……，换句话说，你电脑上任何一款文件几乎都可以用它预览。同时你也可以点击预览窗右上角的按钮直接启动对应程序，非常方便。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(4).png" alt="enter description here"><br><a href="http://dl.pconline.com.cn/download/1115319.html">QuickLook：点此下载</a></p>
+<h1 id="升级-Win10-日历！优效日历"><a href="#升级-Win10-日历！优效日历" class="headerlink" title="升级 Win10 日历！优效日历"></a>升级 Win10 日历！优效日历</h1><p>Win10 为右下角托盘设计了一个新日历，但依旧被吐槽功能太弱，优效日历是 Win10 原生日历的最佳替代者。它有着和 Win10 原生日历一致的外观界面，支持农历、节日、调休显示，支持日程提醒、万年历、自定义时钟。同时它还集成了定时关机、屏幕截图两大功能，没用过的一定得试一试！<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(5).png" alt="enter description here"><br><a href="http://www.youxiao.cn/">点击下载</a></p>
 <h1 id="Chocolatey"><a href="#Chocolatey" class="headerlink" title="Chocolatey"></a>Chocolatey</h1><p>Chocolatey 是 Windows 下的包管理器，访问<a href="https://chocolatey.org/">官网</a>来查看使用方法</p>
 <h1 id="uTools"><a href="#uTools" class="headerlink" title="uTools"></a>uTools</h1><p>uTools 是一个极简的桌面管理软件，但它的功能更全面。包含：快速启动、自动识别、数据同步等功能。</p>
-<p>比如快速启动，这个功能和 Listary、Everything 等都非常相似。但 uTools 对中文的支持非常有好，还可以首字母检索。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(6).png" alt="enter description here"><br>除此外还有插件中心，里面还有各种比如：网页快开、在线翻译、计算器、压缩图片、图片转文字等功能。这也是其它快速启动软件所不具备的。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(7).png" alt="enter description here"><br><a href="https://u.tools/">点击下载</a></p>
+<p>比如快速启动，这个功能和 Listary、Everything 等都非常相似。但 uTools 对中文的支持非常有好，还可以首字母检索。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(6).png" alt="enter description here"><br>除此外还有插件中心，里面还有各种比如：网页快开、在线翻译、计算器、压缩图片、图片转文字等功能。这也是其它快速启动软件所不具备的。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(7).png" alt="enter description here"><br><a href="https://u.tools/">点击下载</a></p>
 <h1 id="万彩办公大师"><a href="#万彩办公大师" class="headerlink" title="万彩办公大师"></a>万彩办公大师</h1><p>万彩办公大师可以说是一个办公必备的工具，包含了各种功能：PDF 编辑、格式转换、图片编辑等，功能多达 60+。</p>
-<p>最让人惊喜的是，万彩办公大师使用完全免费，所有的工具无需安装，直接加载就可以启动了。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(8).png" alt="enter description here"><br><a href="wofficebox.com/">下载地址</a></p>
-<h1 id="TreeSize"><a href="#TreeSize" class="headerlink" title="TreeSize"></a>TreeSize</h1><p>TreeSize 是一个扫描磁盘可视化排列大小的应用，有免费版和专业版可以选<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(9).png" alt="enter description here"><br><a href="https://www.jam-software.com/treesize_free/">点击这里</a>获取免费版</p>
-<h1 id="CCleaner"><a href="#CCleaner" class="headerlink" title="CCleaner"></a>CCleaner</h1><p>CCleaner，不仅是常用的垃圾和缓存清理，我也用它在电脑刚到手时卸载掉 Win10 自带的各种无用软件（有些 Windows 不让卸载的自带 UWP，在 CCleaner 里可以卸载掉），甚至我嫌 OneDrive 麻烦，也用它卸载过。界面很友好。批量卸载比手动卸载方便不少。软件是有中文的，但默认是英文，自己手动在 <code>options-setting-language</code> 选择 <code>Chinese simplified</code> 即可<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(10).png" alt="enter description here"><br><a href="https://www.ccleaner.com/ccleaner/download">点击下载</a></p>
-<h1 id="BandiZip"><a href="#BandiZip" class="headerlink" title="BandiZip"></a>BandiZip</h1><p>BandiZip，界面美观，功能强大，而且免费无广告，另外 <a href="https://www.7-zip.org/">7-Zip</a>，界面丑了一些，功能还是很强的。也有不少人推荐修改版的 rar 烈火或者好压，其实都不错。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(11).png" alt="enter description here"><br><a href="http://www.bandisoft.com/bandizip/cn/">下载地址</a></p>
+<p>最让人惊喜的是，万彩办公大师使用完全免费，所有的工具无需安装，直接加载就可以启动了。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(8).png" alt="enter description here"><br><a href="wofficebox.com/">下载地址</a></p>
+<h1 id="TreeSize"><a href="#TreeSize" class="headerlink" title="TreeSize"></a>TreeSize</h1><p>TreeSize 是一个扫描磁盘可视化排列大小的应用，有免费版和专业版可以选<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(9).png" alt="enter description here"><br><a href="https://www.jam-software.com/treesize_free/">点击这里</a>获取免费版</p>
+<h1 id="CCleaner"><a href="#CCleaner" class="headerlink" title="CCleaner"></a>CCleaner</h1><p>CCleaner，不仅是常用的垃圾和缓存清理，我也用它在电脑刚到手时卸载掉 Win10 自带的各种无用软件（有些 Windows 不让卸载的自带 UWP，在 CCleaner 里可以卸载掉），甚至我嫌 OneDrive 麻烦，也用它卸载过。界面很友好。批量卸载比手动卸载方便不少。软件是有中文的，但默认是英文，自己手动在 <code>options-setting-language</code> 选择 <code>Chinese simplified</code> 即可<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(10).png" alt="enter description here"><br><a href="https://www.ccleaner.com/ccleaner/download">点击下载</a></p>
+<h1 id="BandiZip"><a href="#BandiZip" class="headerlink" title="BandiZip"></a>BandiZip</h1><p>BandiZip，界面美观，功能强大，而且免费无广告，另外 <a href="https://www.7-zip.org/">7-Zip</a>，界面丑了一些，功能还是很强的。也有不少人推荐修改版的 rar 烈火或者好压，其实都不错。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(11).png" alt="enter description here"><br><a href="http://www.bandisoft.com/bandizip/cn/">下载地址</a></p>
 <h1 id="Obs-Open-Broadcaster-Software"><a href="#Obs-Open-Broadcaster-Software" class="headerlink" title="Obs-Open Broadcaster Software"></a>Obs-Open Broadcaster Software</h1><p>OBS，不用多说了，剪视频、录游戏好帮手。<br><a href="https://obsproject.com/">下载地址</a></p>
-<h1 id="VLC-media-player"><a href="#VLC-media-player" class="headerlink" title="VLC media player"></a>VLC media player</h1><p>跨平台的播放器，Linux 的时候一直用的，Windows 也就接着用了，有浏览器插件，可以直接把浏览器的视频推过来播放<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(12).png" alt="enter description here"><br><a href="https://www.videolan.org/">点这里下载</a></p>
-<h1 id="Geek-Uninstaller"><a href="#Geek-Uninstaller" class="headerlink" title="Geek Uninstaller"></a>Geek Uninstaller</h1><p>Geek Uninstaller 是一个专业卸载软件，采取深而快的扫描方式，删除所有无用的文件，注册表，卸载无残留！<br>这款软件也是一款单文件软件，下载后，不用安装，双击直接使用，卸载软件、强制彻底清除软件残留垃圾文件或是查看某软件的注册表项目等等。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(13).png" alt="enter description here"><br>你可以在他的<a href="https://geekuninstaller.com/">官网</a>获取到</p>
+<h1 id="VLC-media-player"><a href="#VLC-media-player" class="headerlink" title="VLC media player"></a>VLC media player</h1><p>跨平台的播放器，Linux 的时候一直用的，Windows 也就接着用了，有浏览器插件，可以直接把浏览器的视频推过来播放<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(12).png" alt="enter description here"><br><a href="https://www.videolan.org/">点这里下载</a></p>
+<h1 id="Geek-Uninstaller"><a href="#Geek-Uninstaller" class="headerlink" title="Geek Uninstaller"></a>Geek Uninstaller</h1><p>Geek Uninstaller 是一个专业卸载软件，采取深而快的扫描方式，删除所有无用的文件，注册表，卸载无残留！<br>这款软件也是一款单文件软件，下载后，不用安装，双击直接使用，卸载软件、强制彻底清除软件残留垃圾文件或是查看某软件的注册表项目等等。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(13).png" alt="enter description here"><br>你可以在他的<a href="https://geekuninstaller.com/">官网</a>获取到</p>
 <h1 id="未完"><a href="#未完" class="headerlink" title="未完"></a>未完</h1><p>后面想到了再补充</p>
 ]]></content>
       <categories>
@@ -867,39 +883,23 @@
       </tags>
   </entry>
   <entry>
-    <title>修改 Windows 10 的用户名以及用户文件夹</title>
-    <url>/posts/8e165a5c/</url>
-    <content><![CDATA[<div class="note warning"><p>修改注册表有风险，操作需谨慎，注意备份重要文件</p>
-</div>
-
-<p>由于 Windows 10 的奇葩机制本地账户名是在线账户邮箱的前五位，导致我登录在线账户之后在本地显示的名称以及文件夹从我名字全拼的 <code>nihaocun</code> 变成了 <code>nihao</code>，虽然能忍，但是越看越不顺眼，就开始在网上找修改的方法。然而搜到的结果也大多不完整，好在还是能拼起来的，现在终于是改成功了。</p>
-<div class="note info"><p>以下操作在 你的个人账户 完成</p>
-</div>
-
-<h1 id="开启-Administrator-账户"><a href="#开启-Administrator-账户" class="headerlink" title="开启 Administrator 账户"></a>开启 Administrator 账户</h1><p>我们需要开启这个账户去修改注册表和文件夹名，家庭版用户请先升级到专业版，专业版用户打开<br><code>控制面板</code> -&gt; <code>系统和安全</code> -&gt; <code>管理工具</code> -&gt; <code>计算机管理</code>，然后按图所示依次打开<br><code>本地用户和组</code> -&gt; <code>用户</code> -&gt; <code>Administrator</code>，然后去掉 <code>账户已禁用</code> 前面的复选框即可。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E4%BF%AE%E6%94%B9Windows10%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E4%BB%A5%E5%8F%8A%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AE%A1%E7%90%86.png" alt="开启 Administrator 账户"></p>
-<h1 id="修改用户名"><a href="#修改用户名" class="headerlink" title="修改用户名"></a>修改用户名</h1><p>接着不关闭计算机管理，找到你需要修改的用户名，然后右键重命名即可，注意这里不能和计算机名重复（大小写不敏感）</p>
-<div class="note info"><p>以下操作在 Administrator 完成</p>
-</div>
-
-<h1 id="修改注册表"><a href="#修改注册表" class="headerlink" title="修改注册表"></a>修改注册表</h1><p>注销当前账户切换到 Administrator，按下 <code>Win + R</code> 打开命令窗口，输入 <code>regedit</code> 回车运行打开注册表编辑器。使用 <code>Ctrl + F</code> 搜索 <code>ProfileList</code> 或者手动定位到 <code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\ProfileList</code> 这一项。在这里有很多 <code>S-1-5</code> 开头的项，依次检查会有一个 <code>ProfileListPath</code> 为 <code>C:\User\&lt;你的用户名&gt;</code> 这一项，双击修改即可。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E4%BF%AE%E6%94%B9Windows10%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E4%BB%A5%E5%8F%8A%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9/%E4%BF%AE%E6%94%B9%E6%B3%A8%E5%86%8C%E8%A1%A8.png" alt="修改注册表"></p>
-<h1 id="修改文件夹名"><a href="#修改文件夹名" class="headerlink" title="修改文件夹名"></a>修改文件夹名</h1><p>在文件管理器找到 <code>C:\User\&lt;你的用户名&gt;</code> 然后直接修改即可。</p>
-<div class="note info"><p>以下操作在 你的个人账户 完成</p>
-</div>
-
-<h1 id="创建联接"><a href="#创建联接" class="headerlink" title="创建联接"></a>创建联接</h1><p>现在回到原来的账户发现名字已经改了，而且原来的数据还在，不过部分环境变量以及应用配置可能会出问题，这里提供两个方法：</p>
-<ul>
-<li>一个一个修改路径保证不出错</li>
-<li>创建一个联接<blockquote>
-<p>用管理员权限运行一个 CMD 窗口，然后输入 <code>MKLINK /J C:\Users\&lt;旧用户名&gt; C:\Users\&lt;新用户名&gt;</code>，这样不论访问 <code>C:\Users\&lt;旧用户名&gt;</code> 还是 <code>C:\Users\&lt;新用户名&gt;</code> 都会定位到 <code>C:\Users\&lt;新用户名&gt;</code>。出现下图这样就是成功了。<br><img src= "/img/loading.gif" data-lazy-src="/blog_image/%E4%BF%AE%E6%94%B9Windows10%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E4%BB%A5%E5%8F%8A%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9/%E9%93%BE%E6%8E%A5.png" alt="创建联接"></p>
-</blockquote>
-</li>
-</ul>
+    <title>在线游玩 FC（小霸王、红白机）、街机游戏</title>
+    <url>/posts/743f9c80/</url>
+    <content><![CDATA[<p><img src="/blog_image/%E5%9C%A8%E7%BA%BF%E6%B8%B8%E7%8E%A9FC%EF%BC%88%E5%B0%8F%E9%9C%B8%E7%8E%8B%E3%80%81%E7%BA%A2%E7%99%BD%E6%9C%BA%EF%BC%89%E3%80%81%E8%A1%97%E6%9C%BA%E6%B8%B8%E6%88%8F/%E7%BD%91%E7%AB%99%E6%A0%87%E9%A2%98%E7%95%8C%E9%9D%A2.png" alt="网站标题界面"></p>
+<p><a href="https://www.yikm.net/">点击这里访问 yikm 在线玩游戏</a></p>
+<p>FC 游戏，或者说是国人更熟悉的「小霸王」，可以说承载了 80 后、90 后乃至 00 后共同的童年回忆 。</p>
+<p>随着 PC 机的普及，国内的主机游戏渐渐成了小众爱好，而小霸王成为了这几代许多人对于「手柄游戏」的唯一认知。</p>
+<p>在「小霸王」逐渐在家庭的客厅、玩家的桌面消失以后，很多人都在 PC 机上体验过各种各样的「FC 游戏模拟器」，但是繁杂的参数，无中文的交互界面成为了一种不大不小的阻碍。</p>
+<p>而这次推荐的网站 <code>yikm</code> 就成了这些问题的终极解决方案，你只需要一个浏览器（无论是 PC 还是手机端），访问这个网站，就能在线玩到这些经典的像素风游戏。<br>贴心的在线联机功能</p>
+<p>当那些曾在记忆里响起无数次的 8-bit 音乐响起，不知道你有没有想起儿时的那些玩伴，如今即使你们在物理距离上相隔很远，也可以通过网络很方便地一起怀念童年——只需要通过 yikm 提供的「联机大厅」功能。</p>
+<p><img src="/blog_image/%E5%9C%A8%E7%BA%BF%E6%B8%B8%E7%8E%A9FC%EF%BC%88%E5%B0%8F%E9%9C%B8%E7%8E%8B%E3%80%81%E7%BA%A2%E7%99%BD%E6%9C%BA%EF%BC%89%E3%80%81%E8%A1%97%E6%9C%BA%E6%B8%B8%E6%88%8F/%E8%81%94%E6%9C%BA.png" alt="联机"></p>
 ]]></content>
       <categories>
-        <category>技术记录</category>
+        <category>随手记</category>
       </categories>
       <tags>
-        <tag>Windows</tag>
+        <tag>游戏推荐</tag>
+        <tag>FC</tag>
       </tags>
   </entry>
 </search>
