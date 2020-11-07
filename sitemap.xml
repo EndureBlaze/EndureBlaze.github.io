@@ -298,27 +298,6 @@
   </url>
   
   <url>
-    <loc>https://blog.endureblaze.cn/tags/%E9%85%B7Q/</loc>
-    <lastmod>2020-11-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.endureblaze.cn/tags/linux/</loc>
-    <lastmod>2020-11-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.endureblaze.cn/tags/Windows/</loc>
-    <lastmod>2020-11-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.endureblaze.cn/tags/Python/</loc>
     <lastmod>2020-11-07</lastmod>
     <changefreq>daily</changefreq>
@@ -327,6 +306,13 @@
   
   <url>
     <loc>https://blog.endureblaze.cn/tags/ssh/</loc>
+    <lastmod>2020-11-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.endureblaze.cn/tags/Windows/</loc>
     <lastmod>2020-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -355,6 +341,20 @@
   
   <url>
     <loc>https://blog.endureblaze.cn/tags/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF/</loc>
+    <lastmod>2020-11-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.endureblaze.cn/tags/%E9%85%B7Q/</loc>
+    <lastmod>2020-11-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.endureblaze.cn/tags/linux/</loc>
     <lastmod>2020-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -417,13 +417,6 @@
   </url>
   
   <url>
-    <loc>https://blog.endureblaze.cn/tags/LGBT/</loc>
-    <lastmod>2020-11-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.endureblaze.cn/tags/%E8%AF%BB%E4%B9%A6/</loc>
     <lastmod>2020-11-07</lastmod>
     <changefreq>daily</changefreq>
@@ -439,6 +432,13 @@
   
   <url>
     <loc>https://blog.endureblaze.cn/tags/%E8%AF%BB%E4%B9%A6%E6%97%A0%E7%94%A8%E8%AE%BA/</loc>
+    <lastmod>2020-11-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.endureblaze.cn/tags/LGBT/</loc>
     <lastmod>2020-11-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
