@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Kirby Assistant 2.x.x更新日志</title>
+    <url>/posts/417dae5e/</url>
+    <content><![CDATA[<p>目前最新版本 v2.0.6 (56)</p>
+<h1 id="v2-0-6-56"><a href="#v2-0-6-56" class="headerlink" title="v2.0.6 (56)"></a>v2.0.6 (56)</h1><p>紧急修复了高版本无法安装的问题，并且移除的权限，很是抱歉</p>
+<h1 id="v2-0-5-55"><a href="#v2-0-5-55" class="headerlink" title="v2.0.5 (55)"></a>v2.0.5 (55)</h1><p>1.修改部分样式贴近规范<br>2.修改下载游戏时的对话框样式</p>
+<h1 id="v2-0-4-54"><a href="#v2-0-4-54" class="headerlink" title="v2.0.4 (54)"></a>v2.0.4 (54)</h1><p>1.修复个别主题下输入框颜色不正常的问题<br>2.排除了一个引起闪退的 bug<br>3.新增一个配色</p>
+<h1 id="v2-0-3-53"><a href="#v2-0-3-53" class="headerlink" title="v2.0.3 (53)"></a>v2.0.3 (53)</h1><p>1.修复部分黑暗模式与白色模式下的UI问题<br>2.修复UI漂移的问题</p>
+<h1 id="v2-0-2-52"><a href="#v2-0-2-52" class="headerlink" title="v2.0.2 (52)"></a>v2.0.2 (52)</h1><p>1.修正夜间模式下设置显示异常<br>2.修复闲聊显示异常问题<br>3.修复无法清除图片缓存<br>4.修复更新检测异常<br>5.重新优化的主题</p>
+<h1 id="v2-0-1-51"><a href="#v2-0-1-51" class="headerlink" title="v2.0.1 (51)"></a>v2.0.1 (51)</h1><p>1.自动根据 AndroidQ 夜间模式选项切换夜间模式<br>2.翻译文本修正<br>3.图片资源修复</p>
+<h1 id="v2-0-0-50"><a href="#v2-0-0-50" class="headerlink" title="v2.0.0 (50)"></a>v2.0.0 (50)</h1><p>1.全新 API 重新编写<br>2.大部分 MD2 特性<br>3.修复底栏切换过快崩溃的 Bug<br>4.新增黑暗模式<br>5.假装无缝切换主题<br>6.优化用户信息修改后刷新操作<br>7.优化菜单显示方式<br>8.防止未登录情况下进入闲聊的问题<br>9.重新优化的对话框<br>10.应用内清除缓存<br>11.重写头像裁剪<br>12.上传逻辑<br>13.全新官网 </p>
+]]></content>
+      <categories>
+        <category>我的 Android 应用</category>
+      </categories>
+      <tags>
+        <tag>Kirby Assistant</tag>
+        <tag>更新日志</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Kirby Assistant 1.x.x更新日志</title>
     <url>/posts/12e7f5da/</url>
     <content><![CDATA[<h1 id="v1-4-5-48"><a href="#v1-4-5-48" class="headerlink" title="v1.4.5(48)"></a>v1.4.5(48)</h1><p>1.修复登录时用户名不变的 Bug<br>2.旧版本已经不能下载模拟器 请更新<br>3.修复闲聊发送失败的问题</p>
@@ -31,26 +51,6 @@
 <h1 id="v1-2-23"><a href="#v1-2-23" class="headerlink" title="v1.2(23)"></a>v1.2(23)</h1><p>本周，Kirby Assistant 迎来了重大版本更新，快来看看吧:<br>1.优化了启动动画，现在更顺畅了<br>2.更换了头像占位图<br>3.更换了发送闲聊等界面的点击效果<br>4.移除了双图标在启动界面显示<br>5.更换了权限申请逻辑<br>6.重写了统计逻辑<br>7.修订了大部分翻译<br>8.修复需要为非简体中文，繁体中文，英文时的应用名错乱问题<br>9.修复了需要切换无效的问题<br>10.圣诞快乐</p>
 <h1 id="v1-1-22"><a href="#v1-1-22" class="headerlink" title="v1.1(22)"></a>v1.1(22)</h1><p>本周，Kirby Assistant 迎来了小版本迭代更新，快来看看吧:<br>1.优化所有主题配色<br>2.移除引起 Bug 的暗色<br>3.新增配色  灵感来源自虚无<br>4.闲聊提醒优化<br>5.资源界面重写<br>6.翻译修订</p>
 <h1 id="v1-0-21"><a href="#v1-0-21" class="headerlink" title="v1.0(21)"></a>v1.0(21)</h1><p>未来·炫动  重大版本更新<br>1.全新启动界面动画<br>2.全新列表加载动画<br>3.全新刷新动画<br>4.全新律动动画<br>5.全新切换动画<br>6.微调下载游戏 UI<br>7.全新模糊图算法<br>8.新增统计 SDK(不会收集您的隐私数据)<br>9.更换图标切换逻辑<br>10.Pie 适配性<br>11.捐赠逻辑修改<br>12.底栏切换界面逻辑修改 防止在同一个界面重载<br>13.所有动画全部精心设计 保证赏心悦目<br>14.资源名称修订<br>15.翻译修订<br>16.资源链接修复<br>17.模拟器下载修复<br>18.金手指个别代码修复<br>19.视频修订<br>20.Slogan 修订</p>
-]]></content>
-      <categories>
-        <category>我的 Android 应用</category>
-      </categories>
-      <tags>
-        <tag>Kirby Assistant</tag>
-        <tag>更新日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Kirby Assistant 2.x.x更新日志</title>
-    <url>/posts/417dae5e/</url>
-    <content><![CDATA[<p>目前最新版本 v2.0.6 (56)</p>
-<h1 id="v2-0-6-56"><a href="#v2-0-6-56" class="headerlink" title="v2.0.6 (56)"></a>v2.0.6 (56)</h1><p>紧急修复了高版本无法安装的问题，并且移除的权限，很是抱歉</p>
-<h1 id="v2-0-5-55"><a href="#v2-0-5-55" class="headerlink" title="v2.0.5 (55)"></a>v2.0.5 (55)</h1><p>1.修改部分样式贴近规范<br>2.修改下载游戏时的对话框样式</p>
-<h1 id="v2-0-4-54"><a href="#v2-0-4-54" class="headerlink" title="v2.0.4 (54)"></a>v2.0.4 (54)</h1><p>1.修复个别主题下输入框颜色不正常的问题<br>2.排除了一个引起闪退的 bug<br>3.新增一个配色</p>
-<h1 id="v2-0-3-53"><a href="#v2-0-3-53" class="headerlink" title="v2.0.3 (53)"></a>v2.0.3 (53)</h1><p>1.修复部分黑暗模式与白色模式下的UI问题<br>2.修复UI漂移的问题</p>
-<h1 id="v2-0-2-52"><a href="#v2-0-2-52" class="headerlink" title="v2.0.2 (52)"></a>v2.0.2 (52)</h1><p>1.修正夜间模式下设置显示异常<br>2.修复闲聊显示异常问题<br>3.修复无法清除图片缓存<br>4.修复更新检测异常<br>5.重新优化的主题</p>
-<h1 id="v2-0-1-51"><a href="#v2-0-1-51" class="headerlink" title="v2.0.1 (51)"></a>v2.0.1 (51)</h1><p>1.自动根据 AndroidQ 夜间模式选项切换夜间模式<br>2.翻译文本修正<br>3.图片资源修复</p>
-<h1 id="v2-0-0-50"><a href="#v2-0-0-50" class="headerlink" title="v2.0.0 (50)"></a>v2.0.0 (50)</h1><p>1.全新 API 重新编写<br>2.大部分 MD2 特性<br>3.修复底栏切换过快崩溃的 Bug<br>4.新增黑暗模式<br>5.假装无缝切换主题<br>6.优化用户信息修改后刷新操作<br>7.优化菜单显示方式<br>8.防止未登录情况下进入闲聊的问题<br>9.重新优化的对话框<br>10.应用内清除缓存<br>11.重写头像裁剪<br>12.上传逻辑<br>13.全新官网 </p>
 ]]></content>
       <categories>
         <category>我的 Android 应用</category>
@@ -174,6 +174,72 @@
       </tags>
   </entry>
   <entry>
+    <title>修改 Windows 10 的用户名以及用户文件夹</title>
+    <url>/posts/8e165a5c/</url>
+    <content><![CDATA[<div class="note warning flat"><p>修改注册表有风险，操作需谨慎，注意备份重要文件</p>
+</div>
+
+<p>由于 Windows 10 的奇葩机制本地账户名是在线账户邮箱的前五位，导致我登录在线账户之后在本地显示的名称以及文件夹从我名字全拼的 <code>nihaocun</code> 变成了 <code>nihao</code>，虽然能忍，但是越看越不顺眼，就开始在网上找修改的方法。然而搜到的结果也大多不完整，好在还是能拼起来的，现在终于是改成功了。</p>
+<div class="note info flat"><p>以下操作在 你的个人账户 完成</p>
+</div>
+
+<h1 id="开启-Administrator-账户"><a href="#开启-Administrator-账户" class="headerlink" title="开启 Administrator 账户"></a>开启 Administrator 账户</h1><p>我们需要开启这个账户去修改注册表和文件夹名，家庭版用户请先升级到专业版，专业版用户打开<br><code>控制面板</code> -&gt; <code>系统和安全</code> -&gt; <code>管理工具</code> -&gt; <code>计算机管理</code>，然后按图所示依次打开<br><code>本地用户和组</code> -&gt; <code>用户</code> -&gt; <code>Administrator</code>，然后去掉 <code>账户已禁用</code> 前面的复选框即可。<br><img src="/blog_image/%E4%BF%AE%E6%94%B9Windows10%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E4%BB%A5%E5%8F%8A%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AE%A1%E7%90%86.png" alt="开启 Administrator 账户"></p>
+<h1 id="修改用户名"><a href="#修改用户名" class="headerlink" title="修改用户名"></a>修改用户名</h1><p>接着不关闭计算机管理，找到你需要修改的用户名，然后右键重命名即可，注意这里不能和计算机名重复（大小写不敏感）</p>
+<div class="note info flat"><p>以下操作在 Administrator 完成</p>
+</div>
+
+<h1 id="修改注册表"><a href="#修改注册表" class="headerlink" title="修改注册表"></a>修改注册表</h1><p>注销当前账户切换到 Administrator，按下 <code>Win + R</code> 打开命令窗口，输入 <code>regedit</code> 回车运行打开注册表编辑器。使用 <code>Ctrl + F</code> 搜索 <code>ProfileList</code> 或者手动定位到 <code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\ProfileList</code> 这一项。在这里有很多 <code>S-1-5</code> 开头的项，依次检查会有一个 <code>ProfileListPath</code> 为 <code>C:\User\&lt;你的用户名&gt;</code> 这一项，双击修改即可。<br><img src="/blog_image/%E4%BF%AE%E6%94%B9Windows10%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E4%BB%A5%E5%8F%8A%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9/%E4%BF%AE%E6%94%B9%E6%B3%A8%E5%86%8C%E8%A1%A8.png" alt="修改注册表"></p>
+<h1 id="修改文件夹名"><a href="#修改文件夹名" class="headerlink" title="修改文件夹名"></a>修改文件夹名</h1><p>在文件管理器找到 <code>C:\User\&lt;你的用户名&gt;</code> 然后直接修改即可。</p>
+<div class="note info flat"><p>以下操作在 你的个人账户 完成</p>
+</div>
+
+<h1 id="创建联接"><a href="#创建联接" class="headerlink" title="创建联接"></a>创建联接</h1><p>现在回到原来的账户发现名字已经改了，而且原来的数据还在，不过部分环境变量以及应用配置可能会出问题，这里提供两个方法：</p>
+<ul>
+<li>一个一个修改路径保证不出错</li>
+<li>创建一个联接<blockquote>
+<p>用管理员权限运行一个 CMD 窗口，然后输入 <code>MKLINK /J C:\Users\&lt;旧用户名&gt; C:\Users\&lt;新用户名&gt;</code>，这样不论访问 <code>C:\Users\&lt;旧用户名&gt;</code> 还是 <code>C:\Users\&lt;新用户名&gt;</code> 都会定位到 <code>C:\Users\&lt;新用户名&gt;</code>。出现下图这样就是成功了。<br><img src="/blog_image/%E4%BF%AE%E6%94%B9Windows10%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E4%BB%A5%E5%8F%8A%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9/%E9%93%BE%E6%8E%A5.png" alt="创建联接"></p>
+</blockquote>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在 Windows 系统上给 ssh 设置代理</title>
+    <url>/posts/4d70a82d/</url>
+    <content><![CDATA[<div class="note info flat"><p>看清，使用的系统是 Windows 不是 Linux 或者 MacOS</p>
+</div>
+
+<p>百度搜到的很多给 git 设置代理的办法，都是给 http 设置代理，而不是给 SSH 设置代理。那个 <code>git config --global http.proxy http://127.0.0.1:1080</code> 设置起来，只针对 http 的 git 有效果。<br>然后就是 <code>ProxyCommand nc -v -x 127.0.0.1:1080 %h %p</code>，那个分明是给 Linux 才能用的， Windows 上哪里来的 nc 程序？</p>
+<p>以下操作是给 Windows 用的，我的操作：</p>
+<p>在自己的用户文件夹找到 .ssh 文件夹，比如我的是 <code>C:\Users\nihao\.ssh</code> ，在里面新建一个空白文件，取名 config，如果已经有了就不用创建了。</p>
+<p>注意不是 config.txt ！</p>
+<p>我强烈建议把 Windows 的后缀显示给打开，不然你根本不知道自己到底在编辑什么文件。</p>
+<p>都用 Git 了不至于还害怕自己把文件后缀名给改错了吧？</p>
+<p>在 config 文件里写上一行就行：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ProxyCommand <span class="string">&quot;C:\Program Files\Git\mingw64\bin\connect.exe&quot;</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %<span class="built_in">h</span> %p</span><br></pre></td></tr></table></figure>
+
+<p>这里 git 的安装路径和后面的代理自己看着填，不要试着用相对路径，保证要吃亏。因为 <code>Program Files</code> 文件夹中间带一个空格，所以这里需要把整个路径给引号引起来。 后面的代理的话，<code>-S</code> 指是 socks 代理，默认是 socks5，<code>127.0.0.1:1080</code> 就是你本地的代理地址，后面的 <code>%h %p</code> 意思是 Host 和 Port，必须得写上，我也不知道为什么要这么设计。 如果要使用 HTTP 代理，就写 <code>-H</code>，更多代理类型（比如 socks4）请参 <a href="https://bitbucket.org/gotoh/connect/wiki/Home#!more-detail">这个</a>。</p>
+<p>上这个写法是针对全局的，如果想只针对某个网站的话，就这么写：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">  ProxyCommand <span class="string">&quot;C:\Program Files\Git\mingw64\bin\connect.exe&quot;</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %<span class="built_in">h</span> %p</span><br></pre></td></tr></table></figure>
+
+<p>现在就可以愉快的使用代理了，不过要记住一定使用 ssh 协议。</p>
+]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>ssh</tag>
+        <tag>代理</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>半自动化生成博客相册</title>
     <url>/posts/64b2bc9e/</url>
     <content><![CDATA[<blockquote>
@@ -235,36 +301,6 @@
       </categories>
       <tags>
         <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在 Windows 系统上给 ssh 设置代理</title>
-    <url>/posts/4d70a82d/</url>
-    <content><![CDATA[<div class="note info flat"><p>看清，使用的系统是 Windows 不是 Linux 或者 MacOS</p>
-</div>
-
-<p>百度搜到的很多给 git 设置代理的办法，都是给 http 设置代理，而不是给 SSH 设置代理。那个 <code>git config --global http.proxy http://127.0.0.1:1080</code> 设置起来，只针对 http 的 git 有效果。<br>然后就是 <code>ProxyCommand nc -v -x 127.0.0.1:1080 %h %p</code>，那个分明是给 Linux 才能用的， Windows 上哪里来的 nc 程序？</p>
-<p>以下操作是给 Windows 用的，我的操作：</p>
-<p>在自己的用户文件夹找到 .ssh 文件夹，比如我的是 <code>C:\Users\nihao\.ssh</code> ，在里面新建一个空白文件，取名 config，如果已经有了就不用创建了。</p>
-<p>注意不是 config.txt ！</p>
-<p>我强烈建议把 Windows 的后缀显示给打开，不然你根本不知道自己到底在编辑什么文件。</p>
-<p>都用 Git 了不至于还害怕自己把文件后缀名给改错了吧？</p>
-<p>在 config 文件里写上一行就行：</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ProxyCommand <span class="string">&quot;C:\Program Files\Git\mingw64\bin\connect.exe&quot;</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %<span class="built_in">h</span> %p</span><br></pre></td></tr></table></figure>
-
-<p>这里 git 的安装路径和后面的代理自己看着填，不要试着用相对路径，保证要吃亏。因为 <code>Program Files</code> 文件夹中间带一个空格，所以这里需要把整个路径给引号引起来。 后面的代理的话，<code>-S</code> 指是 socks 代理，默认是 socks5，<code>127.0.0.1:1080</code> 就是你本地的代理地址，后面的 <code>%h %p</code> 意思是 Host 和 Port，必须得写上，我也不知道为什么要这么设计。 如果要使用 HTTP 代理，就写 <code>-H</code>，更多代理类型（比如 socks4）请参 <a href="https://bitbucket.org/gotoh/connect/wiki/Home#!more-detail">这个</a>。</p>
-<p>上这个写法是针对全局的，如果想只针对某个网站的话，就这么写：</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">  ProxyCommand <span class="string">&quot;C:\Program Files\Git\mingw64\bin\connect.exe&quot;</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %<span class="built_in">h</span> %p</span><br></pre></td></tr></table></figure>
-
-<p>现在就可以愉快的使用代理了，不过要记住一定使用 ssh 协议。</p>
-]]></content>
-      <categories>
-        <category>技术记录</category>
-      </categories>
-      <tags>
-        <tag>ssh</tag>
-        <tag>Windows</tag>
-        <tag>代理</tag>
       </tags>
   </entry>
   <entry>
@@ -419,58 +455,6 @@
       </tags>
   </entry>
   <entry>
-    <title>修改 Windows 10 的用户名以及用户文件夹</title>
-    <url>/posts/8e165a5c/</url>
-    <content><![CDATA[<div class="note warning flat"><p>修改注册表有风险，操作需谨慎，注意备份重要文件</p>
-</div>
-
-<p>由于 Windows 10 的奇葩机制本地账户名是在线账户邮箱的前五位，导致我登录在线账户之后在本地显示的名称以及文件夹从我名字全拼的 <code>nihaocun</code> 变成了 <code>nihao</code>，虽然能忍，但是越看越不顺眼，就开始在网上找修改的方法。然而搜到的结果也大多不完整，好在还是能拼起来的，现在终于是改成功了。</p>
-<div class="note info flat"><p>以下操作在 你的个人账户 完成</p>
-</div>
-
-<h1 id="开启-Administrator-账户"><a href="#开启-Administrator-账户" class="headerlink" title="开启 Administrator 账户"></a>开启 Administrator 账户</h1><p>我们需要开启这个账户去修改注册表和文件夹名，家庭版用户请先升级到专业版，专业版用户打开<br><code>控制面板</code> -&gt; <code>系统和安全</code> -&gt; <code>管理工具</code> -&gt; <code>计算机管理</code>，然后按图所示依次打开<br><code>本地用户和组</code> -&gt; <code>用户</code> -&gt; <code>Administrator</code>，然后去掉 <code>账户已禁用</code> 前面的复选框即可。<br><img src="/blog_image/%E4%BF%AE%E6%94%B9Windows10%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E4%BB%A5%E5%8F%8A%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AE%A1%E7%90%86.png" alt="开启 Administrator 账户"></p>
-<h1 id="修改用户名"><a href="#修改用户名" class="headerlink" title="修改用户名"></a>修改用户名</h1><p>接着不关闭计算机管理，找到你需要修改的用户名，然后右键重命名即可，注意这里不能和计算机名重复（大小写不敏感）</p>
-<div class="note info flat"><p>以下操作在 Administrator 完成</p>
-</div>
-
-<h1 id="修改注册表"><a href="#修改注册表" class="headerlink" title="修改注册表"></a>修改注册表</h1><p>注销当前账户切换到 Administrator，按下 <code>Win + R</code> 打开命令窗口，输入 <code>regedit</code> 回车运行打开注册表编辑器。使用 <code>Ctrl + F</code> 搜索 <code>ProfileList</code> 或者手动定位到 <code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\ProfileList</code> 这一项。在这里有很多 <code>S-1-5</code> 开头的项，依次检查会有一个 <code>ProfileListPath</code> 为 <code>C:\User\&lt;你的用户名&gt;</code> 这一项，双击修改即可。<br><img src="/blog_image/%E4%BF%AE%E6%94%B9Windows10%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E4%BB%A5%E5%8F%8A%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9/%E4%BF%AE%E6%94%B9%E6%B3%A8%E5%86%8C%E8%A1%A8.png" alt="修改注册表"></p>
-<h1 id="修改文件夹名"><a href="#修改文件夹名" class="headerlink" title="修改文件夹名"></a>修改文件夹名</h1><p>在文件管理器找到 <code>C:\User\&lt;你的用户名&gt;</code> 然后直接修改即可。</p>
-<div class="note info flat"><p>以下操作在 你的个人账户 完成</p>
-</div>
-
-<h1 id="创建联接"><a href="#创建联接" class="headerlink" title="创建联接"></a>创建联接</h1><p>现在回到原来的账户发现名字已经改了，而且原来的数据还在，不过部分环境变量以及应用配置可能会出问题，这里提供两个方法：</p>
-<ul>
-<li>一个一个修改路径保证不出错</li>
-<li>创建一个联接<blockquote>
-<p>用管理员权限运行一个 CMD 窗口，然后输入 <code>MKLINK /J C:\Users\&lt;旧用户名&gt; C:\Users\&lt;新用户名&gt;</code>，这样不论访问 <code>C:\Users\&lt;旧用户名&gt;</code> 还是 <code>C:\Users\&lt;新用户名&gt;</code> 都会定位到 <code>C:\Users\&lt;新用户名&gt;</code>。出现下图这样就是成功了。<br><img src="/blog_image/%E4%BF%AE%E6%94%B9Windows10%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D%E4%BB%A5%E5%8F%8A%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9/%E9%93%BE%E6%8E%A5.png" alt="创建联接"></p>
-</blockquote>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术记录</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记一些 Hexo 报错</title>
-    <url>/posts/b36c6159/</url>
-    <content><![CDATA[<blockquote>
-<p>说在前面：<br>这里主要是记一下平时在 Hexo 遇到的报错，解决之后分享一下解决方法</p>
-</blockquote>
-<h1 id="YAMLException-can-not-read-a-block-mapping-entry-a-multiline-key-may-not-be-an-implicit-key-at-line-6-column-1"><a href="#YAMLException-can-not-read-a-block-mapping-entry-a-multiline-key-may-not-be-an-implicit-key-at-line-6-column-1" class="headerlink" title="YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 6, column 1:"></a>YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 6, column 1:</h1><p>解决方法：查看新建要上传的 MarkDown 文件，看看 tags 那里或者其他地方，与后面内容是不是有一个空格。我是排查空格之后就解决了。<del>好智障啊</del></p>
-]]></content>
-      <categories>
-        <category>技术记录</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>踩坑</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>如何使用 Dolphin Emulator 玩《星之卡比：Wii》</title>
     <url>/posts/2fbba4ed/</url>
     <content><![CDATA[<blockquote>
@@ -500,6 +484,61 @@
         <tag>星之卡比 Wii</tag>
         <tag>Wii 模拟器</tag>
         <tag>Dolphin Emulator</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记一些 Hexo 报错</title>
+    <url>/posts/b36c6159/</url>
+    <content><![CDATA[<blockquote>
+<p>说在前面：<br>这里主要是记一下平时在 Hexo 遇到的报错，解决之后分享一下解决方法</p>
+</blockquote>
+<h1 id="YAMLException-can-not-read-a-block-mapping-entry-a-multiline-key-may-not-be-an-implicit-key-at-line-6-column-1"><a href="#YAMLException-can-not-read-a-block-mapping-entry-a-multiline-key-may-not-be-an-implicit-key-at-line-6-column-1" class="headerlink" title="YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 6, column 1:"></a>YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 6, column 1:</h1><p>解决方法：查看新建要上传的 MarkDown 文件，看看 tags 那里或者其他地方，与后面内容是不是有一个空格。我是排查空格之后就解决了。<del>好智障啊</del></p>
+]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>踩坑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>偶然间在B站看到的鬼畜</title>
+    <url>/posts/d46d4e39/</url>
+    <content><![CDATA[<p>刚才逛 B 站的时候在首页偶然看到这个，播放量还挺高的，就点进去看看了。神级填词，现在的老哥们简直神了，真的容易引起共鸣，然后又想起了以前的一些事，诶。</p>
+<a id="more"></a>
+
+<p>不多说啥了，做好现在的自己，不偏离本心！</p>
+<p>视频地址：<a href="https://www.bilibili.com/video/av60731116/">https://www.bilibili.com/video/av60731116/</a></p>
+<iframe src="//player.bilibili.com/player.html?aid=60731116&cid=106015992&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"> </iframe>
+
+<blockquote>
+<p><strong>贴一个里面的评论</strong><br>曾经看到大学宿舍里的沙雕图片，一个光膀大汉法相庄严，后面的人伸出手摆成千手佛陀，下面有句热评：</p>
+<p>“珍惜现在的时光吧，能陪你一起沙雕的朋友已经越来越少了。”</p>
+<p>欢乐是如何消失的呢，海绵宝宝？</p>
+<p>当你变成正常人、长大的时候，它就和你告了别。</p>
+<p>我喜欢什么都不做，喜欢追求最天真的快乐。<br>闭眼数数和我一般如星星闪耀的天才，可是只有我一个派大星。<br>知道我找到了另一颗星星，你，海绵宝宝。愿意和我一起享受快乐。<br>我不知道为什么他们说我是废物。<br>我不知道为什么太阳西边是落处。<br>我不知道为什么章鱼哥追求艺术。<br>我不知道为什么蟹老板攒钱如土。<br>即便抽不中想要的角色，我们却有辆小汽车。<br>即便驾照总是触不可及，我们也能玩摇摇乐。<br>即便去抓水母邻居遭殃，我们还在享受快乐。<br>当人们追求自己喜欢的东西的时候，为什么你渐行渐远了呢。<br>即便你有喜爱的工作、支持你的朋友、爱你的家人、听话的小窝和大把的青春值得去奋斗，我却发现你不再快乐，生病了。<br>你说想要变回常人。<br>你说羡慕章鱼哥受人景仰。<br>你说羡慕蟹老板家财万贯。<br>你说抓水母让章鱼哥愤怒。<br>你说想要的角色难以抽到。<br>你说不考驾照快乐受了限。<br>我最好的朋友，你这样我也很难受。<br>当我看到那电章鱼哥的水母，我一定要抓到。<br>当我再去商场终于抽到角色，你一直想要的。<br>当我考来驾照坐上那小汽车，想和你去冒险。<br>于是我带着这些再次找到你。<br>直到见到你漂亮的房子。<br>见到你成团的宾客。<br>见到你光鲜的衣服。<br>见到你贵气的打扮。<br>听到你说我嫉妒新生活的话语。<br>感受到被丢出去的失落。</p>
+<p>欢乐是如何消失的呢，海绵宝宝？</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>碎碎念</category>
+      </categories>
+      <tags>
+        <tag>视频</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>怎么呼吸</title>
+    <url>/posts/b0821049/</url>
+    <content><![CDATA[<p>不能呼吸的时候<br>是不是很难受？<br>这只海龟也是这么觉得的<br><img src="/blog_image/%E5%91%BC%E5%90%B8/%E6%B5%B7%E9%BE%9F.jpg"><br><strong>怎么救它？</strong><br>尽量不去用一次性的塑料产品<br>比如 不买一次性塑料袋<br>喝饮料的时候不要用吸管<br>放一双公筷<br>点外卖的时候选择「不要餐具」<br>随身带一个保温杯<br>不强求一步到位<br>也不去强迫别人<br>改变<br>从自身的一点点<br>到地球的「亿」点点</p>
+]]></content>
+      <categories>
+        <category>正经文字</category>
+      </categories>
+      <tags>
+        <tag>环保</tag>
+        <tag>塑料产品</tag>
       </tags>
   </entry>
   <entry>
@@ -579,19 +618,6 @@
       </tags>
   </entry>
   <entry>
-    <title>怎么呼吸</title>
-    <url>/posts/b0821049/</url>
-    <content><![CDATA[<p>不能呼吸的时候<br>是不是很难受？<br>这只海龟也是这么觉得的<br><img src="/blog_image/%E5%91%BC%E5%90%B8/%E6%B5%B7%E9%BE%9F.jpg"><br><strong>怎么救它？</strong><br>尽量不去用一次性的塑料产品<br>比如 不买一次性塑料袋<br>喝饮料的时候不要用吸管<br>放一双公筷<br>点外卖的时候选择「不要餐具」<br>随身带一个保温杯<br>不强求一步到位<br>也不去强迫别人<br>改变<br>从自身的一点点<br>到地球的「亿」点点</p>
-]]></content>
-      <categories>
-        <category>正经文字</category>
-      </categories>
-      <tags>
-        <tag>环保</tag>
-        <tag>塑料产品</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>我为什么要搭建博客</title>
     <url>/posts/a6366ad5/</url>
     <content><![CDATA[<blockquote>
@@ -611,32 +637,6 @@
       <tags>
         <tag>为什么</tag>
         <tag>看法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>偶然间在B站看到的鬼畜</title>
-    <url>/posts/d46d4e39/</url>
-    <content><![CDATA[<p>刚才逛 B 站的时候在首页偶然看到这个，播放量还挺高的，就点进去看看了。神级填词，现在的老哥们简直神了，真的容易引起共鸣，然后又想起了以前的一些事，诶。</p>
-<a id="more"></a>
-
-<p>不多说啥了，做好现在的自己，不偏离本心！</p>
-<p>视频地址：<a href="https://www.bilibili.com/video/av60731116/">https://www.bilibili.com/video/av60731116/</a></p>
-<iframe src="//player.bilibili.com/player.html?aid=60731116&cid=106015992&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"> </iframe>
-
-<blockquote>
-<p><strong>贴一个里面的评论</strong><br>曾经看到大学宿舍里的沙雕图片，一个光膀大汉法相庄严，后面的人伸出手摆成千手佛陀，下面有句热评：</p>
-<p>“珍惜现在的时光吧，能陪你一起沙雕的朋友已经越来越少了。”</p>
-<p>欢乐是如何消失的呢，海绵宝宝？</p>
-<p>当你变成正常人、长大的时候，它就和你告了别。</p>
-<p>我喜欢什么都不做，喜欢追求最天真的快乐。<br>闭眼数数和我一般如星星闪耀的天才，可是只有我一个派大星。<br>知道我找到了另一颗星星，你，海绵宝宝。愿意和我一起享受快乐。<br>我不知道为什么他们说我是废物。<br>我不知道为什么太阳西边是落处。<br>我不知道为什么章鱼哥追求艺术。<br>我不知道为什么蟹老板攒钱如土。<br>即便抽不中想要的角色，我们却有辆小汽车。<br>即便驾照总是触不可及，我们也能玩摇摇乐。<br>即便去抓水母邻居遭殃，我们还在享受快乐。<br>当人们追求自己喜欢的东西的时候，为什么你渐行渐远了呢。<br>即便你有喜爱的工作、支持你的朋友、爱你的家人、听话的小窝和大把的青春值得去奋斗，我却发现你不再快乐，生病了。<br>你说想要变回常人。<br>你说羡慕章鱼哥受人景仰。<br>你说羡慕蟹老板家财万贯。<br>你说抓水母让章鱼哥愤怒。<br>你说想要的角色难以抽到。<br>你说不考驾照快乐受了限。<br>我最好的朋友，你这样我也很难受。<br>当我看到那电章鱼哥的水母，我一定要抓到。<br>当我再去商场终于抽到角色，你一直想要的。<br>当我考来驾照坐上那小汽车，想和你去冒险。<br>于是我带着这些再次找到你。<br>直到见到你漂亮的房子。<br>见到你成团的宾客。<br>见到你光鲜的衣服。<br>见到你贵气的打扮。<br>听到你说我嫉妒新生活的话语。<br>感受到被丢出去的失落。</p>
-<p>欢乐是如何消失的呢，海绵宝宝？</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>碎碎念</category>
-      </categories>
-      <tags>
-        <tag>视频</tag>
       </tags>
   </entry>
   <entry>
@@ -671,6 +671,50 @@
         <tag>Android</tag>
         <tag>Kotlin</tag>
         <tag>弃用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>动态替换 ViewPager 里面的 Fragment</title>
+    <url>/posts/6b0c894/</url>
+    <content><![CDATA[<p>最近在重写 Kirby Assistant 过程中又遇到了需要动态替换 ViewPager 的某个 Fragment 的需求，因为之前的是直接在同一个布局里暴力替换的，但是这次因为是用其他方法实现的，当然不能用以前的方法了，摸索了一段时间后终于搞定了，现在把可以用的方法放在下面</p>
+<h1 id="准备过程"><a href="#准备过程" class="headerlink" title="准备过程"></a>准备过程</h1><p>首先需要在布局中添加 ViewPager</p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">androidx.viewpager.widget.ViewPager</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:id</span>=<span class="string">&quot;@+id/main_fragment_viewpager&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_height</span>=<span class="string">&quot;match_parent&quot;</span>/&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>然后给 ViewPager 写一个 ViewPagerAdapter 并且继承自 FragmentPagerAdapter</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ViewPagerAdapter</span> <span class="keyword">extends</span> <span class="title">FragmentPagerAdapter</span> </span>&#123;</span><br><span class="line"><span class="comment">//其他东西</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="重写-ViewPagerAdapter"><a href="#重写-ViewPagerAdapter" class="headerlink" title="重写 ViewPagerAdapter"></a>重写 ViewPagerAdapter</h1><p>具体看代码的注释，有注释的都是需要注意的</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ViewPagerAdapter</span> <span class="keyword">extends</span> <span class="title">FragmentPagerAdapter</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> FragmentManager fm;</span><br><span class="line">    <span class="keyword">private</span> List&lt;Fragment&gt; fragments;</span><br><span class="line">    <span class="keyword">private</span> List&lt;String&gt; page_title;<span class="comment">//这个是对应碎片的标题，可以不需要</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ViewPagerAdapter</span><span class="params">(FragmentManager fm, List&lt;Fragment&gt; fragments,List&lt;String&gt; page_title)</span></span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(fm);</span><br><span class="line">        <span class="keyword">this</span>.fm=fm;</span><br><span class="line">        <span class="keyword">this</span>.fragments=fragments;</span><br><span class="line">        <span class="keyword">this</span>.page_title=page_title;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">	<span class="comment">//注意这个方法，这个是配置你在哪个碎片上进行替换</span></span><br><span class="line">    <span class="meta">@NonNull</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Object <span class="title">instantiateItem</span><span class="params">(<span class="meta">@NonNull</span> ViewGroup container, <span class="keyword">int</span> position)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//这里的判断说明的是在三个和第四个碎片上替换</span></span><br><span class="line">		<span class="keyword">if</span> (position == <span class="number">2</span>||position == <span class="number">3</span>)</span><br><span class="line">            removeFragment(container,position);</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">super</span>.instantiateItem(container, position);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//这个方法就是通过 Tag 来判断碎片是不是原来的，如果不是就进行替换</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">removeFragment</span><span class="params">(ViewGroup container,<span class="keyword">int</span> index)</span> </span>&#123;</span><br><span class="line">        String tag = getFragmentTag(container.getId(), index);</span><br><span class="line">        Fragment fragment = fm.findFragmentByTag(tag);</span><br><span class="line">        <span class="keyword">if</span> (fragment == <span class="keyword">null</span>)</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        FragmentTransaction ft = fm.beginTransaction();</span><br><span class="line">        ft.remove(fragment);</span><br><span class="line">        ft.commit();</span><br><span class="line">        ft = <span class="keyword">null</span>;</span><br><span class="line">        fm.executePendingTransactions();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@NonNull</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Fragment <span class="title">getItem</span><span class="params">(<span class="keyword">int</span> position)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> fragments.get(position);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getCount</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> fragments.size();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//注意写成这样才可以进行刷新</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getItemPosition</span><span class="params">(<span class="meta">@NonNull</span> Object object)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> PagerAdapter.POSITION_NONE;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> CharSequence <span class="title">getPageTitle</span><span class="params">(<span class="keyword">int</span> position)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> page_title.get(position);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//禁止销毁view达到复用</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">destroyItem</span><span class="params">(<span class="meta">@NonNull</span> ViewGroup container, <span class="keyword">int</span> position, <span class="meta">@NonNull</span> Object object)</span> </span>&#123;&#125;</span><br><span class="line">    <span class="comment">//获取碎片的tag</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> String <span class="title">getFragmentTag</span><span class="params">(<span class="keyword">int</span> viewId, <span class="keyword">int</span> index)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            Class&lt;FragmentPagerAdapter&gt; cls = FragmentPagerAdapter.class;</span><br><span class="line">            Class&lt;?&gt;[] parameterTypes = &#123; <span class="keyword">int</span>.class, <span class="keyword">long</span>.class &#125;;</span><br><span class="line">            Method method = cls.getDeclaredMethod(<span class="string">&quot;makeFragmentName&quot;</span>,</span><br><span class="line">                    parameterTypes);</span><br><span class="line">            method.setAccessible(<span class="keyword">true</span>);</span><br><span class="line">            String tag = (String) method.invoke(<span class="keyword">this</span>, viewId, index);</span><br><span class="line">            <span class="keyword">return</span> tag;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="注意问题"><a href="#注意问题" class="headerlink" title="注意问题"></a>注意问题</h1><p>如果出现替换后出现某个碎片的布局空白了，那就设置一个 ViewPager 的缓存属性</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">main_fragment_viewpager.setOffscreenPageLimit(<span class="number">4</span>);<span class="comment">//4代表缓存4页，根据实际情况调整</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><p>如果有代码什么问题可以向我提出</p>
+]]></content>
+      <categories>
+        <category>编程</category>
+      </categories>
+      <tags>
+        <tag>踩坑</tag>
+        <tag>Android</tag>
+        <tag>ViewPager</tag>
+        <tag>Fragment</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一些 WordPress 主题</title>
+    <url>/posts/dc790cfc/</url>
+    <content><![CDATA[<p>一些 WordPress 主题，好像都是来自吾爱破解，在这里记录一下</p>
+<h1 id="betheme"><a href="#betheme" class="headerlink" title="betheme"></a>betheme</h1><p><a href="https://www.52pojie.cn/thread-590043-1-1.html">https://www.52pojie.cn/thread-590043-1-1.html</a></p>
+<h1 id="Begin知更鸟"><a href="#Begin知更鸟" class="headerlink" title="Begin知更鸟"></a>Begin知更鸟</h1><p><a href="https://www.52pojie.cn/thread-664527-1-1.html">https://www.52pojie.cn/thread-664527-1-1.html</a></p>
+<h1 id="DUX"><a href="#DUX" class="headerlink" title="DUX"></a>DUX</h1><p><a href="https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=832427">https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=832427</a></p>
+<h1 id="XIU"><a href="#XIU" class="headerlink" title="XIU"></a>XIU</h1><p><a href="https://www.52pojie.cn/thread-705661-1-1.html">https://www.52pojie.cn/thread-705661-1-1.html</a></p>
+]]></content>
+      <categories>
+        <category>资源</category>
+      </categories>
+      <tags>
+        <tag>WordPress</tag>
       </tags>
   </entry>
   <entry>
@@ -711,36 +755,8 @@
         <tag>踩坑</tag>
         <tag>Android</tag>
         <tag>Kotlin</tag>
-        <tag>Fragment</tag>
         <tag>ViewPager</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>动态替换 ViewPager 里面的 Fragment</title>
-    <url>/posts/6b0c894/</url>
-    <content><![CDATA[<p>最近在重写 Kirby Assistant 过程中又遇到了需要动态替换 ViewPager 的某个 Fragment 的需求，因为之前的是直接在同一个布局里暴力替换的，但是这次因为是用其他方法实现的，当然不能用以前的方法了，摸索了一段时间后终于搞定了，现在把可以用的方法放在下面</p>
-<h1 id="准备过程"><a href="#准备过程" class="headerlink" title="准备过程"></a>准备过程</h1><p>首先需要在布局中添加 ViewPager</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">androidx.viewpager.widget.ViewPager</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:id</span>=<span class="string">&quot;@+id/main_fragment_viewpager&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_width</span>=<span class="string">&quot;match_parent&quot;</span></span></span><br><span class="line"><span class="tag">        <span class="attr">android:layout_height</span>=<span class="string">&quot;match_parent&quot;</span>/&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>然后给 ViewPager 写一个 ViewPagerAdapter 并且继承自 FragmentPagerAdapter</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ViewPagerAdapter</span> <span class="keyword">extends</span> <span class="title">FragmentPagerAdapter</span> </span>&#123;</span><br><span class="line"><span class="comment">//其他东西</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h1 id="重写-ViewPagerAdapter"><a href="#重写-ViewPagerAdapter" class="headerlink" title="重写 ViewPagerAdapter"></a>重写 ViewPagerAdapter</h1><p>具体看代码的注释，有注释的都是需要注意的</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ViewPagerAdapter</span> <span class="keyword">extends</span> <span class="title">FragmentPagerAdapter</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> FragmentManager fm;</span><br><span class="line">    <span class="keyword">private</span> List&lt;Fragment&gt; fragments;</span><br><span class="line">    <span class="keyword">private</span> List&lt;String&gt; page_title;<span class="comment">//这个是对应碎片的标题，可以不需要</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">ViewPagerAdapter</span><span class="params">(FragmentManager fm, List&lt;Fragment&gt; fragments,List&lt;String&gt; page_title)</span></span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(fm);</span><br><span class="line">        <span class="keyword">this</span>.fm=fm;</span><br><span class="line">        <span class="keyword">this</span>.fragments=fragments;</span><br><span class="line">        <span class="keyword">this</span>.page_title=page_title;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">	<span class="comment">//注意这个方法，这个是配置你在哪个碎片上进行替换</span></span><br><span class="line">    <span class="meta">@NonNull</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Object <span class="title">instantiateItem</span><span class="params">(<span class="meta">@NonNull</span> ViewGroup container, <span class="keyword">int</span> position)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//这里的判断说明的是在三个和第四个碎片上替换</span></span><br><span class="line">		<span class="keyword">if</span> (position == <span class="number">2</span>||position == <span class="number">3</span>)</span><br><span class="line">            removeFragment(container,position);</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">super</span>.instantiateItem(container, position);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//这个方法就是通过 Tag 来判断碎片是不是原来的，如果不是就进行替换</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">removeFragment</span><span class="params">(ViewGroup container,<span class="keyword">int</span> index)</span> </span>&#123;</span><br><span class="line">        String tag = getFragmentTag(container.getId(), index);</span><br><span class="line">        Fragment fragment = fm.findFragmentByTag(tag);</span><br><span class="line">        <span class="keyword">if</span> (fragment == <span class="keyword">null</span>)</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        FragmentTransaction ft = fm.beginTransaction();</span><br><span class="line">        ft.remove(fragment);</span><br><span class="line">        ft.commit();</span><br><span class="line">        ft = <span class="keyword">null</span>;</span><br><span class="line">        fm.executePendingTransactions();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@NonNull</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Fragment <span class="title">getItem</span><span class="params">(<span class="keyword">int</span> position)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> fragments.get(position);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getCount</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> fragments.size();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//注意写成这样才可以进行刷新</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getItemPosition</span><span class="params">(<span class="meta">@NonNull</span> Object object)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> PagerAdapter.POSITION_NONE;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> CharSequence <span class="title">getPageTitle</span><span class="params">(<span class="keyword">int</span> position)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> page_title.get(position);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//禁止销毁view达到复用</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">destroyItem</span><span class="params">(<span class="meta">@NonNull</span> ViewGroup container, <span class="keyword">int</span> position, <span class="meta">@NonNull</span> Object object)</span> </span>&#123;&#125;</span><br><span class="line">    <span class="comment">//获取碎片的tag</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> String <span class="title">getFragmentTag</span><span class="params">(<span class="keyword">int</span> viewId, <span class="keyword">int</span> index)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            Class&lt;FragmentPagerAdapter&gt; cls = FragmentPagerAdapter.class;</span><br><span class="line">            Class&lt;?&gt;[] parameterTypes = &#123; <span class="keyword">int</span>.class, <span class="keyword">long</span>.class &#125;;</span><br><span class="line">            Method method = cls.getDeclaredMethod(<span class="string">&quot;makeFragmentName&quot;</span>,</span><br><span class="line">                    parameterTypes);</span><br><span class="line">            method.setAccessible(<span class="keyword">true</span>);</span><br><span class="line">            String tag = (String) method.invoke(<span class="keyword">this</span>, viewId, index);</span><br><span class="line">            <span class="keyword">return</span> tag;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h1 id="注意问题"><a href="#注意问题" class="headerlink" title="注意问题"></a>注意问题</h1><p>如果出现替换后出现某个碎片的布局空白了，那就设置一个 ViewPager 的缓存属性</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">main_fragment_viewpager.setOffscreenPageLimit(<span class="number">4</span>);<span class="comment">//4代表缓存4页，根据实际情况调整</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><p>如果有代码什么问题可以向我提出</p>
-]]></content>
-      <categories>
-        <category>编程</category>
-      </categories>
-      <tags>
-        <tag>踩坑</tag>
-        <tag>Android</tag>
         <tag>Fragment</tag>
-        <tag>ViewPager</tag>
       </tags>
   </entry>
   <entry>
@@ -777,6 +793,38 @@
         <tag>踩坑</tag>
         <tag>Android</tag>
         <tag>Material Design 2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows 软件推荐</title>
+    <url>/posts/cd1c3d2a/</url>
+    <content><![CDATA[<p>这些软件都是我自己用过的，可以通过左边页面快速定位</p>
+<h1 id="Visual-Studio-Code"><a href="#Visual-Studio-Code" class="headerlink" title="Visual Studio Code"></a>Visual Studio Code</h1><p>这个简直首推，编辑利器，人生苦短，我用 VS Code 完成关于文本编辑工作的一切。它天生支持几乎所有编程语言，还可以通过扩展个性化相应的语法高亮等。<br>如果你想忙里偷闲，VS Code 强大的扩展能力还能让你用它刷 LeetCode 或 V2EX，可谓带薪划水必备。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(1).png" alt="enter description here"><br>你可以在<a href="https://code.visualstudio.com/">官网</a>免费获取 Visual Studio Code。</p>
+<h1 id="福昕-PDF-阅读器"><a href="#福昕-PDF-阅读器" class="headerlink" title="福昕 PDF 阅读器"></a>福昕 PDF 阅读器</h1><p>国产，中文界面，流畅好用，界面美观<br><a href="https://www.foxitsoftware.cn/">点这里</a></p>
+<h1 id="福昕-PDF-编辑器"><a href="#福昕-PDF-编辑器" class="headerlink" title="福昕 PDF 编辑器"></a>福昕 PDF 编辑器</h1><p>福昕（Foxit）可能是我国最受欢迎的 PDF 阅读器，由其出品的 <a href="https://www.foxitsoftware.cn/pdf-editor/">PDF 编辑器</a> 也是 Adobe Acrobat 的有力竞争对手。它提供了各种 PDF 批注工具；支持编辑 PDF 中的文本、段落、图片；设计并填写表单；OCR 识别图片中的文字；管理 PDF 页面；转换为其它文件格式等，界面也比较友好。</p>
+<h1 id="火绒安全软件"><a href="#火绒安全软件" class="headerlink" title="火绒安全软件"></a>火绒安全软件</h1><p>如果你觉得 Windows Defender 还是有些简陋，火绒安全软件是个不错的选择。它提供了病毒联网查杀、垃圾清理、下载保护、浏览器保护等国产卫士标配功能，但不会拖家带口向你问好，还你一片清净。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(2).png" alt="enter description here"><br>除了系统防护外，火绒安全软件还提供了数种实用工具，如弹窗拦截、右键菜单管理、启动项管理、文件粉碎机等。如果你是进阶用户，还可以试试火绒剑这一强大的专业安全分析工具。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(3).png" alt="enter description here"><br>你可以在 <a href="https://www.huorong.cn/">官网</a> 免费获取火绒安全软件。</p>
+<h1 id="Quicklook，仿-MAC-快速预览"><a href="#Quicklook，仿-MAC-快速预览" class="headerlink" title="Quicklook，仿 MAC 快速预览"></a>Quicklook，仿 MAC 快速预览</h1><p>MAC 的快速预览很多人都见过，回望 Win10 的「预览」，依旧被抠抠唆唆地安排在窗口右侧，一点也不大气！QuickLook 是一款仿 MAC 快速预览的小工具，装好之后，只要选中文件，按下键盘上的空格键，即可预览文件内容。</p>
+<p>QuickLook 支持文本、视频、音频、图片、压缩包、Office 文档……，换句话说，你电脑上任何一款文件几乎都可以用它预览。同时你也可以点击预览窗右上角的按钮直接启动对应程序，非常方便。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(4).png" alt="enter description here"><br><a href="http://dl.pconline.com.cn/download/1115319.html">QuickLook：点此下载</a></p>
+<h1 id="升级-Win10-日历！优效日历"><a href="#升级-Win10-日历！优效日历" class="headerlink" title="升级 Win10 日历！优效日历"></a>升级 Win10 日历！优效日历</h1><p>Win10 为右下角托盘设计了一个新日历，但依旧被吐槽功能太弱，优效日历是 Win10 原生日历的最佳替代者。它有着和 Win10 原生日历一致的外观界面，支持农历、节日、调休显示，支持日程提醒、万年历、自定义时钟。同时它还集成了定时关机、屏幕截图两大功能，没用过的一定得试一试！<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(5).png" alt="enter description here"><br><a href="http://www.youxiao.cn/">点击下载</a></p>
+<h1 id="Chocolatey"><a href="#Chocolatey" class="headerlink" title="Chocolatey"></a>Chocolatey</h1><p>Chocolatey 是 Windows 下的包管理器，访问<a href="https://chocolatey.org/">官网</a>来查看使用方法</p>
+<h1 id="uTools"><a href="#uTools" class="headerlink" title="uTools"></a>uTools</h1><p>uTools 是一个极简的桌面管理软件，但它的功能更全面。包含：快速启动、自动识别、数据同步等功能。</p>
+<p>比如快速启动，这个功能和 Listary、Everything 等都非常相似。但 uTools 对中文的支持非常有好，还可以首字母检索。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(6).png" alt="enter description here"><br>除此外还有插件中心，里面还有各种比如：网页快开、在线翻译、计算器、压缩图片、图片转文字等功能。这也是其它快速启动软件所不具备的。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(7).png" alt="enter description here"><br><a href="https://u.tools/">点击下载</a></p>
+<h1 id="万彩办公大师"><a href="#万彩办公大师" class="headerlink" title="万彩办公大师"></a>万彩办公大师</h1><p>万彩办公大师可以说是一个办公必备的工具，包含了各种功能：PDF 编辑、格式转换、图片编辑等，功能多达 60+。</p>
+<p>最让人惊喜的是，万彩办公大师使用完全免费，所有的工具无需安装，直接加载就可以启动了。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(8).png" alt="enter description here"><br><a href="wofficebox.com/">下载地址</a></p>
+<h1 id="TreeSize"><a href="#TreeSize" class="headerlink" title="TreeSize"></a>TreeSize</h1><p>TreeSize 是一个扫描磁盘可视化排列大小的应用，有免费版和专业版可以选<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(9).png" alt="enter description here"><br><a href="https://www.jam-software.com/treesize_free/">点击这里</a>获取免费版</p>
+<h1 id="CCleaner"><a href="#CCleaner" class="headerlink" title="CCleaner"></a>CCleaner</h1><p>CCleaner，不仅是常用的垃圾和缓存清理，我也用它在电脑刚到手时卸载掉 Win10 自带的各种无用软件（有些 Windows 不让卸载的自带 UWP，在 CCleaner 里可以卸载掉），甚至我嫌 OneDrive 麻烦，也用它卸载过。界面很友好。批量卸载比手动卸载方便不少。软件是有中文的，但默认是英文，自己手动在 <code>options-setting-language</code> 选择 <code>Chinese simplified</code> 即可<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(10).png" alt="enter description here"><br><a href="https://www.ccleaner.com/ccleaner/download">点击下载</a></p>
+<h1 id="BandiZip"><a href="#BandiZip" class="headerlink" title="BandiZip"></a>BandiZip</h1><p>BandiZip，界面美观，功能强大，而且免费无广告，另外 <a href="https://www.7-zip.org/">7-Zip</a>，界面丑了一些，功能还是很强的。也有不少人推荐修改版的 rar 烈火或者好压，其实都不错。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(11).png" alt="enter description here"><br><a href="http://www.bandisoft.com/bandizip/cn/">下载地址</a></p>
+<h1 id="Obs-Open-Broadcaster-Software"><a href="#Obs-Open-Broadcaster-Software" class="headerlink" title="Obs-Open Broadcaster Software"></a>Obs-Open Broadcaster Software</h1><p>OBS，不用多说了，剪视频、录游戏好帮手。<br><a href="https://obsproject.com/">下载地址</a></p>
+<h1 id="VLC-media-player"><a href="#VLC-media-player" class="headerlink" title="VLC media player"></a>VLC media player</h1><p>跨平台的播放器，Linux 的时候一直用的，Windows 也就接着用了，有浏览器插件，可以直接把浏览器的视频推过来播放<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(12).png" alt="enter description here"><br><a href="https://www.videolan.org/">点这里下载</a></p>
+<h1 id="Geek-Uninstaller"><a href="#Geek-Uninstaller" class="headerlink" title="Geek Uninstaller"></a>Geek Uninstaller</h1><p>Geek Uninstaller 是一个专业卸载软件，采取深而快的扫描方式，删除所有无用的文件，注册表，卸载无残留！<br>这款软件也是一款单文件软件，下载后，不用安装，双击直接使用，卸载软件、强制彻底清除软件残留垃圾文件或是查看某软件的注册表项目等等。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(13).png" alt="enter description here"><br>你可以在他的<a href="https://geekuninstaller.com/">官网</a>获取到</p>
+<h1 id="未完"><a href="#未完" class="headerlink" title="未完"></a>未完</h1><p>后面想到了再补充</p>
+]]></content>
+      <categories>
+        <category>资源</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>软件推荐</tag>
       </tags>
   </entry>
   <entry>
@@ -832,54 +880,6 @@
         <tag>踩坑</tag>
         <tag>Android</tag>
         <tag>Material Design 2</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows 软件推荐</title>
-    <url>/posts/cd1c3d2a/</url>
-    <content><![CDATA[<p>这些软件都是我自己用过的，可以通过左边页面快速定位</p>
-<h1 id="Visual-Studio-Code"><a href="#Visual-Studio-Code" class="headerlink" title="Visual Studio Code"></a>Visual Studio Code</h1><p>这个简直首推，编辑利器，人生苦短，我用 VS Code 完成关于文本编辑工作的一切。它天生支持几乎所有编程语言，还可以通过扩展个性化相应的语法高亮等。<br>如果你想忙里偷闲，VS Code 强大的扩展能力还能让你用它刷 LeetCode 或 V2EX，可谓带薪划水必备。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(1).png" alt="enter description here"><br>你可以在<a href="https://code.visualstudio.com/">官网</a>免费获取 Visual Studio Code。</p>
-<h1 id="福昕-PDF-阅读器"><a href="#福昕-PDF-阅读器" class="headerlink" title="福昕 PDF 阅读器"></a>福昕 PDF 阅读器</h1><p>国产，中文界面，流畅好用，界面美观<br><a href="https://www.foxitsoftware.cn/">点这里</a></p>
-<h1 id="福昕-PDF-编辑器"><a href="#福昕-PDF-编辑器" class="headerlink" title="福昕 PDF 编辑器"></a>福昕 PDF 编辑器</h1><p>福昕（Foxit）可能是我国最受欢迎的 PDF 阅读器，由其出品的 <a href="https://www.foxitsoftware.cn/pdf-editor/">PDF 编辑器</a> 也是 Adobe Acrobat 的有力竞争对手。它提供了各种 PDF 批注工具；支持编辑 PDF 中的文本、段落、图片；设计并填写表单；OCR 识别图片中的文字；管理 PDF 页面；转换为其它文件格式等，界面也比较友好。</p>
-<h1 id="火绒安全软件"><a href="#火绒安全软件" class="headerlink" title="火绒安全软件"></a>火绒安全软件</h1><p>如果你觉得 Windows Defender 还是有些简陋，火绒安全软件是个不错的选择。它提供了病毒联网查杀、垃圾清理、下载保护、浏览器保护等国产卫士标配功能，但不会拖家带口向你问好，还你一片清净。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(2).png" alt="enter description here"><br>除了系统防护外，火绒安全软件还提供了数种实用工具，如弹窗拦截、右键菜单管理、启动项管理、文件粉碎机等。如果你是进阶用户，还可以试试火绒剑这一强大的专业安全分析工具。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(3).png" alt="enter description here"><br>你可以在 <a href="https://www.huorong.cn/">官网</a> 免费获取火绒安全软件。</p>
-<h1 id="Quicklook，仿-MAC-快速预览"><a href="#Quicklook，仿-MAC-快速预览" class="headerlink" title="Quicklook，仿 MAC 快速预览"></a>Quicklook，仿 MAC 快速预览</h1><p>MAC 的快速预览很多人都见过，回望 Win10 的「预览」，依旧被抠抠唆唆地安排在窗口右侧，一点也不大气！QuickLook 是一款仿 MAC 快速预览的小工具，装好之后，只要选中文件，按下键盘上的空格键，即可预览文件内容。</p>
-<p>QuickLook 支持文本、视频、音频、图片、压缩包、Office 文档……，换句话说，你电脑上任何一款文件几乎都可以用它预览。同时你也可以点击预览窗右上角的按钮直接启动对应程序，非常方便。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(4).png" alt="enter description here"><br><a href="http://dl.pconline.com.cn/download/1115319.html">QuickLook：点此下载</a></p>
-<h1 id="升级-Win10-日历！优效日历"><a href="#升级-Win10-日历！优效日历" class="headerlink" title="升级 Win10 日历！优效日历"></a>升级 Win10 日历！优效日历</h1><p>Win10 为右下角托盘设计了一个新日历，但依旧被吐槽功能太弱，优效日历是 Win10 原生日历的最佳替代者。它有着和 Win10 原生日历一致的外观界面，支持农历、节日、调休显示，支持日程提醒、万年历、自定义时钟。同时它还集成了定时关机、屏幕截图两大功能，没用过的一定得试一试！<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(5).png" alt="enter description here"><br><a href="http://www.youxiao.cn/">点击下载</a></p>
-<h1 id="Chocolatey"><a href="#Chocolatey" class="headerlink" title="Chocolatey"></a>Chocolatey</h1><p>Chocolatey 是 Windows 下的包管理器，访问<a href="https://chocolatey.org/">官网</a>来查看使用方法</p>
-<h1 id="uTools"><a href="#uTools" class="headerlink" title="uTools"></a>uTools</h1><p>uTools 是一个极简的桌面管理软件，但它的功能更全面。包含：快速启动、自动识别、数据同步等功能。</p>
-<p>比如快速启动，这个功能和 Listary、Everything 等都非常相似。但 uTools 对中文的支持非常有好，还可以首字母检索。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(6).png" alt="enter description here"><br>除此外还有插件中心，里面还有各种比如：网页快开、在线翻译、计算器、压缩图片、图片转文字等功能。这也是其它快速启动软件所不具备的。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(7).png" alt="enter description here"><br><a href="https://u.tools/">点击下载</a></p>
-<h1 id="万彩办公大师"><a href="#万彩办公大师" class="headerlink" title="万彩办公大师"></a>万彩办公大师</h1><p>万彩办公大师可以说是一个办公必备的工具，包含了各种功能：PDF 编辑、格式转换、图片编辑等，功能多达 60+。</p>
-<p>最让人惊喜的是，万彩办公大师使用完全免费，所有的工具无需安装，直接加载就可以启动了。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(8).png" alt="enter description here"><br><a href="wofficebox.com/">下载地址</a></p>
-<h1 id="TreeSize"><a href="#TreeSize" class="headerlink" title="TreeSize"></a>TreeSize</h1><p>TreeSize 是一个扫描磁盘可视化排列大小的应用，有免费版和专业版可以选<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(9).png" alt="enter description here"><br><a href="https://www.jam-software.com/treesize_free/">点击这里</a>获取免费版</p>
-<h1 id="CCleaner"><a href="#CCleaner" class="headerlink" title="CCleaner"></a>CCleaner</h1><p>CCleaner，不仅是常用的垃圾和缓存清理，我也用它在电脑刚到手时卸载掉 Win10 自带的各种无用软件（有些 Windows 不让卸载的自带 UWP，在 CCleaner 里可以卸载掉），甚至我嫌 OneDrive 麻烦，也用它卸载过。界面很友好。批量卸载比手动卸载方便不少。软件是有中文的，但默认是英文，自己手动在 <code>options-setting-language</code> 选择 <code>Chinese simplified</code> 即可<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(10).png" alt="enter description here"><br><a href="https://www.ccleaner.com/ccleaner/download">点击下载</a></p>
-<h1 id="BandiZip"><a href="#BandiZip" class="headerlink" title="BandiZip"></a>BandiZip</h1><p>BandiZip，界面美观，功能强大，而且免费无广告，另外 <a href="https://www.7-zip.org/">7-Zip</a>，界面丑了一些，功能还是很强的。也有不少人推荐修改版的 rar 烈火或者好压，其实都不错。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(11).png" alt="enter description here"><br><a href="http://www.bandisoft.com/bandizip/cn/">下载地址</a></p>
-<h1 id="Obs-Open-Broadcaster-Software"><a href="#Obs-Open-Broadcaster-Software" class="headerlink" title="Obs-Open Broadcaster Software"></a>Obs-Open Broadcaster Software</h1><p>OBS，不用多说了，剪视频、录游戏好帮手。<br><a href="https://obsproject.com/">下载地址</a></p>
-<h1 id="VLC-media-player"><a href="#VLC-media-player" class="headerlink" title="VLC media player"></a>VLC media player</h1><p>跨平台的播放器，Linux 的时候一直用的，Windows 也就接着用了，有浏览器插件，可以直接把浏览器的视频推过来播放<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(12).png" alt="enter description here"><br><a href="https://www.videolan.org/">点这里下载</a></p>
-<h1 id="Geek-Uninstaller"><a href="#Geek-Uninstaller" class="headerlink" title="Geek Uninstaller"></a>Geek Uninstaller</h1><p>Geek Uninstaller 是一个专业卸载软件，采取深而快的扫描方式，删除所有无用的文件，注册表，卸载无残留！<br>这款软件也是一款单文件软件，下载后，不用安装，双击直接使用，卸载软件、强制彻底清除软件残留垃圾文件或是查看某软件的注册表项目等等。<br><img src="/blog_image/Windows%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/(13).png" alt="enter description here"><br>你可以在他的<a href="https://geekuninstaller.com/">官网</a>获取到</p>
-<h1 id="未完"><a href="#未完" class="headerlink" title="未完"></a>未完</h1><p>后面想到了再补充</p>
-]]></content>
-      <categories>
-        <category>资源</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>软件推荐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一些 WordPress 主题</title>
-    <url>/posts/dc790cfc/</url>
-    <content><![CDATA[<p>一些 WordPress 主题，好像都是来自吾爱破解，在这里记录一下</p>
-<h1 id="betheme"><a href="#betheme" class="headerlink" title="betheme"></a>betheme</h1><p><a href="https://www.52pojie.cn/thread-590043-1-1.html">https://www.52pojie.cn/thread-590043-1-1.html</a></p>
-<h1 id="Begin知更鸟"><a href="#Begin知更鸟" class="headerlink" title="Begin知更鸟"></a>Begin知更鸟</h1><p><a href="https://www.52pojie.cn/thread-664527-1-1.html">https://www.52pojie.cn/thread-664527-1-1.html</a></p>
-<h1 id="DUX"><a href="#DUX" class="headerlink" title="DUX"></a>DUX</h1><p><a href="https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=832427">https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=832427</a></p>
-<h1 id="XIU"><a href="#XIU" class="headerlink" title="XIU"></a>XIU</h1><p><a href="https://www.52pojie.cn/thread-705661-1-1.html">https://www.52pojie.cn/thread-705661-1-1.html</a></p>
-]]></content>
-      <categories>
-        <category>资源</category>
-      </categories>
-      <tags>
-        <tag>WordPress</tag>
       </tags>
   </entry>
   <entry>

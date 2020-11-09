@@ -92,9 +92,9 @@
     <category term="技术记录" scheme="https://blog.endureblaze.cn/categories/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="ssh" scheme="https://blog.endureblaze.cn/tags/ssh/"/>
-    
     <category term="Windows" scheme="https://blog.endureblaze.cn/tags/Windows/"/>
+    
+    <category term="ssh" scheme="https://blog.endureblaze.cn/tags/ssh/"/>
     
     <category term="代理" scheme="https://blog.endureblaze.cn/tags/%E4%BB%A3%E7%90%86/"/>
     
@@ -160,9 +160,9 @@
     
     <category term="Kotlin" scheme="https://blog.endureblaze.cn/tags/Kotlin/"/>
     
-    <category term="Fragment" scheme="https://blog.endureblaze.cn/tags/Fragment/"/>
-    
     <category term="ViewPager" scheme="https://blog.endureblaze.cn/tags/ViewPager/"/>
+    
+    <category term="Fragment" scheme="https://blog.endureblaze.cn/tags/Fragment/"/>
     
   </entry>
   
@@ -454,9 +454,9 @@
     
     <category term="Android" scheme="https://blog.endureblaze.cn/tags/Android/"/>
     
-    <category term="Fragment" scheme="https://blog.endureblaze.cn/tags/Fragment/"/>
-    
     <category term="ViewPager" scheme="https://blog.endureblaze.cn/tags/ViewPager/"/>
+    
+    <category term="Fragment" scheme="https://blog.endureblaze.cn/tags/Fragment/"/>
     
   </entry>
   
