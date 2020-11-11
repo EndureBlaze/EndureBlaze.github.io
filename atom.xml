@@ -3,11 +3,11 @@
   <title>炎忍的博客</title>
   
   <subtitle>同学习，共成长，不将就，不妥协！</subtitle>
-  <link href="https://blog.endureblaze.cn/atom.xml" rel="self"/>
+  <link href="https://blog.imyan.ren/atom.xml" rel="self"/>
   
-  <link href="https://blog.endureblaze.cn/"/>
+  <link href="https://blog.imyan.ren/"/>
   <updated>2020-09-27T02:18:59.117Z</updated>
-  <id>https://blog.endureblaze.cn/</id>
+  <id>https://blog.imyan.ren/</id>
   
   <author>
     <name>炎忍</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>修改 Windows 10 的用户名以及用户文件夹</title>
-    <link href="https://blog.endureblaze.cn/posts/8e165a5c/"/>
-    <id>https://blog.endureblaze.cn/posts/8e165a5c/</id>
+    <link href="https://blog.imyan.ren/posts/8e165a5c/"/>
+    <id>https://blog.imyan.ren/posts/8e165a5c/</id>
     <published>2020-09-15T14:54:01.000Z</published>
     <updated>2020-09-27T02:18:59.117Z</updated>
     
@@ -36,17 +36,17 @@
     
     
     
-    <category term="技术记录" scheme="https://blog.endureblaze.cn/categories/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/"/>
+    <category term="技术记录" scheme="https://blog.imyan.ren/categories/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Windows" scheme="https://blog.endureblaze.cn/tags/Windows/"/>
+    <category term="Windows" scheme="https://blog.imyan.ren/tags/Windows/"/>
     
   </entry>
   
   <entry>
     <title>怎么呼吸</title>
-    <link href="https://blog.endureblaze.cn/posts/b0821049/"/>
-    <id>https://blog.endureblaze.cn/posts/b0821049/</id>
+    <link href="https://blog.imyan.ren/posts/b0821049/"/>
+    <id>https://blog.imyan.ren/posts/b0821049/</id>
     <published>2020-07-03T03:34:13.000Z</published>
     <updated>2020-09-12T15:10:15.178Z</updated>
     
@@ -60,19 +60,19 @@
     
     
     
-    <category term="正经文字" scheme="https://blog.endureblaze.cn/categories/%E6%AD%A3%E7%BB%8F%E6%96%87%E5%AD%97/"/>
+    <category term="正经文字" scheme="https://blog.imyan.ren/categories/%E6%AD%A3%E7%BB%8F%E6%96%87%E5%AD%97/"/>
     
     
-    <category term="环保" scheme="https://blog.endureblaze.cn/tags/%E7%8E%AF%E4%BF%9D/"/>
+    <category term="环保" scheme="https://blog.imyan.ren/tags/%E7%8E%AF%E4%BF%9D/"/>
     
-    <category term="塑料产品" scheme="https://blog.endureblaze.cn/tags/%E5%A1%91%E6%96%99%E4%BA%A7%E5%93%81/"/>
+    <category term="塑料产品" scheme="https://blog.imyan.ren/tags/%E5%A1%91%E6%96%99%E4%BA%A7%E5%93%81/"/>
     
   </entry>
   
   <entry>
     <title>在 Windows 系统上给 ssh 设置代理</title>
-    <link href="https://blog.endureblaze.cn/posts/4d70a82d/"/>
-    <id>https://blog.endureblaze.cn/posts/4d70a82d/</id>
+    <link href="https://blog.imyan.ren/posts/4d70a82d/"/>
+    <id>https://blog.imyan.ren/posts/4d70a82d/</id>
     <published>2020-06-01T15:28:25.000Z</published>
     <updated>2020-06-01T15:56:49.791Z</updated>
     
@@ -89,21 +89,21 @@
     
     
     
-    <category term="技术记录" scheme="https://blog.endureblaze.cn/categories/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/"/>
+    <category term="技术记录" scheme="https://blog.imyan.ren/categories/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Windows" scheme="https://blog.endureblaze.cn/tags/Windows/"/>
+    <category term="Windows" scheme="https://blog.imyan.ren/tags/Windows/"/>
     
-    <category term="ssh" scheme="https://blog.endureblaze.cn/tags/ssh/"/>
+    <category term="ssh" scheme="https://blog.imyan.ren/tags/ssh/"/>
     
-    <category term="代理" scheme="https://blog.endureblaze.cn/tags/%E4%BB%A3%E7%90%86/"/>
+    <category term="代理" scheme="https://blog.imyan.ren/tags/%E4%BB%A3%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>updateConfiguration 弃用之后更换语言应该何去何从</title>
-    <link href="https://blog.endureblaze.cn/posts/9e078f24/"/>
-    <id>https://blog.endureblaze.cn/posts/9e078f24/</id>
+    <link href="https://blog.imyan.ren/posts/9e078f24/"/>
+    <id>https://blog.imyan.ren/posts/9e078f24/</id>
     <published>2020-05-09T15:03:24.000Z</published>
     <updated>2020-05-09T15:35:21.454Z</updated>
     
@@ -120,23 +120,23 @@
     
     
     
-    <category term="编程" scheme="https://blog.endureblaze.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+    <category term="编程" scheme="https://blog.imyan.ren/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-    <category term="踩坑" scheme="https://blog.endureblaze.cn/tags/%E8%B8%A9%E5%9D%91/"/>
+    <category term="踩坑" scheme="https://blog.imyan.ren/tags/%E8%B8%A9%E5%9D%91/"/>
     
-    <category term="Android" scheme="https://blog.endureblaze.cn/tags/Android/"/>
+    <category term="Android" scheme="https://blog.imyan.ren/tags/Android/"/>
     
-    <category term="Kotlin" scheme="https://blog.endureblaze.cn/tags/Kotlin/"/>
+    <category term="Kotlin" scheme="https://blog.imyan.ren/tags/Kotlin/"/>
     
-    <category term="弃用" scheme="https://blog.endureblaze.cn/tags/%E5%BC%83%E7%94%A8/"/>
+    <category term="弃用" scheme="https://blog.imyan.ren/tags/%E5%BC%83%E7%94%A8/"/>
     
   </entry>
   
   <entry>
     <title>使用 Kotlin 编写一个懒加载与 ViewBinding 的 Fragment</title>
-    <link href="https://blog.endureblaze.cn/posts/51f7c2cb/"/>
-    <id>https://blog.endureblaze.cn/posts/51f7c2cb/</id>
+    <link href="https://blog.imyan.ren/posts/51f7c2cb/"/>
+    <id>https://blog.imyan.ren/posts/51f7c2cb/</id>
     <published>2020-04-26T15:14:44.000Z</published>
     <updated>2020-09-12T15:10:50.079Z</updated>
     
@@ -151,25 +151,25 @@
     
     
     
-    <category term="编程" scheme="https://blog.endureblaze.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+    <category term="编程" scheme="https://blog.imyan.ren/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-    <category term="踩坑" scheme="https://blog.endureblaze.cn/tags/%E8%B8%A9%E5%9D%91/"/>
+    <category term="踩坑" scheme="https://blog.imyan.ren/tags/%E8%B8%A9%E5%9D%91/"/>
     
-    <category term="Android" scheme="https://blog.endureblaze.cn/tags/Android/"/>
+    <category term="Android" scheme="https://blog.imyan.ren/tags/Android/"/>
     
-    <category term="Kotlin" scheme="https://blog.endureblaze.cn/tags/Kotlin/"/>
+    <category term="Kotlin" scheme="https://blog.imyan.ren/tags/Kotlin/"/>
     
-    <category term="ViewPager" scheme="https://blog.endureblaze.cn/tags/ViewPager/"/>
+    <category term="ViewPager" scheme="https://blog.imyan.ren/tags/ViewPager/"/>
     
-    <category term="Fragment" scheme="https://blog.endureblaze.cn/tags/Fragment/"/>
+    <category term="Fragment" scheme="https://blog.imyan.ren/tags/Fragment/"/>
     
   </entry>
   
   <entry>
     <title>开往 - Travellings</title>
-    <link href="https://blog.endureblaze.cn/posts/58ae8d54/"/>
-    <id>https://blog.endureblaze.cn/posts/58ae8d54/</id>
+    <link href="https://blog.imyan.ren/posts/58ae8d54/"/>
+    <id>https://blog.imyan.ren/posts/58ae8d54/</id>
     <published>2020-04-22T03:14:28.000Z</published>
     <updated>2020-06-28T08:28:12.442Z</updated>
     
@@ -183,17 +183,17 @@
     
     
     
-    <category term="正经文字" scheme="https://blog.endureblaze.cn/categories/%E6%AD%A3%E7%BB%8F%E6%96%87%E5%AD%97/"/>
+    <category term="正经文字" scheme="https://blog.imyan.ren/categories/%E6%AD%A3%E7%BB%8F%E6%96%87%E5%AD%97/"/>
     
     
-    <category term="开往" scheme="https://blog.endureblaze.cn/tags/%E5%BC%80%E5%BE%80/"/>
+    <category term="开往" scheme="https://blog.imyan.ren/tags/%E5%BC%80%E5%BE%80/"/>
     
   </entry>
   
   <entry>
     <title>解决 VS Code 编译 C/C++ 是输出中文乱码的问题</title>
-    <link href="https://blog.endureblaze.cn/posts/ea8a69ac/"/>
-    <id>https://blog.endureblaze.cn/posts/ea8a69ac/</id>
+    <link href="https://blog.imyan.ren/posts/ea8a69ac/"/>
+    <id>https://blog.imyan.ren/posts/ea8a69ac/</id>
     <published>2020-04-08T08:45:23.000Z</published>
     <updated>2020-04-08T09:52:50.317Z</updated>
     
@@ -207,17 +207,17 @@
     
     
     
-    <category term="技术记录" scheme="https://blog.endureblaze.cn/categories/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/"/>
+    <category term="技术记录" scheme="https://blog.imyan.ren/categories/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="VS Code" scheme="https://blog.endureblaze.cn/tags/VS-Code/"/>
+    <category term="VS Code" scheme="https://blog.imyan.ren/tags/VS-Code/"/>
     
   </entry>
   
   <entry>
     <title>如何使用 Dolphin Emulator 玩《星之卡比：Wii》</title>
-    <link href="https://blog.endureblaze.cn/posts/2fbba4ed/"/>
-    <id>https://blog.endureblaze.cn/posts/2fbba4ed/</id>
+    <link href="https://blog.imyan.ren/posts/2fbba4ed/"/>
+    <id>https://blog.imyan.ren/posts/2fbba4ed/</id>
     <published>2020-03-07T02:57:07.000Z</published>
     <updated>2020-03-07T06:28:17.864Z</updated>
     
@@ -232,23 +232,23 @@
     
     
     
-    <category term="星之卡比系列教程" scheme="https://blog.endureblaze.cn/categories/%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B/"/>
+    <category term="星之卡比系列教程" scheme="https://blog.imyan.ren/categories/%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="星之卡比" scheme="https://blog.endureblaze.cn/tags/%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94/"/>
+    <category term="星之卡比" scheme="https://blog.imyan.ren/tags/%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94/"/>
     
-    <category term="星之卡比 Wii" scheme="https://blog.endureblaze.cn/tags/%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94-Wii/"/>
+    <category term="星之卡比 Wii" scheme="https://blog.imyan.ren/tags/%E6%98%9F%E4%B9%8B%E5%8D%A1%E6%AF%94-Wii/"/>
     
-    <category term="Wii 模拟器" scheme="https://blog.endureblaze.cn/tags/Wii-%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    <category term="Wii 模拟器" scheme="https://blog.imyan.ren/tags/Wii-%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
     
-    <category term="Dolphin Emulator" scheme="https://blog.endureblaze.cn/tags/Dolphin-Emulator/"/>
+    <category term="Dolphin Emulator" scheme="https://blog.imyan.ren/tags/Dolphin-Emulator/"/>
     
   </entry>
   
   <entry>
     <title>为什么说宣扬读书无用论的人要么蠢要么坏？</title>
-    <link href="https://blog.endureblaze.cn/posts/e9558acf/"/>
-    <id>https://blog.endureblaze.cn/posts/e9558acf/</id>
+    <link href="https://blog.imyan.ren/posts/e9558acf/"/>
+    <id>https://blog.imyan.ren/posts/e9558acf/</id>
     <published>2020-03-03T15:23:29.000Z</published>
     <updated>2020-09-12T15:10:32.334Z</updated>
     
@@ -265,21 +265,21 @@
     
     
     
-    <category term="正经文字" scheme="https://blog.endureblaze.cn/categories/%E6%AD%A3%E7%BB%8F%E6%96%87%E5%AD%97/"/>
+    <category term="正经文字" scheme="https://blog.imyan.ren/categories/%E6%AD%A3%E7%BB%8F%E6%96%87%E5%AD%97/"/>
     
     
-    <category term="读书" scheme="https://blog.endureblaze.cn/tags/%E8%AF%BB%E4%B9%A6/"/>
+    <category term="读书" scheme="https://blog.imyan.ren/tags/%E8%AF%BB%E4%B9%A6/"/>
     
-    <category term="学习" scheme="https://blog.endureblaze.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="https://blog.imyan.ren/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="读书无用论" scheme="https://blog.endureblaze.cn/tags/%E8%AF%BB%E4%B9%A6%E6%97%A0%E7%94%A8%E8%AE%BA/"/>
+    <category term="读书无用论" scheme="https://blog.imyan.ren/tags/%E8%AF%BB%E4%B9%A6%E6%97%A0%E7%94%A8%E8%AE%BA/"/>
     
   </entry>
   
   <entry>
     <title>不一样又怎样</title>
-    <link href="https://blog.endureblaze.cn/posts/7935321c/"/>
-    <id>https://blog.endureblaze.cn/posts/7935321c/</id>
+    <link href="https://blog.imyan.ren/posts/7935321c/"/>
+    <id>https://blog.imyan.ren/posts/7935321c/</id>
     <published>2020-03-01T04:58:56.000Z</published>
     <updated>2020-09-12T15:07:28.741Z</updated>
     
@@ -290,17 +290,17 @@
     
     
     
-    <category term="正经文字" scheme="https://blog.endureblaze.cn/categories/%E6%AD%A3%E7%BB%8F%E6%96%87%E5%AD%97/"/>
+    <category term="正经文字" scheme="https://blog.imyan.ren/categories/%E6%AD%A3%E7%BB%8F%E6%96%87%E5%AD%97/"/>
     
     
-    <category term="LGBT" scheme="https://blog.endureblaze.cn/tags/LGBT/"/>
+    <category term="LGBT" scheme="https://blog.imyan.ren/tags/LGBT/"/>
     
   </entry>
   
   <entry>
     <title>在线游玩 FC（小霸王、红白机）、街机游戏</title>
-    <link href="https://blog.endureblaze.cn/posts/743f9c80/"/>
-    <id>https://blog.endureblaze.cn/posts/743f9c80/</id>
+    <link href="https://blog.imyan.ren/posts/743f9c80/"/>
+    <id>https://blog.imyan.ren/posts/743f9c80/</id>
     <published>2020-02-22T14:34:54.000Z</published>
     <updated>2020-09-12T15:11:38.456Z</updated>
     
@@ -314,19 +314,19 @@
     
     
     
-    <category term="随手记" scheme="https://blog.endureblaze.cn/categories/%E9%9A%8F%E6%89%8B%E8%AE%B0/"/>
+    <category term="随手记" scheme="https://blog.imyan.ren/categories/%E9%9A%8F%E6%89%8B%E8%AE%B0/"/>
     
     
-    <category term="游戏推荐" scheme="https://blog.endureblaze.cn/tags/%E6%B8%B8%E6%88%8F%E6%8E%A8%E8%8D%90/"/>
+    <category term="游戏推荐" scheme="https://blog.imyan.ren/tags/%E6%B8%B8%E6%88%8F%E6%8E%A8%E8%8D%90/"/>
     
-    <category term="FC" scheme="https://blog.endureblaze.cn/tags/FC/"/>
+    <category term="FC" scheme="https://blog.imyan.ren/tags/FC/"/>
     
   </entry>
   
   <entry>
     <title>半自动化生成博客相册</title>
-    <link href="https://blog.endureblaze.cn/posts/64b2bc9e/"/>
-    <id>https://blog.endureblaze.cn/posts/64b2bc9e/</id>
+    <link href="https://blog.imyan.ren/posts/64b2bc9e/"/>
+    <id>https://blog.imyan.ren/posts/64b2bc9e/</id>
     <published>2020-02-18T05:10:33.000Z</published>
     <updated>2020-02-18T06:23:05.614Z</updated>
     
@@ -344,17 +344,17 @@
     
     
     
-    <category term="技术记录" scheme="https://blog.endureblaze.cn/categories/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/"/>
+    <category term="技术记录" scheme="https://blog.imyan.ren/categories/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Python" scheme="https://blog.endureblaze.cn/tags/Python/"/>
+    <category term="Python" scheme="https://blog.imyan.ren/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>在 Linux 服务器上使用 酷Q</title>
-    <link href="https://blog.endureblaze.cn/posts/2bdd4eaf/"/>
-    <id>https://blog.endureblaze.cn/posts/2bdd4eaf/</id>
+    <link href="https://blog.imyan.ren/posts/2bdd4eaf/"/>
+    <id>https://blog.imyan.ren/posts/2bdd4eaf/</id>
     <published>2019-11-17T12:08:29.000Z</published>
     <updated>2020-02-13T13:38:51.393Z</updated>
     
@@ -369,19 +369,19 @@
     
     
     
-    <category term="技术记录" scheme="https://blog.endureblaze.cn/categories/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/"/>
+    <category term="技术记录" scheme="https://blog.imyan.ren/categories/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="酷Q" scheme="https://blog.endureblaze.cn/tags/%E9%85%B7Q/"/>
+    <category term="酷Q" scheme="https://blog.imyan.ren/tags/%E9%85%B7Q/"/>
     
-    <category term="linux" scheme="https://blog.endureblaze.cn/tags/linux/"/>
+    <category term="linux" scheme="https://blog.imyan.ren/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>Git 无法 Pull 仓库 显示 refusing to merge unrelated histories （拒绝合并不相关仓库）</title>
-    <link href="https://blog.endureblaze.cn/posts/e5477819/"/>
-    <id>https://blog.endureblaze.cn/posts/e5477819/</id>
+    <link href="https://blog.imyan.ren/posts/e5477819/"/>
+    <id>https://blog.imyan.ren/posts/e5477819/</id>
     <published>2019-10-19T14:54:36.000Z</published>
     <updated>2020-02-13T13:41:43.944Z</updated>
     
@@ -396,17 +396,17 @@
     
     
     
-    <category term="技术记录" scheme="https://blog.endureblaze.cn/categories/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/"/>
+    <category term="技术记录" scheme="https://blog.imyan.ren/categories/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Git" scheme="https://blog.endureblaze.cn/tags/Git/"/>
+    <category term="Git" scheme="https://blog.imyan.ren/tags/Git/"/>
     
   </entry>
   
   <entry>
     <title>Kirby Assistant 2.x.x更新日志</title>
-    <link href="https://blog.endureblaze.cn/posts/417dae5e/"/>
-    <id>https://blog.endureblaze.cn/posts/417dae5e/</id>
+    <link href="https://blog.imyan.ren/posts/417dae5e/"/>
+    <id>https://blog.imyan.ren/posts/417dae5e/</id>
     <published>2019-09-10T04:51:28.000Z</published>
     <updated>2020-03-05T06:08:13.703Z</updated>
     
@@ -421,19 +421,19 @@
     
     
     
-    <category term="我的 Android 应用" scheme="https://blog.endureblaze.cn/categories/%E6%88%91%E7%9A%84-Android-%E5%BA%94%E7%94%A8/"/>
+    <category term="我的 Android 应用" scheme="https://blog.imyan.ren/categories/%E6%88%91%E7%9A%84-Android-%E5%BA%94%E7%94%A8/"/>
     
     
-    <category term="Kirby Assistant" scheme="https://blog.endureblaze.cn/tags/Kirby-Assistant/"/>
+    <category term="Kirby Assistant" scheme="https://blog.imyan.ren/tags/Kirby-Assistant/"/>
     
-    <category term="更新日志" scheme="https://blog.endureblaze.cn/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
+    <category term="更新日志" scheme="https://blog.imyan.ren/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
   <entry>
     <title>动态替换 ViewPager 里面的 Fragment</title>
-    <link href="https://blog.endureblaze.cn/posts/6b0c894/"/>
-    <id>https://blog.endureblaze.cn/posts/6b0c894/</id>
+    <link href="https://blog.imyan.ren/posts/6b0c894/"/>
+    <id>https://blog.imyan.ren/posts/6b0c894/</id>
     <published>2019-08-17T05:40:28.000Z</published>
     <updated>2020-04-10T11:45:41.006Z</updated>
     
@@ -447,23 +447,23 @@
     
     
     
-    <category term="编程" scheme="https://blog.endureblaze.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+    <category term="编程" scheme="https://blog.imyan.ren/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-    <category term="踩坑" scheme="https://blog.endureblaze.cn/tags/%E8%B8%A9%E5%9D%91/"/>
+    <category term="踩坑" scheme="https://blog.imyan.ren/tags/%E8%B8%A9%E5%9D%91/"/>
     
-    <category term="Android" scheme="https://blog.endureblaze.cn/tags/Android/"/>
+    <category term="Android" scheme="https://blog.imyan.ren/tags/Android/"/>
     
-    <category term="ViewPager" scheme="https://blog.endureblaze.cn/tags/ViewPager/"/>
+    <category term="ViewPager" scheme="https://blog.imyan.ren/tags/ViewPager/"/>
     
-    <category term="Fragment" scheme="https://blog.endureblaze.cn/tags/Fragment/"/>
+    <category term="Fragment" scheme="https://blog.imyan.ren/tags/Fragment/"/>
     
   </entry>
   
   <entry>
     <title>实现滑动隐藏 ToolBar 与 BottomNavigation</title>
-    <link href="https://blog.endureblaze.cn/posts/919199f6/"/>
-    <id>https://blog.endureblaze.cn/posts/919199f6/</id>
+    <link href="https://blog.imyan.ren/posts/919199f6/"/>
+    <id>https://blog.imyan.ren/posts/919199f6/</id>
     <published>2019-08-09T15:23:00.000Z</published>
     <updated>2020-02-13T13:50:03.070Z</updated>
     
@@ -478,21 +478,21 @@
     
     
     
-    <category term="编程" scheme="https://blog.endureblaze.cn/categories/%E7%BC%96%E7%A8%8B/"/>
+    <category term="编程" scheme="https://blog.imyan.ren/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-    <category term="踩坑" scheme="https://blog.endureblaze.cn/tags/%E8%B8%A9%E5%9D%91/"/>
+    <category term="踩坑" scheme="https://blog.imyan.ren/tags/%E8%B8%A9%E5%9D%91/"/>
     
-    <category term="Android" scheme="https://blog.endureblaze.cn/tags/Android/"/>
+    <category term="Android" scheme="https://blog.imyan.ren/tags/Android/"/>
     
-    <category term="Material Design 2" scheme="https://blog.endureblaze.cn/tags/Material-Design-2/"/>
+    <category term="Material Design 2" scheme="https://blog.imyan.ren/tags/Material-Design-2/"/>
     
   </entry>
   
   <entry>
     <title>Kirby Assistant 编年史</title>
-    <link href="https://blog.endureblaze.cn/posts/a505f9a9/"/>
-    <id>https://blog.endureblaze.cn/posts/a505f9a9/</id>
+    <link href="https://blog.imyan.ren/posts/a505f9a9/"/>
+    <id>https://blog.imyan.ren/posts/a505f9a9/</id>
     <published>2019-08-04T06:28:42.000Z</published>
     <updated>2020-09-12T15:06:29.196Z</updated>
     
@@ -509,15 +509,15 @@
     
     
     
-    <category term="我的 Android 应用" scheme="https://blog.endureblaze.cn/categories/%E6%88%91%E7%9A%84-Android-%E5%BA%94%E7%94%A8/"/>
+    <category term="我的 Android 应用" scheme="https://blog.imyan.ren/categories/%E6%88%91%E7%9A%84-Android-%E5%BA%94%E7%94%A8/"/>
     
     
   </entry>
   
   <entry>
     <title>记一些 Hexo 报错</title>
-    <link href="https://blog.endureblaze.cn/posts/b36c6159/"/>
-    <id>https://blog.endureblaze.cn/posts/b36c6159/</id>
+    <link href="https://blog.imyan.ren/posts/b36c6159/"/>
+    <id>https://blog.imyan.ren/posts/b36c6159/</id>
     <published>2019-08-02T10:05:48.000Z</published>
     <updated>2020-02-13T13:42:34.533Z</updated>
     
@@ -534,19 +534,19 @@
     
     
     
-    <category term="技术记录" scheme="https://blog.endureblaze.cn/categories/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/"/>
+    <category term="技术记录" scheme="https://blog.imyan.ren/categories/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Hexo" scheme="https://blog.endureblaze.cn/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://blog.imyan.ren/tags/Hexo/"/>
     
-    <category term="踩坑" scheme="https://blog.endureblaze.cn/tags/%E8%B8%A9%E5%9D%91/"/>
+    <category term="踩坑" scheme="https://blog.imyan.ren/tags/%E8%B8%A9%E5%9D%91/"/>
     
   </entry>
   
   <entry>
     <title>我为什么要搭建博客</title>
-    <link href="https://blog.endureblaze.cn/posts/a6366ad5/"/>
-    <id>https://blog.endureblaze.cn/posts/a6366ad5/</id>
+    <link href="https://blog.imyan.ren/posts/a6366ad5/"/>
+    <id>https://blog.imyan.ren/posts/a6366ad5/</id>
     <published>2019-08-02T09:32:33.000Z</published>
     <updated>2020-09-12T15:10:38.110Z</updated>
     
@@ -564,12 +564,12 @@
     
     
     
-    <category term="正经文字" scheme="https://blog.endureblaze.cn/categories/%E6%AD%A3%E7%BB%8F%E6%96%87%E5%AD%97/"/>
+    <category term="正经文字" scheme="https://blog.imyan.ren/categories/%E6%AD%A3%E7%BB%8F%E6%96%87%E5%AD%97/"/>
     
     
-    <category term="为什么" scheme="https://blog.endureblaze.cn/tags/%E4%B8%BA%E4%BB%80%E4%B9%88/"/>
+    <category term="为什么" scheme="https://blog.imyan.ren/tags/%E4%B8%BA%E4%BB%80%E4%B9%88/"/>
     
-    <category term="看法" scheme="https://blog.endureblaze.cn/tags/%E7%9C%8B%E6%B3%95/"/>
+    <category term="看法" scheme="https://blog.imyan.ren/tags/%E7%9C%8B%E6%B3%95/"/>
     
   </entry>
   
