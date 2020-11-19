@@ -1,4 +1,4 @@
-function showNotification() {
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">function showNotification() {
   if (GLOBAL_CONFIG.Snackbar) {
     var t =
         "light" === document.documentElement.getAttribute("data-theme")
