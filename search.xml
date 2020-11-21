@@ -236,40 +236,6 @@
       </tags>
   </entry>
   <entry>
-    <title>如何使用 Dolphin Emulator 玩《星之卡比：Wii》</title>
-    <url>/posts/2fbba4ed/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote>
-<p>开头附上星之卡比系列的 <a href="https://eyun.baidu.com/s/3i51Jf17">下载地址</a> 还有 Wii 模拟器的 <a href="https://cn.dolphin-emu.org/">下载地址</a></p>
-</blockquote>
-<h2 id="白屏">白屏</h2>
-<p>有些小伙伴在下好游戏并且在模拟器打开之后会遇到一直卡在白屏的情况，如图</p>
-<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E5%8D%A1%E5%9C%A8%E7%99%BD%E5%B1%8F.png" alt="卡在白屏"></p>
-<p>那么这个时候就要注意是不是模拟器语言设置的问题，我们可以在这里看到游戏的语言</p>
-<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E6%9F%A5%E7%9C%8B%E8%AF%AD%E8%A8%80.png" alt="查看语言"></p>
-<p>那么可以看到这个语言是 <code>日语</code>，那我们就要把模拟器改成对应的，看图操作，找到 <code>设置 -&gt; Wii -&gt; 系统语言</code>，然后在下拉菜单里找到 <code>对应语言</code>，然后点击关闭即可</p>
-<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E4%BF%AE%E6%94%B9%E8%AF%AD%E8%A8%80.png" alt="修改语言"></p>
-<p>现在开始游戏就可以正常运行了</p>
-<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C.png" alt="正常运行"></p>
-<h2 id="无法进入">无法进入</h2>
-<p>那有时候还会出现无法进入游戏界面的情况，会有类似下面这样的提示</p>
-<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5.png" alt="无法进入"></p>
-<p>那这个情况只需要去 <code>控制器 -&gt; Wii 遥控器</code> 然后点击你要是用的模拟手柄的设置，将 <code>扩展</code> 这一项改成无就可以，看图操作</p>
-<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E4%BF%AE%E6%94%B9%E6%89%A9%E5%B1%951.png" alt="修改扩展1"></p>
-<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E4%BF%AE%E6%94%B9%E6%89%A9%E5%B1%952.png" alt="修改扩展2"></p>
-<p>现在再试试进入游戏就正常了</p>
-<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C.png" alt="正常运行"></p>
-]]></content>
-      <categories>
-        <category>星之卡比系列教程</category>
-      </categories>
-      <tags>
-        <tag>星之卡比</tag>
-        <tag>星之卡比 Wii</tag>
-        <tag>Wii 模拟器</tag>
-        <tag>Dolphin Emulator</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Git 无法 Pull 仓库 显示 refusing to merge unrelated histories （拒绝合并不相关仓库）</title>
     <url>/posts/e5477819/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>如果在合并 pull 仓库的时候，出现的问题如何去解决（这个方法适用于合并本地很久没有提交的仓库，或者是同一个仓库 commit 信息不同的合并）</p>
@@ -287,24 +253,6 @@
       </categories>
       <tags>
         <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记一些 Hexo 报错</title>
-    <url>/posts/b36c6159/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote>
-<p>说在前面：
-这里主要是记一下平时在 Hexo 遇到的报错，解决之后分享一下解决方法</p>
-</blockquote>
-<h2 id="YAMLException-can-not-read-a-block-mapping-entry-a-multiline-key-may-not-be-an-implicit-key-at-line-6-column-1">YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 6, column 1</h2>
-<p>解决方法：查看新建要上传的 MarkDown 文件，看看 tags 那里或者其他地方，与后面内容是不是有一个空格。我是排查空格之后就解决了。<s>好智障啊</s></p>
-]]></content>
-      <categories>
-        <category>技术记录</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>踩坑</tag>
       </tags>
   </entry>
   <entry>
@@ -348,6 +296,24 @@
       </categories>
       <tags>
         <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记一些 Hexo 报错</title>
+    <url>/posts/b36c6159/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote>
+<p>说在前面：
+这里主要是记一下平时在 Hexo 遇到的报错，解决之后分享一下解决方法</p>
+</blockquote>
+<h2 id="YAMLException-can-not-read-a-block-mapping-entry-a-multiline-key-may-not-be-an-implicit-key-at-line-6-column-1">YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 6, column 1</h2>
+<p>解决方法：查看新建要上传的 MarkDown 文件，看看 tags 那里或者其他地方，与后面内容是不是有一个空格。我是排查空格之后就解决了。<s>好智障啊</s></p>
+]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>踩坑</tag>
       </tags>
   </entry>
   <entry>
@@ -696,6 +662,40 @@
       </tags>
   </entry>
   <entry>
+    <title>如何使用 Dolphin Emulator 玩《星之卡比：Wii》</title>
+    <url>/posts/2fbba4ed/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote>
+<p>开头附上星之卡比系列的 <a href="https://eyun.baidu.com/s/3i51Jf17">下载地址</a> 还有 Wii 模拟器的 <a href="https://cn.dolphin-emu.org/">下载地址</a></p>
+</blockquote>
+<h2 id="白屏">白屏</h2>
+<p>有些小伙伴在下好游戏并且在模拟器打开之后会遇到一直卡在白屏的情况，如图</p>
+<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E5%8D%A1%E5%9C%A8%E7%99%BD%E5%B1%8F.png" alt="卡在白屏"></p>
+<p>那么这个时候就要注意是不是模拟器语言设置的问题，我们可以在这里看到游戏的语言</p>
+<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E6%9F%A5%E7%9C%8B%E8%AF%AD%E8%A8%80.png" alt="查看语言"></p>
+<p>那么可以看到这个语言是 <code>日语</code>，那我们就要把模拟器改成对应的，看图操作，找到 <code>设置 -&gt; Wii -&gt; 系统语言</code>，然后在下拉菜单里找到 <code>对应语言</code>，然后点击关闭即可</p>
+<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E4%BF%AE%E6%94%B9%E8%AF%AD%E8%A8%80.png" alt="修改语言"></p>
+<p>现在开始游戏就可以正常运行了</p>
+<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C.png" alt="正常运行"></p>
+<h2 id="无法进入">无法进入</h2>
+<p>那有时候还会出现无法进入游戏界面的情况，会有类似下面这样的提示</p>
+<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5.png" alt="无法进入"></p>
+<p>那这个情况只需要去 <code>控制器 -&gt; Wii 遥控器</code> 然后点击你要是用的模拟手柄的设置，将 <code>扩展</code> 这一项改成无就可以，看图操作</p>
+<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E4%BF%AE%E6%94%B9%E6%89%A9%E5%B1%951.png" alt="修改扩展1"></p>
+<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E4%BF%AE%E6%94%B9%E6%89%A9%E5%B1%952.png" alt="修改扩展2"></p>
+<p>现在再试试进入游戏就正常了</p>
+<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C.png" alt="正常运行"></p>
+]]></content>
+      <categories>
+        <category>星之卡比系列教程</category>
+      </categories>
+      <tags>
+        <tag>星之卡比</tag>
+        <tag>星之卡比 Wii</tag>
+        <tag>Wii 模拟器</tag>
+        <tag>Dolphin Emulator</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>开往 - Travellings</title>
     <url>/posts/58ae8d54/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="什么是开往">什么是开往</h2>
@@ -756,26 +756,6 @@
       </tags>
   </entry>
   <entry>
-    <title>为什么说宣扬读书无用论的人要么蠢要么坏？</title>
-    <url>/posts/e9558acf/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>告诉别人「读书无用」的人，也许他们真的没读过什么书，因为一些机缘巧合，或者家庭资源帮扶，让他们得到了一些成就。</p>
-<p>但你没办法像他们那么幸运。</p>
-<p>读书面对强者，应该是锦上添花；对弱者，应当是雪中送炭。</p>
-<p>读书不单是指文化课，我们需要的是一直保持持续学习的习惯。</p>
-<p>如果你丧失了持续吸收新鲜事物的技能，那你的生活就会处在一个瓶颈。</p>
-<p>这个时候，你就会发现你身边的傻逼上司，傻逼同事和傻逼的朋友，都会层出不穷。</p>
-<p>但你跳不开这个境地，因为你真的相信了读书无用，换言之，你智商也不怎么地。</p>
-]]></content>
-      <categories>
-        <category>正经文字</category>
-      </categories>
-      <tags>
-        <tag>读书</tag>
-        <tag>学习</tag>
-        <tag>读书无用论</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>不一样又怎样</title>
     <url>/posts/7935321c/</url>
     <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><blockquote>
@@ -800,6 +780,26 @@
       </categories>
       <tags>
         <tag>LGBT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>为什么说宣扬读书无用论的人要么蠢要么坏？</title>
+    <url>/posts/e9558acf/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>告诉别人「读书无用」的人，也许他们真的没读过什么书，因为一些机缘巧合，或者家庭资源帮扶，让他们得到了一些成就。</p>
+<p>但你没办法像他们那么幸运。</p>
+<p>读书面对强者，应该是锦上添花；对弱者，应当是雪中送炭。</p>
+<p>读书不单是指文化课，我们需要的是一直保持持续学习的习惯。</p>
+<p>如果你丧失了持续吸收新鲜事物的技能，那你的生活就会处在一个瓶颈。</p>
+<p>这个时候，你就会发现你身边的傻逼上司，傻逼同事和傻逼的朋友，都会层出不穷。</p>
+<p>但你跳不开这个境地，因为你真的相信了读书无用，换言之，你智商也不怎么地。</p>
+]]></content>
+      <categories>
+        <category>正经文字</category>
+      </categories>
+      <tags>
+        <tag>读书</tag>
+        <tag>学习</tag>
+        <tag>读书无用论</tag>
       </tags>
   </entry>
   <entry>
@@ -875,104 +875,6 @@
       </categories>
       <tags>
         <tag>视频</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一些 WordPress 主题</title>
-    <url>/posts/dc790cfc/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>一些 WordPress 主题，好像都是来自吾爱破解，在这里记录一下</p>
-<h2 id="betheme">betheme</h2>
-<p><a href="https://www.52pojie.cn/thread-590043-1-1.html">https://www.52pojie.cn/thread-590043-1-1.html</a></p>
-<h2 id="Begin知更鸟">Begin知更鸟</h2>
-<p><a href="https://www.52pojie.cn/thread-664527-1-1.html">https://www.52pojie.cn/thread-664527-1-1.html</a></p>
-<h2 id="DUX">DUX</h2>
-<p><a href="https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=832427">https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=832427</a></p>
-<h2 id="XIU">XIU</h2>
-<p><a href="https://www.52pojie.cn/thread-705661-1-1.html">https://www.52pojie.cn/thread-705661-1-1.html</a></p>
-]]></content>
-      <categories>
-        <category>资源</category>
-      </categories>
-      <tags>
-        <tag>WordPress</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows 软件推荐</title>
-    <url>/posts/cd1c3d2a/</url>
-    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>这些软件都是我自己用过的，可以通过左边页面快速定位</p>
-<h2 id="Visual-Studio-Code">Visual Studio Code</h2>
-<p>这个简直首推，编辑利器，人生苦短，我用 VS Code 完成关于文本编辑工作的一切。它天生支持几乎所有编程语言，还可以通过扩展个性化相应的语法高亮等。
-如果你想忙里偷闲，VS Code 强大的扩展能力还能让你用它刷 LeetCode 或 V2EX，可谓带薪划水必备。
-<img src="../../media/article_img/windows_app_recommend/1.png" alt="enter description here">
-你可以在<a href="https://code.visualstudio.com/">官网</a>免费获取 Visual Studio Code。</p>
-<h2 id="福昕-PDF-阅读器">福昕 PDF 阅读器</h2>
-<p>国产，中文界面，流畅好用，界面美观
-<a href="https://www.foxitsoftware.cn/">点这里</a></p>
-<h2 id="福昕-PDF-编辑器">福昕 PDF 编辑器</h2>
-<p>福昕（Foxit）可能是我国最受欢迎的 PDF 阅读器，由其出品的 <a href="https://www.foxitsoftware.cn/pdf-editor/">PDF 编辑器</a> 也是 Adobe Acrobat 的有力竞争对手。它提供了各种 PDF 批注工具；支持编辑 PDF 中的文本、段落、图片；设计并填写表单；OCR 识别图片中的文字；管理 PDF 页面；转换为其它文件格式等，界面也比较友好。</p>
-<h2 id="火绒安全软件">火绒安全软件</h2>
-<p>如果你觉得 Windows Defender 还是有些简陋，火绒安全软件是个不错的选择。它提供了病毒联网查杀、垃圾清理、下载保护、浏览器保护等国产卫士标配功能，但不会拖家带口向你问好，还你一片清净。
-<img src="../../media/article_img/windows_app_recommend/2.png" alt="enter description here">
-除了系统防护外，火绒安全软件还提供了数种实用工具，如弹窗拦截、右键菜单管理、启动项管理、文件粉碎机等。如果你是进阶用户，还可以试试火绒剑这一强大的专业安全分析工具。
-<img src="../../media/article_img/windows_app_recommend/3.png" alt="enter description here">
-你可以在 <a href="https://www.huorong.cn/">官网</a> 免费获取火绒安全软件。</p>
-<h2 id="Quicklook，仿-MAC-快速预览">Quicklook，仿 MAC 快速预览</h2>
-<p>MAC 的快速预览很多人都见过，回望 Win10 的「预览」，依旧被抠抠唆唆地安排在窗口右侧，一点也不大气！QuickLook 是一款仿 MAC 快速预览的小工具，装好之后，只要选中文件，按下键盘上的空格键，即可预览文件内容。</p>
-<p>QuickLook 支持文本、视频、音频、图片、压缩包、Office 文档……，换句话说，你电脑上任何一款文件几乎都可以用它预览。同时你也可以点击预览窗右上角的按钮直接启动对应程序，非常方便。
-<img src="../../media/article_img/windows_app_recommend/4.png" alt="enter description here">
-<a href="http://dl.pconline.com.cn/download/1115319.html">QuickLook：点此下载</a></p>
-<h2 id="升级-Win10-日历！优效日历">升级 Win10 日历！优效日历</h2>
-<p>Win10 为右下角托盘设计了一个新日历，但依旧被吐槽功能太弱，优效日历是 Win10 原生日历的最佳替代者。它有着和 Win10 原生日历一致的外观界面，支持农历、节日、调休显示，支持日程提醒、万年历、自定义时钟。同时它还集成了定时关机、屏幕截图两大功能，没用过的一定得试一试！
-<img src="../../media/article_img/windows_app_recommend/5.png" alt="enter description here">
-<a href="http://www.youxiao.cn/">点击下载</a></p>
-<h2 id="Chocolatey">Chocolatey</h2>
-<p>Chocolatey 是 Windows 下的包管理器，访问<a href="https://chocolatey.org/">官网</a>来查看使用方法</p>
-<h2 id="uTools">uTools</h2>
-<p>uTools 是一个极简的桌面管理软件，但它的功能更全面。包含：快速启动、自动识别、数据同步等功能。</p>
-<p>比如快速启动，这个功能和 Listary、Everything 等都非常相似。但 uTools 对中文的支持非常有好，还可以首字母检索。
-<img src="../../media/article_img/windows_app_recommend/6.png" alt="enter description here">
-除此外还有插件中心，里面还有各种比如：网页快开、在线翻译、计算器、压缩图片、图片转文字等功能。这也是其它快速启动软件所不具备的。
-<img src="../../media/article_img/windows_app_recommend/7.png" alt="enter description here">
-<a href="https://u.tools/">点击下载</a></p>
-<h2 id="万彩办公大师">万彩办公大师</h2>
-<p>万彩办公大师可以说是一个办公必备的工具，包含了各种功能：PDF 编辑、格式转换、图片编辑等，功能多达 60+。</p>
-<p>最让人惊喜的是，万彩办公大师使用完全免费，所有的工具无需安装，直接加载就可以启动了。
-<img src="../../media/article_img/windows_app_recommend/8.png" alt="enter description here">
-<a href="wofficebox.com/">下载地址</a></p>
-<h2 id="TreeSize">TreeSize</h2>
-<p>TreeSize 是一个扫描磁盘可视化排列大小的应用，有免费版和专业版可以选
-<img src="../../media/article_img/windows_app_recommend/9.png" alt="enter description here">
-<a href="https://www.jam-software.com/treesize_free/">点击这里</a>获取免费版</p>
-<h2 id="CCleaner">CCleaner</h2>
-<p>CCleaner，不仅是常用的垃圾和缓存清理，我也用它在电脑刚到手时卸载掉 Win10 自带的各种无用软件（有些 Windows 不让卸载的自带 UWP，在 CCleaner 里可以卸载掉），甚至我嫌 OneDrive 麻烦，也用它卸载过。界面很友好。批量卸载比手动卸载方便不少。软件是有中文的，但默认是英文，自己手动在 <code>options-setting-language</code> 选择 <code>Chinese simplified</code> 即可
-<img src="../../media/article_img/windows_app_recommend/10.png" alt="enter description here">
-<a href="https://www.ccleaner.com/ccleaner/download">点击下载</a></p>
-<h2 id="BandiZip">BandiZip</h2>
-<p>BandiZip，界面美观，功能强大，而且免费无广告，另外 <a href="https://www.7-zip.org/">7-Zip</a>，界面丑了一些，功能还是很强的。也有不少人推荐修改版的 rar 烈火或者好压，其实都不错。
-<img src="../../media/article_img/windows_app_recommend/11.png" alt="enter description here">
-<a href="http://www.bandisoft.com/bandizip/cn/">下载地址</a></p>
-<h2 id="Obs-Open-Broadcaster-Software">Obs-Open Broadcaster Software</h2>
-<p>OBS，不用多说了，剪视频、录游戏好帮手。
-<a href="https://obsproject.com/">下载地址</a></p>
-<h2 id="VLC-media-player">VLC media player</h2>
-<p>跨平台的播放器，Linux 的时候一直用的，Windows 也就接着用了，有浏览器插件，可以直接把浏览器的视频推过来播放
-<img src="../../media/article_img/windows_app_recommend/12.png" alt="enter description here">
-<a href="https://www.videolan.org/">点这里下载</a></p>
-<h2 id="Geek-Uninstaller">Geek Uninstaller</h2>
-<p>Geek Uninstaller 是一个专业卸载软件，采取深而快的扫描方式，删除所有无用的文件，注册表，卸载无残留！
-这款软件也是一款单文件软件，下载后，不用安装，双击直接使用，卸载软件、强制彻底清除软件残留垃圾文件或是查看某软件的注册表项目等等。
-<img src="../../media/article_img/windows_app_recommend/13.png" alt="enter description here">
-你可以在他的<a href="https://geekuninstaller.com/">官网</a>获取到</p>
-<h2 id="未完">未完</h2>
-<p>后面想到了再补充</p>
-]]></content>
-      <categories>
-        <category>资源</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>软件推荐</tag>
       </tags>
   </entry>
   <entry>
@@ -1182,6 +1084,104 @@ See android.content.Context.createConfigurationContext(Configuration).</p>
         <tag>Android</tag>
         <tag>Kotlin</tag>
         <tag>弃用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一些 WordPress 主题</title>
+    <url>/posts/dc790cfc/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>一些 WordPress 主题，好像都是来自吾爱破解，在这里记录一下</p>
+<h2 id="betheme">betheme</h2>
+<p><a href="https://www.52pojie.cn/thread-590043-1-1.html">https://www.52pojie.cn/thread-590043-1-1.html</a></p>
+<h2 id="Begin知更鸟">Begin知更鸟</h2>
+<p><a href="https://www.52pojie.cn/thread-664527-1-1.html">https://www.52pojie.cn/thread-664527-1-1.html</a></p>
+<h2 id="DUX">DUX</h2>
+<p><a href="https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=832427">https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=832427</a></p>
+<h2 id="XIU">XIU</h2>
+<p><a href="https://www.52pojie.cn/thread-705661-1-1.html">https://www.52pojie.cn/thread-705661-1-1.html</a></p>
+]]></content>
+      <categories>
+        <category>资源</category>
+      </categories>
+      <tags>
+        <tag>WordPress</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows 软件推荐</title>
+    <url>/posts/cd1c3d2a/</url>
+    <content><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>这些软件都是我自己用过的，可以通过左边页面快速定位</p>
+<h2 id="Visual-Studio-Code">Visual Studio Code</h2>
+<p>这个简直首推，编辑利器，人生苦短，我用 VS Code 完成关于文本编辑工作的一切。它天生支持几乎所有编程语言，还可以通过扩展个性化相应的语法高亮等。
+如果你想忙里偷闲，VS Code 强大的扩展能力还能让你用它刷 LeetCode 或 V2EX，可谓带薪划水必备。
+<img src="../../media/article_img/windows_app_recommend/1.png" alt="enter description here">
+你可以在<a href="https://code.visualstudio.com/">官网</a>免费获取 Visual Studio Code。</p>
+<h2 id="福昕-PDF-阅读器">福昕 PDF 阅读器</h2>
+<p>国产，中文界面，流畅好用，界面美观
+<a href="https://www.foxitsoftware.cn/">点这里</a></p>
+<h2 id="福昕-PDF-编辑器">福昕 PDF 编辑器</h2>
+<p>福昕（Foxit）可能是我国最受欢迎的 PDF 阅读器，由其出品的 <a href="https://www.foxitsoftware.cn/pdf-editor/">PDF 编辑器</a> 也是 Adobe Acrobat 的有力竞争对手。它提供了各种 PDF 批注工具；支持编辑 PDF 中的文本、段落、图片；设计并填写表单；OCR 识别图片中的文字；管理 PDF 页面；转换为其它文件格式等，界面也比较友好。</p>
+<h2 id="火绒安全软件">火绒安全软件</h2>
+<p>如果你觉得 Windows Defender 还是有些简陋，火绒安全软件是个不错的选择。它提供了病毒联网查杀、垃圾清理、下载保护、浏览器保护等国产卫士标配功能，但不会拖家带口向你问好，还你一片清净。
+<img src="../../media/article_img/windows_app_recommend/2.png" alt="enter description here">
+除了系统防护外，火绒安全软件还提供了数种实用工具，如弹窗拦截、右键菜单管理、启动项管理、文件粉碎机等。如果你是进阶用户，还可以试试火绒剑这一强大的专业安全分析工具。
+<img src="../../media/article_img/windows_app_recommend/3.png" alt="enter description here">
+你可以在 <a href="https://www.huorong.cn/">官网</a> 免费获取火绒安全软件。</p>
+<h2 id="Quicklook，仿-MAC-快速预览">Quicklook，仿 MAC 快速预览</h2>
+<p>MAC 的快速预览很多人都见过，回望 Win10 的「预览」，依旧被抠抠唆唆地安排在窗口右侧，一点也不大气！QuickLook 是一款仿 MAC 快速预览的小工具，装好之后，只要选中文件，按下键盘上的空格键，即可预览文件内容。</p>
+<p>QuickLook 支持文本、视频、音频、图片、压缩包、Office 文档……，换句话说，你电脑上任何一款文件几乎都可以用它预览。同时你也可以点击预览窗右上角的按钮直接启动对应程序，非常方便。
+<img src="../../media/article_img/windows_app_recommend/4.png" alt="enter description here">
+<a href="http://dl.pconline.com.cn/download/1115319.html">QuickLook：点此下载</a></p>
+<h2 id="升级-Win10-日历！优效日历">升级 Win10 日历！优效日历</h2>
+<p>Win10 为右下角托盘设计了一个新日历，但依旧被吐槽功能太弱，优效日历是 Win10 原生日历的最佳替代者。它有着和 Win10 原生日历一致的外观界面，支持农历、节日、调休显示，支持日程提醒、万年历、自定义时钟。同时它还集成了定时关机、屏幕截图两大功能，没用过的一定得试一试！
+<img src="../../media/article_img/windows_app_recommend/5.png" alt="enter description here">
+<a href="http://www.youxiao.cn/">点击下载</a></p>
+<h2 id="Chocolatey">Chocolatey</h2>
+<p>Chocolatey 是 Windows 下的包管理器，访问<a href="https://chocolatey.org/">官网</a>来查看使用方法</p>
+<h2 id="uTools">uTools</h2>
+<p>uTools 是一个极简的桌面管理软件，但它的功能更全面。包含：快速启动、自动识别、数据同步等功能。</p>
+<p>比如快速启动，这个功能和 Listary、Everything 等都非常相似。但 uTools 对中文的支持非常有好，还可以首字母检索。
+<img src="../../media/article_img/windows_app_recommend/6.png" alt="enter description here">
+除此外还有插件中心，里面还有各种比如：网页快开、在线翻译、计算器、压缩图片、图片转文字等功能。这也是其它快速启动软件所不具备的。
+<img src="../../media/article_img/windows_app_recommend/7.png" alt="enter description here">
+<a href="https://u.tools/">点击下载</a></p>
+<h2 id="万彩办公大师">万彩办公大师</h2>
+<p>万彩办公大师可以说是一个办公必备的工具，包含了各种功能：PDF 编辑、格式转换、图片编辑等，功能多达 60+。</p>
+<p>最让人惊喜的是，万彩办公大师使用完全免费，所有的工具无需安装，直接加载就可以启动了。
+<img src="../../media/article_img/windows_app_recommend/8.png" alt="enter description here">
+<a href="wofficebox.com/">下载地址</a></p>
+<h2 id="TreeSize">TreeSize</h2>
+<p>TreeSize 是一个扫描磁盘可视化排列大小的应用，有免费版和专业版可以选
+<img src="../../media/article_img/windows_app_recommend/9.png" alt="enter description here">
+<a href="https://www.jam-software.com/treesize_free/">点击这里</a>获取免费版</p>
+<h2 id="CCleaner">CCleaner</h2>
+<p>CCleaner，不仅是常用的垃圾和缓存清理，我也用它在电脑刚到手时卸载掉 Win10 自带的各种无用软件（有些 Windows 不让卸载的自带 UWP，在 CCleaner 里可以卸载掉），甚至我嫌 OneDrive 麻烦，也用它卸载过。界面很友好。批量卸载比手动卸载方便不少。软件是有中文的，但默认是英文，自己手动在 <code>options-setting-language</code> 选择 <code>Chinese simplified</code> 即可
+<img src="../../media/article_img/windows_app_recommend/10.png" alt="enter description here">
+<a href="https://www.ccleaner.com/ccleaner/download">点击下载</a></p>
+<h2 id="BandiZip">BandiZip</h2>
+<p>BandiZip，界面美观，功能强大，而且免费无广告，另外 <a href="https://www.7-zip.org/">7-Zip</a>，界面丑了一些，功能还是很强的。也有不少人推荐修改版的 rar 烈火或者好压，其实都不错。
+<img src="../../media/article_img/windows_app_recommend/11.png" alt="enter description here">
+<a href="http://www.bandisoft.com/bandizip/cn/">下载地址</a></p>
+<h2 id="Obs-Open-Broadcaster-Software">Obs-Open Broadcaster Software</h2>
+<p>OBS，不用多说了，剪视频、录游戏好帮手。
+<a href="https://obsproject.com/">下载地址</a></p>
+<h2 id="VLC-media-player">VLC media player</h2>
+<p>跨平台的播放器，Linux 的时候一直用的，Windows 也就接着用了，有浏览器插件，可以直接把浏览器的视频推过来播放
+<img src="../../media/article_img/windows_app_recommend/12.png" alt="enter description here">
+<a href="https://www.videolan.org/">点这里下载</a></p>
+<h2 id="Geek-Uninstaller">Geek Uninstaller</h2>
+<p>Geek Uninstaller 是一个专业卸载软件，采取深而快的扫描方式，删除所有无用的文件，注册表，卸载无残留！
+这款软件也是一款单文件软件，下载后，不用安装，双击直接使用，卸载软件、强制彻底清除软件残留垃圾文件或是查看某软件的注册表项目等等。
+<img src="../../media/article_img/windows_app_recommend/13.png" alt="enter description here">
+你可以在他的<a href="https://geekuninstaller.com/">官网</a>获取到</p>
+<h2 id="未完">未完</h2>
+<p>后面想到了再补充</p>
+]]></content>
+      <categories>
+        <category>资源</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>软件推荐</tag>
       </tags>
   </entry>
   <entry>
