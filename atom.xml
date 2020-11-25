@@ -6,7 +6,7 @@
   <link href="https://blog.imyan.ren/atom.xml" rel="self"/>
   
   <link href="https://blog.imyan.ren/"/>
-  <updated>2020-11-19T09:16:05.975Z</updated>
+  <updated>2020-11-22T13:58:23.696Z</updated>
   <id>https://blog.imyan.ren/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>testmath</title>
+    <link href="https://blog.imyan.ren/posts/9d31c170/"/>
+    <id>https://blog.imyan.ren/posts/9d31c170/</id>
+    <published>2020-11-22T13:43:56.000Z</published>
+    <updated>2020-11-22T13:58:23.696Z</updated>
+    
+    <content type="html"><![CDATA[<p>x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>解决方案.方案</title>
@@ -456,29 +477,6 @@
     
     
     <category term="编年史" scheme="https://blog.imyan.ren/tags/%E7%BC%96%E5%B9%B4%E5%8F%B2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>记一些 Hexo 报错</title>
-    <link href="https://blog.imyan.ren/posts/b36c6159/"/>
-    <id>https://blog.imyan.ren/posts/b36c6159/</id>
-    <published>2019-08-02T10:05:48.000Z</published>
-    <updated>2020-11-18T14:54:34.335Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>说在前面：这里主要是记一下平时在 Hexo 遇到的报错，解决之后分享一下解决方法</p></blockquote><h2 id="YAMLException-can-not-read-a-block-mapping-entry-a-multiline-key-may-not-be-an-implicit-key-at-line-6-column-1">YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 6, column 1</h2><p>解决方法：查看新建要上传的 MarkDown 文件，看看 tags 那里或者其他地方，与后面内容是不是有一个空格。我是排查空格之后就解决了。<s>好智障啊</s></p>]]></content>
-    
-    
-    <summary type="html">是的这里只有一个错误</summary>
-    
-    
-    
-    <category term="技术记录" scheme="https://blog.imyan.ren/categories/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/"/>
-    
-    
-    <category term="Hexo" scheme="https://blog.imyan.ren/tags/Hexo/"/>
-    
-    <category term="踩坑" scheme="https://blog.imyan.ren/tags/%E8%B8%A9%E5%9D%91/"/>
     
   </entry>
   
