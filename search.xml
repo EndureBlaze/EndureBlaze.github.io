@@ -256,6 +256,24 @@
       </tags>
   </entry>
   <entry>
+    <title>记一些 Hexo 报错</title>
+    <url>/posts/b36c6159/</url>
+    <content><![CDATA[<blockquote>
+<p>说在前面：
+这里主要是记一下平时在 Hexo 遇到的报错，解决之后分享一下解决方法</p>
+</blockquote>
+<h2 id="YAMLException-can-not-read-a-block-mapping-entry-a-multiline-key-may-not-be-an-implicit-key-at-line-6-column-1">YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 6, column 1</h2>
+<p>解决方法：查看新建要上传的 MarkDown 文件，看看 tags 那里或者其他地方，与后面内容是不是有一个空格。我是排查空格之后就解决了。<s>好智障啊</s></p>
+]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>踩坑</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>修改 Windows 10 的用户名以及用户文件夹</title>
     <url>/posts/8e165a5c/</url>
     <content><![CDATA[<div class="note warning flat"><p>修改注册表有风险，操作需谨慎，注意备份重要文件</p>
@@ -299,24 +317,6 @@
       </tags>
   </entry>
   <entry>
-    <title>记一些 Hexo 报错</title>
-    <url>/posts/b36c6159/</url>
-    <content><![CDATA[<blockquote>
-<p>说在前面：
-这里主要是记一下平时在 Hexo 遇到的报错，解决之后分享一下解决方法</p>
-</blockquote>
-<h2 id="YAMLException-can-not-read-a-block-mapping-entry-a-multiline-key-may-not-be-an-implicit-key-at-line-6-column-1">YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 6, column 1</h2>
-<p>解决方法：查看新建要上传的 MarkDown 文件，看看 tags 那里或者其他地方，与后面内容是不是有一个空格。我是排查空格之后就解决了。<s>好智障啊</s></p>
-]]></content>
-      <categories>
-        <category>技术记录</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>踩坑</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>解决方案.方案</title>
     <url>/posts/notes/</url>
     <content><![CDATA[<blockquote>
@@ -336,7 +336,7 @@
 <p><strong><code>launch.json</code></strong></p>
 <figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="comment">// 使用 IntelliSense 了解相关属性。</span></span><br><span class="line">  <span class="comment">// 悬停以查看现有属性的描述。</span></span><br><span class="line">  <span class="comment">// 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387</span></span><br><span class="line">  <span class="attr">&quot;version&quot;</span>: <span class="string">&quot;2,0.0&quot;</span>, <span class="comment">//配置文件的版本，以前使用是0.2.0，新版本已经弃用，改用为2.0.0</span></span><br><span class="line">  <span class="attr">&quot;configurations&quot;</span>: [</span><br><span class="line">    <span class="comment">//配置域</span></span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;(gdb) Launch&quot;</span>, <span class="comment">//配置文件的名字，可以随便起</span></span><br><span class="line">      <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;cppdbg&quot;</span>, <span class="comment">//调试的类型，Vscode现在支持很多，我这里主要是C，所以只能是cppdbg</span></span><br><span class="line">      <span class="attr">&quot;request&quot;</span>: <span class="string">&quot;launch&quot;</span>, <span class="comment">//配置文件的请求类型，有launch和attach两种，具体看官方文档</span></span><br><span class="line">      <span class="attr">&quot;targetArchitecture&quot;</span>: <span class="string">&quot;x64&quot;</span>, <span class="comment">//硬件内核架构，为64bit，如图设置</span></span><br><span class="line">      <span class="attr">&quot;program&quot;</span>: <span class="string">&quot;$&#123;workspaceRoot&#125;/$&#123;fileBasenameNoExtension&#125;.exe&quot;</span>, <span class="comment">//可执行文件的路径和文件名称</span></span><br><span class="line">      <span class="comment">//&quot;args&quot;: [&quot;file1&quot;, &quot;file2&quot;], //主函数调用时传入的参数</span></span><br><span class="line">      <span class="attr">&quot;stopAtEntry&quot;</span>: <span class="literal">false</span>, <span class="comment">//设为true时程序将暂停在程序入口处</span></span><br><span class="line">      <span class="attr">&quot;cwd&quot;</span>: <span class="string">&quot;$&#123;workspaceFolder&#125;&quot;</span>, <span class="comment">//调试时的工作目录</span></span><br><span class="line">      <span class="attr">&quot;environment&quot;</span>: [], <span class="comment">//不知道干嘛的</span></span><br><span class="line">      <span class="attr">&quot;internalConsoleOptions&quot;</span>: <span class="string">&quot;openOnSessionStart&quot;</span>, <span class="comment">//</span></span><br><span class="line">      <span class="attr">&quot;externalConsole&quot;</span>: <span class="literal">true</span>, <span class="comment">//调试时是否显示控制台窗口</span></span><br><span class="line">      <span class="attr">&quot;MIMode&quot;</span>: <span class="string">&quot;gdb&quot;</span>, <span class="comment">//指定连接的调试器，可以省略不写</span></span><br><span class="line">      <span class="attr">&quot;miDebuggerPath&quot;</span>: <span class="string">&quot;[debugger_path]/gdb.exe&quot;</span>, <span class="comment">//调试器路径,在Linux环境下需要注释掉这一行</span></span><br><span class="line">      <span class="attr">&quot;preLaunchTask&quot;</span>: <span class="string">&quot;gcc&quot;</span>, <span class="comment">//调试会话开始前执行的任务，一般为编译程序。与tasks.json的label相对应</span></span><br><span class="line">      <span class="attr">&quot;setupCommands&quot;</span>: [</span><br><span class="line">        <span class="comment">//不知道干嘛的</span></span><br><span class="line">        &#123;</span><br><span class="line">          <span class="attr">&quot;description&quot;</span>: <span class="string">&quot;Enable pretty-printing for gdb&quot;</span>,</span><br><span class="line">          <span class="attr">&quot;text&quot;</span>: <span class="string">&quot;-enable-pretty-printing&quot;</span>,</span><br><span class="line">          <span class="attr">&quot;ignoreFailures&quot;</span>: <span class="literal">true</span></span><br><span class="line">        &#125;</span><br><span class="line">      ]</span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p><strong><code>tasks.json</code></strong></p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;version&quot;</span>: <span class="string">&quot;2.0.0&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;tasks&quot;</span>: [</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">&quot;label&quot;</span>: <span class="string">&quot;gcc&quot;</span>, <span class="comment">// 任务名称，与launch.json的preLaunchTask相对应</span></span><br><span class="line">      <span class="attr">&quot;command&quot;</span>: <span class="string">&quot;gcc&quot;</span>, <span class="comment">// 要使用的编译器</span></span><br><span class="line">      <span class="attr">&quot;args&quot;</span>: [</span><br><span class="line">        <span class="string">&quot;$&#123;file&#125;&quot;</span>,</span><br><span class="line">        <span class="string">&quot;-o&quot;</span>, <span class="comment">// 指定输出文件名，不加该参数则默认输出a.exe，Linux下默认a.out</span></span><br><span class="line">        <span class="string">&quot;$&#123;fileDirname&#125;/$&#123;fileBasenameNoExtension&#125;.exe&quot;</span>,</span><br><span class="line">        <span class="string">&quot;-g&quot;</span>, <span class="comment">// 生成和调试有关的信息</span></span><br><span class="line">        <span class="string">&quot;-Wall&quot;</span> <span class="comment">// 开启额外警告</span></span><br><span class="line">      ], <span class="comment">// 编译命令参数</span></span><br><span class="line">      <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;cppbuild&quot;</span>, <span class="comment">// 可以为shell或process，前者相当于先打开shell再输入命令，后者是直接运行命令</span></span><br><span class="line">      <span class="attr">&quot;options&quot;</span>: &#123;</span><br><span class="line">        <span class="attr">&quot;cwd&quot;</span>: <span class="string">&quot;[debugger_path]/bin&quot;</span></span><br><span class="line">      &#125;,</span><br><span class="line">      <span class="attr">&quot;problemMatcher&quot;</span>: [<span class="string">&quot;$gcc&quot;</span>],</span><br><span class="line">      <span class="attr">&quot;group&quot;</span>: <span class="string">&quot;build&quot;</span>,</span><br><span class="line">      <span class="attr">&quot;detail&quot;</span>: <span class="string">&quot;compiler: gcc&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;version&quot;</span>: <span class="string">&quot;2.0.0&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;tasks&quot;</span>: [</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">&quot;label&quot;</span>: <span class="string">&quot;gcc&quot;</span>, <span class="comment">// 任务名称，与launch.json的preLaunchTask相对应</span></span><br><span class="line">      <span class="attr">&quot;command&quot;</span>: <span class="string">&quot;gcc&quot;</span>, <span class="comment">// 要使用的编译器</span></span><br><span class="line">      <span class="attr">&quot;args&quot;</span>: [</span><br><span class="line">        <span class="string">&quot;$&#123;file&#125;&quot;</span>,</span><br><span class="line">        <span class="string">&quot;-o&quot;</span>, <span class="comment">// 指定输出文件名，不加该参数则默认输出a.exe，Linux下默认a.out</span></span><br><span class="line">        <span class="string">&quot;$&#123;fileDirname&#125;/$&#123;fileBasenameNoExtension&#125;.exe&quot;</span>,</span><br><span class="line">        <span class="string">&quot;-g&quot;</span>, <span class="comment">// 生成和调试有关的信息</span></span><br><span class="line">        <span class="string">&quot;-Wall&quot;</span>, <span class="comment">// 开启额外警告</span></span><br><span class="line">        <span class="string">&quot;-fexec-charset=GBK&quot;</span> <span class="comment">// 防止中文乱码，按需取用</span></span><br><span class="line">      ], <span class="comment">// 编译命令参数</span></span><br><span class="line">      <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;cppbuild&quot;</span>, <span class="comment">// 可以为shell或process，前者相当于先打开shell再输入命令，后者是直接运行命令</span></span><br><span class="line">      <span class="attr">&quot;options&quot;</span>: &#123;</span><br><span class="line">        <span class="attr">&quot;cwd&quot;</span>: <span class="string">&quot;[debugger_path]/bin&quot;</span></span><br><span class="line">      &#125;,</span><br><span class="line">      <span class="attr">&quot;problemMatcher&quot;</span>: [<span class="string">&quot;$gcc&quot;</span>],</span><br><span class="line">      <span class="attr">&quot;group&quot;</span>: <span class="string">&quot;build&quot;</span>,</span><br><span class="line">      <span class="attr">&quot;detail&quot;</span>: <span class="string">&quot;compiler: gcc&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="Win10-任务栏菜单小图标变黑了">Win10 任务栏菜单小图标变黑了</h2>
 <blockquote>
 <p>2020-9-10 16:55 GMT+8
@@ -665,40 +665,6 @@
       </tags>
   </entry>
   <entry>
-    <title>如何使用 Dolphin Emulator 玩《星之卡比：Wii》</title>
-    <url>/posts/2fbba4ed/</url>
-    <content><![CDATA[<blockquote>
-<p>开头附上星之卡比系列的 <a href="https://eyun.baidu.com/s/3i51Jf17">下载地址</a> 还有 Wii 模拟器的 <a href="https://cn.dolphin-emu.org/">下载地址</a></p>
-</blockquote>
-<h2 id="白屏">白屏</h2>
-<p>有些小伙伴在下好游戏并且在模拟器打开之后会遇到一直卡在白屏的情况，如图</p>
-<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E5%8D%A1%E5%9C%A8%E7%99%BD%E5%B1%8F.png" alt="卡在白屏"></p>
-<p>那么这个时候就要注意是不是模拟器语言设置的问题，我们可以在这里看到游戏的语言</p>
-<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E6%9F%A5%E7%9C%8B%E8%AF%AD%E8%A8%80.png" alt="查看语言"></p>
-<p>那么可以看到这个语言是 <code>日语</code>，那我们就要把模拟器改成对应的，看图操作，找到 <code>设置 -&gt; Wii -&gt; 系统语言</code>，然后在下拉菜单里找到 <code>对应语言</code>，然后点击关闭即可</p>
-<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E4%BF%AE%E6%94%B9%E8%AF%AD%E8%A8%80.png" alt="修改语言"></p>
-<p>现在开始游戏就可以正常运行了</p>
-<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C.png" alt="正常运行"></p>
-<h2 id="无法进入">无法进入</h2>
-<p>那有时候还会出现无法进入游戏界面的情况，会有类似下面这样的提示</p>
-<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5.png" alt="无法进入"></p>
-<p>那这个情况只需要去 <code>控制器 -&gt; Wii 遥控器</code> 然后点击你要是用的模拟手柄的设置，将 <code>扩展</code> 这一项改成无就可以，看图操作</p>
-<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E4%BF%AE%E6%94%B9%E6%89%A9%E5%B1%951.png" alt="修改扩展1"></p>
-<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E4%BF%AE%E6%94%B9%E6%89%A9%E5%B1%952.png" alt="修改扩展2"></p>
-<p>现在再试试进入游戏就正常了</p>
-<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C.png" alt="正常运行"></p>
-]]></content>
-      <categories>
-        <category>星之卡比系列教程</category>
-      </categories>
-      <tags>
-        <tag>星之卡比</tag>
-        <tag>星之卡比 Wii</tag>
-        <tag>Wii 模拟器</tag>
-        <tag>Dolphin Emulator</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>开往 - Travellings</title>
     <url>/posts/58ae8d54/</url>
     <content><![CDATA[<h2 id="什么是开往">什么是开往</h2>
@@ -825,6 +791,40 @@
       <tags>
         <tag>为什么</tag>
         <tag>看法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何使用 Dolphin Emulator 玩《星之卡比：Wii》</title>
+    <url>/posts/2fbba4ed/</url>
+    <content><![CDATA[<blockquote>
+<p>开头附上星之卡比系列的 <a href="https://eyun.baidu.com/s/3i51Jf17">下载地址</a> 还有 Wii 模拟器的 <a href="https://cn.dolphin-emu.org/">下载地址</a></p>
+</blockquote>
+<h2 id="白屏">白屏</h2>
+<p>有些小伙伴在下好游戏并且在模拟器打开之后会遇到一直卡在白屏的情况，如图</p>
+<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E5%8D%A1%E5%9C%A8%E7%99%BD%E5%B1%8F.png" alt="卡在白屏"></p>
+<p>那么这个时候就要注意是不是模拟器语言设置的问题，我们可以在这里看到游戏的语言</p>
+<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E6%9F%A5%E7%9C%8B%E8%AF%AD%E8%A8%80.png" alt="查看语言"></p>
+<p>那么可以看到这个语言是 <code>日语</code>，那我们就要把模拟器改成对应的，看图操作，找到 <code>设置 -&gt; Wii -&gt; 系统语言</code>，然后在下拉菜单里找到 <code>对应语言</code>，然后点击关闭即可</p>
+<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E4%BF%AE%E6%94%B9%E8%AF%AD%E8%A8%80.png" alt="修改语言"></p>
+<p>现在开始游戏就可以正常运行了</p>
+<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C.png" alt="正常运行"></p>
+<h2 id="无法进入">无法进入</h2>
+<p>那有时候还会出现无法进入游戏界面的情况，会有类似下面这样的提示</p>
+<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5.png" alt="无法进入"></p>
+<p>那这个情况只需要去 <code>控制器 -&gt; Wii 遥控器</code> 然后点击你要是用的模拟手柄的设置，将 <code>扩展</code> 这一项改成无就可以，看图操作</p>
+<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E4%BF%AE%E6%94%B9%E6%89%A9%E5%B1%951.png" alt="修改扩展1"></p>
+<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E4%BF%AE%E6%94%B9%E6%89%A9%E5%B1%952.png" alt="修改扩展2"></p>
+<p>现在再试试进入游戏就正常了</p>
+<p><img src="../../media/article_img/how2_use_dolphin_play_kirbywii/%E6%AD%A3%E5%B8%B8%E8%BF%90%E8%A1%8C.png" alt="正常运行"></p>
+]]></content>
+      <categories>
+        <category>星之卡比系列教程</category>
+      </categories>
+      <tags>
+        <tag>星之卡比</tag>
+        <tag>星之卡比 Wii</tag>
+        <tag>Wii 模拟器</tag>
+        <tag>Dolphin Emulator</tag>
       </tags>
   </entry>
   <entry>
