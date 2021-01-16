@@ -1,52 +1,472 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Kirby Assistant 2.x.x更新日志</title>
-    <url>/posts/417dae5e/</url>
-    <content><![CDATA[<p>目前最新版本 v2.0.6 (56)</p>
-<h2 id="v2-0-6-56">v2.0.6 (56)</h2>
-<p>紧急修复了高版本无法安装的问题，并且移除的权限，很是抱歉</p>
-<h2 id="v2-0-5-55">v2.0.5 (55)</h2>
-<p>1.修改部分样式贴近规范
-2.修改下载游戏时的对话框样式</p>
-<h2 id="v2-0-4-54">v2.0.4 (54)</h2>
-<p>1.修复个别主题下输入框颜色不正常的问题
-2.排除了一个引起闪退的 bug
-3.新增一个配色</p>
-<h2 id="v2-0-3-53">v2.0.3 (53)</h2>
-<p>1.修复部分黑暗模式与白色模式下的UI问题
-2.修复UI漂移的问题</p>
-<h2 id="v2-0-2-52">v2.0.2 (52)</h2>
-<p>1.修正夜间模式下设置显示异常
-2.修复闲聊显示异常问题
-3.修复无法清除图片缓存
-4.修复更新检测异常
-5.重新优化的主题</p>
-<h2 id="v2-0-1-51">v2.0.1 (51)</h2>
-<p>1.自动根据 AndroidQ 夜间模式选项切换夜间模式
-2.翻译文本修正
-3.图片资源修复</p>
-<h2 id="v2-0-0-50">v2.0.0 (50)</h2>
-<p>1.全新 API 重新编写
-2.大部分 MD2 特性
-3.修复底栏切换过快崩溃的 Bug
-4.新增黑暗模式
-5.假装无缝切换主题
-6.优化用户信息修改后刷新操作
-7.优化菜单显示方式
-8.防止未登录情况下进入闲聊的问题
-9.重新优化的对话框
-10.应用内清除缓存
-11.重写头像裁剪
-12.上传逻辑
-13.全新官网</p>
+    <title>Git 无法 Pull 仓库 显示 refusing to merge unrelated histories （拒绝合并不相关仓库）</title>
+    <url>/posts/e5477819/</url>
+    <content><![CDATA[<p>如果在合并 pull 仓库的时候，出现的问题如何去解决（这个方法适用于合并本地很久没有提交的仓库，或者是同一个仓库 commit 信息不同的合并）</p>
+<p><img src="../../media/article_img/git_connot_pull_repo/fail.png" alt="示意图"></p>
+<p>如果合并了两个不同的开始提交的仓库，在新的 <code>git</code> 会发现这两个仓库可能不是同一个，为了防止开发者上传错误，于是就给下面的提示</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">fatal: refusing to merge unrelated histories</span><br></pre></td></tr></table></figure>
+<p>如我在 GitHub 新建一个仓库，写了 License，然后把本地一个写了很久仓库上传。这时会发现 GitHub 的仓库和本地的没有一个共同的 <code>commit</code> 所以 <code>git</code> 不让提交，认为是写错了 <code>origin</code> ，如果开发者确定是这个 <code>origin</code> 就可以使用  <code>--allow-unrelated-histories</code>  告诉 <code>git</code> 自己确定</p>
+<p>遇到无法提交的问题，一般先 Pull 也就是使用  <code>git pull origin master</code>  这里的 <code>origin</code> 就是仓库，而 <code>master</code> 就是需要上传的分支，因为两个仓库不同，发现 <code>git</code> 输出  <code>refusing to merge unrelated histories</code>  无法 <code>pull</code> 内容</p>
+<p>因为他们是两个不同的项目，要把两个不同的项目合并，Git需要添加一句代码，在 <code>git pull</code> 之后，这句代码是在 <code>Git 2.9.2</code> 版本发生的，最新的版本需要添加 <code>--allow-unrelated-histories</code> 告诉 <code>git</code> 允许不相关历史合并</p>
+<p>假如我们的源是 <code>origin</code>，分支是 <code>master</code>，那么我们需要这样写 <code>git pull origin master --allow-unrelated-histories</code>  如果有设置了默认上传分支就可以用下面代码</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git pull --allow-unrelated-histories</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>我的 Android 应用</category>
+        <category>技术记录</category>
       </categories>
       <tags>
-        <tag>Kirby Assistant</tag>
-        <tag>更新日志</tag>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记一些 Hexo 报错</title>
+    <url>/posts/b36c6159/</url>
+    <content><![CDATA[<blockquote>
+<p>说在前面：
+这里主要是记一下平时在 Hexo 遇到的报错，解决之后分享一下解决方法</p>
+</blockquote>
+<h2 id="YAMLException-can-not-read-a-block-mapping-entry-a-multiline-key-may-not-be-an-implicit-key-at-line-6-column-1">YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 6, column 1</h2>
+<p>解决方法：查看新建要上传的 MarkDown 文件，看看 tags 那里或者其他地方，与后面内容是不是有一个空格。我是排查空格之后就解决了。<s>好智障啊</s></p>
+]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>踩坑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解决方案.方案</title>
+    <url>/posts/notes/</url>
+    <content><![CDATA[<blockquote>
+<p>日常解决问题基本靠 Google，拿来水博客跟 <em>Copy&amp;Paste</em> 也没啥区别，但是又想把这些方法记录下来，万一以后需要用还方便查看，于是打算全部写在这一篇文章里了。</p>
+<p>当然，为了防止未来的我忘记当时写的是什么东西，咱尽量将一些因人而异、因机而异的东西标注出来（比如每段的 Replacement），但难免有疏漏，如果有读者能够看到，并感到疑惑，请不要吝啬你的留言。<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="引用自 [Buta Sticky Notes - 丁丁の店](https://blog.butanediol.me/2020/10/13/Buta-Sticky-Notes/)
+">[1]</span></a></sup></p>
+</blockquote>
+<div class="note info flat"><p>因为我是用的是 Windows 10 系统所以一下的东西只保证在 Windows 10 有用其他系统，诸如 Windows 7/Linux/macOS 请自行查找方案</p>
+</div>
+<h2 id="目前可用的-VS-Code-调试-C-C-配置">目前可用的 VS Code 调试 C/C++ 配置</h2>
+<blockquote>
+<p>2020-11-12 19:53 GMT +8
+基于网上现有的稍加修改</p>
+</blockquote>
+<div class="note info flat"><p>请替换 [debugger_path] 并且保证你的 gcc 是可用状态，或者使用其他的编译器/调试器</p>
+</div>
+<p><strong><code>launch.json</code></strong></p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="comment">// 使用 IntelliSense 了解相关属性。</span></span><br><span class="line">  <span class="comment">// 悬停以查看现有属性的描述。</span></span><br><span class="line">  <span class="comment">// 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387</span></span><br><span class="line">  <span class="attr">&quot;version&quot;</span>: <span class="string">&quot;2,0.0&quot;</span>, <span class="comment">//配置文件的版本，以前使用是0.2.0，新版本已经弃用，改用为2.0.0</span></span><br><span class="line">  <span class="attr">&quot;configurations&quot;</span>: [</span><br><span class="line">    <span class="comment">//配置域</span></span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;(gdb) Launch&quot;</span>, <span class="comment">//配置文件的名字，可以随便起</span></span><br><span class="line">      <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;cppdbg&quot;</span>, <span class="comment">//调试的类型，Vscode现在支持很多，我这里主要是C，所以只能是cppdbg</span></span><br><span class="line">      <span class="attr">&quot;request&quot;</span>: <span class="string">&quot;launch&quot;</span>, <span class="comment">//配置文件的请求类型，有launch和attach两种，具体看官方文档</span></span><br><span class="line">      <span class="attr">&quot;targetArchitecture&quot;</span>: <span class="string">&quot;x64&quot;</span>, <span class="comment">//硬件内核架构，为64bit，如图设置</span></span><br><span class="line">      <span class="attr">&quot;program&quot;</span>: <span class="string">&quot;$&#123;workspaceRoot&#125;/$&#123;fileBasenameNoExtension&#125;.exe&quot;</span>, <span class="comment">//可执行文件的路径和文件名称</span></span><br><span class="line">      <span class="comment">//&quot;args&quot;: [&quot;file1&quot;, &quot;file2&quot;], //主函数调用时传入的参数</span></span><br><span class="line">      <span class="attr">&quot;stopAtEntry&quot;</span>: <span class="literal">false</span>, <span class="comment">//设为true时程序将暂停在程序入口处</span></span><br><span class="line">      <span class="attr">&quot;cwd&quot;</span>: <span class="string">&quot;$&#123;workspaceFolder&#125;&quot;</span>, <span class="comment">//调试时的工作目录</span></span><br><span class="line">      <span class="attr">&quot;environment&quot;</span>: [], <span class="comment">//不知道干嘛的</span></span><br><span class="line">      <span class="attr">&quot;internalConsoleOptions&quot;</span>: <span class="string">&quot;openOnSessionStart&quot;</span>, <span class="comment">//</span></span><br><span class="line">      <span class="attr">&quot;externalConsole&quot;</span>: <span class="literal">true</span>, <span class="comment">//调试时是否显示控制台窗口</span></span><br><span class="line">      <span class="attr">&quot;MIMode&quot;</span>: <span class="string">&quot;gdb&quot;</span>, <span class="comment">//指定连接的调试器，可以省略不写</span></span><br><span class="line">      <span class="attr">&quot;miDebuggerPath&quot;</span>: <span class="string">&quot;[debugger_path]/gdb.exe&quot;</span>, <span class="comment">//调试器路径,在Linux环境下需要注释掉这一行</span></span><br><span class="line">      <span class="attr">&quot;preLaunchTask&quot;</span>: <span class="string">&quot;gcc&quot;</span>, <span class="comment">//调试会话开始前执行的任务，一般为编译程序。与tasks.json的label相对应</span></span><br><span class="line">      <span class="attr">&quot;setupCommands&quot;</span>: [</span><br><span class="line">        <span class="comment">//不知道干嘛的</span></span><br><span class="line">        &#123;</span><br><span class="line">          <span class="attr">&quot;description&quot;</span>: <span class="string">&quot;Enable pretty-printing for gdb&quot;</span>,</span><br><span class="line">          <span class="attr">&quot;text&quot;</span>: <span class="string">&quot;-enable-pretty-printing&quot;</span>,</span><br><span class="line">          <span class="attr">&quot;ignoreFailures&quot;</span>: <span class="literal">true</span></span><br><span class="line">        &#125;</span><br><span class="line">      ]</span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong><code>tasks.json</code></strong></p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;version&quot;</span>: <span class="string">&quot;2.0.0&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;tasks&quot;</span>: [</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">&quot;label&quot;</span>: <span class="string">&quot;gcc&quot;</span>, <span class="comment">// 任务名称，与launch.json的preLaunchTask相对应</span></span><br><span class="line">      <span class="attr">&quot;command&quot;</span>: <span class="string">&quot;gcc&quot;</span>, <span class="comment">// 要使用的编译器</span></span><br><span class="line">      <span class="attr">&quot;args&quot;</span>: [</span><br><span class="line">        <span class="string">&quot;$&#123;file&#125;&quot;</span>,</span><br><span class="line">        <span class="string">&quot;-o&quot;</span>, <span class="comment">// 指定输出文件名，不加该参数则默认输出a.exe，Linux下默认a.out</span></span><br><span class="line">        <span class="string">&quot;$&#123;fileDirname&#125;/$&#123;fileBasenameNoExtension&#125;.exe&quot;</span>,</span><br><span class="line">        <span class="string">&quot;-g&quot;</span>, <span class="comment">// 生成和调试有关的信息</span></span><br><span class="line">        <span class="string">&quot;-Wall&quot;</span>, <span class="comment">// 开启额外警告</span></span><br><span class="line">        <span class="string">&quot;-fexec-charset=GBK&quot;</span> <span class="comment">// 防止中文乱码，按需取用</span></span><br><span class="line">      ], <span class="comment">// 编译命令参数</span></span><br><span class="line">      <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;cppbuild&quot;</span>, <span class="comment">// 可以为shell或process，前者相当于先打开shell再输入命令，后者是直接运行命令</span></span><br><span class="line">      <span class="attr">&quot;options&quot;</span>: &#123;</span><br><span class="line">        <span class="attr">&quot;cwd&quot;</span>: <span class="string">&quot;[debugger_path]/bin&quot;</span></span><br><span class="line">      &#125;,</span><br><span class="line">      <span class="attr">&quot;problemMatcher&quot;</span>: [<span class="string">&quot;$gcc&quot;</span>],</span><br><span class="line">      <span class="attr">&quot;group&quot;</span>: <span class="string">&quot;build&quot;</span>,</span><br><span class="line">      <span class="attr">&quot;detail&quot;</span>: <span class="string">&quot;compiler: gcc&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Win10-任务栏菜单小图标变黑了">Win10 任务栏菜单小图标变黑了</h2>
+<blockquote>
+<p>2020-9-10 16:55 GMT+8
+建议创建开机任务执行</p>
+</blockquote>
+<figure class="highlight ps"><table><tr><td class="code"><pre><span class="line">ie4uinit <span class="literal">-show</span></span><br></pre></td></tr></table></figure>
+<h2 id="通过-JDK-生成-JRE">通过 JDK 生成 JRE</h2>
+<blockquote>
+<p>2020-9-22 9:36 GMT+8</p>
+</blockquote>
+<div class="note warning flat"><p>需要管理员权限的 CMD 运行</p>
+</div>
+<figure class="highlight ps"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> %JAVA_HOME%</span><br><span class="line">bin\jlink.exe -<span class="literal">-module</span><span class="literal">-path</span> jmods -<span class="literal">-add</span><span class="literal">-modules</span> java.desktop -<span class="literal">-output</span> jre</span><br></pre></td></tr></table></figure>
+<h2 id="使用-hexo-reference-插件生成脚注编号重复">使用 hexo-reference 插件生成脚注编号重复</h2>
+<ol>
+<li>
+<p>找到 <code>\&lt;blog_root_folder&gt;\node_modules\hexo-reference\src\footnotes.js</code></p>
+</li>
+<li>
+<p>删除或者注释这几行代码</p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// render footnotes (HTML)</span></span><br><span class="line">footnotes.forEach(<span class="function"><span class="keyword">function</span> (<span class="params">footNote</span>) </span>&#123;</span><br><span class="line">    html += <span class="string">&#x27;&lt;li id=&quot;fn:&#x27;</span> + footNote.index + <span class="string">&#x27;&quot;&gt;&#x27;</span>;</span><br><span class="line">  -&gt;<span class="comment">// html += &#x27;&lt;span style=&quot;display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px&quot;&gt;&#x27;;</span></span><br><span class="line">  -&gt;<span class="comment">// html += footNote.index;</span></span><br><span class="line">  -&gt;<span class="comment">// html += &#x27;.&lt;/span&gt;&#x27;;</span></span><br><span class="line">    html += <span class="string">&#x27;&lt;span style=&quot;display: inline-block; vertical-align: top; margin-left: 10px;&quot;&gt;&#x27;</span>;</span><br><span class="line">    html += md.renderInline(footNote.content.trim());</span><br><span class="line">    html += <span class="string">&#x27;&lt;a href=&quot;#fnref:&#x27;</span> + footNote.index + <span class="string">&#x27;&quot; rev=&quot;footnote&quot;&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&#x27;</span>;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; margin-left: 10px;">引用自 <a href="https://blog.butanediol.me/2020/10/13/Buta-Sticky-Notes/">Buta Sticky Notes - 丁丁の店</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>修改 Windows 10 的用户名以及用户文件夹</title>
+    <url>/posts/8e165a5c/</url>
+    <content><![CDATA[<div class="note warning flat"><p>修改注册表有风险，操作需谨慎，注意备份重要文件</p>
+</div>
+<p>由于 Windows 10 的奇葩机制本地账户名是在线账户邮箱的前五位，导致我登录在线账户之后在本地显示的名称以及文件夹从我名字全拼的 <code>nihaocun</code> 变成了 <code>nihao</code>，虽然能忍，但是越看越不顺眼，就开始在网上找修改的方法。然而搜到的结果也大多不完整，好在还是能拼起来的，现在终于是改成功了。</p>
+<div class="note info flat"><p>以下操作在 你的个人账户 完成</p>
+</div>
+<h2 id="开启-Administrator-账户">开启 Administrator 账户</h2>
+<p>我们需要开启这个账户去修改注册表和文件夹名，家庭版用户请先升级到专业版，专业版用户打开
+<code>控制面板</code> -&gt; <code>系统和安全</code> -&gt; <code>管理工具</code> -&gt; <code>计算机管理</code>，然后按图所示依次打开
+<code>本地用户和组</code> -&gt; <code>用户</code> -&gt; <code>Administrator</code>，然后去掉 <code>账户已禁用</code> 前面的复选框即可。
+<img src="../../media/article_img/modify_win10_username_userprofile/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AE%A1%E7%90%86.png" alt="开启 Administrator 账户"></p>
+<h2 id="修改用户名">修改用户名</h2>
+<p>接着不关闭计算机管理，找到你需要修改的用户名，然后右键重命名即可，注意这里不能和计算机名重复（大小写不敏感）</p>
+<div class="note info flat"><p>以下操作在 Administrator 完成</p>
+</div>
+<h2 id="修改注册表">修改注册表</h2>
+<p>注销当前账户切换到 Administrator，按下 <code>Win + R</code> 打开命令窗口，输入 <code>regedit</code> 回车运行打开注册表编辑器。使用 <code>Ctrl + F</code> 搜索 <code>ProfileList</code> 或者手动定位到 <code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\ProfileList</code> 这一项。在这里有很多 <code>S-1-5</code> 开头的项，依次检查会有一个 <code>ProfileListPath</code> 为 <code>C:\User\&lt;你的用户名&gt;</code> 这一项，双击修改即可。
+<img src="../../media/article_img/modify_win10_username_userprofile/%E4%BF%AE%E6%94%B9%E6%B3%A8%E5%86%8C%E8%A1%A8.png" alt="修改注册表"></p>
+<h2 id="修改文件夹名">修改文件夹名</h2>
+<p>在文件管理器找到 <code>C:\User\&lt;你的用户名&gt;</code> 然后直接修改即可。</p>
+<div class="note info flat"><p>以下操作在 你的个人账户 完成</p>
+</div>
+<h2 id="创建联接">创建联接</h2>
+<p>现在回到原来的账户发现名字已经改了，而且原来的数据还在，不过部分环境变量以及应用配置可能会出问题，这里提供两个方法：</p>
+<ul>
+<li>一个一个修改路径保证不出错</li>
+<li>创建一个联接
+<blockquote>
+<p>用管理员权限运行一个 CMD 窗口，然后输入 <code>MKLINK /J C:\Users\&lt;旧用户名&gt; C:\Users\&lt;新用户名&gt;</code>，这样不论访问 <code>C:\Users\&lt;旧用户名&gt;</code> 还是 <code>C:\Users\&lt;新用户名&gt;</code> 都会定位到 <code>C:\Users\&lt;新用户名&gt;</code>。出现下图这样就是成功了。
+<img src="../../media/article_img/modify_win10_username_userprofile/%E9%93%BE%E6%8E%A5.png" alt="创建联接"></p>
+</blockquote>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>半自动化生成博客相册</title>
+    <url>/posts/64b2bc9e/</url>
+    <content><![CDATA[<blockquote>
+<p>下面有完整代码，自行复制</p>
+</blockquote>
+<h2 id="环境">环境</h2>
+<ul>
+<li>
+<p>Hexo <a href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a> 主题</p>
+</li>
+<li>
+<p>本地运行脚本需要安装 Python 3</p>
+</li>
+</ul>
+<h2 id="文件层级要求">文件层级要求</h2>
+<p>首先你要知道 Butterfly 的相册格式，类似下面这样：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% gallery %&#125;</span><br><span class="line">markdown 图片格式</span><br><span class="line">&#123;% endgallery %&#125;</span><br></pre></td></tr></table></figure>
+<p>当然里面可以插入网络图片或者本地图片，如果你是网络图片或者混用就不用往下看了，这里只针对使用本地图片。</p>
+<p>然后文件层级要类似下面这样：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">|   // 这是 Hexo 博客的根目录</span><br><span class="line">|   // 其他文件我就省略了</span><br><span class="line">|</span><br><span class="line">└── source // Hexo 的资源文件目录</span><br><span class="line"><span class="code">       |</span></span><br><span class="line"><span class="code">       |   // 省略其他文件夹</span></span><br><span class="line"><span class="code">       |</span></span><br><span class="line"><span class="code">       └── gallery //相册文件夹，名字可自定义</span></span><br><span class="line"><span class="code">              ├── index.md // 相册的界面文件</span></span><br><span class="line"><span class="code">              ├── images.py // 生成脚本</span></span><br><span class="line"><span class="code">              └── images // 放图片的文件夹</span></span><br><span class="line"><span class="code">                    |</span></span><br><span class="line"><span class="code">                  ......</span></span><br><span class="line"><span class="code">                    //很多图片</span></span><br><span class="line"><span class="code"></span></span><br></pre></td></tr></table></figure>
+<p>或者形如以下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">|   // 这是 Hexo 博客的根目录</span><br><span class="line">|   // 其他文件我就省略了</span><br><span class="line">|</span><br><span class="line">└── source // Hexo 的资源文件目录</span><br><span class="line"><span class="code">       |</span></span><br><span class="line"><span class="code">       |   // 省略其他文件夹</span></span><br><span class="line"><span class="code">       |</span></span><br><span class="line"><span class="code">       └── gallery // 可能是一个集合文件夹或者其他</span></span><br><span class="line"><span class="code">              |</span></span><br><span class="line"><span class="code">              |</span></span><br><span class="line"><span class="code">              └── （1-n 级文件夹）// 多少层都无所谓</span></span><br><span class="line"><span class="code">                        |</span></span><br><span class="line"><span class="code">                        └── photo //真正的相册</span></span><br><span class="line"><span class="code">                                ├── index.md // 相册的界面文件</span></span><br><span class="line"><span class="code">                                ├── images.py // 生成脚本</span></span><br><span class="line"><span class="code">                                └── images // 放图片的文件夹</span></span><br><span class="line"><span class="code">                                        |</span></span><br><span class="line"><span class="code">                                      ......</span></span><br><span class="line"><span class="code">                                        //很多图片</span></span><br><span class="line"><span class="code"></span></span><br></pre></td></tr></table></figure>
+<p>然后我们打开 <code>index.md</code> 的大概结构如下：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 相册</span><br><span class="line">type: &quot;picture&quot;</span><br><span class="line">---</span><br><span class="line">// 剩下的最好为空，不过问题不大</span><br></pre></td></tr></table></figure>
+<h2 id="脚本">脚本</h2>
+<p>首先贴上完整脚本：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"></span><br><span class="line">path = os.path.split(os.path.realpath(__file__))[<span class="number">0</span>]</span><br><span class="line"></span><br><span class="line">path2 = path[path.rfind(<span class="string">&quot;source&quot;</span>)+<span class="number">6</span>:]</span><br><span class="line"></span><br><span class="line">os.chdir(path+<span class="string">&quot;\images&quot;</span>)</span><br><span class="line">ls_file = []</span><br><span class="line"><span class="keyword">for</span> file <span class="keyword">in</span> os.scandir():</span><br><span class="line">    <span class="keyword">if</span> file.is_file():</span><br><span class="line">        ls_file.append(file.name)</span><br><span class="line"></span><br><span class="line">md_text = <span class="string">&quot;\n&#123;% gallery %&#125;\n&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> image <span class="keyword">in</span> ls_file:</span><br><span class="line">    md_path = <span class="string">&quot;![&quot;</span>+os.path.splitext(image)[<span class="number">0</span>]+<span class="string">&quot;](&quot;</span>+str(path2)+<span class="string">&quot;\\&quot;</span>+image+<span class="string">&quot;)&quot;</span></span><br><span class="line">    md_text += md_path.replace(<span class="string">&quot;\\&quot;</span>, <span class="string">&quot;/&quot;</span>)+<span class="string">&quot;\n&quot;</span></span><br><span class="line"></span><br><span class="line">md_text += <span class="string">&quot;&#123;% endgallery %&#125;&quot;</span></span><br><span class="line"></span><br><span class="line">os.chdir(path)</span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> open(<span class="string">&#x27;index.md&#x27;</span>, <span class="string">&#x27;a&#x27;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(md_text)</span><br></pre></td></tr></table></figure>
+<ul>
+<li>仅适用于 Windows 系统，如果是 Linux 要做出微小修改。</li>
+<li>使用前需要清除之前生成的相册格式</li>
+</ul>
+<p>将此脚本保存到和 <code>index.md</code> 同级目录，然后定位到该目录执行 <code>python &lt;你保存的文件名&gt;.py</code> 即可使用。</p>
+<h2 id="解析">解析</h2>
+<p>下面我来解析一下这个脚本，<s>轻喷，我两天前才玩的 Python</s></p>
+<h3 id="导入模块">导入模块</h3>
+<p>首先使用 <code>import os</code> 导入 os 模块</p>
+<h3 id="获取路径">获取路径</h3>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">path = os.path.split(os.path.realpath(__file__))[<span class="number">0</span>]</span><br><span class="line">path2 = path[path.rfind(<span class="string">&quot;source&quot;</span>)+<span class="number">6</span>:]</span><br></pre></td></tr></table></figure>
+<p>获取脚本所在位置的绝对路径保存在 <code>path</code>，使用 <code>rfind()</code> 函数从右往左找到第一个 <code>source</code> 字符<s>如果你后面也有自己起这个名字的文件夹我就没办法了</s>，然后使用分片截取 <code>source\</code> 后的路径保存在 <code>path2</code>。</p>
+<h3 id="遍历文件名">遍历文件名</h3>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">os.chdir(path+<span class="string">&quot;\images&quot;</span>)</span><br><span class="line">ls_file = []</span><br><span class="line"><span class="keyword">for</span> file <span class="keyword">in</span> os.scandir():</span><br><span class="line">    <span class="keyword">if</span> file.is_file():</span><br><span class="line">        ls_file.append(file.name)</span><br></pre></td></tr></table></figure>
+<p>使用 <code>chdir()</code> 切换工作目录到当前目录下的 <code>images</code> 目录，也就是放图片的目录，以便获取图片，然后遍历目录下的所有文件名称保存在 <code>ls_file</code> 中。</p>
+<h3 id="处理格式">处理格式</h3>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">md_text = <span class="string">&quot;\n&#123;% gallery %&#125;\n&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> image <span class="keyword">in</span> ls_file:</span><br><span class="line">    md_path = <span class="string">&quot;![&quot;</span>+os.path.splitext(image)[<span class="number">0</span>]+<span class="string">&quot;](&quot;</span>+str(path2)+<span class="string">&quot;\\&quot;</span>+image+<span class="string">&quot;)&quot;</span></span><br><span class="line">    md_text += md_path.replace(<span class="string">&quot;\\&quot;</span>, <span class="string">&quot;/&quot;</span>)+<span class="string">&quot;\n&quot;</span></span><br><span class="line"></span><br><span class="line">md_text += <span class="string">&quot;&#123;% endgallery %&#125;&quot;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>现在我们已经获取好了所有文件名，并且得到了 <code>path2</code>——<code>从 source 到当前位置的相对路径</code>。</p>
+<p>接着在第 1 行和第 7 行声明了相册的基本格式，第 3 行到第 5 行使用循环处理好了 MarkDown 图片格式。</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">描述</span>](<span class="link">链接/路径</span>)</span><br></pre></td></tr></table></figure>
+<p>这是 MarkDown 图片格式，所以我们要把去掉后缀的文件名放到 <code>描述</code> 中，把图片的相对路径放到 <code>链接/路径</code> 中。</p>
+<p>用 <code>os.path.splitext(filename)</code> 就可以轻松分开文件名和后缀，由于我们只需要文件名所以使用 <code>os.path.splitext(image)[0]</code>，这里已经传入了文件名。</p>
+<p>然后使用 <code>str()</code> 把相对路径 <code>path2</code> 转化为字符串并且加上图片的文件名。</p>
+<p>最后整理好格式，使用 <code>+</code> 将各部分连接好，并且使用 <code>replace()</code> 替换所有的 <code>\</code> 为<code>/</code> 就成型了。</p>
+<h3 id="写入文件">写入文件</h3>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">os.chdir(path)</span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> open(<span class="string">&#x27;index.md&#x27;</span>, <span class="string">&#x27;a&#x27;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(md_text)</span><br></pre></td></tr></table></figure>
+<p>上一步已经把处理好的相册格式存放在 <code>md_text</code> 中,紧接着使用 <code>chdir()</code> 切换到脚本所在目录，这里有 <code>index.md</code> 以便我们写入。</p>
+<p><code>with open(filename) as file:</code> 这是固定格式，不必多讲，不过一定要注意使用 <code>'a'</code> 切换到追加模式，以免丢失原来的模板；使用 <code>encoding='utf-8'</code> 指定编码，以免写入中文时乱码。</p>
+<h2 id="懒是人类进步阶梯">懒是人类进步阶梯</h2>
+<p>这是我用 Python 写的第一个玩意儿，主要是每次都要手动加好麻烦，我就想能不能用 Python 写一个脚本处理。学了两天，写的不是很好，比如不能自动识别原来已有的格式进行替换，每次都要手动去清除，又或者得手动执行，不能在 Hexo 部署的时候进行执行。</p>
+]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在 Linux 服务器上使用 酷Q</title>
+    <url>/posts/2bdd4eaf/</url>
+    <content><![CDATA[<p>众所周知 酷Q 是 Windows 平台下的， Linux 下要使用还是有难度的，好在官方做出了了 docker 镜像，这样就可以在 docker 直接运行了</p>
+<h2 id="准备">准备</h2>
+<ul>
+<li>一台 Linux 服务器 (这里用来演示的系统是 CentOS 7.6 当然其他系统也ok)</li>
+<li>docker</li>
+<li>酷Q 容器</li>
+</ul>
+<h2 id="安装及运行-docker">安装及运行 docker</h2>
+<p>在 CentOS 下直接使用 yum 安装即可</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo yum install docker</span><br></pre></td></tr></table></figure>
+<p>安装之后如果提示</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Cannot connect to the Docker daemon. Is the docker daemon running on this host?</span><br></pre></td></tr></table></figure>
+<p>这是因为 docker 还没有在运行</p>
+<p>sudo 运行一下 docker 就正常了</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo systemctl start docker</span><br></pre></td></tr></table></figure>
+<h3 id="3-下载-酷Q-镜像，后台运行容器">3. 下载 酷Q 镜像，后台运行容器</h3>
+<p>使用下面的命令获取镜像</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo docker pull coolq/wine-coolq</span><br></pre></td></tr></table></figure>
+<p>这个速度取决于你的服务器带宽</p>
+<p>创建一个用于存放（映射）coolq 数据的目录（可以理解为数据卷？），用于持久化存放 coolq（酷Q应用）的数据</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo mkdir /coolq-data</span><br></pre></td></tr></table></figure>
+<p>这一步很重要，因为数据是最重要的，而且后面你的酷Q应用都要上传到此目录才能应用上的</p>
+<p>后台运行 coolq 容器</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo docker run --name=coolq -d -p 8080:9000 -v /coolq-data:/home/user/coolq -e VNC_PASSWD=12345678 -e COOLQ_ACCOUNT=1000000000 coolq/wine-coolq</span><br></pre></td></tr></table></figure>
+<p>其中部分参数根据自己的需求替换：</p>
+<p>远程监听端口
+<code>8080(9000映射成8080)</code>
+数据存放位置
+<code>/coolq-data（/home/user/coolq 映射到/coolq-data）</code>
+远程访问密码
+<code>12345678（只能设8位）</code>
+机器人 QQ 帐号
+<code>1000000000</code></p>
+<p>实际上我当然运行的参数不是上面那些示例参数，根据自己的服务器实际来</p>
+<p>这里要注意的是，首先你远程监听的端口，也就是自定义的web端口需要在服务器防火墙和云安全组都放行</p>
+<p>其次，-d 指的是后台运行容器，-v后面接的就是将服务器的自己定义的酷Q数据目录映射到容器内的/home/user/coolq目录，-e是设置容器的系统环境</p>
+<p>因为我们后面要通过vnc连接，所以要指定VNC_PASSWD</p>
+<p>而酷Q要登录的qq小号（充当机器人）也可以通过-e COOLQ_ACCOUNT 去指定</p>
+<h3 id="4-通过浏览器登录-vnc-进行使用">4. 通过浏览器登录 vnc 进行使用</h3>
+<p>现在用浏览器打开 <a href="http://xn--ip-0p3cm89l:8080">http://你的ip:8080</a> 就可以看到 vnc 界面了，点击<code>链接</code>然后输入密码就可以看到桌面了，里面已经运行了 coolq air</p>
+<p>可以看到使用 docker 还是很方便的，之前只用 wine 总是出现字体丢失的问题</p>
+]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+      <tags>
+        <tag>酷Q</tag>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在 Windows 系统上给 ssh 设置代理</title>
+    <url>/posts/4d70a82d/</url>
+    <content><![CDATA[<div class="note info flat"><p>看清，使用的系统是 Windows 不是 Linux 或者 MacOS</p>
+</div>
+<p>百度搜到的很多给 git 设置代理的办法，都是给 http 设置代理，而不是给 SSH 设置代理。那个 <code>git config --global http.proxy http://127.0.0.1:1080</code> 设置起来，只针对 http 的 git 有效果。
+然后就是 <code>ProxyCommand nc -v -x 127.0.0.1:1080 %h %p</code>，那个分明是给 Linux 才能用的， Windows 上哪里来的 nc 程序？</p>
+<p>以下操作是给 Windows 用的，我的操作：</p>
+<p>在自己的用户文件夹找到 .ssh 文件夹，比如我的是 <code>C:\Users\nihao\.ssh</code> ，在里面新建一个空白文件，取名 config，如果已经有了就不用创建了。</p>
+<p>注意不是 config.txt ！</p>
+<p>我强烈建议把 Windows 的后缀显示给打开，不然你根本不知道自己到底在编辑什么文件。</p>
+<p>都用 Git 了不至于还害怕自己把文件后缀名给改错了吧？</p>
+<p>在 config 文件里写上一行就行：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ProxyCommand <span class="string">&quot;C:\Program Files\Git\mingw64\bin\connect.exe&quot;</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %<span class="built_in">h</span> %p</span><br></pre></td></tr></table></figure>
+<p>这里 git 的安装路径和后面的代理自己看着填，不要试着用相对路径，保证要吃亏。因为 <code>Program Files</code> 文件夹中间带一个空格，所以这里需要把整个路径给引号引起来。 后面的代理的话，<code>-S</code> 指是 socks 代理，默认是 socks5，<code>127.0.0.1:1080</code> 就是你本地的代理地址，后面的 <code>%h %p</code> 意思是 Host 和 Port，必须得写上，我也不知道为什么要这么设计。 如果要使用 HTTP 代理，就写 <code>-H</code>，更多代理类型（比如 socks4）请参 <a href="https://bitbucket.org/gotoh/connect/wiki/Home#!more-detail">这个</a>。</p>
+<p>上这个写法是针对全局的，如果想只针对某个网站的话，就这么写：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">  ProxyCommand <span class="string">&quot;C:\Program Files\Git\mingw64\bin\connect.exe&quot;</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %<span class="built_in">h</span> %p</span><br></pre></td></tr></table></figure>
+<p>现在就可以愉快的使用代理了，不过要记住一定使用 ssh 协议。</p>
+]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>ssh</tag>
+        <tag>代理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解决 VS Code 编译 C/C++ 是输出中文乱码的问题</title>
+    <url>/posts/ea8a69ac/</url>
+    <content><![CDATA[<p>在 Windows 下使用 VSCode 编译运行 C/C++，都出现中文乱码的问题，这是由于 Windows 控制台使用的还是 GBK 编码。我在网上搜了一下发现需要更换编译器解决，这里贴一下 <a href="http://blog.00oo00.xyz/">梧矜</a> 的 <a href="https://blog.00oo00.xyz/2020/03/12/ru-he-jie-jue-vscode-bian-yi-yun-xing-c-cheng-xu-shi-shu-chu-zhong-wen-luan-ma/">解决 vscode 编译运行 C 程序时乱码</a>。</p>
+<p>不是这种方式不好，这种确实从根本解决了问题，但是我是实在懒，所以想了一些外门邪道。然后百度到了可以使用 <code>chcp 65001</code> 命令把控制台的编码切换到 UTF-8，当然你可以参考这篇 <a href="https://jingyan.baidu.com/article/f7ff0bfcee2dc22e26bb13d5.html">百度知道</a> 或者这篇 <a href="https://www.cnblogs.com/jpfss/p/11016870.html">博文</a> 把编码永久更改，但是我怕会出奇怪的问题，所以在 VS Code 的配置文件找了找，没想到还真有这种骚操作。</p>
+<div class="note info flat"><p>2020-12-14 更新新方法</p>
+</div>
+<p>其实只要给 code runner 插件、手动编译时、VS Code 调试时上 <code>-fexec-charset=GBK</code> 就好了，之前那种方法简直是绕弯路，交作业的时候只需要把编码改成 GBK 就好了。唯一的缺点就是不能编译 GBK 文件，不过这不是问题。</p>
+<h2 id="偷懒的方式">偷懒的方式</h2>
+<p>在 VS Code 中通过打开 <code>文件</code>-&gt; <code>首选项</code>-&gt; <code>设置</code>，然后编辑 VS Code 的 <code>setting.json</code> ，然后添加如下代码</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;terminal.integrated.shellArgs.windows&quot;</span>: [</span><br><span class="line">        <span class="string">&quot;-NoExit&quot;</span>,</span><br><span class="line">        <span class="string">&quot;/c&quot;</span>,</span><br><span class="line">        <span class="string">&quot;chcp 65001&quot;</span>,</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然后保存即可，现在编译就不会出现中文乱码的问题了，这里贴一下图</p>
+<p><img src="../../media/article_img/vscode_cpp_chinese_garbled_code/%E4%BF%AE%E6%94%B9%E5%89%8D.png" alt="修改前"></p>
+<p><img src="../../media/article_img/vscode_cpp_chinese_garbled_code/%E4%BF%AE%E6%94%B9%E5%90%8E.png" alt="修改后"></p>
+<h3 id="缺点">缺点</h3>
+<p>当然缺点也是有的，就是每次编译的时候会在顶部显示一个 <code>Active code page: 65001</code>，不过我觉得无伤大雅，毕竟没换编译器就可以实现差不多的效果还想怎么样。<s>主要还是懒</s></p>
+<h2 id="简便的方式">简便的方式</h2>
+<p><s>其实也可以通过这个按钮解决，不过这个是改变文件的编码，如果把这个文件放到其他设备上可能会有问题</s></p>
+<p><img src="../../media/article_img/vscode_cpp_chinese_garbled_code/%E6%8C%89%E9%92%AE.png" alt="按钮"></p>
+<h2 id="工作区">工作区</h2>
+<p>如果你只需要在这个工作区生效的话只需要这个目录下的 <code>.vscode</code> 文件夹里的 <code>setting.json</code> 添加这个配置就好了，这样只会对这个工作区生效。</p>
+<h2 id="更多">更多</h2>
+<p>有关 <code>chcp</code> 的更多描述</p>
+<blockquote>
+<p>65001 UTF-8 代码页
+950 繁体中文
+936 简体中文默认的 GBK
+437 MS-DOS 美国英语</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+      <tags>
+        <tag>VS Code</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在 Coding 上部署完美校园打卡</title>
+    <url>/posts/eb6032e9/</url>
+    <content><![CDATA[<div class="note info flat"><p>感谢 <a href="https://github.com/ReaJason">ReaJason</a> 大佬的 <a href="https://github.com/ReaJason/17wanxiaoCheckin-Actions">仓库</a></p>
+</div>
+<p>由于一些未知的原因，没法在 GitHub Action 上使用 <a href="https://github.com/ReaJason/17wanxiaoCheckin-Actions">https://github.com/ReaJason/17wanxiaoCheckin-Actions</a> 进行打卡了，本地部署还不如手动打，买服务器又太贵了，我就想能不能在 Coding 上来进行部署。</p>
+<p>首先你要有个 Coding 账号，然后登陆进去，选择 <code>项目</code>-&gt;<code>创建项目</code>，选择第一项
+<img src="../../media/article_img/wanxiao_checkin/%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE.jpeg" alt="创建项目">
+名称和标识随意填写，这里填写 test。创建之后点击 <code>代码仓库</code>，选择 <code>新建代码仓库</code>
+<img src="../../media/article_img/wanxiao_checkin/%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%93.jpeg" alt="新建仓库">
+选择 <code>导入外部仓库</code>，然后在 <code>Git 仓库 URL</code> 这一项填入 <code>https://github.com/ReaJason/17wanxiaoCheckin-Actions.git</code> 点击确认就可以导入了。
+<img src="../../media/article_img/wanxiao_checkin/%E5%AF%BC%E5%85%A5.jpeg" alt="导入">
+随后点击 <code>持续部署</code>-&gt;<code>构建节点</code>，选择 <code>创建构建计划</code>，然后拉到最下面选择 <code>自定义构建过程</code>
+<img src="../../media/article_img/wanxiao_checkin/%E5%88%9B%E5%BB%BA%E6%9E%84%E5%BB%BA.jpeg" alt="创建构建">
+<img src="../../media/article_img/wanxiao_checkin/%E8%87%AA%E5%AE%9A%E4%B9%89.jpeg" alt="自定义">
+这里不用做更改，直接确定就好了
+<img src="../../media/article_img/wanxiao_checkin/%E7%A1%AE%E5%AE%9A.jpeg" alt="确定">
+点击切换到文本编辑器
+<img src="../../media/article_img/wanxiao_checkin/%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8.jpeg" alt="文本编辑器">
+然后使用下面的内容替换进去</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">pipeline &#123;</span><br><span class="line">  agent &#123;</span><br><span class="line">    docker &#123;</span><br><span class="line">      reuseNode true</span><br><span class="line">      registryUrl &#x27;https://coding-public-docker.pkg.coding.net&#x27;</span><br><span class="line">      image &#x27;public/docker/python:3.7&#x27;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">  &#125;</span><br><span class="line">  stages &#123;</span><br><span class="line">    stage(&#x27;检出&#x27;) &#123;</span><br><span class="line">      steps &#123;</span><br><span class="line">        checkout([</span><br><span class="line">          $class: &#x27;GitSCM&#x27;,</span><br><span class="line">          branches: [[name: GIT_BUILD_REF]],</span><br><span class="line">          userRemoteConfigs: [[</span><br><span class="line">            url: GIT_REPO_URL,</span><br><span class="line">            credentialsId: CREDENTIALS_ID</span><br><span class="line">          ]]])</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">      stage(&#x27;构建&#x27;) &#123;</span><br><span class="line">        steps &#123;</span><br><span class="line">          archiveArtifacts(artifacts: &#x27;README.md&#x27;, fingerprint: true)</span><br><span class="line">          echo &#x27;部署环境&#x27;</span><br><span class="line">          sh &#x27;pip3 install requests pycryptodome&#x27;</span><br><span class="line">          sh &#x27;pip3 install pycryptodome&#x27;</span><br><span class="line">          echo &#x27;开始签到&#x27;</span><br><span class="line">          sh &#x27;&#x27;&#x27;python3.7 17wanxiao.py &lt;&lt;EOF</span><br><span class="line"><span class="meta">$</span><span class="bash">&#123;USERNAME&#125;</span></span><br><span class="line"><span class="meta">$</span><span class="bash">&#123;PASSWORD&#125;</span></span><br><span class="line"><span class="meta">$</span><span class="bash">&#123;SCKEY&#125;</span></span><br><span class="line">EOF&#x27;&#x27;&#x27;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+<p>点击上面的保存后选择触发规则，点击定时触发这里添加一个规则
+<img src="../../media/article_img/wanxiao_checkin/%E5%AE%9A%E6%97%B6%E8%A7%A6%E5%8F%91.jpeg" alt="定时触发">
+<img src="../../media/article_img/wanxiao_checkin/%E5%BB%BA%E8%AE%AE%E8%A7%84%E5%88%99.jpeg" alt="建议规则"></p>
+<p>然后点击 <code>变量与缓存</code>，新建三个环境变量
+<img src="../../media/article_img/wanxiao_checkin/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.jpeg" alt="环境变量"></p>
+<p><code>SCKEY</code>——Server 酱的 SCKEY
+<code>USERNAME</code>——完美校园的登录账号
+<code>PASSWORD</code>——完美校园的登录面</p>
+<p>如果要多人打卡请参考 <a href="https://github.com/ReaJason/17wanxiaoCheckin-Actions">原文档</a></p>
+<p>最后返回选择立即构建就可以测试了，成功的话微信会有推送</p>
+<p><img src="../../media/article_img/wanxiao_checkin/%E6%B5%8B%E8%AF%95.jpeg" alt="测试"></p>
+]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+      <tags>
+        <tag>完美校园</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记一次 WordPress 搭建与宝塔面板配置</title>
+    <url>/posts/75f0fab2/</url>
+    <content><![CDATA[<p>WordPress 可能是比较好用的博客系统了，当然改一下做个非博客应该也可以。当然是需要服务器的，想我这种用 Hexo 配合 GitHub Page 当然是用不起的了，不过前段时间帮朋友搞了一下，就在这里记录一下过程了</p>
+<h2 id="准备">准备</h2>
+<h3 id="选择服务器">选择服务器</h3>
+<p>首先服务器用的是阿里云的轻量应用服务器，因为比较便宜，<a href="https://common-buy.aliyun.com/?commodityCode=swas&amp;regionId=cn-hongkong&amp;userCode=3xwlzuab#/buy">点击这里</a>可以查看价格和配置。当然这里就不测试了，因为价格在这里摆着，还要什么自行车。</p>
+<h3 id="下载-WordPress-文件">下载 WordPress 文件</h3>
+<p>访问<a href="https://cn.wordpress.org/download/">https://cn.wordpress.org/download/</a>
+然后点击
+<img src="../../media/article_img/wordpress_baota_config/1.png" alt="enter description here">
+下载到你能方便找到的地方就好了</p>
+<h2 id="系统和面板">系统和面板</h2>
+<p>然后我选择的是 CentOS 然后装的宝塔面板，<a href="https://bt.cn/">点击查看</a>宝塔的面板，免费版也够用</p>
+<h2 id="SSH到服务器">SSH到服务器</h2>
+<h3 id="开启端口">开启端口</h3>
+<p>看这个页面即可<a href="https://www.bt.cn/bbs/thread-19376-1-1.html">https://www.bt.cn/bbs/thread-19376-1-1.html</a></p>
+<p>推荐打开所有端口，因为宝塔面板也有防火墙</p>
+<h3 id="SSH-配置">SSH 配置</h3>
+<p>首先要到轻量应用服务器的<a href="https://swas.console.aliyun.com">控制面板</a>然后点击你的服务器
+<img src="../../media/article_img/wordpress_baota_config/2.png" alt="enter description here"></p>
+<p>点进去后再转到远程连接
+<img src="../../media/article_img/wordpress_baota_config/3.png" alt="enter description here"></p>
+<p>选择这里任何一种都可以，没有任何影响
+<img src="../../media/article_img/wordpress_baota_config/4.png" alt="enter description here"></p>
+<p>那么我这里是用的第三种，也就是用账号密码来连接。</p>
+<h3 id="SSH-客户端">SSH 客户端</h3>
+<p>因为用账号密码的话，是要用本地客户端连接的，那么这里推荐使用[FinalShell(<a href="http://www.hostbuf.com/t/988.html">http://www.hostbuf.com/t/988.html</a>)来连接，国人制作，有免费版本，中文界面，支持 Windows,macOS,Linux
+点金网址后选择你系统对应的链接就可以下载了
+<img src="../../media/article_img/wordpress_baota_config/5.png" alt="enter description here"></p>
+<p>下载安装后打开就可以看到界面了</p>
+<p>然后点击这个按钮
+<img src="../../media/article_img/wordpress_baota_config/6.png" alt="enter description here"></p>
+<p>然后点击
+<img src="../../media/article_img/wordpress_baota_config/7.png" alt="enter description here"></p>
+<p>就可以添加一个连接了</p>
+<p>在这里输入服务器的名字，ip，用户名，密码，然后保存再双击刚才添加的就可以连接了
+<img src="../../media/article_img/wordpress_baota_config/8.png" alt="enter description here"></p>
+<h2 id="安装面板">安装面板</h2>
+<p>安装很简单，一行命令就搞定了</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; sh install.sh</span><br></pre></td></tr></table></figure>
+<p>如果是 Ubuntu 用这个命令</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh &amp;&amp; sudo bash install.sh</span><br></pre></td></tr></table></figure>
+<p>Debian 系统的用这个</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure>
+<p>Fedora 系统用这个</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure>
+<p>怎么样，是不是很简单，后面都是自动化的安装了。当然我只使用过 CentOS，所以下面的还用 CentOS举例</p>
+<p>安装完毕后会有一段提示，里面有访问面板的地址和默认的用户名还有密码，当然随后都可以改</p>
+<h2 id="登录面板">登录面板</h2>
+<p>进入面板登录后会选择安装一些东西，这里推荐使用编译安装，虽然费时间但是很稳定。</p>
+<p>现在，喝杯咖啡看看书，或者小睡一会儿，这个过程可能需要3-4个小时</p>
+<h2 id="解析域名">解析域名</h2>
+<p>现在，你的面板应该已经部署好了，那下一步就是解析域名了，这里假设你已经完成了域名的更改，我使用的是腾讯云提供的解析服务演示，当然阿里云或者其他服务商也会有。
+访问<a href="https://console.cloud.tencent.com/cns">https://console.cloud.tencent.com/cns</a>登录腾讯云配置解析</p>
+<h3 id="绑定域名">绑定域名</h3>
+<p>点击<strong>添加域名</strong>然后输入你的域名，比如输入 <a href="http://ljbaidu.com">ljbaidu.com</a> <s>当然这个要填你的域名，我只是吐槽一下百度</s>然后点击确定就可以了</p>
+<h3 id="配置DNS">配置DNS</h3>
+<p>添加域名后如果<strong>解析状态</strong>提示异常的话就可能是 DNS 的问题，需要去注册商哪里讲 DNS 修改为</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">f1g1ns1.dnspod.net</span><br><span class="line">f1g1ns2.dnspod.net</span><br></pre></td></tr></table></figure>
+<p>然后等待最多72小时就可以了</p>
+<h3 id="添加解析">添加解析</h3>
+<p>看到这里说明你的 DNS 已经没问题了，现在点击操作栏的<strong>解析</strong>，进去之后点击上面的添加记录。<strong>主机记录</strong>选择 <code>@</code> 这一项就可以了，<strong>记录类型</strong>选择 <code>A</code> ，<strong>记录值</strong>填入你的服务器 <code>IP</code></p>
+<p>最后点击保存，稍作等待，这个过程需要十分钟才能生效<s>当然如果你是氪金用户当我没说</s></p>
+<h2 id="正式开始部署-WordPress">正式开始部署 WordPress</h2>
+<h3 id="添加站点">添加站点</h3>
+<p>现在登录你的宝塔面板，在侧边栏找到<strong>网站</strong>，点击后选择<strong>添加站点</strong></p>
+<p>然后这样填
+<img src="../../media/article_img/wordpress_baota_config/9.png" alt="enter description here"></p>
+<p><s>再次声明，ljbaidu.com只是调侃，请填写自己的域名</s></p>
+<p>然后点击<strong>提交</strong></p>
+<h3 id="添加数据库">添加数据库</h3>
+<p>然后选择侧边栏的<strong>数据库</strong>，然后选择<strong>添加数据库</strong>
+填写数据库名称，用户名和密码，选择访问权限然后选择提交，如图(注意看箭头所指的选项)
+<img src="../../media/article_img/wordpress_baota_config/10.png" alt="enter description here"></p>
+<h3 id="修改-WordPress-配置">修改 WordPress 配置</h3>
+<p>解压刚开始下载的 wordpress-5.2.2.zip ，然后解压到一个文件夹中。
+找到 wp-config-sample.php 并重命名为 wp-config.php ，然后使用文本编辑器或其他打开 wp-config.php。
+找到</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">// ** MySQL settings - You can get this info from your web host ** //</span></span><br><span class="line"><span class="comment">/** The name of the database for WordPress */</span></span><br><span class="line">define( <span class="string">&#x27;DB_NAME&#x27;</span>, <span class="string">&#x27;database_name_here&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL database username */</span></span><br><span class="line">define( <span class="string">&#x27;DB_USER&#x27;</span>, <span class="string">&#x27;username_here&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL database password */</span></span><br><span class="line">define( <span class="string">&#x27;DB_PASSWORD&#x27;</span>, <span class="string">&#x27;password_here&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL hostname */</span></span><br><span class="line">define( <span class="string">&#x27;DB_HOST&#x27;</span>, <span class="string">&#x27;localhost&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** Database Charset to use in creating database tables. */</span></span><br><span class="line">define( <span class="string">&#x27;DB_CHARSET&#x27;</span>, <span class="string">&#x27;utf8&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** The Database Collate type. Don&#x27;t change this if in doubt. */</span></span><br><span class="line">define( <span class="string">&#x27;DB_COLLATE&#x27;</span>, <span class="string">&#x27;&#x27;</span> );</span><br></pre></td></tr></table></figure>
+<p>修改为</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">// ** MySQL settings - You can get this info from your web host ** //</span></span><br><span class="line"><span class="comment">/** The name of the database for WordPress */</span></span><br><span class="line">define( <span class="string">&#x27;DB_NAME&#x27;</span>, <span class="string">&#x27;wordpress&#x27;</span> );<span class="comment">//这里填入刚才创建数据库时数据库名称</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL database username */</span></span><br><span class="line">define( <span class="string">&#x27;DB_USER&#x27;</span>, <span class="string">&#x27;wordpress&#x27;</span> );<span class="comment">//这里填入刚才创建数据库时的用户名</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL database password */</span></span><br><span class="line">define( <span class="string">&#x27;DB_PASSWORD&#x27;</span>, <span class="string">&#x27;password&#x27;</span> );<span class="comment">//这里填入刚才创建数据库时的密码</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL hostname */</span></span><br><span class="line">define( <span class="string">&#x27;DB_HOST&#x27;</span>, <span class="string">&#x27;localhost&#x27;</span> );<span class="comment">//这个和下面三个不做修改</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/** Database Charset to use in creating database tables. */</span></span><br><span class="line">define( <span class="string">&#x27;DB_CHARSET&#x27;</span>, <span class="string">&#x27;utf8&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** The Database Collate type. Don&#x27;t change this if in doubt. */</span></span><br><span class="line">define( <span class="string">&#x27;DB_COLLATE&#x27;</span>, <span class="string">&#x27;&#x27;</span> );</span><br></pre></td></tr></table></figure>
+<p>保存文件并退出</p>
+<p>返回上一目录，压缩这个文件夹
+<img src="../../media/article_img/wordpress_baota_config/11.png" alt="enter description here"></p>
+<h3 id="上传-WordPress">上传 WordPress</h3>
+<p>打开宝塔面板，选择网站</p>
+<p>点击根目录那一栏下面的文字，也就是
+<img src="../../media/article_img/wordpress_baota_config/12.png" alt="enter description here"></p>
+<p>然后选择<strong>上传</strong>，再点击<strong>选择文件</strong>，然后找到刚才打包的文件
+<img src="../../media/article_img/wordpress_baota_config/13.png" alt="enter description here"></p>
+<p>点击<strong>开始上传</strong>，等待即可</p>
+<h3 id="解压">解压</h3>
+<p>点击这个选项，然后直接确定即可解压
+<img src="../../media/article_img/wordpress_baota_config/14.png" alt="enter description here"></p>
+<p>现在访问 你的域名/wp-admin/install.php 就可以开始安装了，比如 <a href="http://ljbaidu.com/wp-admin/install.php">http://ljbaidu.com/wp-admin/install.php</a> <s>再次，我没有这个域名，所以下来用我的域名做演示</s></p>
+<p>访问之后可以看到这个界面
+<img src="../../media/article_img/wordpress_baota_config/15.png" alt="enter description here"></p>
+<p>根据图上的注释填写，然后点击就可以安装了</p>
+<p>在这里点击Log In
+<img src="../../media/article_img/wordpress_baota_config/16.png" alt="enter description here"></p>
+<p>在下一个页面登录即可</p>
+<h2 id="结束">结束</h2>
+<p>至此，所有安装过程已经完成，现在就可以开始使用了</p>
+<p>如果在安装过程中有什么问题可以通过博客主页的联系方式联系我，或者在下面留下你的评论</p>
+]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+      <tags>
+        <tag>网站搭建</tag>
+        <tag>WordPress</tag>
+        <tag>宝塔面板</tag>
       </tags>
   </entry>
   <entry>
@@ -236,444 +656,84 @@
       </tags>
   </entry>
   <entry>
-    <title>记一些 Hexo 报错</title>
-    <url>/posts/b36c6159/</url>
-    <content><![CDATA[<blockquote>
-<p>说在前面：
-这里主要是记一下平时在 Hexo 遇到的报错，解决之后分享一下解决方法</p>
-</blockquote>
-<h2 id="YAMLException-can-not-read-a-block-mapping-entry-a-multiline-key-may-not-be-an-implicit-key-at-line-6-column-1">YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 6, column 1</h2>
-<p>解决方法：查看新建要上传的 MarkDown 文件，看看 tags 那里或者其他地方，与后面内容是不是有一个空格。我是排查空格之后就解决了。<s>好智障啊</s></p>
+    <title>Kirby Assistant 2.x.x更新日志</title>
+    <url>/posts/417dae5e/</url>
+    <content><![CDATA[<p>目前最新版本 v2.0.6 (56)</p>
+<h2 id="v2-0-6-56">v2.0.6 (56)</h2>
+<p>紧急修复了高版本无法安装的问题，并且移除的权限，很是抱歉</p>
+<h2 id="v2-0-5-55">v2.0.5 (55)</h2>
+<p>1.修改部分样式贴近规范
+2.修改下载游戏时的对话框样式</p>
+<h2 id="v2-0-4-54">v2.0.4 (54)</h2>
+<p>1.修复个别主题下输入框颜色不正常的问题
+2.排除了一个引起闪退的 bug
+3.新增一个配色</p>
+<h2 id="v2-0-3-53">v2.0.3 (53)</h2>
+<p>1.修复部分黑暗模式与白色模式下的UI问题
+2.修复UI漂移的问题</p>
+<h2 id="v2-0-2-52">v2.0.2 (52)</h2>
+<p>1.修正夜间模式下设置显示异常
+2.修复闲聊显示异常问题
+3.修复无法清除图片缓存
+4.修复更新检测异常
+5.重新优化的主题</p>
+<h2 id="v2-0-1-51">v2.0.1 (51)</h2>
+<p>1.自动根据 AndroidQ 夜间模式选项切换夜间模式
+2.翻译文本修正
+3.图片资源修复</p>
+<h2 id="v2-0-0-50">v2.0.0 (50)</h2>
+<p>1.全新 API 重新编写
+2.大部分 MD2 特性
+3.修复底栏切换过快崩溃的 Bug
+4.新增黑暗模式
+5.假装无缝切换主题
+6.优化用户信息修改后刷新操作
+7.优化菜单显示方式
+8.防止未登录情况下进入闲聊的问题
+9.重新优化的对话框
+10.应用内清除缓存
+11.重写头像裁剪
+12.上传逻辑
+13.全新官网</p>
 ]]></content>
       <categories>
-        <category>技术记录</category>
+        <category>我的 Android 应用</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
-        <tag>踩坑</tag>
+        <tag>Kirby Assistant</tag>
+        <tag>更新日志</tag>
       </tags>
   </entry>
   <entry>
-    <title>Git 无法 Pull 仓库 显示 refusing to merge unrelated histories （拒绝合并不相关仓库）</title>
-    <url>/posts/e5477819/</url>
-    <content><![CDATA[<p>如果在合并 pull 仓库的时候，出现的问题如何去解决（这个方法适用于合并本地很久没有提交的仓库，或者是同一个仓库 commit 信息不同的合并）</p>
-<p><img src="../../media/article_img/git_connot_pull_repo/fail.png" alt="示意图"></p>
-<p>如果合并了两个不同的开始提交的仓库，在新的 <code>git</code> 会发现这两个仓库可能不是同一个，为了防止开发者上传错误，于是就给下面的提示</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">fatal: refusing to merge unrelated histories</span><br></pre></td></tr></table></figure>
-<p>如我在 GitHub 新建一个仓库，写了 License，然后把本地一个写了很久仓库上传。这时会发现 GitHub 的仓库和本地的没有一个共同的 <code>commit</code> 所以 <code>git</code> 不让提交，认为是写错了 <code>origin</code> ，如果开发者确定是这个 <code>origin</code> 就可以使用  <code>--allow-unrelated-histories</code>  告诉 <code>git</code> 自己确定</p>
-<p>遇到无法提交的问题，一般先 Pull 也就是使用  <code>git pull origin master</code>  这里的 <code>origin</code> 就是仓库，而 <code>master</code> 就是需要上传的分支，因为两个仓库不同，发现 <code>git</code> 输出  <code>refusing to merge unrelated histories</code>  无法 <code>pull</code> 内容</p>
-<p>因为他们是两个不同的项目，要把两个不同的项目合并，Git需要添加一句代码，在 <code>git pull</code> 之后，这句代码是在 <code>Git 2.9.2</code> 版本发生的，最新的版本需要添加 <code>--allow-unrelated-histories</code> 告诉 <code>git</code> 允许不相关历史合并</p>
-<p>假如我们的源是 <code>origin</code>，分支是 <code>master</code>，那么我们需要这样写 <code>git pull origin master --allow-unrelated-histories</code>  如果有设置了默认上传分支就可以用下面代码</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git pull --allow-unrelated-histories</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>技术记录</category>
-      </categories>
-      <tags>
-        <tag>Git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>修改 Windows 10 的用户名以及用户文件夹</title>
-    <url>/posts/8e165a5c/</url>
-    <content><![CDATA[<div class="note warning flat"><p>修改注册表有风险，操作需谨慎，注意备份重要文件</p>
-</div>
-<p>由于 Windows 10 的奇葩机制本地账户名是在线账户邮箱的前五位，导致我登录在线账户之后在本地显示的名称以及文件夹从我名字全拼的 <code>nihaocun</code> 变成了 <code>nihao</code>，虽然能忍，但是越看越不顺眼，就开始在网上找修改的方法。然而搜到的结果也大多不完整，好在还是能拼起来的，现在终于是改成功了。</p>
-<div class="note info flat"><p>以下操作在 你的个人账户 完成</p>
-</div>
-<h2 id="开启-Administrator-账户">开启 Administrator 账户</h2>
-<p>我们需要开启这个账户去修改注册表和文件夹名，家庭版用户请先升级到专业版，专业版用户打开
-<code>控制面板</code> -&gt; <code>系统和安全</code> -&gt; <code>管理工具</code> -&gt; <code>计算机管理</code>，然后按图所示依次打开
-<code>本地用户和组</code> -&gt; <code>用户</code> -&gt; <code>Administrator</code>，然后去掉 <code>账户已禁用</code> 前面的复选框即可。
-<img src="../../media/article_img/modify_win10_username_userprofile/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AE%A1%E7%90%86.png" alt="开启 Administrator 账户"></p>
-<h2 id="修改用户名">修改用户名</h2>
-<p>接着不关闭计算机管理，找到你需要修改的用户名，然后右键重命名即可，注意这里不能和计算机名重复（大小写不敏感）</p>
-<div class="note info flat"><p>以下操作在 Administrator 完成</p>
-</div>
-<h2 id="修改注册表">修改注册表</h2>
-<p>注销当前账户切换到 Administrator，按下 <code>Win + R</code> 打开命令窗口，输入 <code>regedit</code> 回车运行打开注册表编辑器。使用 <code>Ctrl + F</code> 搜索 <code>ProfileList</code> 或者手动定位到 <code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\ProfileList</code> 这一项。在这里有很多 <code>S-1-5</code> 开头的项，依次检查会有一个 <code>ProfileListPath</code> 为 <code>C:\User\&lt;你的用户名&gt;</code> 这一项，双击修改即可。
-<img src="../../media/article_img/modify_win10_username_userprofile/%E4%BF%AE%E6%94%B9%E6%B3%A8%E5%86%8C%E8%A1%A8.png" alt="修改注册表"></p>
-<h2 id="修改文件夹名">修改文件夹名</h2>
-<p>在文件管理器找到 <code>C:\User\&lt;你的用户名&gt;</code> 然后直接修改即可。</p>
-<div class="note info flat"><p>以下操作在 你的个人账户 完成</p>
-</div>
-<h2 id="创建联接">创建联接</h2>
-<p>现在回到原来的账户发现名字已经改了，而且原来的数据还在，不过部分环境变量以及应用配置可能会出问题，这里提供两个方法：</p>
-<ul>
-<li>一个一个修改路径保证不出错</li>
-<li>创建一个联接
+    <title>开往 - Travellings</title>
+    <url>/posts/58ae8d54/</url>
+    <content><![CDATA[<h2 id="什么是开往">什么是开往</h2>
+<p>这是一个来自于国外的想法，在网站显眼的位置，加入一个认证的徽标，代表网站已经加入了友链助力，如果访客点击徽标，将随机前往另一个计划内的网站。</p>
+<h2 id="为什么要开往">为什么要开往</h2>
+<p>互联网将人与人之间的距离大大减小，却还是形成了大大小小的孤岛。只有熟人间才知道彼此，而陌生人永远只能是陌生人。</p>
 <blockquote>
-<p>用管理员权限运行一个 CMD 窗口，然后输入 <code>MKLINK /J C:\Users\&lt;旧用户名&gt; C:\Users\&lt;新用户名&gt;</code>，这样不论访问 <code>C:\Users\&lt;旧用户名&gt;</code> 还是 <code>C:\Users\&lt;新用户名&gt;</code> 都会定位到 <code>C:\Users\&lt;新用户名&gt;</code>。出现下图这样就是成功了。
-<img src="../../media/article_img/modify_win10_username_userprofile/%E9%93%BE%E6%8E%A5.png" alt="创建联接"></p>
+<p>“开往”取自“开放的网络”。 将一群志同道合的人连接在一起，我们共享彼此的流量，帮助陌生人发现新大陆。</p>
 </blockquote>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术记录</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>半自动化生成博客相册</title>
-    <url>/posts/64b2bc9e/</url>
-    <content><![CDATA[<blockquote>
-<p>下面有完整代码，自行复制</p>
-</blockquote>
-<h2 id="环境">环境</h2>
-<ul>
-<li>
-<p>Hexo <a href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a> 主题</p>
-</li>
-<li>
-<p>本地运行脚本需要安装 Python 3</p>
-</li>
-</ul>
-<h2 id="文件层级要求">文件层级要求</h2>
-<p>首先你要知道 Butterfly 的相册格式，类似下面这样：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% gallery %&#125;</span><br><span class="line">markdown 图片格式</span><br><span class="line">&#123;% endgallery %&#125;</span><br></pre></td></tr></table></figure>
-<p>当然里面可以插入网络图片或者本地图片，如果你是网络图片或者混用就不用往下看了，这里只针对使用本地图片。</p>
-<p>然后文件层级要类似下面这样：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">|   // 这是 Hexo 博客的根目录</span><br><span class="line">|   // 其他文件我就省略了</span><br><span class="line">|</span><br><span class="line">└── source // Hexo 的资源文件目录</span><br><span class="line"><span class="code">       |</span></span><br><span class="line"><span class="code">       |   // 省略其他文件夹</span></span><br><span class="line"><span class="code">       |</span></span><br><span class="line"><span class="code">       └── gallery //相册文件夹，名字可自定义</span></span><br><span class="line"><span class="code">              ├── index.md // 相册的界面文件</span></span><br><span class="line"><span class="code">              ├── images.py // 生成脚本</span></span><br><span class="line"><span class="code">              └── images // 放图片的文件夹</span></span><br><span class="line"><span class="code">                    |</span></span><br><span class="line"><span class="code">                  ......</span></span><br><span class="line"><span class="code">                    //很多图片</span></span><br><span class="line"><span class="code"></span></span><br></pre></td></tr></table></figure>
-<p>或者形如以下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">|   // 这是 Hexo 博客的根目录</span><br><span class="line">|   // 其他文件我就省略了</span><br><span class="line">|</span><br><span class="line">└── source // Hexo 的资源文件目录</span><br><span class="line"><span class="code">       |</span></span><br><span class="line"><span class="code">       |   // 省略其他文件夹</span></span><br><span class="line"><span class="code">       |</span></span><br><span class="line"><span class="code">       └── gallery // 可能是一个集合文件夹或者其他</span></span><br><span class="line"><span class="code">              |</span></span><br><span class="line"><span class="code">              |</span></span><br><span class="line"><span class="code">              └── （1-n 级文件夹）// 多少层都无所谓</span></span><br><span class="line"><span class="code">                        |</span></span><br><span class="line"><span class="code">                        └── photo //真正的相册</span></span><br><span class="line"><span class="code">                                ├── index.md // 相册的界面文件</span></span><br><span class="line"><span class="code">                                ├── images.py // 生成脚本</span></span><br><span class="line"><span class="code">                                └── images // 放图片的文件夹</span></span><br><span class="line"><span class="code">                                        |</span></span><br><span class="line"><span class="code">                                      ......</span></span><br><span class="line"><span class="code">                                        //很多图片</span></span><br><span class="line"><span class="code"></span></span><br></pre></td></tr></table></figure>
-<p>然后我们打开 <code>index.md</code> 的大概结构如下：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 相册</span><br><span class="line">type: &quot;picture&quot;</span><br><span class="line">---</span><br><span class="line">// 剩下的最好为空，不过问题不大</span><br></pre></td></tr></table></figure>
-<h2 id="脚本">脚本</h2>
-<p>首先贴上完整脚本：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"></span><br><span class="line">path = os.path.split(os.path.realpath(__file__))[<span class="number">0</span>]</span><br><span class="line"></span><br><span class="line">path2 = path[path.rfind(<span class="string">&quot;source&quot;</span>)+<span class="number">6</span>:]</span><br><span class="line"></span><br><span class="line">os.chdir(path+<span class="string">&quot;\images&quot;</span>)</span><br><span class="line">ls_file = []</span><br><span class="line"><span class="keyword">for</span> file <span class="keyword">in</span> os.scandir():</span><br><span class="line">    <span class="keyword">if</span> file.is_file():</span><br><span class="line">        ls_file.append(file.name)</span><br><span class="line"></span><br><span class="line">md_text = <span class="string">&quot;\n&#123;% gallery %&#125;\n&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> image <span class="keyword">in</span> ls_file:</span><br><span class="line">    md_path = <span class="string">&quot;![&quot;</span>+os.path.splitext(image)[<span class="number">0</span>]+<span class="string">&quot;](&quot;</span>+str(path2)+<span class="string">&quot;\\&quot;</span>+image+<span class="string">&quot;)&quot;</span></span><br><span class="line">    md_text += md_path.replace(<span class="string">&quot;\\&quot;</span>, <span class="string">&quot;/&quot;</span>)+<span class="string">&quot;\n&quot;</span></span><br><span class="line"></span><br><span class="line">md_text += <span class="string">&quot;&#123;% endgallery %&#125;&quot;</span></span><br><span class="line"></span><br><span class="line">os.chdir(path)</span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> open(<span class="string">&#x27;index.md&#x27;</span>, <span class="string">&#x27;a&#x27;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(md_text)</span><br></pre></td></tr></table></figure>
-<ul>
-<li>仅适用于 Windows 系统，如果是 Linux 要做出微小修改。</li>
-<li>使用前需要清除之前生成的相册格式</li>
-</ul>
-<p>将此脚本保存到和 <code>index.md</code> 同级目录，然后定位到该目录执行 <code>python &lt;你保存的文件名&gt;.py</code> 即可使用。</p>
-<h2 id="解析">解析</h2>
-<p>下面我来解析一下这个脚本，<s>轻喷，我两天前才玩的 Python</s></p>
-<h3 id="导入模块">导入模块</h3>
-<p>首先使用 <code>import os</code> 导入 os 模块</p>
-<h3 id="获取路径">获取路径</h3>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">path = os.path.split(os.path.realpath(__file__))[<span class="number">0</span>]</span><br><span class="line">path2 = path[path.rfind(<span class="string">&quot;source&quot;</span>)+<span class="number">6</span>:]</span><br></pre></td></tr></table></figure>
-<p>获取脚本所在位置的绝对路径保存在 <code>path</code>，使用 <code>rfind()</code> 函数从右往左找到第一个 <code>source</code> 字符<s>如果你后面也有自己起这个名字的文件夹我就没办法了</s>，然后使用分片截取 <code>source\</code> 后的路径保存在 <code>path2</code>。</p>
-<h3 id="遍历文件名">遍历文件名</h3>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">os.chdir(path+<span class="string">&quot;\images&quot;</span>)</span><br><span class="line">ls_file = []</span><br><span class="line"><span class="keyword">for</span> file <span class="keyword">in</span> os.scandir():</span><br><span class="line">    <span class="keyword">if</span> file.is_file():</span><br><span class="line">        ls_file.append(file.name)</span><br></pre></td></tr></table></figure>
-<p>使用 <code>chdir()</code> 切换工作目录到当前目录下的 <code>images</code> 目录，也就是放图片的目录，以便获取图片，然后遍历目录下的所有文件名称保存在 <code>ls_file</code> 中。</p>
-<h3 id="处理格式">处理格式</h3>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">md_text = <span class="string">&quot;\n&#123;% gallery %&#125;\n&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> image <span class="keyword">in</span> ls_file:</span><br><span class="line">    md_path = <span class="string">&quot;![&quot;</span>+os.path.splitext(image)[<span class="number">0</span>]+<span class="string">&quot;](&quot;</span>+str(path2)+<span class="string">&quot;\\&quot;</span>+image+<span class="string">&quot;)&quot;</span></span><br><span class="line">    md_text += md_path.replace(<span class="string">&quot;\\&quot;</span>, <span class="string">&quot;/&quot;</span>)+<span class="string">&quot;\n&quot;</span></span><br><span class="line"></span><br><span class="line">md_text += <span class="string">&quot;&#123;% endgallery %&#125;&quot;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>现在我们已经获取好了所有文件名，并且得到了 <code>path2</code>——<code>从 source 到当前位置的相对路径</code>。</p>
-<p>接着在第 1 行和第 7 行声明了相册的基本格式，第 3 行到第 5 行使用循环处理好了 MarkDown 图片格式。</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">描述</span>](<span class="link">链接/路径</span>)</span><br></pre></td></tr></table></figure>
-<p>这是 MarkDown 图片格式，所以我们要把去掉后缀的文件名放到 <code>描述</code> 中，把图片的相对路径放到 <code>链接/路径</code> 中。</p>
-<p>用 <code>os.path.splitext(filename)</code> 就可以轻松分开文件名和后缀，由于我们只需要文件名所以使用 <code>os.path.splitext(image)[0]</code>，这里已经传入了文件名。</p>
-<p>然后使用 <code>str()</code> 把相对路径 <code>path2</code> 转化为字符串并且加上图片的文件名。</p>
-<p>最后整理好格式，使用 <code>+</code> 将各部分连接好，并且使用 <code>replace()</code> 替换所有的 <code>\</code> 为<code>/</code> 就成型了。</p>
-<h3 id="写入文件">写入文件</h3>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">os.chdir(path)</span><br><span class="line"></span><br><span class="line"><span class="keyword">with</span> open(<span class="string">&#x27;index.md&#x27;</span>, <span class="string">&#x27;a&#x27;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    f.write(md_text)</span><br></pre></td></tr></table></figure>
-<p>上一步已经把处理好的相册格式存放在 <code>md_text</code> 中,紧接着使用 <code>chdir()</code> 切换到脚本所在目录，这里有 <code>index.md</code> 以便我们写入。</p>
-<p><code>with open(filename) as file:</code> 这是固定格式，不必多讲，不过一定要注意使用 <code>'a'</code> 切换到追加模式，以免丢失原来的模板；使用 <code>encoding='utf-8'</code> 指定编码，以免写入中文时乱码。</p>
-<h2 id="懒是人类进步阶梯">懒是人类进步阶梯</h2>
-<p>这是我用 Python 写的第一个玩意儿，主要是每次都要手动加好麻烦，我就想能不能用 Python 写一个脚本处理。学了两天，写的不是很好，比如不能自动识别原来已有的格式进行替换，每次都要手动去清除，又或者得手动执行，不能在 Hexo 部署的时候进行执行。</p>
-]]></content>
-      <categories>
-        <category>技术记录</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解决方案.方案</title>
-    <url>/posts/notes/</url>
-    <content><![CDATA[<blockquote>
-<p>日常解决问题基本靠 Google，拿来水博客跟 <em>Copy&amp;Paste</em> 也没啥区别，但是又想把这些方法记录下来，万一以后需要用还方便查看，于是打算全部写在这一篇文章里了。</p>
-<p>当然，为了防止未来的我忘记当时写的是什么东西，咱尽量将一些因人而异、因机而异的东西标注出来（比如每段的 Replacement），但难免有疏漏，如果有读者能够看到，并感到疑惑，请不要吝啬你的留言。<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="引用自 [Buta Sticky Notes - 丁丁の店](https://blog.butanediol.me/2020/10/13/Buta-Sticky-Notes/)
-">[1]</span></a></sup></p>
-</blockquote>
-<div class="note info flat"><p>因为我是用的是 Windows 10 系统所以一下的东西只保证在 Windows 10 有用其他系统，诸如 Windows 7/Linux/macOS 请自行查找方案</p>
-</div>
-<h2 id="目前可用的-VS-Code-调试-C-C-配置">目前可用的 VS Code 调试 C/C++ 配置</h2>
-<blockquote>
-<p>2020-11-12 19:53 GMT +8
-基于网上现有的稍加修改</p>
-</blockquote>
-<div class="note info flat"><p>请替换 [debugger_path] 并且保证你的 gcc 是可用状态，或者使用其他的编译器/调试器</p>
-</div>
-<p><strong><code>launch.json</code></strong></p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="comment">// 使用 IntelliSense 了解相关属性。</span></span><br><span class="line">  <span class="comment">// 悬停以查看现有属性的描述。</span></span><br><span class="line">  <span class="comment">// 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387</span></span><br><span class="line">  <span class="attr">&quot;version&quot;</span>: <span class="string">&quot;2,0.0&quot;</span>, <span class="comment">//配置文件的版本，以前使用是0.2.0，新版本已经弃用，改用为2.0.0</span></span><br><span class="line">  <span class="attr">&quot;configurations&quot;</span>: [</span><br><span class="line">    <span class="comment">//配置域</span></span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;(gdb) Launch&quot;</span>, <span class="comment">//配置文件的名字，可以随便起</span></span><br><span class="line">      <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;cppdbg&quot;</span>, <span class="comment">//调试的类型，Vscode现在支持很多，我这里主要是C，所以只能是cppdbg</span></span><br><span class="line">      <span class="attr">&quot;request&quot;</span>: <span class="string">&quot;launch&quot;</span>, <span class="comment">//配置文件的请求类型，有launch和attach两种，具体看官方文档</span></span><br><span class="line">      <span class="attr">&quot;targetArchitecture&quot;</span>: <span class="string">&quot;x64&quot;</span>, <span class="comment">//硬件内核架构，为64bit，如图设置</span></span><br><span class="line">      <span class="attr">&quot;program&quot;</span>: <span class="string">&quot;$&#123;workspaceRoot&#125;/$&#123;fileBasenameNoExtension&#125;.exe&quot;</span>, <span class="comment">//可执行文件的路径和文件名称</span></span><br><span class="line">      <span class="comment">//&quot;args&quot;: [&quot;file1&quot;, &quot;file2&quot;], //主函数调用时传入的参数</span></span><br><span class="line">      <span class="attr">&quot;stopAtEntry&quot;</span>: <span class="literal">false</span>, <span class="comment">//设为true时程序将暂停在程序入口处</span></span><br><span class="line">      <span class="attr">&quot;cwd&quot;</span>: <span class="string">&quot;$&#123;workspaceFolder&#125;&quot;</span>, <span class="comment">//调试时的工作目录</span></span><br><span class="line">      <span class="attr">&quot;environment&quot;</span>: [], <span class="comment">//不知道干嘛的</span></span><br><span class="line">      <span class="attr">&quot;internalConsoleOptions&quot;</span>: <span class="string">&quot;openOnSessionStart&quot;</span>, <span class="comment">//</span></span><br><span class="line">      <span class="attr">&quot;externalConsole&quot;</span>: <span class="literal">true</span>, <span class="comment">//调试时是否显示控制台窗口</span></span><br><span class="line">      <span class="attr">&quot;MIMode&quot;</span>: <span class="string">&quot;gdb&quot;</span>, <span class="comment">//指定连接的调试器，可以省略不写</span></span><br><span class="line">      <span class="attr">&quot;miDebuggerPath&quot;</span>: <span class="string">&quot;[debugger_path]/gdb.exe&quot;</span>, <span class="comment">//调试器路径,在Linux环境下需要注释掉这一行</span></span><br><span class="line">      <span class="attr">&quot;preLaunchTask&quot;</span>: <span class="string">&quot;gcc&quot;</span>, <span class="comment">//调试会话开始前执行的任务，一般为编译程序。与tasks.json的label相对应</span></span><br><span class="line">      <span class="attr">&quot;setupCommands&quot;</span>: [</span><br><span class="line">        <span class="comment">//不知道干嘛的</span></span><br><span class="line">        &#123;</span><br><span class="line">          <span class="attr">&quot;description&quot;</span>: <span class="string">&quot;Enable pretty-printing for gdb&quot;</span>,</span><br><span class="line">          <span class="attr">&quot;text&quot;</span>: <span class="string">&quot;-enable-pretty-printing&quot;</span>,</span><br><span class="line">          <span class="attr">&quot;ignoreFailures&quot;</span>: <span class="literal">true</span></span><br><span class="line">        &#125;</span><br><span class="line">      ]</span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><strong><code>tasks.json</code></strong></p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;version&quot;</span>: <span class="string">&quot;2.0.0&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;tasks&quot;</span>: [</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">&quot;label&quot;</span>: <span class="string">&quot;gcc&quot;</span>, <span class="comment">// 任务名称，与launch.json的preLaunchTask相对应</span></span><br><span class="line">      <span class="attr">&quot;command&quot;</span>: <span class="string">&quot;gcc&quot;</span>, <span class="comment">// 要使用的编译器</span></span><br><span class="line">      <span class="attr">&quot;args&quot;</span>: [</span><br><span class="line">        <span class="string">&quot;$&#123;file&#125;&quot;</span>,</span><br><span class="line">        <span class="string">&quot;-o&quot;</span>, <span class="comment">// 指定输出文件名，不加该参数则默认输出a.exe，Linux下默认a.out</span></span><br><span class="line">        <span class="string">&quot;$&#123;fileDirname&#125;/$&#123;fileBasenameNoExtension&#125;.exe&quot;</span>,</span><br><span class="line">        <span class="string">&quot;-g&quot;</span>, <span class="comment">// 生成和调试有关的信息</span></span><br><span class="line">        <span class="string">&quot;-Wall&quot;</span>, <span class="comment">// 开启额外警告</span></span><br><span class="line">        <span class="string">&quot;-fexec-charset=GBK&quot;</span> <span class="comment">// 防止中文乱码，按需取用</span></span><br><span class="line">      ], <span class="comment">// 编译命令参数</span></span><br><span class="line">      <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;cppbuild&quot;</span>, <span class="comment">// 可以为shell或process，前者相当于先打开shell再输入命令，后者是直接运行命令</span></span><br><span class="line">      <span class="attr">&quot;options&quot;</span>: &#123;</span><br><span class="line">        <span class="attr">&quot;cwd&quot;</span>: <span class="string">&quot;[debugger_path]/bin&quot;</span></span><br><span class="line">      &#125;,</span><br><span class="line">      <span class="attr">&quot;problemMatcher&quot;</span>: [<span class="string">&quot;$gcc&quot;</span>],</span><br><span class="line">      <span class="attr">&quot;group&quot;</span>: <span class="string">&quot;build&quot;</span>,</span><br><span class="line">      <span class="attr">&quot;detail&quot;</span>: <span class="string">&quot;compiler: gcc&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="Win10-任务栏菜单小图标变黑了">Win10 任务栏菜单小图标变黑了</h2>
-<blockquote>
-<p>2020-9-10 16:55 GMT+8
-建议创建开机任务执行</p>
-</blockquote>
-<figure class="highlight ps"><table><tr><td class="code"><pre><span class="line">ie4uinit <span class="literal">-show</span></span><br></pre></td></tr></table></figure>
-<h2 id="通过-JDK-生成-JRE">通过 JDK 生成 JRE</h2>
-<blockquote>
-<p>2020-9-22 9:36 GMT+8</p>
-</blockquote>
-<div class="note warning flat"><p>需要管理员权限的 CMD 运行</p>
-</div>
-<figure class="highlight ps"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> %JAVA_HOME%</span><br><span class="line">bin\jlink.exe -<span class="literal">-module</span><span class="literal">-path</span> jmods -<span class="literal">-add</span><span class="literal">-modules</span> java.desktop -<span class="literal">-output</span> jre</span><br></pre></td></tr></table></figure>
-<h2 id="使用-hexo-reference-插件生成脚注编号重复">使用 hexo-reference 插件生成脚注编号重复</h2>
+<p>开往-友链助力是传统友链的增强，我们不必互相知道了解彼此，标准的审查让友好的朋友加入我们，只需要一个徽标，占用一块位置，我们所有人都联系在了一起，简单而又强大。大大小小的孤岛散落在浩瀚烟海，开往就像是一颗颗星球之间的快速列车，随机的跳向下一站。</p>
+<h2 id="怎么加入开往">怎么加入开往</h2>
+<a class="btn-beautify button--animated " href="https://github.com/volfclub/travellings" 
+  title="开往-友链接力"><i class="block center larger fa-fw"></i><span>开往-友链接力</span></a>
+<p>这是项目的 Github 地址，在 issue 中提交申请，几日内就会受理。但是申请的网站必须满足几点要求：</p>
 <ol>
-<li>
-<p>找到 <code>\&lt;blog_root_folder&gt;\node_modules\hexo-reference\src\footnotes.js</code></p>
-</li>
-<li>
-<p>删除或者注释这几行代码</p>
-</li>
+<li>愿为开放的网络做出贡献（如分享知识经验设计等）；</li>
+<li>没有违法以及影响体验的内容（如侵入式广告等）；</li>
+<li>正常更新维护中（国内无法正常访问会被移除）；</li>
+<li>强制启用 https 。</li>
 </ol>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// render footnotes (HTML)</span></span><br><span class="line">footnotes.forEach(<span class="function"><span class="keyword">function</span> (<span class="params">footNote</span>) </span>&#123;</span><br><span class="line">    html += <span class="string">&#x27;&lt;li id=&quot;fn:&#x27;</span> + footNote.index + <span class="string">&#x27;&quot;&gt;&#x27;</span>;</span><br><span class="line">  -&gt;<span class="comment">// html += &#x27;&lt;span style=&quot;display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px&quot;&gt;&#x27;;</span></span><br><span class="line">  -&gt;<span class="comment">// html += footNote.index;</span></span><br><span class="line">  -&gt;<span class="comment">// html += &#x27;.&lt;/span&gt;&#x27;;</span></span><br><span class="line">    html += <span class="string">&#x27;&lt;span style=&quot;display: inline-block; vertical-align: top; margin-left: 10px;&quot;&gt;&#x27;</span>;</span><br><span class="line">    html += md.renderInline(footNote.content.trim());</span><br><span class="line">    html += <span class="string">&#x27;&lt;a href=&quot;#fnref:&#x27;</span> + footNote.index + <span class="string">&#x27;&quot; rev=&quot;footnote&quot;&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&#x27;</span>;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; margin-left: 10px;">引用自 <a href="https://blog.butanediol.me/2020/10/13/Buta-Sticky-Notes/">Buta Sticky Notes - 丁丁の店</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-      <categories>
-        <category>技术记录</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>在 Coding 上部署完美校园打开</title>
-    <url>/posts/eb6032e9/</url>
-    <content><![CDATA[<div class="note info flat"><p>感谢 <a href="https://github.com/ReaJason">ReaJason</a> 大佬的 <a href="https://github.com/ReaJason/17wanxiaoCheckin-Actions">仓库</a></p>
-</div>
-<p>由于一些未知的原因，没法在 GitHub Action 上使用 <a href="https://github.com/ReaJason/17wanxiaoCheckin-Actions">https://github.com/ReaJason/17wanxiaoCheckin-Actions</a> 进行打卡了，本地部署还不如手动打，买服务器又太贵了，我就想能不能在 Coding 上来进行部署。</p>
-<p>首先你要有个 Coding 账号，然后登陆进去，选择 <code>项目</code>-&gt;<code>创建项目</code>，选择第一项
-<img src="../../media/article_img/wanxiao_checkin/%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE.jpeg" alt="创建项目">
-名称和标识随意填写，这里填写 test。创建之后点击 <code>代码仓库</code>，选择 <code>新建代码仓库</code>
-<img src="../../media/article_img/wanxiao_checkin/%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%93.jpeg" alt="新建仓库">
-选择 <code>导入外部仓库</code>，然后在 <code>Git 仓库 URL</code> 这一项填入 <code>https://github.com/ReaJason/17wanxiaoCheckin-Actions.git</code> 点击确认就可以导入了。
-<img src="../../media/article_img/wanxiao_checkin/%E5%AF%BC%E5%85%A5.jpeg" alt="导入">
-随后点击 <code>持续部署</code>-&gt;<code>构建节点</code>，选择 <code>创建构建计划</code>，然后拉到最下面选择 <code>自定义构建过程</code>
-<img src="../../media/article_img/wanxiao_checkin/%E5%88%9B%E5%BB%BA%E6%9E%84%E5%BB%BA.jpeg" alt="创建构建">
-<img src="../../media/article_img/wanxiao_checkin/%E8%87%AA%E5%AE%9A%E4%B9%89.jpeg" alt="自定义">
-这里不用做更改，直接确定就好了
-<img src="../../media/article_img/wanxiao_checkin/%E7%A1%AE%E5%AE%9A.jpeg" alt="确定">
-点击切换到文本编辑器
-<img src="../../media/article_img/wanxiao_checkin/%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8.jpeg" alt="文本编辑器">
-然后使用下面的内容替换进去</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">pipeline &#123;</span><br><span class="line">  agent &#123;</span><br><span class="line">    docker &#123;</span><br><span class="line">      reuseNode true</span><br><span class="line">      registryUrl &#x27;https://coding-public-docker.pkg.coding.net&#x27;</span><br><span class="line">      image &#x27;public/docker/python:3.7&#x27;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">  &#125;</span><br><span class="line">  stages &#123;</span><br><span class="line">    stage(&#x27;检出&#x27;) &#123;</span><br><span class="line">      steps &#123;</span><br><span class="line">        checkout([</span><br><span class="line">          $class: &#x27;GitSCM&#x27;,</span><br><span class="line">          branches: [[name: GIT_BUILD_REF]],</span><br><span class="line">          userRemoteConfigs: [[</span><br><span class="line">            url: GIT_REPO_URL,</span><br><span class="line">            credentialsId: CREDENTIALS_ID</span><br><span class="line">          ]]])</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">      stage(&#x27;构建&#x27;) &#123;</span><br><span class="line">        steps &#123;</span><br><span class="line">          archiveArtifacts(artifacts: &#x27;README.md&#x27;, fingerprint: true)</span><br><span class="line">          echo &#x27;部署环境&#x27;</span><br><span class="line">          sh &#x27;pip3 install requests pycryptodome&#x27;</span><br><span class="line">          sh &#x27;pip3 install pycryptodome&#x27;</span><br><span class="line">          echo &#x27;开始签到&#x27;</span><br><span class="line">          sh &#x27;&#x27;&#x27;python3.7 17wanxiao.py &lt;&lt;EOF</span><br><span class="line"><span class="meta">$</span><span class="bash">&#123;USERNAME&#125;</span></span><br><span class="line"><span class="meta">$</span><span class="bash">&#123;PASSWORD&#125;</span></span><br><span class="line"><span class="meta">$</span><span class="bash">&#123;SCKEY&#125;</span></span><br><span class="line">EOF&#x27;&#x27;&#x27;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
-<p>点击上面的保存后选择触发规则，点击定时触发这里添加一个规则
-<img src="../../media/article_img/wanxiao_checkin/%E5%AE%9A%E6%97%B6%E8%A7%A6%E5%8F%91.jpeg" alt="定时触发">
-<img src="../../media/article_img/wanxiao_checkin/%E5%BB%BA%E8%AE%AE%E8%A7%84%E5%88%99.jpeg" alt="建议规则"></p>
-<p>然后点击 <code>变量与缓存</code>，新建三个环境变量
-<img src="../../media/article_img/wanxiao_checkin/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F.jpeg" alt="环境变量"></p>
-<p><code>SCKEY</code>——Server 酱的 SCKEY
-<code>USERNAME</code>——完美校园的登录账号
-<code>PASSWORD</code>——完美校园的登录面</p>
-<p>如果要多人打卡请参考 <a href="https://github.com/ReaJason/17wanxiaoCheckin-Actions">原文档</a></p>
-<p>最后返回选择立即构建就可以测试了，成功的话微信会有推送</p>
-<p><img src="../../media/article_img/wanxiao_checkin/%E6%B5%8B%E8%AF%95.jpeg" alt="测试"></p>
+<p>满足以上要求，并将徽标插入您网页<strong>明显的地方</strong>（让友链传递下去）。</p>
+<p><strong>下面就是通向异域的按钮。</strong></p>
+<p><a href="https://travellings.now.sh/" target="blank"><img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a></p>
 ]]></content>
       <categories>
-        <category>技术记录</category>
+        <category>正经文字</category>
       </categories>
       <tags>
-        <tag>完美校园</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解决 VS Code 编译 C/C++ 是输出中文乱码的问题</title>
-    <url>/posts/ea8a69ac/</url>
-    <content><![CDATA[<p>在 Windows 下使用 VSCode 编译运行 C/C++，都出现中文乱码的问题，这是由于 Windows 控制台使用的还是 GBK 编码。我在网上搜了一下发现需要更换编译器解决，这里贴一下 <a href="http://blog.00oo00.xyz/">梧矜</a> 的 <a href="https://blog.00oo00.xyz/2020/03/12/ru-he-jie-jue-vscode-bian-yi-yun-xing-c-cheng-xu-shi-shu-chu-zhong-wen-luan-ma/">解决 vscode 编译运行 C 程序时乱码</a>。</p>
-<p>不是这种方式不好，这种确实从根本解决了问题，但是我是实在懒，所以想了一些外门邪道。然后百度到了可以使用 <code>chcp 65001</code> 命令把控制台的编码切换到 UTF-8，当然你可以参考这篇 <a href="https://jingyan.baidu.com/article/f7ff0bfcee2dc22e26bb13d5.html">百度知道</a> 或者这篇 <a href="https://www.cnblogs.com/jpfss/p/11016870.html">博文</a> 把编码永久更改，但是我怕会出奇怪的问题，所以在 VS Code 的配置文件找了找，没想到还真有这种骚操作。</p>
-<div class="note info flat"><p>2020-12-14 更新新方法</p>
-</div>
-<p>其实只要给 code runner 插件、手动编译时、VS Code 调试时上 <code>-fexec-charset=GBK</code> 就好了，之前那种方法简直是绕弯路，交作业的时候只需要把编码改成 GBK 就好了。唯一的缺点就是不能编译 GBK 文件，不过这不是问题。</p>
-<h2 id="偷懒的方式">偷懒的方式</h2>
-<p>在 VS Code 中通过打开 <code>文件</code>-&gt; <code>首选项</code>-&gt; <code>设置</code>，然后编辑 VS Code 的 <code>setting.json</code> ，然后添加如下代码</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;terminal.integrated.shellArgs.windows&quot;</span>: [</span><br><span class="line">        <span class="string">&quot;-NoExit&quot;</span>,</span><br><span class="line">        <span class="string">&quot;/c&quot;</span>,</span><br><span class="line">        <span class="string">&quot;chcp 65001&quot;</span>,</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>然后保存即可，现在编译就不会出现中文乱码的问题了，这里贴一下图</p>
-<p><img src="../../media/article_img/vscode_cpp_chinese_garbled_code/%E4%BF%AE%E6%94%B9%E5%89%8D.png" alt="修改前"></p>
-<p><img src="../../media/article_img/vscode_cpp_chinese_garbled_code/%E4%BF%AE%E6%94%B9%E5%90%8E.png" alt="修改后"></p>
-<h3 id="缺点">缺点</h3>
-<p>当然缺点也是有的，就是每次编译的时候会在顶部显示一个 <code>Active code page: 65001</code>，不过我觉得无伤大雅，毕竟没换编译器就可以实现差不多的效果还想怎么样。<s>主要还是懒</s></p>
-<h2 id="简便的方式">简便的方式</h2>
-<p><s>其实也可以通过这个按钮解决，不过这个是改变文件的编码，如果把这个文件放到其他设备上可能会有问题</s></p>
-<p><img src="../../media/article_img/vscode_cpp_chinese_garbled_code/%E6%8C%89%E9%92%AE.png" alt="按钮"></p>
-<h2 id="工作区">工作区</h2>
-<p>如果你只需要在这个工作区生效的话只需要这个目录下的 <code>.vscode</code> 文件夹里的 <code>setting.json</code> 添加这个配置就好了，这样只会对这个工作区生效。</p>
-<h2 id="更多">更多</h2>
-<p>有关 <code>chcp</code> 的更多描述</p>
-<blockquote>
-<p>65001 UTF-8 代码页
-950 繁体中文
-936 简体中文默认的 GBK
-437 MS-DOS 美国英语</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>技术记录</category>
-      </categories>
-      <tags>
-        <tag>VS Code</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记一次 WordPress 搭建与宝塔面板配置</title>
-    <url>/posts/75f0fab2/</url>
-    <content><![CDATA[<p>WordPress 可能是比较好用的博客系统了，当然改一下做个非博客应该也可以。当然是需要服务器的，想我这种用 Hexo 配合 GitHub Page 当然是用不起的了，不过前段时间帮朋友搞了一下，就在这里记录一下过程了</p>
-<h2 id="准备">准备</h2>
-<h3 id="选择服务器">选择服务器</h3>
-<p>首先服务器用的是阿里云的轻量应用服务器，因为比较便宜，<a href="https://common-buy.aliyun.com/?commodityCode=swas&amp;regionId=cn-hongkong&amp;userCode=3xwlzuab#/buy">点击这里</a>可以查看价格和配置。当然这里就不测试了，因为价格在这里摆着，还要什么自行车。</p>
-<h3 id="下载-WordPress-文件">下载 WordPress 文件</h3>
-<p>访问<a href="https://cn.wordpress.org/download/">https://cn.wordpress.org/download/</a>
-然后点击
-<img src="../../media/article_img/wordpress_baota_config/1.png" alt="enter description here">
-下载到你能方便找到的地方就好了</p>
-<h2 id="系统和面板">系统和面板</h2>
-<p>然后我选择的是 CentOS 然后装的宝塔面板，<a href="https://bt.cn/">点击查看</a>宝塔的面板，免费版也够用</p>
-<h2 id="SSH到服务器">SSH到服务器</h2>
-<h3 id="开启端口">开启端口</h3>
-<p>看这个页面即可<a href="https://www.bt.cn/bbs/thread-19376-1-1.html">https://www.bt.cn/bbs/thread-19376-1-1.html</a></p>
-<p>推荐打开所有端口，因为宝塔面板也有防火墙</p>
-<h3 id="SSH-配置">SSH 配置</h3>
-<p>首先要到轻量应用服务器的<a href="https://swas.console.aliyun.com">控制面板</a>然后点击你的服务器
-<img src="../../media/article_img/wordpress_baota_config/2.png" alt="enter description here"></p>
-<p>点进去后再转到远程连接
-<img src="../../media/article_img/wordpress_baota_config/3.png" alt="enter description here"></p>
-<p>选择这里任何一种都可以，没有任何影响
-<img src="../../media/article_img/wordpress_baota_config/4.png" alt="enter description here"></p>
-<p>那么我这里是用的第三种，也就是用账号密码来连接。</p>
-<h3 id="SSH-客户端">SSH 客户端</h3>
-<p>因为用账号密码的话，是要用本地客户端连接的，那么这里推荐使用[FinalShell(<a href="http://www.hostbuf.com/t/988.html">http://www.hostbuf.com/t/988.html</a>)来连接，国人制作，有免费版本，中文界面，支持 Windows,macOS,Linux
-点金网址后选择你系统对应的链接就可以下载了
-<img src="../../media/article_img/wordpress_baota_config/5.png" alt="enter description here"></p>
-<p>下载安装后打开就可以看到界面了</p>
-<p>然后点击这个按钮
-<img src="../../media/article_img/wordpress_baota_config/6.png" alt="enter description here"></p>
-<p>然后点击
-<img src="../../media/article_img/wordpress_baota_config/7.png" alt="enter description here"></p>
-<p>就可以添加一个连接了</p>
-<p>在这里输入服务器的名字，ip，用户名，密码，然后保存再双击刚才添加的就可以连接了
-<img src="../../media/article_img/wordpress_baota_config/8.png" alt="enter description here"></p>
-<h2 id="安装面板">安装面板</h2>
-<p>安装很简单，一行命令就搞定了</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; sh install.sh</span><br></pre></td></tr></table></figure>
-<p>如果是 Ubuntu 用这个命令</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh &amp;&amp; sudo bash install.sh</span><br></pre></td></tr></table></figure>
-<p>Debian 系统的用这个</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure>
-<p>Fedora 系统用这个</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure>
-<p>怎么样，是不是很简单，后面都是自动化的安装了。当然我只使用过 CentOS，所以下面的还用 CentOS举例</p>
-<p>安装完毕后会有一段提示，里面有访问面板的地址和默认的用户名还有密码，当然随后都可以改</p>
-<h2 id="登录面板">登录面板</h2>
-<p>进入面板登录后会选择安装一些东西，这里推荐使用编译安装，虽然费时间但是很稳定。</p>
-<p>现在，喝杯咖啡看看书，或者小睡一会儿，这个过程可能需要3-4个小时</p>
-<h2 id="解析域名">解析域名</h2>
-<p>现在，你的面板应该已经部署好了，那下一步就是解析域名了，这里假设你已经完成了域名的更改，我使用的是腾讯云提供的解析服务演示，当然阿里云或者其他服务商也会有。
-访问<a href="https://console.cloud.tencent.com/cns">https://console.cloud.tencent.com/cns</a>登录腾讯云配置解析</p>
-<h3 id="绑定域名">绑定域名</h3>
-<p>点击<strong>添加域名</strong>然后输入你的域名，比如输入 <a href="http://ljbaidu.com">ljbaidu.com</a> <s>当然这个要填你的域名，我只是吐槽一下百度</s>然后点击确定就可以了</p>
-<h3 id="配置DNS">配置DNS</h3>
-<p>添加域名后如果<strong>解析状态</strong>提示异常的话就可能是 DNS 的问题，需要去注册商哪里讲 DNS 修改为</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line">f1g1ns1.dnspod.net</span><br><span class="line">f1g1ns2.dnspod.net</span><br></pre></td></tr></table></figure>
-<p>然后等待最多72小时就可以了</p>
-<h3 id="添加解析">添加解析</h3>
-<p>看到这里说明你的 DNS 已经没问题了，现在点击操作栏的<strong>解析</strong>，进去之后点击上面的添加记录。<strong>主机记录</strong>选择 <code>@</code> 这一项就可以了，<strong>记录类型</strong>选择 <code>A</code> ，<strong>记录值</strong>填入你的服务器 <code>IP</code></p>
-<p>最后点击保存，稍作等待，这个过程需要十分钟才能生效<s>当然如果你是氪金用户当我没说</s></p>
-<h2 id="正式开始部署-WordPress">正式开始部署 WordPress</h2>
-<h3 id="添加站点">添加站点</h3>
-<p>现在登录你的宝塔面板，在侧边栏找到<strong>网站</strong>，点击后选择<strong>添加站点</strong></p>
-<p>然后这样填
-<img src="../../media/article_img/wordpress_baota_config/9.png" alt="enter description here"></p>
-<p><s>再次声明，ljbaidu.com只是调侃，请填写自己的域名</s></p>
-<p>然后点击<strong>提交</strong></p>
-<h3 id="添加数据库">添加数据库</h3>
-<p>然后选择侧边栏的<strong>数据库</strong>，然后选择<strong>添加数据库</strong>
-填写数据库名称，用户名和密码，选择访问权限然后选择提交，如图(注意看箭头所指的选项)
-<img src="../../media/article_img/wordpress_baota_config/10.png" alt="enter description here"></p>
-<h3 id="修改-WordPress-配置">修改 WordPress 配置</h3>
-<p>解压刚开始下载的 wordpress-5.2.2.zip ，然后解压到一个文件夹中。
-找到 wp-config-sample.php 并重命名为 wp-config.php ，然后使用文本编辑器或其他打开 wp-config.php。
-找到</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">// ** MySQL settings - You can get this info from your web host ** //</span></span><br><span class="line"><span class="comment">/** The name of the database for WordPress */</span></span><br><span class="line">define( <span class="string">&#x27;DB_NAME&#x27;</span>, <span class="string">&#x27;database_name_here&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL database username */</span></span><br><span class="line">define( <span class="string">&#x27;DB_USER&#x27;</span>, <span class="string">&#x27;username_here&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL database password */</span></span><br><span class="line">define( <span class="string">&#x27;DB_PASSWORD&#x27;</span>, <span class="string">&#x27;password_here&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL hostname */</span></span><br><span class="line">define( <span class="string">&#x27;DB_HOST&#x27;</span>, <span class="string">&#x27;localhost&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** Database Charset to use in creating database tables. */</span></span><br><span class="line">define( <span class="string">&#x27;DB_CHARSET&#x27;</span>, <span class="string">&#x27;utf8&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** The Database Collate type. Don&#x27;t change this if in doubt. */</span></span><br><span class="line">define( <span class="string">&#x27;DB_COLLATE&#x27;</span>, <span class="string">&#x27;&#x27;</span> );</span><br></pre></td></tr></table></figure>
-<p>修改为</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">// ** MySQL settings - You can get this info from your web host ** //</span></span><br><span class="line"><span class="comment">/** The name of the database for WordPress */</span></span><br><span class="line">define( <span class="string">&#x27;DB_NAME&#x27;</span>, <span class="string">&#x27;wordpress&#x27;</span> );<span class="comment">//这里填入刚才创建数据库时数据库名称</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL database username */</span></span><br><span class="line">define( <span class="string">&#x27;DB_USER&#x27;</span>, <span class="string">&#x27;wordpress&#x27;</span> );<span class="comment">//这里填入刚才创建数据库时的用户名</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL database password */</span></span><br><span class="line">define( <span class="string">&#x27;DB_PASSWORD&#x27;</span>, <span class="string">&#x27;password&#x27;</span> );<span class="comment">//这里填入刚才创建数据库时的密码</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/** MySQL hostname */</span></span><br><span class="line">define( <span class="string">&#x27;DB_HOST&#x27;</span>, <span class="string">&#x27;localhost&#x27;</span> );<span class="comment">//这个和下面三个不做修改</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/** Database Charset to use in creating database tables. */</span></span><br><span class="line">define( <span class="string">&#x27;DB_CHARSET&#x27;</span>, <span class="string">&#x27;utf8&#x27;</span> );</span><br><span class="line"></span><br><span class="line"><span class="comment">/** The Database Collate type. Don&#x27;t change this if in doubt. */</span></span><br><span class="line">define( <span class="string">&#x27;DB_COLLATE&#x27;</span>, <span class="string">&#x27;&#x27;</span> );</span><br></pre></td></tr></table></figure>
-<p>保存文件并退出</p>
-<p>返回上一目录，压缩这个文件夹
-<img src="../../media/article_img/wordpress_baota_config/11.png" alt="enter description here"></p>
-<h3 id="上传-WordPress">上传 WordPress</h3>
-<p>打开宝塔面板，选择网站</p>
-<p>点击根目录那一栏下面的文字，也就是
-<img src="../../media/article_img/wordpress_baota_config/12.png" alt="enter description here"></p>
-<p>然后选择<strong>上传</strong>，再点击<strong>选择文件</strong>，然后找到刚才打包的文件
-<img src="../../media/article_img/wordpress_baota_config/13.png" alt="enter description here"></p>
-<p>点击<strong>开始上传</strong>，等待即可</p>
-<h3 id="解压">解压</h3>
-<p>点击这个选项，然后直接确定即可解压
-<img src="../../media/article_img/wordpress_baota_config/14.png" alt="enter description here"></p>
-<p>现在访问 你的域名/wp-admin/install.php 就可以开始安装了，比如 <a href="http://ljbaidu.com/wp-admin/install.php">http://ljbaidu.com/wp-admin/install.php</a> <s>再次，我没有这个域名，所以下来用我的域名做演示</s></p>
-<p>访问之后可以看到这个界面
-<img src="../../media/article_img/wordpress_baota_config/15.png" alt="enter description here"></p>
-<p>根据图上的注释填写，然后点击就可以安装了</p>
-<p>在这里点击Log In
-<img src="../../media/article_img/wordpress_baota_config/16.png" alt="enter description here"></p>
-<p>在下一个页面登录即可</p>
-<h2 id="结束">结束</h2>
-<p>至此，所有安装过程已经完成，现在就可以开始使用了</p>
-<p>如果在安装过程中有什么问题可以通过博客主页的联系方式联系我，或者在下面留下你的评论</p>
-]]></content>
-      <categories>
-        <category>技术记录</category>
-      </categories>
-      <tags>
-        <tag>网站搭建</tag>
-        <tag>WordPress</tag>
-        <tag>宝塔面板</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在 Linux 服务器上使用 酷Q</title>
-    <url>/posts/2bdd4eaf/</url>
-    <content><![CDATA[<p>众所周知 酷Q 是 Windows 平台下的， Linux 下要使用还是有难度的，好在官方做出了了 docker 镜像，这样就可以在 docker 直接运行了</p>
-<h2 id="准备">准备</h2>
-<ul>
-<li>一台 Linux 服务器 (这里用来演示的系统是 CentOS 7.6 当然其他系统也ok)</li>
-<li>docker</li>
-<li>酷Q 容器</li>
-</ul>
-<h2 id="安装及运行-docker">安装及运行 docker</h2>
-<p>在 CentOS 下直接使用 yum 安装即可</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo yum install docker</span><br></pre></td></tr></table></figure>
-<p>安装之后如果提示</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Cannot connect to the Docker daemon. Is the docker daemon running on this host?</span><br></pre></td></tr></table></figure>
-<p>这是因为 docker 还没有在运行</p>
-<p>sudo 运行一下 docker 就正常了</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo systemctl start docker</span><br></pre></td></tr></table></figure>
-<h3 id="3-下载-酷Q-镜像，后台运行容器">3. 下载 酷Q 镜像，后台运行容器</h3>
-<p>使用下面的命令获取镜像</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo docker pull coolq/wine-coolq</span><br></pre></td></tr></table></figure>
-<p>这个速度取决于你的服务器带宽</p>
-<p>创建一个用于存放（映射）coolq 数据的目录（可以理解为数据卷？），用于持久化存放 coolq（酷Q应用）的数据</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo mkdir /coolq-data</span><br></pre></td></tr></table></figure>
-<p>这一步很重要，因为数据是最重要的，而且后面你的酷Q应用都要上传到此目录才能应用上的</p>
-<p>后台运行 coolq 容器</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo docker run --name=coolq -d -p 8080:9000 -v /coolq-data:/home/user/coolq -e VNC_PASSWD=12345678 -e COOLQ_ACCOUNT=1000000000 coolq/wine-coolq</span><br></pre></td></tr></table></figure>
-<p>其中部分参数根据自己的需求替换：</p>
-<p>远程监听端口
-<code>8080(9000映射成8080)</code>
-数据存放位置
-<code>/coolq-data（/home/user/coolq 映射到/coolq-data）</code>
-远程访问密码
-<code>12345678（只能设8位）</code>
-机器人 QQ 帐号
-<code>1000000000</code></p>
-<p>实际上我当然运行的参数不是上面那些示例参数，根据自己的服务器实际来</p>
-<p>这里要注意的是，首先你远程监听的端口，也就是自定义的web端口需要在服务器防火墙和云安全组都放行</p>
-<p>其次，-d 指的是后台运行容器，-v后面接的就是将服务器的自己定义的酷Q数据目录映射到容器内的/home/user/coolq目录，-e是设置容器的系统环境</p>
-<p>因为我们后面要通过vnc连接，所以要指定VNC_PASSWD</p>
-<p>而酷Q要登录的qq小号（充当机器人）也可以通过-e COOLQ_ACCOUNT 去指定</p>
-<h3 id="4-通过浏览器登录-vnc-进行使用">4. 通过浏览器登录 vnc 进行使用</h3>
-<p>现在用浏览器打开 <a href="http://xn--ip-0p3cm89l:8080">http://你的ip:8080</a> 就可以看到 vnc 界面了，点击<code>链接</code>然后输入密码就可以看到桌面了，里面已经运行了 coolq air</p>
-<p>可以看到使用 docker 还是很方便的，之前只用 wine 总是出现字体丢失的问题</p>
-]]></content>
-      <categories>
-        <category>技术记录</category>
-      </categories>
-      <tags>
-        <tag>酷Q</tag>
-        <tag>linux</tag>
+        <tag>开往</tag>
       </tags>
   </entry>
   <entry>
@@ -708,66 +768,6 @@
         <tag>星之卡比 Wii</tag>
         <tag>Wii 模拟器</tag>
         <tag>Dolphin Emulator</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在 Windows 系统上给 ssh 设置代理</title>
-    <url>/posts/4d70a82d/</url>
-    <content><![CDATA[<div class="note info flat"><p>看清，使用的系统是 Windows 不是 Linux 或者 MacOS</p>
-</div>
-<p>百度搜到的很多给 git 设置代理的办法，都是给 http 设置代理，而不是给 SSH 设置代理。那个 <code>git config --global http.proxy http://127.0.0.1:1080</code> 设置起来，只针对 http 的 git 有效果。
-然后就是 <code>ProxyCommand nc -v -x 127.0.0.1:1080 %h %p</code>，那个分明是给 Linux 才能用的， Windows 上哪里来的 nc 程序？</p>
-<p>以下操作是给 Windows 用的，我的操作：</p>
-<p>在自己的用户文件夹找到 .ssh 文件夹，比如我的是 <code>C:\Users\nihao\.ssh</code> ，在里面新建一个空白文件，取名 config，如果已经有了就不用创建了。</p>
-<p>注意不是 config.txt ！</p>
-<p>我强烈建议把 Windows 的后缀显示给打开，不然你根本不知道自己到底在编辑什么文件。</p>
-<p>都用 Git 了不至于还害怕自己把文件后缀名给改错了吧？</p>
-<p>在 config 文件里写上一行就行：</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ProxyCommand <span class="string">&quot;C:\Program Files\Git\mingw64\bin\connect.exe&quot;</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %<span class="built_in">h</span> %p</span><br></pre></td></tr></table></figure>
-<p>这里 git 的安装路径和后面的代理自己看着填，不要试着用相对路径，保证要吃亏。因为 <code>Program Files</code> 文件夹中间带一个空格，所以这里需要把整个路径给引号引起来。 后面的代理的话，<code>-S</code> 指是 socks 代理，默认是 socks5，<code>127.0.0.1:1080</code> 就是你本地的代理地址，后面的 <code>%h %p</code> 意思是 Host 和 Port，必须得写上，我也不知道为什么要这么设计。 如果要使用 HTTP 代理，就写 <code>-H</code>，更多代理类型（比如 socks4）请参 <a href="https://bitbucket.org/gotoh/connect/wiki/Home#!more-detail">这个</a>。</p>
-<p>上这个写法是针对全局的，如果想只针对某个网站的话，就这么写：</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">  ProxyCommand <span class="string">&quot;C:\Program Files\Git\mingw64\bin\connect.exe&quot;</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %<span class="built_in">h</span> %p</span><br></pre></td></tr></table></figure>
-<p>现在就可以愉快的使用代理了，不过要记住一定使用 ssh 协议。</p>
-]]></content>
-      <categories>
-        <category>技术记录</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>ssh</tag>
-        <tag>代理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开往 - Travellings</title>
-    <url>/posts/58ae8d54/</url>
-    <content><![CDATA[<h2 id="什么是开往">什么是开往</h2>
-<p>这是一个来自于国外的想法，在网站显眼的位置，加入一个认证的徽标，代表网站已经加入了友链助力，如果访客点击徽标，将随机前往另一个计划内的网站。</p>
-<h2 id="为什么要开往">为什么要开往</h2>
-<p>互联网将人与人之间的距离大大减小，却还是形成了大大小小的孤岛。只有熟人间才知道彼此，而陌生人永远只能是陌生人。</p>
-<blockquote>
-<p>“开往”取自“开放的网络”。 将一群志同道合的人连接在一起，我们共享彼此的流量，帮助陌生人发现新大陆。</p>
-</blockquote>
-<p>开往-友链助力是传统友链的增强，我们不必互相知道了解彼此，标准的审查让友好的朋友加入我们，只需要一个徽标，占用一块位置，我们所有人都联系在了一起，简单而又强大。大大小小的孤岛散落在浩瀚烟海，开往就像是一颗颗星球之间的快速列车，随机的跳向下一站。</p>
-<h2 id="怎么加入开往">怎么加入开往</h2>
-<a class="btn-beautify button--animated " href="https://github.com/volfclub/travellings" 
-  title="开往-友链接力"><i class="block center larger fa-fw"></i><span>开往-友链接力</span></a>
-<p>这是项目的 Github 地址，在 issue 中提交申请，几日内就会受理。但是申请的网站必须满足几点要求：</p>
-<ol>
-<li>愿为开放的网络做出贡献（如分享知识经验设计等）；</li>
-<li>没有违法以及影响体验的内容（如侵入式广告等）；</li>
-<li>正常更新维护中（国内无法正常访问会被移除）；</li>
-<li>强制启用 https 。</li>
-</ol>
-<p>满足以上要求，并将徽标插入您网页<strong>明显的地方</strong>（让友链传递下去）。</p>
-<p><strong>下面就是通向异域的按钮。</strong></p>
-<p><a href="https://travellings.now.sh/" target="blank"><img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a></p>
-]]></content>
-      <categories>
-        <category>正经文字</category>
-      </categories>
-      <tags>
-        <tag>开往</tag>
       </tags>
   </entry>
   <entry>
@@ -846,179 +846,6 @@
       </tags>
   </entry>
   <entry>
-    <title>我为什么要搭建博客</title>
-    <url>/posts/a6366ad5/</url>
-    <content><![CDATA[<blockquote>
-<p>即使最后没有人为你鼓掌，也要优雅地谢幕，感谢自己的认真付出。</p>
-</blockquote>
-<p>我觉得自建博客＋个人域名是树立个人品牌的一个重要步骤，试想别人通过搜索到你的个人网站并联系你的时候，说明个人品牌已经初步建立了。</p>
-<p>但如果仅仅把它形容为「进入现在行业的敲门砖与踏脚石」，这个说法也是不够算是完整的。社交网站、写作平台都是别人的，你拥有的是写的权利跟一个 Profile 页面，写出来的文档都不属于你，而是平台的，这太讽刺了。你获得多少关注不一定直接跟你的写作内容有关，吸引的读者更多是跟平台有关而不是个人有关。</p>
-<p>每次打开博客会有种莫名有种归属感。城市太闹，微博太糟，幸好还有一个没人知晓的博客，在不愿让人知道的那天，任由自己的情绪倾倒。我想这就是博客存在的意义吧。</p>
-<p>博客是你的，哪怕它再破落，访问量再低，狗不嫌家穷。只要你不放弃，到你八十三岁的时候，他仍然会在那里。从这个角度，它承载了记录的功能，它是你人生经历在时间上的痕迹，你可能说 印象笔记 也可以，但凭心而论「我宁愿相信 Hexo 活得会比前者（印象笔记）更久」，因为一切重平台的产品都会因为各种复杂的原因消失殆尽。即便 Hexo 停止更新，我也仍然可以搭一个环境让它跑起来，文章都在你身边存放着，它只是一个开源程序，让大家有写作的乐趣。</p>
-<p>除了记录，独立博客就是「你」，你选择什么域名，使用什么主题，多大的字号，全文输出还是截断输出，使用哪家 Feed 托管，你也许会在 Feed 尾部用插件加上一朵小菊花，你甚至可以推荐一款你喜欢的同性恋应用给大家而不用担心被删除。</p>
-<p>这就是我想要表达的，「这一切都是因为你，同时也呈现你」，它是一个专属于你自己的写作、记录、呈现的地方。它叫博客，但又不只是博客，以前在其他平台写博客是为了很多东西，现在自己搭建写博客只是为了一种生活习惯，少论道，多说常识跟生活。</p>
-<p>这大概就是我对于个人搭建博客的看法了，也是为什么我要去搭建博客。</p>
-]]></content>
-      <categories>
-        <category>正经文字</category>
-      </categories>
-      <tags>
-        <tag>为什么</tag>
-        <tag>看法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>偶然间在B站看到的鬼畜</title>
-    <url>/posts/d46d4e39/</url>
-    <content><![CDATA[<p>刚才逛 B 站的时候在首页偶然看到这个，播放量还挺高的，就点进去看看了。神级填词，现在的老哥们简直神了，真的容易引起共鸣，然后又想起了以前的一些事，诶。</p>
-<a id="more"></a>
-<p>不多说啥了，做好现在的自己，不偏离本心！</p>
-<p>视频地址：<a href="https://www.bilibili.com/video/av60731116/">https://www.bilibili.com/video/av60731116/</a></p>
-<iframe src="//player.bilibili.com/player.html?aid=60731116&cid=106015992&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"> </iframe>
-<blockquote>
-<p><strong>贴一个里面的评论</strong>
-曾经看到大学宿舍里的沙雕图片，一个光膀大汉法相庄严，后面的人伸出手摆成千手佛陀，下面有句热评：</p>
-<p>“珍惜现在的时光吧，能陪你一起沙雕的朋友已经越来越少了。”</p>
-<p>欢乐是如何消失的呢，海绵宝宝？</p>
-<p>当你变成正常人、长大的时候，它就和你告了别。</p>
-<p>我喜欢什么都不做，喜欢追求最天真的快乐。
-闭眼数数和我一般如星星闪耀的天才，可是只有我一个派大星。
-知道我找到了另一颗星星，你，海绵宝宝。愿意和我一起享受快乐。
-我不知道为什么他们说我是废物。
-我不知道为什么太阳西边是落处。
-我不知道为什么章鱼哥追求艺术。
-我不知道为什么蟹老板攒钱如土。
-即便抽不中想要的角色，我们却有辆小汽车。
-即便驾照总是触不可及，我们也能玩摇摇乐。
-即便去抓水母邻居遭殃，我们还在享受快乐。
-当人们追求自己喜欢的东西的时候，为什么你渐行渐远了呢。
-即便你有喜爱的工作、支持你的朋友、爱你的家人、听话的小窝和大把的青春值得去奋斗，我却发现你不再快乐，生病了。
-你说想要变回常人。
-你说羡慕章鱼哥受人景仰。
-你说羡慕蟹老板家财万贯。
-你说抓水母让章鱼哥愤怒。
-你说想要的角色难以抽到。
-你说不考驾照快乐受了限。
-我最好的朋友，你这样我也很难受。
-当我看到那电章鱼哥的水母，我一定要抓到。
-当我再去商场终于抽到角色，你一直想要的。
-当我考来驾照坐上那小汽车，想和你去冒险。
-于是我带着这些再次找到你。
-直到见到你漂亮的房子。
-见到你成团的宾客。
-见到你光鲜的衣服。
-见到你贵气的打扮。
-听到你说我嫉妒新生活的话语。
-感受到被丢出去的失落。</p>
-<p>欢乐是如何消失的呢，海绵宝宝？</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>碎碎念</category>
-      </categories>
-      <tags>
-        <tag>视频</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一些 WordPress 主题</title>
-    <url>/posts/dc790cfc/</url>
-    <content><![CDATA[<p>一些 WordPress 主题，好像都是来自吾爱破解，在这里记录一下</p>
-<h2 id="betheme">betheme</h2>
-<p><a href="https://www.52pojie.cn/thread-590043-1-1.html">https://www.52pojie.cn/thread-590043-1-1.html</a></p>
-<h2 id="Begin知更鸟">Begin知更鸟</h2>
-<p><a href="https://www.52pojie.cn/thread-664527-1-1.html">https://www.52pojie.cn/thread-664527-1-1.html</a></p>
-<h2 id="DUX">DUX</h2>
-<p><a href="https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=832427">https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=832427</a></p>
-<h2 id="XIU">XIU</h2>
-<p><a href="https://www.52pojie.cn/thread-705661-1-1.html">https://www.52pojie.cn/thread-705661-1-1.html</a></p>
-]]></content>
-      <categories>
-        <category>资源</category>
-      </categories>
-      <tags>
-        <tag>WordPress</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows 软件推荐</title>
-    <url>/posts/cd1c3d2a/</url>
-    <content><![CDATA[<p>这些软件都是我自己用过的，可以通过左边页面快速定位</p>
-<h2 id="Visual-Studio-Code">Visual Studio Code</h2>
-<p>这个简直首推，编辑利器，人生苦短，我用 VS Code 完成关于文本编辑工作的一切。它天生支持几乎所有编程语言，还可以通过扩展个性化相应的语法高亮等。
-如果你想忙里偷闲，VS Code 强大的扩展能力还能让你用它刷 LeetCode 或 V2EX，可谓带薪划水必备。
-<img src="../../media/article_img/windows_app_recommend/1.png" alt="enter description here">
-你可以在<a href="https://code.visualstudio.com/">官网</a>免费获取 Visual Studio Code。</p>
-<h2 id="福昕-PDF-阅读器">福昕 PDF 阅读器</h2>
-<p>国产，中文界面，流畅好用，界面美观
-<a href="https://www.foxitsoftware.cn/">点这里</a></p>
-<h2 id="福昕-PDF-编辑器">福昕 PDF 编辑器</h2>
-<p>福昕（Foxit）可能是我国最受欢迎的 PDF 阅读器，由其出品的 <a href="https://www.foxitsoftware.cn/pdf-editor/">PDF 编辑器</a> 也是 Adobe Acrobat 的有力竞争对手。它提供了各种 PDF 批注工具；支持编辑 PDF 中的文本、段落、图片；设计并填写表单；OCR 识别图片中的文字；管理 PDF 页面；转换为其它文件格式等，界面也比较友好。</p>
-<h2 id="火绒安全软件">火绒安全软件</h2>
-<p>如果你觉得 Windows Defender 还是有些简陋，火绒安全软件是个不错的选择。它提供了病毒联网查杀、垃圾清理、下载保护、浏览器保护等国产卫士标配功能，但不会拖家带口向你问好，还你一片清净。
-<img src="../../media/article_img/windows_app_recommend/2.png" alt="enter description here">
-除了系统防护外，火绒安全软件还提供了数种实用工具，如弹窗拦截、右键菜单管理、启动项管理、文件粉碎机等。如果你是进阶用户，还可以试试火绒剑这一强大的专业安全分析工具。
-<img src="../../media/article_img/windows_app_recommend/3.png" alt="enter description here">
-你可以在 <a href="https://www.huorong.cn/">官网</a> 免费获取火绒安全软件。</p>
-<h2 id="Quicklook，仿-MAC-快速预览">Quicklook，仿 MAC 快速预览</h2>
-<p>MAC 的快速预览很多人都见过，回望 Win10 的「预览」，依旧被抠抠唆唆地安排在窗口右侧，一点也不大气！QuickLook 是一款仿 MAC 快速预览的小工具，装好之后，只要选中文件，按下键盘上的空格键，即可预览文件内容。</p>
-<p>QuickLook 支持文本、视频、音频、图片、压缩包、Office 文档……，换句话说，你电脑上任何一款文件几乎都可以用它预览。同时你也可以点击预览窗右上角的按钮直接启动对应程序，非常方便。
-<img src="../../media/article_img/windows_app_recommend/4.png" alt="enter description here">
-<a href="http://dl.pconline.com.cn/download/1115319.html">QuickLook：点此下载</a></p>
-<h2 id="升级-Win10-日历！优效日历">升级 Win10 日历！优效日历</h2>
-<p>Win10 为右下角托盘设计了一个新日历，但依旧被吐槽功能太弱，优效日历是 Win10 原生日历的最佳替代者。它有着和 Win10 原生日历一致的外观界面，支持农历、节日、调休显示，支持日程提醒、万年历、自定义时钟。同时它还集成了定时关机、屏幕截图两大功能，没用过的一定得试一试！
-<img src="../../media/article_img/windows_app_recommend/5.png" alt="enter description here">
-<a href="http://www.youxiao.cn/">点击下载</a></p>
-<h2 id="Chocolatey">Chocolatey</h2>
-<p>Chocolatey 是 Windows 下的包管理器，访问<a href="https://chocolatey.org/">官网</a>来查看使用方法</p>
-<h2 id="uTools">uTools</h2>
-<p>uTools 是一个极简的桌面管理软件，但它的功能更全面。包含：快速启动、自动识别、数据同步等功能。</p>
-<p>比如快速启动，这个功能和 Listary、Everything 等都非常相似。但 uTools 对中文的支持非常有好，还可以首字母检索。
-<img src="../../media/article_img/windows_app_recommend/6.png" alt="enter description here">
-除此外还有插件中心，里面还有各种比如：网页快开、在线翻译、计算器、压缩图片、图片转文字等功能。这也是其它快速启动软件所不具备的。
-<img src="../../media/article_img/windows_app_recommend/7.png" alt="enter description here">
-<a href="https://u.tools/">点击下载</a></p>
-<h2 id="万彩办公大师">万彩办公大师</h2>
-<p>万彩办公大师可以说是一个办公必备的工具，包含了各种功能：PDF 编辑、格式转换、图片编辑等，功能多达 60+。</p>
-<p>最让人惊喜的是，万彩办公大师使用完全免费，所有的工具无需安装，直接加载就可以启动了。
-<img src="../../media/article_img/windows_app_recommend/8.png" alt="enter description here">
-<a href="wofficebox.com/">下载地址</a></p>
-<h2 id="TreeSize">TreeSize</h2>
-<p>TreeSize 是一个扫描磁盘可视化排列大小的应用，有免费版和专业版可以选
-<img src="../../media/article_img/windows_app_recommend/9.png" alt="enter description here">
-<a href="https://www.jam-software.com/treesize_free/">点击这里</a>获取免费版</p>
-<h2 id="CCleaner">CCleaner</h2>
-<p>CCleaner，不仅是常用的垃圾和缓存清理，我也用它在电脑刚到手时卸载掉 Win10 自带的各种无用软件（有些 Windows 不让卸载的自带 UWP，在 CCleaner 里可以卸载掉），甚至我嫌 OneDrive 麻烦，也用它卸载过。界面很友好。批量卸载比手动卸载方便不少。软件是有中文的，但默认是英文，自己手动在 <code>options-setting-language</code> 选择 <code>Chinese simplified</code> 即可
-<img src="../../media/article_img/windows_app_recommend/10.png" alt="enter description here">
-<a href="https://www.ccleaner.com/ccleaner/download">点击下载</a></p>
-<h2 id="BandiZip">BandiZip</h2>
-<p>BandiZip，界面美观，功能强大，而且免费无广告，另外 <a href="https://www.7-zip.org/">7-Zip</a>，界面丑了一些，功能还是很强的。也有不少人推荐修改版的 rar 烈火或者好压，其实都不错。
-<img src="../../media/article_img/windows_app_recommend/11.png" alt="enter description here">
-<a href="http://www.bandisoft.com/bandizip/cn/">下载地址</a></p>
-<h2 id="Obs-Open-Broadcaster-Software">Obs-Open Broadcaster Software</h2>
-<p>OBS，不用多说了，剪视频、录游戏好帮手。
-<a href="https://obsproject.com/">下载地址</a></p>
-<h2 id="VLC-media-player">VLC media player</h2>
-<p>跨平台的播放器，Linux 的时候一直用的，Windows 也就接着用了，有浏览器插件，可以直接把浏览器的视频推过来播放
-<img src="../../media/article_img/windows_app_recommend/12.png" alt="enter description here">
-<a href="https://www.videolan.org/">点这里下载</a></p>
-<h2 id="Geek-Uninstaller">Geek Uninstaller</h2>
-<p>Geek Uninstaller 是一个专业卸载软件，采取深而快的扫描方式，删除所有无用的文件，注册表，卸载无残留！
-这款软件也是一款单文件软件，下载后，不用安装，双击直接使用，卸载软件、强制彻底清除软件残留垃圾文件或是查看某软件的注册表项目等等。
-<img src="../../media/article_img/windows_app_recommend/13.png" alt="enter description here">
-你可以在他的<a href="https://geekuninstaller.com/">官网</a>获取到</p>
-<h2 id="未完">未完</h2>
-<p>后面想到了再补充</p>
-]]></content>
-      <categories>
-        <category>资源</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>软件推荐</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>动态替换 ViewPager 里面的 Fragment</title>
     <url>/posts/6b0c894/</url>
     <content><![CDATA[<p>最近在重写 Kirby Assistant 过程中又遇到了需要动态替换 ViewPager 的某个 Fragment 的需求，因为之前的是直接在同一个布局里暴力替换的，但是这次因为是用其他方法实现的，当然不能用以前的方法了，摸索了一段时间后终于搞定了，现在把可以用的方法放在下面</p>
@@ -1044,6 +871,28 @@
         <tag>Android</tag>
         <tag>ViewPager</tag>
         <tag>Fragment</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我为什么要搭建博客</title>
+    <url>/posts/a6366ad5/</url>
+    <content><![CDATA[<blockquote>
+<p>即使最后没有人为你鼓掌，也要优雅地谢幕，感谢自己的认真付出。</p>
+</blockquote>
+<p>我觉得自建博客＋个人域名是树立个人品牌的一个重要步骤，试想别人通过搜索到你的个人网站并联系你的时候，说明个人品牌已经初步建立了。</p>
+<p>但如果仅仅把它形容为「进入现在行业的敲门砖与踏脚石」，这个说法也是不够算是完整的。社交网站、写作平台都是别人的，你拥有的是写的权利跟一个 Profile 页面，写出来的文档都不属于你，而是平台的，这太讽刺了。你获得多少关注不一定直接跟你的写作内容有关，吸引的读者更多是跟平台有关而不是个人有关。</p>
+<p>每次打开博客会有种莫名有种归属感。城市太闹，微博太糟，幸好还有一个没人知晓的博客，在不愿让人知道的那天，任由自己的情绪倾倒。我想这就是博客存在的意义吧。</p>
+<p>博客是你的，哪怕它再破落，访问量再低，狗不嫌家穷。只要你不放弃，到你八十三岁的时候，他仍然会在那里。从这个角度，它承载了记录的功能，它是你人生经历在时间上的痕迹，你可能说 印象笔记 也可以，但凭心而论「我宁愿相信 Hexo 活得会比前者（印象笔记）更久」，因为一切重平台的产品都会因为各种复杂的原因消失殆尽。即便 Hexo 停止更新，我也仍然可以搭一个环境让它跑起来，文章都在你身边存放着，它只是一个开源程序，让大家有写作的乐趣。</p>
+<p>除了记录，独立博客就是「你」，你选择什么域名，使用什么主题，多大的字号，全文输出还是截断输出，使用哪家 Feed 托管，你也许会在 Feed 尾部用插件加上一朵小菊花，你甚至可以推荐一款你喜欢的同性恋应用给大家而不用担心被删除。</p>
+<p>这就是我想要表达的，「这一切都是因为你，同时也呈现你」，它是一个专属于你自己的写作、记录、呈现的地方。它叫博客，但又不只是博客，以前在其他平台写博客是为了很多东西，现在自己搭建写博客只是为了一种生活习惯，少论道，多说常识跟生活。</p>
+<p>这大概就是我对于个人搭建博客的看法了，也是为什么我要去搭建博客。</p>
+]]></content>
+      <categories>
+        <category>正经文字</category>
+      </categories>
+      <tags>
+        <tag>为什么</tag>
+        <tag>看法</tag>
       </tags>
   </entry>
   <entry>
@@ -1225,6 +1074,157 @@ See android.content.Context.createConfigurationContext(Configuration).</p>
         <tag>Android</tag>
         <tag>Kotlin</tag>
         <tag>弃用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>偶然间在B站看到的鬼畜</title>
+    <url>/posts/d46d4e39/</url>
+    <content><![CDATA[<p>刚才逛 B 站的时候在首页偶然看到这个，播放量还挺高的，就点进去看看了。神级填词，现在的老哥们简直神了，真的容易引起共鸣，然后又想起了以前的一些事，诶。</p>
+<a id="more"></a>
+<p>不多说啥了，做好现在的自己，不偏离本心！</p>
+<p>视频地址：<a href="https://www.bilibili.com/video/av60731116/">https://www.bilibili.com/video/av60731116/</a></p>
+<iframe src="//player.bilibili.com/player.html?aid=60731116&cid=106015992&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"> </iframe>
+<blockquote>
+<p><strong>贴一个里面的评论</strong>
+曾经看到大学宿舍里的沙雕图片，一个光膀大汉法相庄严，后面的人伸出手摆成千手佛陀，下面有句热评：</p>
+<p>“珍惜现在的时光吧，能陪你一起沙雕的朋友已经越来越少了。”</p>
+<p>欢乐是如何消失的呢，海绵宝宝？</p>
+<p>当你变成正常人、长大的时候，它就和你告了别。</p>
+<p>我喜欢什么都不做，喜欢追求最天真的快乐。
+闭眼数数和我一般如星星闪耀的天才，可是只有我一个派大星。
+知道我找到了另一颗星星，你，海绵宝宝。愿意和我一起享受快乐。
+我不知道为什么他们说我是废物。
+我不知道为什么太阳西边是落处。
+我不知道为什么章鱼哥追求艺术。
+我不知道为什么蟹老板攒钱如土。
+即便抽不中想要的角色，我们却有辆小汽车。
+即便驾照总是触不可及，我们也能玩摇摇乐。
+即便去抓水母邻居遭殃，我们还在享受快乐。
+当人们追求自己喜欢的东西的时候，为什么你渐行渐远了呢。
+即便你有喜爱的工作、支持你的朋友、爱你的家人、听话的小窝和大把的青春值得去奋斗，我却发现你不再快乐，生病了。
+你说想要变回常人。
+你说羡慕章鱼哥受人景仰。
+你说羡慕蟹老板家财万贯。
+你说抓水母让章鱼哥愤怒。
+你说想要的角色难以抽到。
+你说不考驾照快乐受了限。
+我最好的朋友，你这样我也很难受。
+当我看到那电章鱼哥的水母，我一定要抓到。
+当我再去商场终于抽到角色，你一直想要的。
+当我考来驾照坐上那小汽车，想和你去冒险。
+于是我带着这些再次找到你。
+直到见到你漂亮的房子。
+见到你成团的宾客。
+见到你光鲜的衣服。
+见到你贵气的打扮。
+听到你说我嫉妒新生活的话语。
+感受到被丢出去的失落。</p>
+<p>欢乐是如何消失的呢，海绵宝宝？</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>碎碎念</category>
+      </categories>
+      <tags>
+        <tag>视频</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一些 WordPress 主题</title>
+    <url>/posts/dc790cfc/</url>
+    <content><![CDATA[<p>一些 WordPress 主题，好像都是来自吾爱破解，在这里记录一下</p>
+<h2 id="betheme">betheme</h2>
+<p><a href="https://www.52pojie.cn/thread-590043-1-1.html">https://www.52pojie.cn/thread-590043-1-1.html</a></p>
+<h2 id="Begin知更鸟">Begin知更鸟</h2>
+<p><a href="https://www.52pojie.cn/thread-664527-1-1.html">https://www.52pojie.cn/thread-664527-1-1.html</a></p>
+<h2 id="DUX">DUX</h2>
+<p><a href="https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=832427">https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=832427</a></p>
+<h2 id="XIU">XIU</h2>
+<p><a href="https://www.52pojie.cn/thread-705661-1-1.html">https://www.52pojie.cn/thread-705661-1-1.html</a></p>
+]]></content>
+      <categories>
+        <category>资源</category>
+      </categories>
+      <tags>
+        <tag>WordPress</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows 软件推荐</title>
+    <url>/posts/cd1c3d2a/</url>
+    <content><![CDATA[<p>这些软件都是我自己用过的，可以通过左边页面快速定位</p>
+<h2 id="Visual-Studio-Code">Visual Studio Code</h2>
+<p>这个简直首推，编辑利器，人生苦短，我用 VS Code 完成关于文本编辑工作的一切。它天生支持几乎所有编程语言，还可以通过扩展个性化相应的语法高亮等。
+如果你想忙里偷闲，VS Code 强大的扩展能力还能让你用它刷 LeetCode 或 V2EX，可谓带薪划水必备。
+<img src="../../media/article_img/windows_app_recommend/1.png" alt="enter description here">
+你可以在<a href="https://code.visualstudio.com/">官网</a>免费获取 Visual Studio Code。</p>
+<h2 id="福昕-PDF-阅读器">福昕 PDF 阅读器</h2>
+<p>国产，中文界面，流畅好用，界面美观
+<a href="https://www.foxitsoftware.cn/">点这里</a></p>
+<h2 id="福昕-PDF-编辑器">福昕 PDF 编辑器</h2>
+<p>福昕（Foxit）可能是我国最受欢迎的 PDF 阅读器，由其出品的 <a href="https://www.foxitsoftware.cn/pdf-editor/">PDF 编辑器</a> 也是 Adobe Acrobat 的有力竞争对手。它提供了各种 PDF 批注工具；支持编辑 PDF 中的文本、段落、图片；设计并填写表单；OCR 识别图片中的文字；管理 PDF 页面；转换为其它文件格式等，界面也比较友好。</p>
+<h2 id="火绒安全软件">火绒安全软件</h2>
+<p>如果你觉得 Windows Defender 还是有些简陋，火绒安全软件是个不错的选择。它提供了病毒联网查杀、垃圾清理、下载保护、浏览器保护等国产卫士标配功能，但不会拖家带口向你问好，还你一片清净。
+<img src="../../media/article_img/windows_app_recommend/2.png" alt="enter description here">
+除了系统防护外，火绒安全软件还提供了数种实用工具，如弹窗拦截、右键菜单管理、启动项管理、文件粉碎机等。如果你是进阶用户，还可以试试火绒剑这一强大的专业安全分析工具。
+<img src="../../media/article_img/windows_app_recommend/3.png" alt="enter description here">
+你可以在 <a href="https://www.huorong.cn/">官网</a> 免费获取火绒安全软件。</p>
+<h2 id="Quicklook，仿-MAC-快速预览">Quicklook，仿 MAC 快速预览</h2>
+<p>MAC 的快速预览很多人都见过，回望 Win10 的「预览」，依旧被抠抠唆唆地安排在窗口右侧，一点也不大气！QuickLook 是一款仿 MAC 快速预览的小工具，装好之后，只要选中文件，按下键盘上的空格键，即可预览文件内容。</p>
+<p>QuickLook 支持文本、视频、音频、图片、压缩包、Office 文档……，换句话说，你电脑上任何一款文件几乎都可以用它预览。同时你也可以点击预览窗右上角的按钮直接启动对应程序，非常方便。
+<img src="../../media/article_img/windows_app_recommend/4.png" alt="enter description here">
+<a href="http://dl.pconline.com.cn/download/1115319.html">QuickLook：点此下载</a></p>
+<h2 id="升级-Win10-日历！优效日历">升级 Win10 日历！优效日历</h2>
+<p>Win10 为右下角托盘设计了一个新日历，但依旧被吐槽功能太弱，优效日历是 Win10 原生日历的最佳替代者。它有着和 Win10 原生日历一致的外观界面，支持农历、节日、调休显示，支持日程提醒、万年历、自定义时钟。同时它还集成了定时关机、屏幕截图两大功能，没用过的一定得试一试！
+<img src="../../media/article_img/windows_app_recommend/5.png" alt="enter description here">
+<a href="http://www.youxiao.cn/">点击下载</a></p>
+<h2 id="Chocolatey">Chocolatey</h2>
+<p>Chocolatey 是 Windows 下的包管理器，访问<a href="https://chocolatey.org/">官网</a>来查看使用方法</p>
+<h2 id="uTools">uTools</h2>
+<p>uTools 是一个极简的桌面管理软件，但它的功能更全面。包含：快速启动、自动识别、数据同步等功能。</p>
+<p>比如快速启动，这个功能和 Listary、Everything 等都非常相似。但 uTools 对中文的支持非常有好，还可以首字母检索。
+<img src="../../media/article_img/windows_app_recommend/6.png" alt="enter description here">
+除此外还有插件中心，里面还有各种比如：网页快开、在线翻译、计算器、压缩图片、图片转文字等功能。这也是其它快速启动软件所不具备的。
+<img src="../../media/article_img/windows_app_recommend/7.png" alt="enter description here">
+<a href="https://u.tools/">点击下载</a></p>
+<h2 id="万彩办公大师">万彩办公大师</h2>
+<p>万彩办公大师可以说是一个办公必备的工具，包含了各种功能：PDF 编辑、格式转换、图片编辑等，功能多达 60+。</p>
+<p>最让人惊喜的是，万彩办公大师使用完全免费，所有的工具无需安装，直接加载就可以启动了。
+<img src="../../media/article_img/windows_app_recommend/8.png" alt="enter description here">
+<a href="wofficebox.com/">下载地址</a></p>
+<h2 id="TreeSize">TreeSize</h2>
+<p>TreeSize 是一个扫描磁盘可视化排列大小的应用，有免费版和专业版可以选
+<img src="../../media/article_img/windows_app_recommend/9.png" alt="enter description here">
+<a href="https://www.jam-software.com/treesize_free/">点击这里</a>获取免费版</p>
+<h2 id="CCleaner">CCleaner</h2>
+<p>CCleaner，不仅是常用的垃圾和缓存清理，我也用它在电脑刚到手时卸载掉 Win10 自带的各种无用软件（有些 Windows 不让卸载的自带 UWP，在 CCleaner 里可以卸载掉），甚至我嫌 OneDrive 麻烦，也用它卸载过。界面很友好。批量卸载比手动卸载方便不少。软件是有中文的，但默认是英文，自己手动在 <code>options-setting-language</code> 选择 <code>Chinese simplified</code> 即可
+<img src="../../media/article_img/windows_app_recommend/10.png" alt="enter description here">
+<a href="https://www.ccleaner.com/ccleaner/download">点击下载</a></p>
+<h2 id="BandiZip">BandiZip</h2>
+<p>BandiZip，界面美观，功能强大，而且免费无广告，另外 <a href="https://www.7-zip.org/">7-Zip</a>，界面丑了一些，功能还是很强的。也有不少人推荐修改版的 rar 烈火或者好压，其实都不错。
+<img src="../../media/article_img/windows_app_recommend/11.png" alt="enter description here">
+<a href="http://www.bandisoft.com/bandizip/cn/">下载地址</a></p>
+<h2 id="Obs-Open-Broadcaster-Software">Obs-Open Broadcaster Software</h2>
+<p>OBS，不用多说了，剪视频、录游戏好帮手。
+<a href="https://obsproject.com/">下载地址</a></p>
+<h2 id="VLC-media-player">VLC media player</h2>
+<p>跨平台的播放器，Linux 的时候一直用的，Windows 也就接着用了，有浏览器插件，可以直接把浏览器的视频推过来播放
+<img src="../../media/article_img/windows_app_recommend/12.png" alt="enter description here">
+<a href="https://www.videolan.org/">点这里下载</a></p>
+<h2 id="Geek-Uninstaller">Geek Uninstaller</h2>
+<p>Geek Uninstaller 是一个专业卸载软件，采取深而快的扫描方式，删除所有无用的文件，注册表，卸载无残留！
+这款软件也是一款单文件软件，下载后，不用安装，双击直接使用，卸载软件、强制彻底清除软件残留垃圾文件或是查看某软件的注册表项目等等。
+<img src="../../media/article_img/windows_app_recommend/13.png" alt="enter description here">
+你可以在他的<a href="https://geekuninstaller.com/">官网</a>获取到</p>
+<h2 id="未完">未完</h2>
+<p>后面想到了再补充</p>
+]]></content>
+      <categories>
+        <category>资源</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>软件推荐</tag>
       </tags>
   </entry>
   <entry>
