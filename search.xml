@@ -1,55 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Kirby Assistant 2.x.x更新日志</title>
-    <url>/posts/417dae5e/</url>
-    <content><![CDATA[<p>目前最新版本 v2.0.6 (56)</p>
-<h2 id="v2-0-6-56">v2.0.6 (56)</h2>
-<p>紧急修复了高版本无法安装的问题，并且移除的权限，很是抱歉</p>
-<h2 id="v2-0-5-55">v2.0.5 (55)</h2>
-<p>1.修改部分样式贴近规范
-2.修改下载游戏时的对话框样式</p>
-<h2 id="v2-0-4-54">v2.0.4 (54)</h2>
-<p>1.修复个别主题下输入框颜色不正常的问题
-2.排除了一个引起闪退的 bug
-3.新增一个配色</p>
-<h2 id="v2-0-3-53">v2.0.3 (53)</h2>
-<p>1.修复部分黑暗模式与白色模式下的UI问题
-2.修复UI漂移的问题</p>
-<h2 id="v2-0-2-52">v2.0.2 (52)</h2>
-<p>1.修正夜间模式下设置显示异常
-2.修复闲聊显示异常问题
-3.修复无法清除图片缓存
-4.修复更新检测异常
-5.重新优化的主题</p>
-<h2 id="v2-0-1-51">v2.0.1 (51)</h2>
-<p>1.自动根据 AndroidQ 夜间模式选项切换夜间模式
-2.翻译文本修正
-3.图片资源修复</p>
-<h2 id="v2-0-0-50">v2.0.0 (50)</h2>
-<p>1.全新 API 重新编写
-2.大部分 MD2 特性
-3.修复底栏切换过快崩溃的 Bug
-4.新增黑暗模式
-5.假装无缝切换主题
-6.优化用户信息修改后刷新操作
-7.优化菜单显示方式
-8.防止未登录情况下进入闲聊的问题
-9.重新优化的对话框
-10.应用内清除缓存
-11.重写头像裁剪
-12.上传逻辑
-13.全新官网</p>
-]]></content>
-      <categories>
-        <category>我的 Android 应用</category>
-      </categories>
-      <tags>
-        <tag>Kirby Assistant</tag>
-        <tag>更新日志</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Kirby Assistant 1.x.x更新日志</title>
     <url>/posts/12e7f5da/</url>
     <content><![CDATA[<h2 id="v1-4-5-48">v1.4.5(48)</h2>
@@ -236,6 +187,55 @@
       </tags>
   </entry>
   <entry>
+    <title>Kirby Assistant 2.x.x更新日志</title>
+    <url>/posts/417dae5e/</url>
+    <content><![CDATA[<p>目前最新版本 v2.0.6 (56)</p>
+<h2 id="v2-0-6-56">v2.0.6 (56)</h2>
+<p>紧急修复了高版本无法安装的问题，并且移除的权限，很是抱歉</p>
+<h2 id="v2-0-5-55">v2.0.5 (55)</h2>
+<p>1.修改部分样式贴近规范
+2.修改下载游戏时的对话框样式</p>
+<h2 id="v2-0-4-54">v2.0.4 (54)</h2>
+<p>1.修复个别主题下输入框颜色不正常的问题
+2.排除了一个引起闪退的 bug
+3.新增一个配色</p>
+<h2 id="v2-0-3-53">v2.0.3 (53)</h2>
+<p>1.修复部分黑暗模式与白色模式下的UI问题
+2.修复UI漂移的问题</p>
+<h2 id="v2-0-2-52">v2.0.2 (52)</h2>
+<p>1.修正夜间模式下设置显示异常
+2.修复闲聊显示异常问题
+3.修复无法清除图片缓存
+4.修复更新检测异常
+5.重新优化的主题</p>
+<h2 id="v2-0-1-51">v2.0.1 (51)</h2>
+<p>1.自动根据 AndroidQ 夜间模式选项切换夜间模式
+2.翻译文本修正
+3.图片资源修复</p>
+<h2 id="v2-0-0-50">v2.0.0 (50)</h2>
+<p>1.全新 API 重新编写
+2.大部分 MD2 特性
+3.修复底栏切换过快崩溃的 Bug
+4.新增黑暗模式
+5.假装无缝切换主题
+6.优化用户信息修改后刷新操作
+7.优化菜单显示方式
+8.防止未登录情况下进入闲聊的问题
+9.重新优化的对话框
+10.应用内清除缓存
+11.重写头像裁剪
+12.上传逻辑
+13.全新官网</p>
+]]></content>
+      <categories>
+        <category>我的 Android 应用</category>
+      </categories>
+      <tags>
+        <tag>Kirby Assistant</tag>
+        <tag>更新日志</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Git 无法 Pull 仓库 显示 refusing to merge unrelated histories （拒绝合并不相关仓库）</title>
     <url>/posts/e5477819/</url>
     <content><![CDATA[<p>如果在合并 pull 仓库的时候，出现的问题如何去解决（这个方法适用于合并本地很久没有提交的仓库，或者是同一个仓库 commit 信息不同的合并）</p>
@@ -274,47 +274,53 @@
       </tags>
   </entry>
   <entry>
-    <title>修改 Windows 10 的用户名以及用户文件夹</title>
-    <url>/posts/8e165a5c/</url>
-    <content><![CDATA[<div class="note warning flat"><p>修改注册表有风险，操作需谨慎，注意备份重要文件</p>
-</div>
-<p>由于 Windows 10 的奇葩机制本地账户名是在线账户邮箱的前五位，导致我登录在线账户之后在本地显示的名称以及文件夹从我名字全拼的 <code>nihaocun</code> 变成了 <code>nihao</code>，虽然能忍，但是越看越不顺眼，就开始在网上找修改的方法。然而搜到的结果也大多不完整，好在还是能拼起来的，现在终于是改成功了。</p>
-<div class="note info flat"><p>以下操作在 你的个人账户 完成</p>
-</div>
-<h2 id="开启-Administrator-账户">开启 Administrator 账户</h2>
-<p>我们需要开启这个账户去修改注册表和文件夹名，家庭版用户请先升级到专业版，专业版用户打开
-<code>控制面板</code> -&gt; <code>系统和安全</code> -&gt; <code>管理工具</code> -&gt; <code>计算机管理</code>，然后按图所示依次打开
-<code>本地用户和组</code> -&gt; <code>用户</code> -&gt; <code>Administrator</code>，然后去掉 <code>账户已禁用</code> 前面的复选框即可。
-<img src="../../media/article_img/modify_win10_username_userprofile/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AE%A1%E7%90%86.png" alt="开启 Administrator 账户"></p>
-<h2 id="修改用户名">修改用户名</h2>
-<p>接着不关闭计算机管理，找到你需要修改的用户名，然后右键重命名即可，注意这里不能和计算机名重复（大小写不敏感）</p>
-<div class="note info flat"><p>以下操作在 Administrator 完成</p>
-</div>
-<h2 id="修改注册表">修改注册表</h2>
-<p>注销当前账户切换到 Administrator，按下 <code>Win + R</code> 打开命令窗口，输入 <code>regedit</code> 回车运行打开注册表编辑器。使用 <code>Ctrl + F</code> 搜索 <code>ProfileList</code> 或者手动定位到 <code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\ProfileList</code> 这一项。在这里有很多 <code>S-1-5</code> 开头的项，依次检查会有一个 <code>ProfileListPath</code> 为 <code>C:\User\&lt;你的用户名&gt;</code> 这一项，双击修改即可。
-<img src="../../media/article_img/modify_win10_username_userprofile/%E4%BF%AE%E6%94%B9%E6%B3%A8%E5%86%8C%E8%A1%A8.png" alt="修改注册表"></p>
-<h2 id="修改文件夹名">修改文件夹名</h2>
-<p>在文件管理器找到 <code>C:\User\&lt;你的用户名&gt;</code> 然后直接修改即可。</p>
-<div class="note info flat"><p>以下操作在 你的个人账户 完成</p>
-</div>
-<h2 id="创建联接">创建联接</h2>
-<p>现在回到原来的账户发现名字已经改了，而且原来的数据还在，不过部分环境变量以及应用配置可能会出问题，这里提供两个方法：</p>
-<ul>
-<li>一个一个修改路径保证不出错</li>
-<li>创建一个联接
-<blockquote>
-<p>用管理员权限运行一个 CMD 窗口，然后输入 <code>MKLINK /J C:\Users\&lt;旧用户名&gt; C:\Users\&lt;新用户名&gt;</code>，这样不论访问 <code>C:\Users\&lt;旧用户名&gt;</code> 还是 <code>C:\Users\&lt;新用户名&gt;</code> 都会定位到 <code>C:\Users\&lt;新用户名&gt;</code>。出现下图这样就是成功了。
-<img src="../../media/article_img/modify_win10_username_userprofile/%E9%93%BE%E6%8E%A5.png" alt="创建联接"></p>
+    <title>解决方案.方案</title>
+    <url>/posts/notes/</url>
+    <content><![CDATA[<blockquote>
+<p>日常解决问题基本靠 Google，拿来水博客跟 <em>Copy&amp;Paste</em> 也没啥区别，但是又想把这些方法记录下来，万一以后需要用还方便查看，于是打算全部写在这一篇文章里了。</p>
+<p>当然，为了防止未来的我忘记当时写的是什么东西，咱尽量将一些因人而异、因机而异的东西标注出来（比如每段的 Replacement），但难免有疏漏，如果有读者能够看到，并感到疑惑，请不要吝啬你的留言。<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="引用自 [Buta Sticky Notes - 丁丁の店](https://blog.butanediol.me/2020/10/13/Buta-Sticky-Notes/)
+">[1]</span></a></sup></p>
 </blockquote>
+<div class="note info flat"><p>因为我是用的是 Windows 10 系统所以一下的东西只保证在 Windows 10 有用其他系统，诸如 Windows 7/Linux/macOS 请自行查找方案</p>
+</div>
+<h2 id="目前可用的-VS-Code-调试-C-C-配置">目前可用的 VS Code 调试 C/C++ 配置</h2>
+<blockquote>
+<p>2020-11-12 19:53 GMT +8
+基于网上现有的稍加修改</p>
+</blockquote>
+<div class="note info flat"><p>请替换 [debugger_path] 并且保证你的 gcc 是可用状态，或者使用其他的编译器/调试器</p>
+</div>
+<p><strong><code>launch.json</code></strong></p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="comment">// 使用 IntelliSense 了解相关属性。</span></span><br><span class="line">  <span class="comment">// 悬停以查看现有属性的描述。</span></span><br><span class="line">  <span class="comment">// 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387</span></span><br><span class="line">  <span class="attr">&quot;version&quot;</span>: <span class="string">&quot;2,0.0&quot;</span>, <span class="comment">//配置文件的版本，以前使用是0.2.0，新版本已经弃用，改用为2.0.0</span></span><br><span class="line">  <span class="attr">&quot;configurations&quot;</span>: [</span><br><span class="line">    <span class="comment">//配置域</span></span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;(gdb) Launch&quot;</span>, <span class="comment">//配置文件的名字，可以随便起</span></span><br><span class="line">      <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;cppdbg&quot;</span>, <span class="comment">//调试的类型，Vscode现在支持很多，我这里主要是C，所以只能是cppdbg</span></span><br><span class="line">      <span class="attr">&quot;request&quot;</span>: <span class="string">&quot;launch&quot;</span>, <span class="comment">//配置文件的请求类型，有launch和attach两种，具体看官方文档</span></span><br><span class="line">      <span class="attr">&quot;targetArchitecture&quot;</span>: <span class="string">&quot;x64&quot;</span>, <span class="comment">//硬件内核架构，为64bit，如图设置</span></span><br><span class="line">      <span class="attr">&quot;program&quot;</span>: <span class="string">&quot;$&#123;workspaceRoot&#125;/$&#123;fileBasenameNoExtension&#125;.exe&quot;</span>, <span class="comment">//可执行文件的路径和文件名称</span></span><br><span class="line">      <span class="comment">//&quot;args&quot;: [&quot;file1&quot;, &quot;file2&quot;], //主函数调用时传入的参数</span></span><br><span class="line">      <span class="attr">&quot;stopAtEntry&quot;</span>: <span class="literal">false</span>, <span class="comment">//设为true时程序将暂停在程序入口处</span></span><br><span class="line">      <span class="attr">&quot;cwd&quot;</span>: <span class="string">&quot;$&#123;workspaceFolder&#125;&quot;</span>, <span class="comment">//调试时的工作目录</span></span><br><span class="line">      <span class="attr">&quot;environment&quot;</span>: [], <span class="comment">//不知道干嘛的</span></span><br><span class="line">      <span class="attr">&quot;internalConsoleOptions&quot;</span>: <span class="string">&quot;openOnSessionStart&quot;</span>, <span class="comment">//</span></span><br><span class="line">      <span class="attr">&quot;externalConsole&quot;</span>: <span class="literal">true</span>, <span class="comment">//调试时是否显示控制台窗口</span></span><br><span class="line">      <span class="attr">&quot;MIMode&quot;</span>: <span class="string">&quot;gdb&quot;</span>, <span class="comment">//指定连接的调试器，可以省略不写</span></span><br><span class="line">      <span class="attr">&quot;miDebuggerPath&quot;</span>: <span class="string">&quot;[debugger_path]/gdb.exe&quot;</span>, <span class="comment">//调试器路径,在Linux环境下需要注释掉这一行</span></span><br><span class="line">      <span class="attr">&quot;preLaunchTask&quot;</span>: <span class="string">&quot;gcc&quot;</span>, <span class="comment">//调试会话开始前执行的任务，一般为编译程序。与tasks.json的label相对应</span></span><br><span class="line">      <span class="attr">&quot;setupCommands&quot;</span>: [</span><br><span class="line">        <span class="comment">//不知道干嘛的</span></span><br><span class="line">        &#123;</span><br><span class="line">          <span class="attr">&quot;description&quot;</span>: <span class="string">&quot;Enable pretty-printing for gdb&quot;</span>,</span><br><span class="line">          <span class="attr">&quot;text&quot;</span>: <span class="string">&quot;-enable-pretty-printing&quot;</span>,</span><br><span class="line">          <span class="attr">&quot;ignoreFailures&quot;</span>: <span class="literal">true</span></span><br><span class="line">        &#125;</span><br><span class="line">      ]</span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong><code>tasks.json</code></strong></p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;version&quot;</span>: <span class="string">&quot;2.0.0&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;tasks&quot;</span>: [</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">&quot;label&quot;</span>: <span class="string">&quot;gcc&quot;</span>, <span class="comment">// 任务名称，与launch.json的preLaunchTask相对应</span></span><br><span class="line">      <span class="attr">&quot;command&quot;</span>: <span class="string">&quot;gcc&quot;</span>, <span class="comment">// 要使用的编译器</span></span><br><span class="line">      <span class="attr">&quot;args&quot;</span>: [</span><br><span class="line">        <span class="string">&quot;$&#123;file&#125;&quot;</span>,</span><br><span class="line">        <span class="string">&quot;-o&quot;</span>, <span class="comment">// 指定输出文件名，不加该参数则默认输出a.exe，Linux下默认a.out</span></span><br><span class="line">        <span class="string">&quot;$&#123;fileDirname&#125;/$&#123;fileBasenameNoExtension&#125;.exe&quot;</span>,</span><br><span class="line">        <span class="string">&quot;-g&quot;</span>, <span class="comment">// 生成和调试有关的信息</span></span><br><span class="line">        <span class="string">&quot;-Wall&quot;</span>, <span class="comment">// 开启额外警告</span></span><br><span class="line">        <span class="string">&quot;-fexec-charset=GBK&quot;</span> <span class="comment">// 防止中文乱码，按需取用</span></span><br><span class="line">      ], <span class="comment">// 编译命令参数</span></span><br><span class="line">      <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;cppbuild&quot;</span>, <span class="comment">// 可以为shell或process，前者相当于先打开shell再输入命令，后者是直接运行命令</span></span><br><span class="line">      <span class="attr">&quot;options&quot;</span>: &#123;</span><br><span class="line">        <span class="attr">&quot;cwd&quot;</span>: <span class="string">&quot;[debugger_path]/bin&quot;</span></span><br><span class="line">      &#125;,</span><br><span class="line">      <span class="attr">&quot;problemMatcher&quot;</span>: [<span class="string">&quot;$gcc&quot;</span>],</span><br><span class="line">      <span class="attr">&quot;group&quot;</span>: <span class="string">&quot;build&quot;</span>,</span><br><span class="line">      <span class="attr">&quot;detail&quot;</span>: <span class="string">&quot;compiler: gcc&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Win10-任务栏菜单小图标变黑了">Win10 任务栏菜单小图标变黑了</h2>
+<blockquote>
+<p>2020-9-10 16:55 GMT+8
+建议创建开机任务执行</p>
+</blockquote>
+<figure class="highlight ps"><table><tr><td class="code"><pre><span class="line">ie4uinit <span class="literal">-show</span></span><br></pre></td></tr></table></figure>
+<h2 id="通过-JDK-生成-JRE">通过 JDK 生成 JRE</h2>
+<blockquote>
+<p>2020-9-22 9:36 GMT+8</p>
+</blockquote>
+<div class="note warning flat"><p>需要管理员权限的 CMD 运行</p>
+</div>
+<figure class="highlight ps"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> %JAVA_HOME%</span><br><span class="line">bin\jlink.exe -<span class="literal">-module</span><span class="literal">-path</span> jmods -<span class="literal">-add</span><span class="literal">-modules</span> java.desktop -<span class="literal">-output</span> jre</span><br></pre></td></tr></table></figure>
+<h2 id="使用-hexo-reference-插件生成脚注编号重复">使用 hexo-reference 插件生成脚注编号重复</h2>
+<ol>
+<li>
+<p>找到 <code>\&lt;blog_root_folder&gt;\node_modules\hexo-reference\src\footnotes.js</code></p>
 </li>
-</ul>
-]]></content>
+<li>
+<p>删除或者注释这几行代码</p>
+</li>
+</ol>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// render footnotes (HTML)</span></span><br><span class="line">footnotes.forEach(<span class="function"><span class="keyword">function</span> (<span class="params">footNote</span>) </span>&#123;</span><br><span class="line">    html += <span class="string">&#x27;&lt;li id=&quot;fn:&#x27;</span> + footNote.index + <span class="string">&#x27;&quot;&gt;&#x27;</span>;</span><br><span class="line">  -&gt;<span class="comment">// html += &#x27;&lt;span style=&quot;display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px&quot;&gt;&#x27;;</span></span><br><span class="line">  -&gt;<span class="comment">// html += footNote.index;</span></span><br><span class="line">  -&gt;<span class="comment">// html += &#x27;.&lt;/span&gt;&#x27;;</span></span><br><span class="line">    html += <span class="string">&#x27;&lt;span style=&quot;display: inline-block; vertical-align: top; margin-left: 10px;&quot;&gt;&#x27;</span>;</span><br><span class="line">    html += md.renderInline(footNote.content.trim());</span><br><span class="line">    html += <span class="string">&#x27;&lt;a href=&quot;#fnref:&#x27;</span> + footNote.index + <span class="string">&#x27;&quot; rev=&quot;footnote&quot;&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&#x27;</span>;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; margin-left: 10px;">引用自 <a href="https://blog.butanediol.me/2020/10/13/Buta-Sticky-Notes/">Buta Sticky Notes - 丁丁の店</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
       <categories>
         <category>技术记录</category>
       </categories>
-      <tags>
-        <tag>Windows</tag>
-      </tags>
   </entry>
   <entry>
     <title>半自动化生成博客相册</title>
@@ -383,53 +389,84 @@
       </tags>
   </entry>
   <entry>
-    <title>解决方案.方案</title>
-    <url>/posts/notes/</url>
-    <content><![CDATA[<blockquote>
-<p>日常解决问题基本靠 Google，拿来水博客跟 <em>Copy&amp;Paste</em> 也没啥区别，但是又想把这些方法记录下来，万一以后需要用还方便查看，于是打算全部写在这一篇文章里了。</p>
-<p>当然，为了防止未来的我忘记当时写的是什么东西，咱尽量将一些因人而异、因机而异的东西标注出来（比如每段的 Replacement），但难免有疏漏，如果有读者能够看到，并感到疑惑，请不要吝啬你的留言。<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="引用自 [Buta Sticky Notes - 丁丁の店](https://blog.butanediol.me/2020/10/13/Buta-Sticky-Notes/)
-">[1]</span></a></sup></p>
-</blockquote>
-<div class="note info flat"><p>因为我是用的是 Windows 10 系统所以一下的东西只保证在 Windows 10 有用其他系统，诸如 Windows 7/Linux/macOS 请自行查找方案</p>
+    <title>修改 Windows 10 的用户名以及用户文件夹</title>
+    <url>/posts/8e165a5c/</url>
+    <content><![CDATA[<div class="note warning flat"><p>修改注册表有风险，操作需谨慎，注意备份重要文件</p>
 </div>
-<h2 id="目前可用的-VS-Code-调试-C-C-配置">目前可用的 VS Code 调试 C/C++ 配置</h2>
-<blockquote>
-<p>2020-11-12 19:53 GMT +8
-基于网上现有的稍加修改</p>
-</blockquote>
-<div class="note info flat"><p>请替换 [debugger_path] 并且保证你的 gcc 是可用状态，或者使用其他的编译器/调试器</p>
+<p>由于 Windows 10 的奇葩机制本地账户名是在线账户邮箱的前五位，导致我登录在线账户之后在本地显示的名称以及文件夹从我名字全拼的 <code>nihaocun</code> 变成了 <code>nihao</code>，虽然能忍，但是越看越不顺眼，就开始在网上找修改的方法。然而搜到的结果也大多不完整，好在还是能拼起来的，现在终于是改成功了。</p>
+<div class="note info flat"><p>以下操作在 你的个人账户 完成</p>
 </div>
-<p><strong><code>launch.json</code></strong></p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="comment">// 使用 IntelliSense 了解相关属性。</span></span><br><span class="line">  <span class="comment">// 悬停以查看现有属性的描述。</span></span><br><span class="line">  <span class="comment">// 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387</span></span><br><span class="line">  <span class="attr">&quot;version&quot;</span>: <span class="string">&quot;2,0.0&quot;</span>, <span class="comment">//配置文件的版本，以前使用是0.2.0，新版本已经弃用，改用为2.0.0</span></span><br><span class="line">  <span class="attr">&quot;configurations&quot;</span>: [</span><br><span class="line">    <span class="comment">//配置域</span></span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">&quot;name&quot;</span>: <span class="string">&quot;(gdb) Launch&quot;</span>, <span class="comment">//配置文件的名字，可以随便起</span></span><br><span class="line">      <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;cppdbg&quot;</span>, <span class="comment">//调试的类型，Vscode现在支持很多，我这里主要是C，所以只能是cppdbg</span></span><br><span class="line">      <span class="attr">&quot;request&quot;</span>: <span class="string">&quot;launch&quot;</span>, <span class="comment">//配置文件的请求类型，有launch和attach两种，具体看官方文档</span></span><br><span class="line">      <span class="attr">&quot;targetArchitecture&quot;</span>: <span class="string">&quot;x64&quot;</span>, <span class="comment">//硬件内核架构，为64bit，如图设置</span></span><br><span class="line">      <span class="attr">&quot;program&quot;</span>: <span class="string">&quot;$&#123;workspaceRoot&#125;/$&#123;fileBasenameNoExtension&#125;.exe&quot;</span>, <span class="comment">//可执行文件的路径和文件名称</span></span><br><span class="line">      <span class="comment">//&quot;args&quot;: [&quot;file1&quot;, &quot;file2&quot;], //主函数调用时传入的参数</span></span><br><span class="line">      <span class="attr">&quot;stopAtEntry&quot;</span>: <span class="literal">false</span>, <span class="comment">//设为true时程序将暂停在程序入口处</span></span><br><span class="line">      <span class="attr">&quot;cwd&quot;</span>: <span class="string">&quot;$&#123;workspaceFolder&#125;&quot;</span>, <span class="comment">//调试时的工作目录</span></span><br><span class="line">      <span class="attr">&quot;environment&quot;</span>: [], <span class="comment">//不知道干嘛的</span></span><br><span class="line">      <span class="attr">&quot;internalConsoleOptions&quot;</span>: <span class="string">&quot;openOnSessionStart&quot;</span>, <span class="comment">//</span></span><br><span class="line">      <span class="attr">&quot;externalConsole&quot;</span>: <span class="literal">true</span>, <span class="comment">//调试时是否显示控制台窗口</span></span><br><span class="line">      <span class="attr">&quot;MIMode&quot;</span>: <span class="string">&quot;gdb&quot;</span>, <span class="comment">//指定连接的调试器，可以省略不写</span></span><br><span class="line">      <span class="attr">&quot;miDebuggerPath&quot;</span>: <span class="string">&quot;[debugger_path]/gdb.exe&quot;</span>, <span class="comment">//调试器路径,在Linux环境下需要注释掉这一行</span></span><br><span class="line">      <span class="attr">&quot;preLaunchTask&quot;</span>: <span class="string">&quot;gcc&quot;</span>, <span class="comment">//调试会话开始前执行的任务，一般为编译程序。与tasks.json的label相对应</span></span><br><span class="line">      <span class="attr">&quot;setupCommands&quot;</span>: [</span><br><span class="line">        <span class="comment">//不知道干嘛的</span></span><br><span class="line">        &#123;</span><br><span class="line">          <span class="attr">&quot;description&quot;</span>: <span class="string">&quot;Enable pretty-printing for gdb&quot;</span>,</span><br><span class="line">          <span class="attr">&quot;text&quot;</span>: <span class="string">&quot;-enable-pretty-printing&quot;</span>,</span><br><span class="line">          <span class="attr">&quot;ignoreFailures&quot;</span>: <span class="literal">true</span></span><br><span class="line">        &#125;</span><br><span class="line">      ]</span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><strong><code>tasks.json</code></strong></p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">&quot;version&quot;</span>: <span class="string">&quot;2.0.0&quot;</span>,</span><br><span class="line">  <span class="attr">&quot;tasks&quot;</span>: [</span><br><span class="line">    &#123;</span><br><span class="line">      <span class="attr">&quot;label&quot;</span>: <span class="string">&quot;gcc&quot;</span>, <span class="comment">// 任务名称，与launch.json的preLaunchTask相对应</span></span><br><span class="line">      <span class="attr">&quot;command&quot;</span>: <span class="string">&quot;gcc&quot;</span>, <span class="comment">// 要使用的编译器</span></span><br><span class="line">      <span class="attr">&quot;args&quot;</span>: [</span><br><span class="line">        <span class="string">&quot;$&#123;file&#125;&quot;</span>,</span><br><span class="line">        <span class="string">&quot;-o&quot;</span>, <span class="comment">// 指定输出文件名，不加该参数则默认输出a.exe，Linux下默认a.out</span></span><br><span class="line">        <span class="string">&quot;$&#123;fileDirname&#125;/$&#123;fileBasenameNoExtension&#125;.exe&quot;</span>,</span><br><span class="line">        <span class="string">&quot;-g&quot;</span>, <span class="comment">// 生成和调试有关的信息</span></span><br><span class="line">        <span class="string">&quot;-Wall&quot;</span>, <span class="comment">// 开启额外警告</span></span><br><span class="line">        <span class="string">&quot;-fexec-charset=GBK&quot;</span> <span class="comment">// 防止中文乱码，按需取用</span></span><br><span class="line">      ], <span class="comment">// 编译命令参数</span></span><br><span class="line">      <span class="attr">&quot;type&quot;</span>: <span class="string">&quot;cppbuild&quot;</span>, <span class="comment">// 可以为shell或process，前者相当于先打开shell再输入命令，后者是直接运行命令</span></span><br><span class="line">      <span class="attr">&quot;options&quot;</span>: &#123;</span><br><span class="line">        <span class="attr">&quot;cwd&quot;</span>: <span class="string">&quot;[debugger_path]/bin&quot;</span></span><br><span class="line">      &#125;,</span><br><span class="line">      <span class="attr">&quot;problemMatcher&quot;</span>: [<span class="string">&quot;$gcc&quot;</span>],</span><br><span class="line">      <span class="attr">&quot;group&quot;</span>: <span class="string">&quot;build&quot;</span>,</span><br><span class="line">      <span class="attr">&quot;detail&quot;</span>: <span class="string">&quot;compiler: gcc&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="Win10-任务栏菜单小图标变黑了">Win10 任务栏菜单小图标变黑了</h2>
-<blockquote>
-<p>2020-9-10 16:55 GMT+8
-建议创建开机任务执行</p>
-</blockquote>
-<figure class="highlight ps"><table><tr><td class="code"><pre><span class="line">ie4uinit <span class="literal">-show</span></span><br></pre></td></tr></table></figure>
-<h2 id="通过-JDK-生成-JRE">通过 JDK 生成 JRE</h2>
-<blockquote>
-<p>2020-9-22 9:36 GMT+8</p>
-</blockquote>
-<div class="note warning flat"><p>需要管理员权限的 CMD 运行</p>
+<h2 id="开启-Administrator-账户">开启 Administrator 账户</h2>
+<p>我们需要开启这个账户去修改注册表和文件夹名，家庭版用户请先升级到专业版，专业版用户打开
+<code>控制面板</code> -&gt; <code>系统和安全</code> -&gt; <code>管理工具</code> -&gt; <code>计算机管理</code>，然后按图所示依次打开
+<code>本地用户和组</code> -&gt; <code>用户</code> -&gt; <code>Administrator</code>，然后去掉 <code>账户已禁用</code> 前面的复选框即可。
+<img src="../../media/article_img/modify_win10_username_userprofile/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AE%A1%E7%90%86.png" alt="开启 Administrator 账户"></p>
+<h2 id="修改用户名">修改用户名</h2>
+<p>接着不关闭计算机管理，找到你需要修改的用户名，然后右键重命名即可，注意这里不能和计算机名重复（大小写不敏感）</p>
+<div class="note info flat"><p>以下操作在 Administrator 完成</p>
 </div>
-<figure class="highlight ps"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> %JAVA_HOME%</span><br><span class="line">bin\jlink.exe -<span class="literal">-module</span><span class="literal">-path</span> jmods -<span class="literal">-add</span><span class="literal">-modules</span> java.desktop -<span class="literal">-output</span> jre</span><br></pre></td></tr></table></figure>
-<h2 id="使用-hexo-reference-插件生成脚注编号重复">使用 hexo-reference 插件生成脚注编号重复</h2>
-<ol>
-<li>
-<p>找到 <code>\&lt;blog_root_folder&gt;\node_modules\hexo-reference\src\footnotes.js</code></p>
+<h2 id="修改注册表">修改注册表</h2>
+<p>注销当前账户切换到 Administrator，按下 <code>Win + R</code> 打开命令窗口，输入 <code>regedit</code> 回车运行打开注册表编辑器。使用 <code>Ctrl + F</code> 搜索 <code>ProfileList</code> 或者手动定位到 <code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\ProfileList</code> 这一项。在这里有很多 <code>S-1-5</code> 开头的项，依次检查会有一个 <code>ProfileListPath</code> 为 <code>C:\User\&lt;你的用户名&gt;</code> 这一项，双击修改即可。
+<img src="../../media/article_img/modify_win10_username_userprofile/%E4%BF%AE%E6%94%B9%E6%B3%A8%E5%86%8C%E8%A1%A8.png" alt="修改注册表"></p>
+<h2 id="修改文件夹名">修改文件夹名</h2>
+<p>在文件管理器找到 <code>C:\User\&lt;你的用户名&gt;</code> 然后直接修改即可。</p>
+<div class="note info flat"><p>以下操作在 你的个人账户 完成</p>
+</div>
+<h2 id="创建联接">创建联接</h2>
+<p>现在回到原来的账户发现名字已经改了，而且原来的数据还在，不过部分环境变量以及应用配置可能会出问题，这里提供两个方法：</p>
+<ul>
+<li>一个一个修改路径保证不出错</li>
+<li>创建一个联接
+<blockquote>
+<p>用管理员权限运行一个 CMD 窗口，然后输入 <code>MKLINK /J C:\Users\&lt;旧用户名&gt; C:\Users\&lt;新用户名&gt;</code>，这样不论访问 <code>C:\Users\&lt;旧用户名&gt;</code> 还是 <code>C:\Users\&lt;新用户名&gt;</code> 都会定位到 <code>C:\Users\&lt;新用户名&gt;</code>。出现下图这样就是成功了。
+<img src="../../media/article_img/modify_win10_username_userprofile/%E9%93%BE%E6%8E%A5.png" alt="创建联接"></p>
+</blockquote>
 </li>
-<li>
-<p>删除或者注释这几行代码</p>
-</li>
-</ol>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">// render footnotes (HTML)</span></span><br><span class="line">footnotes.forEach(<span class="function"><span class="keyword">function</span> (<span class="params">footNote</span>) </span>&#123;</span><br><span class="line">    html += <span class="string">&#x27;&lt;li id=&quot;fn:&#x27;</span> + footNote.index + <span class="string">&#x27;&quot;&gt;&#x27;</span>;</span><br><span class="line">  -&gt;<span class="comment">// html += &#x27;&lt;span style=&quot;display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px&quot;&gt;&#x27;;</span></span><br><span class="line">  -&gt;<span class="comment">// html += footNote.index;</span></span><br><span class="line">  -&gt;<span class="comment">// html += &#x27;.&lt;/span&gt;&#x27;;</span></span><br><span class="line">    html += <span class="string">&#x27;&lt;span style=&quot;display: inline-block; vertical-align: top; margin-left: 10px;&quot;&gt;&#x27;</span>;</span><br><span class="line">    html += md.renderInline(footNote.content.trim());</span><br><span class="line">    html += <span class="string">&#x27;&lt;a href=&quot;#fnref:&#x27;</span> + footNote.index + <span class="string">&#x27;&quot; rev=&quot;footnote&quot;&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&#x27;</span>;</span><br><span class="line">&#125;);</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; margin-left: 10px;">引用自 <a href="https://blog.butanediol.me/2020/10/13/Buta-Sticky-Notes/">Buta Sticky Notes - 丁丁の店</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+</ul>
+]]></content>
       <categories>
         <category>技术记录</category>
       </categories>
+      <tags>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解决 VS Code 编译 C/C++ 是输出中文乱码的问题</title>
+    <url>/posts/ea8a69ac/</url>
+    <content><![CDATA[<p>在 Windows 下使用 VSCode 编译运行 C/C++，都出现中文乱码的问题，这是由于 Windows 控制台使用的还是 GBK 编码。我在网上搜了一下发现需要更换编译器解决，这里贴一下 <a href="http://blog.00oo00.xyz/">梧矜</a> 的 <a href="https://blog.00oo00.xyz/2020/03/12/ru-he-jie-jue-vscode-bian-yi-yun-xing-c-cheng-xu-shi-shu-chu-zhong-wen-luan-ma/">解决 vscode 编译运行 C 程序时乱码</a>。</p>
+<p>不是这种方式不好，这种确实从根本解决了问题，但是我是实在懒，所以想了一些外门邪道。然后百度到了可以使用 <code>chcp 65001</code> 命令把控制台的编码切换到 UTF-8，当然你可以参考这篇 <a href="https://jingyan.baidu.com/article/f7ff0bfcee2dc22e26bb13d5.html">百度知道</a> 或者这篇 <a href="https://www.cnblogs.com/jpfss/p/11016870.html">博文</a> 把编码永久更改，但是我怕会出奇怪的问题，所以在 VS Code 的配置文件找了找，没想到还真有这种骚操作。</p>
+<div class="note info flat"><p>2020-12-14 更新新方法</p>
+</div>
+<p>其实只要给 code runner 插件、手动编译时、VS Code 调试时上 <code>-fexec-charset=GBK</code> 就好了，之前那种方法简直是绕弯路，交作业的时候只需要把编码改成 GBK 就好了。唯一的缺点就是不能编译 GBK 文件，不过这不是问题。</p>
+<h2 id="偷懒的方式">偷懒的方式</h2>
+<p>在 VS Code 中通过打开 <code>文件</code>-&gt; <code>首选项</code>-&gt; <code>设置</code>，然后编辑 VS Code 的 <code>setting.json</code> ，然后添加如下代码</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;terminal.integrated.shellArgs.windows&quot;</span>: [</span><br><span class="line">        <span class="string">&quot;-NoExit&quot;</span>,</span><br><span class="line">        <span class="string">&quot;/c&quot;</span>,</span><br><span class="line">        <span class="string">&quot;chcp 65001&quot;</span>,</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然后保存即可，现在编译就不会出现中文乱码的问题了，这里贴一下图</p>
+<p><img src="../../media/article_img/vscode_cpp_chinese_garbled_code/%E4%BF%AE%E6%94%B9%E5%89%8D.png" alt="修改前"></p>
+<p><img src="../../media/article_img/vscode_cpp_chinese_garbled_code/%E4%BF%AE%E6%94%B9%E5%90%8E.png" alt="修改后"></p>
+<h3 id="缺点">缺点</h3>
+<p>当然缺点也是有的，就是每次编译的时候会在顶部显示一个 <code>Active code page: 65001</code>，不过我觉得无伤大雅，毕竟没换编译器就可以实现差不多的效果还想怎么样。<s>主要还是懒</s></p>
+<h2 id="简便的方式">简便的方式</h2>
+<p><s>其实也可以通过这个按钮解决，不过这个是改变文件的编码，如果把这个文件放到其他设备上可能会有问题</s></p>
+<p><img src="../../media/article_img/vscode_cpp_chinese_garbled_code/%E6%8C%89%E9%92%AE.png" alt="按钮"></p>
+<h2 id="工作区">工作区</h2>
+<p>如果你只需要在这个工作区生效的话只需要这个目录下的 <code>.vscode</code> 文件夹里的 <code>setting.json</code> 添加这个配置就好了，这样只会对这个工作区生效。</p>
+<h2 id="更多">更多</h2>
+<p>有关 <code>chcp</code> 的更多描述</p>
+<blockquote>
+<p>65001 UTF-8 代码页
+950 繁体中文
+936 简体中文默认的 GBK
+437 MS-DOS 美国英语</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>技术记录</category>
+      </categories>
+      <tags>
+        <tag>VS Code</tag>
+      </tags>
   </entry>
   <entry>
     <title>在 Linux 服务器上使用 酷Q</title>
@@ -485,40 +522,31 @@
       </tags>
   </entry>
   <entry>
-    <title>解决 VS Code 编译 C/C++ 是输出中文乱码的问题</title>
-    <url>/posts/ea8a69ac/</url>
-    <content><![CDATA[<p>在 Windows 下使用 VSCode 编译运行 C/C++，都出现中文乱码的问题，这是由于 Windows 控制台使用的还是 GBK 编码。我在网上搜了一下发现需要更换编译器解决，这里贴一下 <a href="http://blog.00oo00.xyz/">梧矜</a> 的 <a href="https://blog.00oo00.xyz/2020/03/12/ru-he-jie-jue-vscode-bian-yi-yun-xing-c-cheng-xu-shi-shu-chu-zhong-wen-luan-ma/">解决 vscode 编译运行 C 程序时乱码</a>。</p>
-<p>不是这种方式不好，这种确实从根本解决了问题，但是我是实在懒，所以想了一些外门邪道。然后百度到了可以使用 <code>chcp 65001</code> 命令把控制台的编码切换到 UTF-8，当然你可以参考这篇 <a href="https://jingyan.baidu.com/article/f7ff0bfcee2dc22e26bb13d5.html">百度知道</a> 或者这篇 <a href="https://www.cnblogs.com/jpfss/p/11016870.html">博文</a> 把编码永久更改，但是我怕会出奇怪的问题，所以在 VS Code 的配置文件找了找，没想到还真有这种骚操作。</p>
-<div class="note info flat"><p>2020-12-14 更新新方法</p>
+    <title>在 Windows 系统上给 ssh 设置代理</title>
+    <url>/posts/4d70a82d/</url>
+    <content><![CDATA[<div class="note info flat"><p>看清，使用的系统是 Windows 不是 Linux 或者 MacOS</p>
 </div>
-<p>其实只要给 code runner 插件、手动编译时、VS Code 调试时上 <code>-fexec-charset=GBK</code> 就好了，之前那种方法简直是绕弯路，交作业的时候只需要把编码改成 GBK 就好了。唯一的缺点就是不能编译 GBK 文件，不过这不是问题。</p>
-<h2 id="偷懒的方式">偷懒的方式</h2>
-<p>在 VS Code 中通过打开 <code>文件</code>-&gt; <code>首选项</code>-&gt; <code>设置</code>，然后编辑 VS Code 的 <code>setting.json</code> ，然后添加如下代码</p>
-<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">&quot;terminal.integrated.shellArgs.windows&quot;</span>: [</span><br><span class="line">        <span class="string">&quot;-NoExit&quot;</span>,</span><br><span class="line">        <span class="string">&quot;/c&quot;</span>,</span><br><span class="line">        <span class="string">&quot;chcp 65001&quot;</span>,</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>然后保存即可，现在编译就不会出现中文乱码的问题了，这里贴一下图</p>
-<p><img src="../../media/article_img/vscode_cpp_chinese_garbled_code/%E4%BF%AE%E6%94%B9%E5%89%8D.png" alt="修改前"></p>
-<p><img src="../../media/article_img/vscode_cpp_chinese_garbled_code/%E4%BF%AE%E6%94%B9%E5%90%8E.png" alt="修改后"></p>
-<h3 id="缺点">缺点</h3>
-<p>当然缺点也是有的，就是每次编译的时候会在顶部显示一个 <code>Active code page: 65001</code>，不过我觉得无伤大雅，毕竟没换编译器就可以实现差不多的效果还想怎么样。<s>主要还是懒</s></p>
-<h2 id="简便的方式">简便的方式</h2>
-<p><s>其实也可以通过这个按钮解决，不过这个是改变文件的编码，如果把这个文件放到其他设备上可能会有问题</s></p>
-<p><img src="../../media/article_img/vscode_cpp_chinese_garbled_code/%E6%8C%89%E9%92%AE.png" alt="按钮"></p>
-<h2 id="工作区">工作区</h2>
-<p>如果你只需要在这个工作区生效的话只需要这个目录下的 <code>.vscode</code> 文件夹里的 <code>setting.json</code> 添加这个配置就好了，这样只会对这个工作区生效。</p>
-<h2 id="更多">更多</h2>
-<p>有关 <code>chcp</code> 的更多描述</p>
-<blockquote>
-<p>65001 UTF-8 代码页
-950 繁体中文
-936 简体中文默认的 GBK
-437 MS-DOS 美国英语</p>
-</blockquote>
+<p>百度搜到的很多给 git 设置代理的办法，都是给 http 设置代理，而不是给 SSH 设置代理。那个 <code>git config --global http.proxy http://127.0.0.1:1080</code> 设置起来，只针对 http 的 git 有效果。
+然后就是 <code>ProxyCommand nc -v -x 127.0.0.1:1080 %h %p</code>，那个分明是给 Linux 才能用的， Windows 上哪里来的 nc 程序？</p>
+<p>以下操作是给 Windows 用的，我的操作：</p>
+<p>在自己的用户文件夹找到 .ssh 文件夹，比如我的是 <code>C:\Users\nihao\.ssh</code> ，在里面新建一个空白文件，取名 config，如果已经有了就不用创建了。</p>
+<p>注意不是 config.txt ！</p>
+<p>我强烈建议把 Windows 的后缀显示给打开，不然你根本不知道自己到底在编辑什么文件。</p>
+<p>都用 Git 了不至于还害怕自己把文件后缀名给改错了吧？</p>
+<p>在 config 文件里写上一行就行：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ProxyCommand <span class="string">&quot;C:\Program Files\Git\mingw64\bin\connect.exe&quot;</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %<span class="built_in">h</span> %p</span><br></pre></td></tr></table></figure>
+<p>这里 git 的安装路径和后面的代理自己看着填，不要试着用相对路径，保证要吃亏。因为 <code>Program Files</code> 文件夹中间带一个空格，所以这里需要把整个路径给引号引起来。 后面的代理的话，<code>-S</code> 指是 socks 代理，默认是 socks5，<code>127.0.0.1:1080</code> 就是你本地的代理地址，后面的 <code>%h %p</code> 意思是 Host 和 Port，必须得写上，我也不知道为什么要这么设计。 如果要使用 HTTP 代理，就写 <code>-H</code>，更多代理类型（比如 socks4）请参 <a href="https://bitbucket.org/gotoh/connect/wiki/Home#!more-detail">这个</a>。</p>
+<p>上这个写法是针对全局的，如果想只针对某个网站的话，就这么写：</p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">  ProxyCommand <span class="string">&quot;C:\Program Files\Git\mingw64\bin\connect.exe&quot;</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %<span class="built_in">h</span> %p</span><br></pre></td></tr></table></figure>
+<p>现在就可以愉快的使用代理了，不过要记住一定使用 ssh 协议。</p>
 ]]></content>
       <categories>
         <category>技术记录</category>
       </categories>
       <tags>
-        <tag>VS Code</tag>
+        <tag>Windows</tag>
+        <tag>ssh</tag>
+        <tag>代理</tag>
       </tags>
   </entry>
   <entry>
@@ -569,7 +597,7 @@
 <p>一定要记得添加 Qmsg酱好友！</p>
 <p>打开控制台在 <code>KEY</code> 这里复制你的 key
 <img src="../../media/article_img/wanxiao_checkin/key.jpeg" alt="key"></p>
-<p>然后返回仓库打开 <code>17wanxiao.py</code> 这个文件，按下 <code>Ctrl + F</code> 搜索 <code>desp</code> 替换为 <code>msg</code>，如图所示
+<p>然后返回仓库打开 <code>index.py</code> 这个文件，按下 <code>Ctrl + F</code> 搜索 <code>desp</code> 替换为 <code>msg</code>，如图所示
 <img src="../../media/article_img/wanxiao_checkin/%E6%9B%BF%E6%8D%A2.jpeg" alt="替换">
 最后把 316 行的 <code>send_url = f&quot;https://sc.ftqq.com/&#123;sckey&#125;.send&quot;</code> 改为 <code>send_url = f&quot;https://qmsg.zendee.cn/send/&#123;sckey&#125;&quot;</code> 就好了，记得修改环境变量的 <code>SCKEY</code>，快去运行测试一下吧。</p>
 <div class="note warning flat"><p>322 行的 <code>for _ in range(3):</code> 改为 <code>for _ in range(1):</code> 可以避免多次推送，可能有未知问题。</p>
@@ -580,34 +608,6 @@
       </categories>
       <tags>
         <tag>完美校园</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在 Windows 系统上给 ssh 设置代理</title>
-    <url>/posts/4d70a82d/</url>
-    <content><![CDATA[<div class="note info flat"><p>看清，使用的系统是 Windows 不是 Linux 或者 MacOS</p>
-</div>
-<p>百度搜到的很多给 git 设置代理的办法，都是给 http 设置代理，而不是给 SSH 设置代理。那个 <code>git config --global http.proxy http://127.0.0.1:1080</code> 设置起来，只针对 http 的 git 有效果。
-然后就是 <code>ProxyCommand nc -v -x 127.0.0.1:1080 %h %p</code>，那个分明是给 Linux 才能用的， Windows 上哪里来的 nc 程序？</p>
-<p>以下操作是给 Windows 用的，我的操作：</p>
-<p>在自己的用户文件夹找到 .ssh 文件夹，比如我的是 <code>C:\Users\nihao\.ssh</code> ，在里面新建一个空白文件，取名 config，如果已经有了就不用创建了。</p>
-<p>注意不是 config.txt ！</p>
-<p>我强烈建议把 Windows 的后缀显示给打开，不然你根本不知道自己到底在编辑什么文件。</p>
-<p>都用 Git 了不至于还害怕自己把文件后缀名给改错了吧？</p>
-<p>在 config 文件里写上一行就行：</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">ProxyCommand <span class="string">&quot;C:\Program Files\Git\mingw64\bin\connect.exe&quot;</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %<span class="built_in">h</span> %p</span><br></pre></td></tr></table></figure>
-<p>这里 git 的安装路径和后面的代理自己看着填，不要试着用相对路径，保证要吃亏。因为 <code>Program Files</code> 文件夹中间带一个空格，所以这里需要把整个路径给引号引起来。 后面的代理的话，<code>-S</code> 指是 socks 代理，默认是 socks5，<code>127.0.0.1:1080</code> 就是你本地的代理地址，后面的 <code>%h %p</code> 意思是 Host 和 Port，必须得写上，我也不知道为什么要这么设计。 如果要使用 HTTP 代理，就写 <code>-H</code>，更多代理类型（比如 socks4）请参 <a href="https://bitbucket.org/gotoh/connect/wiki/Home#!more-detail">这个</a>。</p>
-<p>上这个写法是针对全局的，如果想只针对某个网站的话，就这么写：</p>
-<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">Host github.com</span><br><span class="line">  ProxyCommand <span class="string">&quot;C:\Program Files\Git\mingw64\bin\connect.exe&quot;</span> <span class="literal">-S</span> <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">1080</span> %<span class="built_in">h</span> %p</span><br></pre></td></tr></table></figure>
-<p>现在就可以愉快的使用代理了，不过要记住一定使用 ssh 协议。</p>
-]]></content>
-      <categories>
-        <category>技术记录</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>ssh</tag>
-        <tag>代理</tag>
       </tags>
   </entry>
   <entry>
@@ -726,6 +726,38 @@
       </tags>
   </entry>
   <entry>
+    <title>开往 - Travellings</title>
+    <url>/posts/58ae8d54/</url>
+    <content><![CDATA[<h2 id="什么是开往">什么是开往</h2>
+<p>这是一个来自于国外的想法，在网站显眼的位置，加入一个认证的徽标，代表网站已经加入了友链助力，如果访客点击徽标，将随机前往另一个计划内的网站。</p>
+<h2 id="为什么要开往">为什么要开往</h2>
+<p>互联网将人与人之间的距离大大减小，却还是形成了大大小小的孤岛。只有熟人间才知道彼此，而陌生人永远只能是陌生人。</p>
+<blockquote>
+<p>“开往”取自“开放的网络”。 将一群志同道合的人连接在一起，我们共享彼此的流量，帮助陌生人发现新大陆。</p>
+</blockquote>
+<p>开往-友链助力是传统友链的增强，我们不必互相知道了解彼此，标准的审查让友好的朋友加入我们，只需要一个徽标，占用一块位置，我们所有人都联系在了一起，简单而又强大。大大小小的孤岛散落在浩瀚烟海，开往就像是一颗颗星球之间的快速列车，随机的跳向下一站。</p>
+<h2 id="怎么加入开往">怎么加入开往</h2>
+<a class="btn-beautify button--animated " href="https://github.com/volfclub/travellings" 
+  title="开往-友链接力"><i class="block center larger fa-fw"></i><span>开往-友链接力</span></a>
+<p>这是项目的 Github 地址，在 issue 中提交申请，几日内就会受理。但是申请的网站必须满足几点要求：</p>
+<ol>
+<li>愿为开放的网络做出贡献（如分享知识经验设计等）；</li>
+<li>没有违法以及影响体验的内容（如侵入式广告等）；</li>
+<li>正常更新维护中（国内无法正常访问会被移除）；</li>
+<li>强制启用 https 。</li>
+</ol>
+<p>满足以上要求，并将徽标插入您网页<strong>明显的地方</strong>（让友链传递下去）。</p>
+<p><strong>下面就是通向异域的按钮。</strong></p>
+<p><a href="https://travellings.now.sh/" target="blank"><img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a></p>
+]]></content>
+      <categories>
+        <category>正经文字</category>
+      </categories>
+      <tags>
+        <tag>开往</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>如何使用 Dolphin Emulator 玩《星之卡比：Wii》</title>
     <url>/posts/2fbba4ed/</url>
     <content><![CDATA[<blockquote>
@@ -760,38 +792,6 @@
       </tags>
   </entry>
   <entry>
-    <title>开往 - Travellings</title>
-    <url>/posts/58ae8d54/</url>
-    <content><![CDATA[<h2 id="什么是开往">什么是开往</h2>
-<p>这是一个来自于国外的想法，在网站显眼的位置，加入一个认证的徽标，代表网站已经加入了友链助力，如果访客点击徽标，将随机前往另一个计划内的网站。</p>
-<h2 id="为什么要开往">为什么要开往</h2>
-<p>互联网将人与人之间的距离大大减小，却还是形成了大大小小的孤岛。只有熟人间才知道彼此，而陌生人永远只能是陌生人。</p>
-<blockquote>
-<p>“开往”取自“开放的网络”。 将一群志同道合的人连接在一起，我们共享彼此的流量，帮助陌生人发现新大陆。</p>
-</blockquote>
-<p>开往-友链助力是传统友链的增强，我们不必互相知道了解彼此，标准的审查让友好的朋友加入我们，只需要一个徽标，占用一块位置，我们所有人都联系在了一起，简单而又强大。大大小小的孤岛散落在浩瀚烟海，开往就像是一颗颗星球之间的快速列车，随机的跳向下一站。</p>
-<h2 id="怎么加入开往">怎么加入开往</h2>
-<a class="btn-beautify button--animated " href="https://github.com/volfclub/travellings" 
-  title="开往-友链接力"><i class="block center larger fa-fw"></i><span>开往-友链接力</span></a>
-<p>这是项目的 Github 地址，在 issue 中提交申请，几日内就会受理。但是申请的网站必须满足几点要求：</p>
-<ol>
-<li>愿为开放的网络做出贡献（如分享知识经验设计等）；</li>
-<li>没有违法以及影响体验的内容（如侵入式广告等）；</li>
-<li>正常更新维护中（国内无法正常访问会被移除）；</li>
-<li>强制启用 https 。</li>
-</ol>
-<p>满足以上要求，并将徽标插入您网页<strong>明显的地方</strong>（让友链传递下去）。</p>
-<p><strong>下面就是通向异域的按钮。</strong></p>
-<p><a href="https://travellings.now.sh/" target="blank"><img src="https://travellings.now.sh/assets/logo.gif" alt="开往-友链接力" width="120"></a></p>
-]]></content>
-      <categories>
-        <category>正经文字</category>
-      </categories>
-      <tags>
-        <tag>开往</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>怎么呼吸</title>
     <url>/posts/b0821049/</url>
     <content><![CDATA[<p>不能呼吸的时候
@@ -817,26 +817,6 @@
       <tags>
         <tag>环保</tag>
         <tag>塑料产品</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>为什么说宣扬读书无用论的人要么蠢要么坏？</title>
-    <url>/posts/e9558acf/</url>
-    <content><![CDATA[<p>告诉别人「读书无用」的人，也许他们真的没读过什么书，因为一些机缘巧合，或者家庭资源帮扶，让他们得到了一些成就。</p>
-<p>但你没办法像他们那么幸运。</p>
-<p>读书面对强者，应该是锦上添花；对弱者，应当是雪中送炭。</p>
-<p>读书不单是指文化课，我们需要的是一直保持持续学习的习惯。</p>
-<p>如果你丧失了持续吸收新鲜事物的技能，那你的生活就会处在一个瓶颈。</p>
-<p>这个时候，你就会发现你身边的傻逼上司，傻逼同事和傻逼的朋友，都会层出不穷。</p>
-<p>但你跳不开这个境地，因为你真的相信了读书无用，换言之，你智商也不怎么地。</p>
-]]></content>
-      <categories>
-        <category>正经文字</category>
-      </categories>
-      <tags>
-        <tag>读书</tag>
-        <tag>学习</tag>
-        <tag>读书无用论</tag>
       </tags>
   </entry>
   <entry>
@@ -867,6 +847,26 @@
       </tags>
   </entry>
   <entry>
+    <title>为什么说宣扬读书无用论的人要么蠢要么坏？</title>
+    <url>/posts/e9558acf/</url>
+    <content><![CDATA[<p>告诉别人「读书无用」的人，也许他们真的没读过什么书，因为一些机缘巧合，或者家庭资源帮扶，让他们得到了一些成就。</p>
+<p>但你没办法像他们那么幸运。</p>
+<p>读书面对强者，应该是锦上添花；对弱者，应当是雪中送炭。</p>
+<p>读书不单是指文化课，我们需要的是一直保持持续学习的习惯。</p>
+<p>如果你丧失了持续吸收新鲜事物的技能，那你的生活就会处在一个瓶颈。</p>
+<p>这个时候，你就会发现你身边的傻逼上司，傻逼同事和傻逼的朋友，都会层出不穷。</p>
+<p>但你跳不开这个境地，因为你真的相信了读书无用，换言之，你智商也不怎么地。</p>
+]]></content>
+      <categories>
+        <category>正经文字</category>
+      </categories>
+      <tags>
+        <tag>读书</tag>
+        <tag>学习</tag>
+        <tag>读书无用论</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我为什么要搭建博客</title>
     <url>/posts/a6366ad5/</url>
     <content><![CDATA[<blockquote>
@@ -886,104 +886,6 @@
       <tags>
         <tag>为什么</tag>
         <tag>看法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一些 WordPress 主题</title>
-    <url>/posts/dc790cfc/</url>
-    <content><![CDATA[<p>一些 WordPress 主题，好像都是来自吾爱破解，在这里记录一下</p>
-<h2 id="betheme">betheme</h2>
-<p><a href="https://www.52pojie.cn/thread-590043-1-1.html">https://www.52pojie.cn/thread-590043-1-1.html</a></p>
-<h2 id="Begin知更鸟">Begin知更鸟</h2>
-<p><a href="https://www.52pojie.cn/thread-664527-1-1.html">https://www.52pojie.cn/thread-664527-1-1.html</a></p>
-<h2 id="DUX">DUX</h2>
-<p><a href="https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=832427">https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=832427</a></p>
-<h2 id="XIU">XIU</h2>
-<p><a href="https://www.52pojie.cn/thread-705661-1-1.html">https://www.52pojie.cn/thread-705661-1-1.html</a></p>
-]]></content>
-      <categories>
-        <category>资源</category>
-      </categories>
-      <tags>
-        <tag>WordPress</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Windows 软件推荐</title>
-    <url>/posts/cd1c3d2a/</url>
-    <content><![CDATA[<p>这些软件都是我自己用过的，可以通过左边页面快速定位</p>
-<h2 id="Visual-Studio-Code">Visual Studio Code</h2>
-<p>这个简直首推，编辑利器，人生苦短，我用 VS Code 完成关于文本编辑工作的一切。它天生支持几乎所有编程语言，还可以通过扩展个性化相应的语法高亮等。
-如果你想忙里偷闲，VS Code 强大的扩展能力还能让你用它刷 LeetCode 或 V2EX，可谓带薪划水必备。
-<img src="../../media/article_img/windows_app_recommend/1.png" alt="enter description here">
-你可以在<a href="https://code.visualstudio.com/">官网</a>免费获取 Visual Studio Code。</p>
-<h2 id="福昕-PDF-阅读器">福昕 PDF 阅读器</h2>
-<p>国产，中文界面，流畅好用，界面美观
-<a href="https://www.foxitsoftware.cn/">点这里</a></p>
-<h2 id="福昕-PDF-编辑器">福昕 PDF 编辑器</h2>
-<p>福昕（Foxit）可能是我国最受欢迎的 PDF 阅读器，由其出品的 <a href="https://www.foxitsoftware.cn/pdf-editor/">PDF 编辑器</a> 也是 Adobe Acrobat 的有力竞争对手。它提供了各种 PDF 批注工具；支持编辑 PDF 中的文本、段落、图片；设计并填写表单；OCR 识别图片中的文字；管理 PDF 页面；转换为其它文件格式等，界面也比较友好。</p>
-<h2 id="火绒安全软件">火绒安全软件</h2>
-<p>如果你觉得 Windows Defender 还是有些简陋，火绒安全软件是个不错的选择。它提供了病毒联网查杀、垃圾清理、下载保护、浏览器保护等国产卫士标配功能，但不会拖家带口向你问好，还你一片清净。
-<img src="../../media/article_img/windows_app_recommend/2.png" alt="enter description here">
-除了系统防护外，火绒安全软件还提供了数种实用工具，如弹窗拦截、右键菜单管理、启动项管理、文件粉碎机等。如果你是进阶用户，还可以试试火绒剑这一强大的专业安全分析工具。
-<img src="../../media/article_img/windows_app_recommend/3.png" alt="enter description here">
-你可以在 <a href="https://www.huorong.cn/">官网</a> 免费获取火绒安全软件。</p>
-<h2 id="Quicklook，仿-MAC-快速预览">Quicklook，仿 MAC 快速预览</h2>
-<p>MAC 的快速预览很多人都见过，回望 Win10 的「预览」，依旧被抠抠唆唆地安排在窗口右侧，一点也不大气！QuickLook 是一款仿 MAC 快速预览的小工具，装好之后，只要选中文件，按下键盘上的空格键，即可预览文件内容。</p>
-<p>QuickLook 支持文本、视频、音频、图片、压缩包、Office 文档……，换句话说，你电脑上任何一款文件几乎都可以用它预览。同时你也可以点击预览窗右上角的按钮直接启动对应程序，非常方便。
-<img src="../../media/article_img/windows_app_recommend/4.png" alt="enter description here">
-<a href="http://dl.pconline.com.cn/download/1115319.html">QuickLook：点此下载</a></p>
-<h2 id="升级-Win10-日历！优效日历">升级 Win10 日历！优效日历</h2>
-<p>Win10 为右下角托盘设计了一个新日历，但依旧被吐槽功能太弱，优效日历是 Win10 原生日历的最佳替代者。它有着和 Win10 原生日历一致的外观界面，支持农历、节日、调休显示，支持日程提醒、万年历、自定义时钟。同时它还集成了定时关机、屏幕截图两大功能，没用过的一定得试一试！
-<img src="../../media/article_img/windows_app_recommend/5.png" alt="enter description here">
-<a href="http://www.youxiao.cn/">点击下载</a></p>
-<h2 id="Chocolatey">Chocolatey</h2>
-<p>Chocolatey 是 Windows 下的包管理器，访问<a href="https://chocolatey.org/">官网</a>来查看使用方法</p>
-<h2 id="uTools">uTools</h2>
-<p>uTools 是一个极简的桌面管理软件，但它的功能更全面。包含：快速启动、自动识别、数据同步等功能。</p>
-<p>比如快速启动，这个功能和 Listary、Everything 等都非常相似。但 uTools 对中文的支持非常有好，还可以首字母检索。
-<img src="../../media/article_img/windows_app_recommend/6.png" alt="enter description here">
-除此外还有插件中心，里面还有各种比如：网页快开、在线翻译、计算器、压缩图片、图片转文字等功能。这也是其它快速启动软件所不具备的。
-<img src="../../media/article_img/windows_app_recommend/7.png" alt="enter description here">
-<a href="https://u.tools/">点击下载</a></p>
-<h2 id="万彩办公大师">万彩办公大师</h2>
-<p>万彩办公大师可以说是一个办公必备的工具，包含了各种功能：PDF 编辑、格式转换、图片编辑等，功能多达 60+。</p>
-<p>最让人惊喜的是，万彩办公大师使用完全免费，所有的工具无需安装，直接加载就可以启动了。
-<img src="../../media/article_img/windows_app_recommend/8.png" alt="enter description here">
-<a href="wofficebox.com/">下载地址</a></p>
-<h2 id="TreeSize">TreeSize</h2>
-<p>TreeSize 是一个扫描磁盘可视化排列大小的应用，有免费版和专业版可以选
-<img src="../../media/article_img/windows_app_recommend/9.png" alt="enter description here">
-<a href="https://www.jam-software.com/treesize_free/">点击这里</a>获取免费版</p>
-<h2 id="CCleaner">CCleaner</h2>
-<p>CCleaner，不仅是常用的垃圾和缓存清理，我也用它在电脑刚到手时卸载掉 Win10 自带的各种无用软件（有些 Windows 不让卸载的自带 UWP，在 CCleaner 里可以卸载掉），甚至我嫌 OneDrive 麻烦，也用它卸载过。界面很友好。批量卸载比手动卸载方便不少。软件是有中文的，但默认是英文，自己手动在 <code>options-setting-language</code> 选择 <code>Chinese simplified</code> 即可
-<img src="../../media/article_img/windows_app_recommend/10.png" alt="enter description here">
-<a href="https://www.ccleaner.com/ccleaner/download">点击下载</a></p>
-<h2 id="BandiZip">BandiZip</h2>
-<p>BandiZip，界面美观，功能强大，而且免费无广告，另外 <a href="https://www.7-zip.org/">7-Zip</a>，界面丑了一些，功能还是很强的。也有不少人推荐修改版的 rar 烈火或者好压，其实都不错。
-<img src="../../media/article_img/windows_app_recommend/11.png" alt="enter description here">
-<a href="http://www.bandisoft.com/bandizip/cn/">下载地址</a></p>
-<h2 id="Obs-Open-Broadcaster-Software">Obs-Open Broadcaster Software</h2>
-<p>OBS，不用多说了，剪视频、录游戏好帮手。
-<a href="https://obsproject.com/">下载地址</a></p>
-<h2 id="VLC-media-player">VLC media player</h2>
-<p>跨平台的播放器，Linux 的时候一直用的，Windows 也就接着用了，有浏览器插件，可以直接把浏览器的视频推过来播放
-<img src="../../media/article_img/windows_app_recommend/12.png" alt="enter description here">
-<a href="https://www.videolan.org/">点这里下载</a></p>
-<h2 id="Geek-Uninstaller">Geek Uninstaller</h2>
-<p>Geek Uninstaller 是一个专业卸载软件，采取深而快的扫描方式，删除所有无用的文件，注册表，卸载无残留！
-这款软件也是一款单文件软件，下载后，不用安装，双击直接使用，卸载软件、强制彻底清除软件残留垃圾文件或是查看某软件的注册表项目等等。
-<img src="../../media/article_img/windows_app_recommend/13.png" alt="enter description here">
-你可以在他的<a href="https://geekuninstaller.com/">官网</a>获取到</p>
-<h2 id="未完">未完</h2>
-<p>后面想到了再补充</p>
-]]></content>
-      <categories>
-        <category>资源</category>
-      </categories>
-      <tags>
-        <tag>Windows</tag>
-        <tag>软件推荐</tag>
       </tags>
   </entry>
   <entry>
@@ -1109,6 +1011,52 @@
       </tags>
   </entry>
   <entry>
+    <title>使用 Kotlin 编写一个懒加载与 ViewBinding 的 Fragment</title>
+    <url>/posts/51f7c2cb/</url>
+    <content><![CDATA[<p>有关 ViewBinding 的用法看 <a href="https://developer.android.google.cn/topic/libraries/view-binding">这里</a></p>
+<p>最近在学习 Kotlin 的时候有遇到需要封装一个拥有懒加载功能的 Fragment，并且我还想用上新的 ViewBinding 功能。
+那么第一个实现比较简单的，之前在 Java 也封装过，唯一的问题就是之前使用的是重写 <code>setUserVisibleHint</code> 方法来实现的，不过这个方法已经被标记为 <code>deprecated</code>（弃用的）了，指不定那一天就用不了了。
+根据官方的提示：</p>
+<blockquote>
+<p>Deprecated
+Use FragmentTransaction.setMaxLifecycle(Fragment, Lifecycle.State) instead.</p>
+</blockquote>
+<p>我们现在应该去调用 <code>setMaxLifecycle</code> 方法来实现这个功能，使用 <code>setMaxLifecycle</code> 来限制了 Fragment 的生命周期，Fragment 的 <code>onReseume()</code> 只有当 Fragment 显示在屏幕上时才会执行，这样就可以把加载数据的方法放在 <code>onResume()</code> 方法中来实现懒加载了。
+在 <code>FragmentPagerAdapter</code> 适配器构造方法中有一个 <code>behavior</code> 参数，我们只需要传入一个参数就可以限制他的生命周期了。</p>
+<p>那么剩下的就是 <code>ViewBinding</code> 了，这个只需要在继承的时候传入参数就好了，那就开始动手</p>
+<h2 id="BaseFragment-部分">BaseFragment 部分</h2>
+<p>首先贴上代码</p>
+<figure class="highlight kotlin"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 封装一个有懒加载的 Fragment</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> T 传入泛型的 ViewBinding</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> layoutId 传入布局用来跳过在子类中初始化传入 inflater</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">abstract</span> <span class="class"><span class="keyword">class</span> <span class="title">BaseFragment</span>&lt;<span class="type">T : ViewBinding</span>&gt;</span>(<span class="keyword">private</span> <span class="keyword">val</span> layoutId: <span class="built_in">Int</span>) : Fragment(layoutId) &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">var</span> isViewOK = <span class="literal">false</span> <span class="comment">//是否完成 View 初始化</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">var</span> isFirst = <span class="literal">true</span> <span class="comment">//是否为第一次加载</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">var</span> _binding: T? = <span class="literal">null</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">val</span> binding <span class="keyword">get</span>() = _binding!!</span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">onCreateView</span><span class="params">(inflater: <span class="type">LayoutInflater</span>, container: <span class="type">ViewGroup</span>?, savedInstanceState: <span class="type">Bundle</span>?)</span></span>: View? &#123;</span><br><span class="line">        <span class="keyword">val</span> view = inflater.inflate(layoutId, container, <span class="literal">false</span>)</span><br><span class="line">        <span class="comment">// 完成 initView 后改变view的初始化状态为完成</span></span><br><span class="line">        isViewOK = <span class="literal">true</span></span><br><span class="line">        <span class="keyword">return</span> view</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">onViewCreated</span><span class="params">(view: <span class="type">View</span>, savedInstanceState: <span class="type">Bundle</span>?)</span></span> &#123;</span><br><span class="line">        <span class="keyword">super</span>.onViewCreated(view, savedInstanceState)</span><br><span class="line">        _binding = initBinding(view)</span><br><span class="line">        initView()</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 传入对应的 ViewBinding</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">abstract</span> <span class="function"><span class="keyword">fun</span> <span class="title">initBinding</span><span class="params">(view: <span class="type">View</span>)</span></span>: T</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * fragment 初始化 view 的方法</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">abstract</span> <span class="function"><span class="keyword">fun</span> <span class="title">initView</span><span class="params">()</span></span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">onResume</span><span class="params">()</span></span> &#123;</span><br><span class="line">        <span class="keyword">super</span>.onResume()</span><br><span class="line">        <span class="comment">//在 onResume 进行数据懒加载</span></span><br><span class="line">        initLoadData()</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="function"><span class="keyword">fun</span> <span class="title">initLoadData</span><span class="params">()</span></span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (isViewOK &amp;&amp; isFirst) &#123;</span><br><span class="line">            <span class="comment">//加载数据时判断是否完成view的初始化，以及是不是第一次加载此数据</span></span><br><span class="line">            loadDate()</span><br><span class="line">            <span class="comment">//加载第一次数据后改变状态，后续不再重复加载</span></span><br><span class="line">            isFirst = <span class="literal">false</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * fragment 实现懒加载的方法，即在这里加载数据</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">abstract</span> <span class="function"><span class="keyword">fun</span> <span class="title">loadDate</span><span class="params">()</span></span></span><br><span class="line"></span><br><span class="line">    <span class="comment">//释放数据</span></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">onDestroyView</span><span class="params">()</span></span> &#123;</span><br><span class="line">        _binding = <span class="literal">null</span></span><br><span class="line">        <span class="keyword">super</span>.onDestroyView()</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>没什么好说的，主要的东西我都写在注释里了，只有两点要注意下：</p>
+<ul>
+<li>class 必须声明为 abstract 这样才能让子类去实现懒加载的方法</li>
+<li>注意 <code>_binding</code> 和 <code>binding</code>，这两个一个对外一个对内，对内的注意在 onDestroyView 进行释放，以免内存泄漏</li>
+</ul>
+<h2 id="子类-TestFragment">子类 TestFragment</h2>
+<p>那我们看看这个应该如何使用吧
+（假设你的 Fragment 的布局名称是 fragment_test，里面有一个 id 为 tvMain 的 TextView）</p>
+<figure class="highlight kotlin"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TestFragment</span> : <span class="type">BaseFragment</span>&lt;<span class="type">FragmentTestBinding</span>&gt;</span>(R.layout.fragment_test) &#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">initBinding</span><span class="params">(view: <span class="type">View</span>)</span></span>: FragmentTestBinding &#123;</span><br><span class="line">        <span class="keyword">return</span> FragmentTestBinding.bind(view)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">initView</span><span class="params">()</span></span> &#123;</span><br><span class="line">        <span class="comment">// 这里是初始化 View 的方法</span></span><br><span class="line">        binding.tvMain.text = <span class="string">&quot;HI&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">loadDate</span><span class="params">()</span></span> &#123;</span><br><span class="line">        <span class="comment">// 这里的初始化了数据的方法</span></span><br><span class="line">        Toast.makeText(activity,<span class="string">&quot;我初始化了数据&quot;</span>,Toast.LENGTH_SHORT).show()</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>跟简单吧，做到了 View 与数据的分离</p>
+<h2 id="ViewAdapter-的处理">ViewAdapter 的处理</h2>
+<p>那说了这么多，「那个参数」 到底在哪里呢？来了来了，不过我们要先写一个 adapter 才可以</p>
+<figure class="highlight kotlin"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ViewPagerAdapter</span> <span class="keyword">constructor</span> </span>(</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">val</span> fragmentManager: FragmentManager,</span><br><span class="line">    <span class="comment">// 注意看这个参数</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">val</span> behavior: <span class="built_in">Int</span>,</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">val</span> fragmentList: List&lt;BaseFragment&lt;*&gt;&gt;</span><br><span class="line">) :</span><br><span class="line">    FragmentPagerAdapter(fragmentManager, behavior) &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">getItem</span><span class="params">(position: <span class="type">Int</span>)</span></span>: Fragment = fragmentList[position]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">getCount</span><span class="params">()</span></span>: <span class="built_in">Int</span> = fragmentList.size</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>代码很简单，只是重写了几个方法而已，不过接下来才是重点,在调用传入的时候我们需要转入重要的参数</p>
+<figure class="highlight kotlin"><table><tr><td class="code"><pre><span class="line">viewPager.adapter = ViewPagerAdapter(</span><br><span class="line">            supportFragmentManager,</span><br><span class="line">            <span class="comment">// 看这里</span></span><br><span class="line">            FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT,</span><br><span class="line">            fragmentList</span><br><span class="line">        )</span><br><span class="line"><span class="comment">// 设置预加载的数量，来测试懒加载是否成功</span></span><br><span class="line">viewPager.offscreenPageLimit = <span class="number">4</span></span><br></pre></td></tr></table></figure>
+<p>注意看我们传入了 <code>FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT</code>，这个参数就是作为限制 Fragment 生命周期而存在的。</p>
+<p>这样就简单的实现了需要的功能了。</p>
+]]></content>
+      <categories>
+        <category>编程</category>
+      </categories>
+      <tags>
+        <tag>踩坑</tag>
+        <tag>Android</tag>
+        <tag>ViewPager</tag>
+        <tag>Fragment</tag>
+        <tag>Kotlin</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>实现滑动隐藏 ToolBar 与 BottomNavigation</title>
     <url>/posts/919199f6/</url>
     <content><![CDATA[<p>最近在重写 Kirby Assistant 的时候需要实现像图中的效果，那这样的效果具体应该怎么实现呢，快点进来看看吧。(图在里面)</p>
@@ -1166,52 +1114,6 @@
       </tags>
   </entry>
   <entry>
-    <title>使用 Kotlin 编写一个懒加载与 ViewBinding 的 Fragment</title>
-    <url>/posts/51f7c2cb/</url>
-    <content><![CDATA[<p>有关 ViewBinding 的用法看 <a href="https://developer.android.google.cn/topic/libraries/view-binding">这里</a></p>
-<p>最近在学习 Kotlin 的时候有遇到需要封装一个拥有懒加载功能的 Fragment，并且我还想用上新的 ViewBinding 功能。
-那么第一个实现比较简单的，之前在 Java 也封装过，唯一的问题就是之前使用的是重写 <code>setUserVisibleHint</code> 方法来实现的，不过这个方法已经被标记为 <code>deprecated</code>（弃用的）了，指不定那一天就用不了了。
-根据官方的提示：</p>
-<blockquote>
-<p>Deprecated
-Use FragmentTransaction.setMaxLifecycle(Fragment, Lifecycle.State) instead.</p>
-</blockquote>
-<p>我们现在应该去调用 <code>setMaxLifecycle</code> 方法来实现这个功能，使用 <code>setMaxLifecycle</code> 来限制了 Fragment 的生命周期，Fragment 的 <code>onReseume()</code> 只有当 Fragment 显示在屏幕上时才会执行，这样就可以把加载数据的方法放在 <code>onResume()</code> 方法中来实现懒加载了。
-在 <code>FragmentPagerAdapter</code> 适配器构造方法中有一个 <code>behavior</code> 参数，我们只需要传入一个参数就可以限制他的生命周期了。</p>
-<p>那么剩下的就是 <code>ViewBinding</code> 了，这个只需要在继承的时候传入参数就好了，那就开始动手</p>
-<h2 id="BaseFragment-部分">BaseFragment 部分</h2>
-<p>首先贴上代码</p>
-<figure class="highlight kotlin"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 封装一个有懒加载的 Fragment</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> T 传入泛型的 ViewBinding</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> layoutId 传入布局用来跳过在子类中初始化传入 inflater</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">abstract</span> <span class="class"><span class="keyword">class</span> <span class="title">BaseFragment</span>&lt;<span class="type">T : ViewBinding</span>&gt;</span>(<span class="keyword">private</span> <span class="keyword">val</span> layoutId: <span class="built_in">Int</span>) : Fragment(layoutId) &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">var</span> isViewOK = <span class="literal">false</span> <span class="comment">//是否完成 View 初始化</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">var</span> isFirst = <span class="literal">true</span> <span class="comment">//是否为第一次加载</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">var</span> _binding: T? = <span class="literal">null</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">val</span> binding <span class="keyword">get</span>() = _binding!!</span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">onCreateView</span><span class="params">(inflater: <span class="type">LayoutInflater</span>, container: <span class="type">ViewGroup</span>?, savedInstanceState: <span class="type">Bundle</span>?)</span></span>: View? &#123;</span><br><span class="line">        <span class="keyword">val</span> view = inflater.inflate(layoutId, container, <span class="literal">false</span>)</span><br><span class="line">        <span class="comment">// 完成 initView 后改变view的初始化状态为完成</span></span><br><span class="line">        isViewOK = <span class="literal">true</span></span><br><span class="line">        <span class="keyword">return</span> view</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">onViewCreated</span><span class="params">(view: <span class="type">View</span>, savedInstanceState: <span class="type">Bundle</span>?)</span></span> &#123;</span><br><span class="line">        <span class="keyword">super</span>.onViewCreated(view, savedInstanceState)</span><br><span class="line">        _binding = initBinding(view)</span><br><span class="line">        initView()</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 传入对应的 ViewBinding</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">abstract</span> <span class="function"><span class="keyword">fun</span> <span class="title">initBinding</span><span class="params">(view: <span class="type">View</span>)</span></span>: T</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * fragment 初始化 view 的方法</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">abstract</span> <span class="function"><span class="keyword">fun</span> <span class="title">initView</span><span class="params">()</span></span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">onResume</span><span class="params">()</span></span> &#123;</span><br><span class="line">        <span class="keyword">super</span>.onResume()</span><br><span class="line">        <span class="comment">//在 onResume 进行数据懒加载</span></span><br><span class="line">        initLoadData()</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="function"><span class="keyword">fun</span> <span class="title">initLoadData</span><span class="params">()</span></span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (isViewOK &amp;&amp; isFirst) &#123;</span><br><span class="line">            <span class="comment">//加载数据时判断是否完成view的初始化，以及是不是第一次加载此数据</span></span><br><span class="line">            loadDate()</span><br><span class="line">            <span class="comment">//加载第一次数据后改变状态，后续不再重复加载</span></span><br><span class="line">            isFirst = <span class="literal">false</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * fragment 实现懒加载的方法，即在这里加载数据</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="keyword">abstract</span> <span class="function"><span class="keyword">fun</span> <span class="title">loadDate</span><span class="params">()</span></span></span><br><span class="line"></span><br><span class="line">    <span class="comment">//释放数据</span></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">onDestroyView</span><span class="params">()</span></span> &#123;</span><br><span class="line">        _binding = <span class="literal">null</span></span><br><span class="line">        <span class="keyword">super</span>.onDestroyView()</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>没什么好说的，主要的东西我都写在注释里了，只有两点要注意下：</p>
-<ul>
-<li>class 必须声明为 abstract 这样才能让子类去实现懒加载的方法</li>
-<li>注意 <code>_binding</code> 和 <code>binding</code>，这两个一个对外一个对内，对内的注意在 onDestroyView 进行释放，以免内存泄漏</li>
-</ul>
-<h2 id="子类-TestFragment">子类 TestFragment</h2>
-<p>那我们看看这个应该如何使用吧
-（假设你的 Fragment 的布局名称是 fragment_test，里面有一个 id 为 tvMain 的 TextView）</p>
-<figure class="highlight kotlin"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">TestFragment</span> : <span class="type">BaseFragment</span>&lt;<span class="type">FragmentTestBinding</span>&gt;</span>(R.layout.fragment_test) &#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">initBinding</span><span class="params">(view: <span class="type">View</span>)</span></span>: FragmentTestBinding &#123;</span><br><span class="line">        <span class="keyword">return</span> FragmentTestBinding.bind(view)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">initView</span><span class="params">()</span></span> &#123;</span><br><span class="line">        <span class="comment">// 这里是初始化 View 的方法</span></span><br><span class="line">        binding.tvMain.text = <span class="string">&quot;HI&quot;</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">loadDate</span><span class="params">()</span></span> &#123;</span><br><span class="line">        <span class="comment">// 这里的初始化了数据的方法</span></span><br><span class="line">        Toast.makeText(activity,<span class="string">&quot;我初始化了数据&quot;</span>,Toast.LENGTH_SHORT).show()</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>跟简单吧，做到了 View 与数据的分离</p>
-<h2 id="ViewAdapter-的处理">ViewAdapter 的处理</h2>
-<p>那说了这么多，「那个参数」 到底在哪里呢？来了来了，不过我们要先写一个 adapter 才可以</p>
-<figure class="highlight kotlin"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ViewPagerAdapter</span> <span class="keyword">constructor</span> </span>(</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">val</span> fragmentManager: FragmentManager,</span><br><span class="line">    <span class="comment">// 注意看这个参数</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">val</span> behavior: <span class="built_in">Int</span>,</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">val</span> fragmentList: List&lt;BaseFragment&lt;*&gt;&gt;</span><br><span class="line">) :</span><br><span class="line">    FragmentPagerAdapter(fragmentManager, behavior) &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">getItem</span><span class="params">(position: <span class="type">Int</span>)</span></span>: Fragment = fragmentList[position]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">getCount</span><span class="params">()</span></span>: <span class="built_in">Int</span> = fragmentList.size</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>代码很简单，只是重写了几个方法而已，不过接下来才是重点,在调用传入的时候我们需要转入重要的参数</p>
-<figure class="highlight kotlin"><table><tr><td class="code"><pre><span class="line">viewPager.adapter = ViewPagerAdapter(</span><br><span class="line">            supportFragmentManager,</span><br><span class="line">            <span class="comment">// 看这里</span></span><br><span class="line">            FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT,</span><br><span class="line">            fragmentList</span><br><span class="line">        )</span><br><span class="line"><span class="comment">// 设置预加载的数量，来测试懒加载是否成功</span></span><br><span class="line">viewPager.offscreenPageLimit = <span class="number">4</span></span><br></pre></td></tr></table></figure>
-<p>注意看我们传入了 <code>FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT</code>，这个参数就是作为限制 Fragment 生命周期而存在的。</p>
-<p>这样就简单的实现了需要的功能了。</p>
-]]></content>
-      <categories>
-        <category>编程</category>
-      </categories>
-      <tags>
-        <tag>踩坑</tag>
-        <tag>Android</tag>
-        <tag>ViewPager</tag>
-        <tag>Fragment</tag>
-        <tag>Kotlin</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>updateConfiguration 弃用之后更换语言应该何去何从</title>
     <url>/posts/9e078f24/</url>
     <content><![CDATA[<div class="note info flat"><p>注意本文使用的语言的是 Kotlin，如需 Java 请自行转换或在网络自行搜索，本文的 minSDK 为 21</p>
@@ -1246,6 +1148,104 @@ See android.content.Context.createConfigurationContext(Configuration).</p>
         <tag>Android</tag>
         <tag>Kotlin</tag>
         <tag>弃用</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一些 WordPress 主题</title>
+    <url>/posts/dc790cfc/</url>
+    <content><![CDATA[<p>一些 WordPress 主题，好像都是来自吾爱破解，在这里记录一下</p>
+<h2 id="betheme">betheme</h2>
+<p><a href="https://www.52pojie.cn/thread-590043-1-1.html">https://www.52pojie.cn/thread-590043-1-1.html</a></p>
+<h2 id="Begin知更鸟">Begin知更鸟</h2>
+<p><a href="https://www.52pojie.cn/thread-664527-1-1.html">https://www.52pojie.cn/thread-664527-1-1.html</a></p>
+<h2 id="DUX">DUX</h2>
+<p><a href="https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=832427">https://www.52pojie.cn/forum.php?mod=viewthread&amp;tid=832427</a></p>
+<h2 id="XIU">XIU</h2>
+<p><a href="https://www.52pojie.cn/thread-705661-1-1.html">https://www.52pojie.cn/thread-705661-1-1.html</a></p>
+]]></content>
+      <categories>
+        <category>资源</category>
+      </categories>
+      <tags>
+        <tag>WordPress</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Windows 软件推荐</title>
+    <url>/posts/cd1c3d2a/</url>
+    <content><![CDATA[<p>这些软件都是我自己用过的，可以通过左边页面快速定位</p>
+<h2 id="Visual-Studio-Code">Visual Studio Code</h2>
+<p>这个简直首推，编辑利器，人生苦短，我用 VS Code 完成关于文本编辑工作的一切。它天生支持几乎所有编程语言，还可以通过扩展个性化相应的语法高亮等。
+如果你想忙里偷闲，VS Code 强大的扩展能力还能让你用它刷 LeetCode 或 V2EX，可谓带薪划水必备。
+<img src="../../media/article_img/windows_app_recommend/1.png" alt="enter description here">
+你可以在<a href="https://code.visualstudio.com/">官网</a>免费获取 Visual Studio Code。</p>
+<h2 id="福昕-PDF-阅读器">福昕 PDF 阅读器</h2>
+<p>国产，中文界面，流畅好用，界面美观
+<a href="https://www.foxitsoftware.cn/">点这里</a></p>
+<h2 id="福昕-PDF-编辑器">福昕 PDF 编辑器</h2>
+<p>福昕（Foxit）可能是我国最受欢迎的 PDF 阅读器，由其出品的 <a href="https://www.foxitsoftware.cn/pdf-editor/">PDF 编辑器</a> 也是 Adobe Acrobat 的有力竞争对手。它提供了各种 PDF 批注工具；支持编辑 PDF 中的文本、段落、图片；设计并填写表单；OCR 识别图片中的文字；管理 PDF 页面；转换为其它文件格式等，界面也比较友好。</p>
+<h2 id="火绒安全软件">火绒安全软件</h2>
+<p>如果你觉得 Windows Defender 还是有些简陋，火绒安全软件是个不错的选择。它提供了病毒联网查杀、垃圾清理、下载保护、浏览器保护等国产卫士标配功能，但不会拖家带口向你问好，还你一片清净。
+<img src="../../media/article_img/windows_app_recommend/2.png" alt="enter description here">
+除了系统防护外，火绒安全软件还提供了数种实用工具，如弹窗拦截、右键菜单管理、启动项管理、文件粉碎机等。如果你是进阶用户，还可以试试火绒剑这一强大的专业安全分析工具。
+<img src="../../media/article_img/windows_app_recommend/3.png" alt="enter description here">
+你可以在 <a href="https://www.huorong.cn/">官网</a> 免费获取火绒安全软件。</p>
+<h2 id="Quicklook，仿-MAC-快速预览">Quicklook，仿 MAC 快速预览</h2>
+<p>MAC 的快速预览很多人都见过，回望 Win10 的「预览」，依旧被抠抠唆唆地安排在窗口右侧，一点也不大气！QuickLook 是一款仿 MAC 快速预览的小工具，装好之后，只要选中文件，按下键盘上的空格键，即可预览文件内容。</p>
+<p>QuickLook 支持文本、视频、音频、图片、压缩包、Office 文档……，换句话说，你电脑上任何一款文件几乎都可以用它预览。同时你也可以点击预览窗右上角的按钮直接启动对应程序，非常方便。
+<img src="../../media/article_img/windows_app_recommend/4.png" alt="enter description here">
+<a href="http://dl.pconline.com.cn/download/1115319.html">QuickLook：点此下载</a></p>
+<h2 id="升级-Win10-日历！优效日历">升级 Win10 日历！优效日历</h2>
+<p>Win10 为右下角托盘设计了一个新日历，但依旧被吐槽功能太弱，优效日历是 Win10 原生日历的最佳替代者。它有着和 Win10 原生日历一致的外观界面，支持农历、节日、调休显示，支持日程提醒、万年历、自定义时钟。同时它还集成了定时关机、屏幕截图两大功能，没用过的一定得试一试！
+<img src="../../media/article_img/windows_app_recommend/5.png" alt="enter description here">
+<a href="http://www.youxiao.cn/">点击下载</a></p>
+<h2 id="Chocolatey">Chocolatey</h2>
+<p>Chocolatey 是 Windows 下的包管理器，访问<a href="https://chocolatey.org/">官网</a>来查看使用方法</p>
+<h2 id="uTools">uTools</h2>
+<p>uTools 是一个极简的桌面管理软件，但它的功能更全面。包含：快速启动、自动识别、数据同步等功能。</p>
+<p>比如快速启动，这个功能和 Listary、Everything 等都非常相似。但 uTools 对中文的支持非常有好，还可以首字母检索。
+<img src="../../media/article_img/windows_app_recommend/6.png" alt="enter description here">
+除此外还有插件中心，里面还有各种比如：网页快开、在线翻译、计算器、压缩图片、图片转文字等功能。这也是其它快速启动软件所不具备的。
+<img src="../../media/article_img/windows_app_recommend/7.png" alt="enter description here">
+<a href="https://u.tools/">点击下载</a></p>
+<h2 id="万彩办公大师">万彩办公大师</h2>
+<p>万彩办公大师可以说是一个办公必备的工具，包含了各种功能：PDF 编辑、格式转换、图片编辑等，功能多达 60+。</p>
+<p>最让人惊喜的是，万彩办公大师使用完全免费，所有的工具无需安装，直接加载就可以启动了。
+<img src="../../media/article_img/windows_app_recommend/8.png" alt="enter description here">
+<a href="wofficebox.com/">下载地址</a></p>
+<h2 id="TreeSize">TreeSize</h2>
+<p>TreeSize 是一个扫描磁盘可视化排列大小的应用，有免费版和专业版可以选
+<img src="../../media/article_img/windows_app_recommend/9.png" alt="enter description here">
+<a href="https://www.jam-software.com/treesize_free/">点击这里</a>获取免费版</p>
+<h2 id="CCleaner">CCleaner</h2>
+<p>CCleaner，不仅是常用的垃圾和缓存清理，我也用它在电脑刚到手时卸载掉 Win10 自带的各种无用软件（有些 Windows 不让卸载的自带 UWP，在 CCleaner 里可以卸载掉），甚至我嫌 OneDrive 麻烦，也用它卸载过。界面很友好。批量卸载比手动卸载方便不少。软件是有中文的，但默认是英文，自己手动在 <code>options-setting-language</code> 选择 <code>Chinese simplified</code> 即可
+<img src="../../media/article_img/windows_app_recommend/10.png" alt="enter description here">
+<a href="https://www.ccleaner.com/ccleaner/download">点击下载</a></p>
+<h2 id="BandiZip">BandiZip</h2>
+<p>BandiZip，界面美观，功能强大，而且免费无广告，另外 <a href="https://www.7-zip.org/">7-Zip</a>，界面丑了一些，功能还是很强的。也有不少人推荐修改版的 rar 烈火或者好压，其实都不错。
+<img src="../../media/article_img/windows_app_recommend/11.png" alt="enter description here">
+<a href="http://www.bandisoft.com/bandizip/cn/">下载地址</a></p>
+<h2 id="Obs-Open-Broadcaster-Software">Obs-Open Broadcaster Software</h2>
+<p>OBS，不用多说了，剪视频、录游戏好帮手。
+<a href="https://obsproject.com/">下载地址</a></p>
+<h2 id="VLC-media-player">VLC media player</h2>
+<p>跨平台的播放器，Linux 的时候一直用的，Windows 也就接着用了，有浏览器插件，可以直接把浏览器的视频推过来播放
+<img src="../../media/article_img/windows_app_recommend/12.png" alt="enter description here">
+<a href="https://www.videolan.org/">点这里下载</a></p>
+<h2 id="Geek-Uninstaller">Geek Uninstaller</h2>
+<p>Geek Uninstaller 是一个专业卸载软件，采取深而快的扫描方式，删除所有无用的文件，注册表，卸载无残留！
+这款软件也是一款单文件软件，下载后，不用安装，双击直接使用，卸载软件、强制彻底清除软件残留垃圾文件或是查看某软件的注册表项目等等。
+<img src="../../media/article_img/windows_app_recommend/13.png" alt="enter description here">
+你可以在他的<a href="https://geekuninstaller.com/">官网</a>获取到</p>
+<h2 id="未完">未完</h2>
+<p>后面想到了再补充</p>
+]]></content>
+      <categories>
+        <category>资源</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>软件推荐</tag>
       </tags>
   </entry>
   <entry>
